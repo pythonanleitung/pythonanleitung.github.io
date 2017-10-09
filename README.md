@@ -40,3 +40,50 @@ Python antwortet darauf einfach indem es die selbe Zahl wieder gibt.
 
 In Zeile 6 wird eine einfache Rechenaufgabe in Python gestellt.
 Worauf Python diese berechnet und das Ergebnis zurück gibt.
+
+Es können so alle Grundrechenarten verwendet wobei die folgenden Rechenzeichen verwendet werden:
+  * Plus mit `1 + 2`
+  * Minus mit `2 - 1`
+  * Mal mit `3 * 4`
+  * Geteilt und Brüche mit mit `6 / 3`
+
+Beispiel:
+```python3
+$ python3
+Python 3.6.2 (default, Sep 22 2017, 08:28:09)
+[GCC 7.2.1 20170915 (Red Hat 7.2.1-2)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 1 + 2
+3
+>>> 2 - 1
+1
+>>> 3 * 4
+12
+>>> 6 / 3
+2.0
+```
+
+Auf jede Eingabe reagiert Python mit der berechneten Antwort.
+Die Leerzeichen zwischen den Rechenzeichen und den Zahlen sind nicht unbedingt notwendig, dienen aber der besseren Übersicht.
+
+Soweit kann Python wie ein Taschenrechner verwendet werden.
+Es können auch mehrere Rechenoperationen in einer einzigen Zeile berechnet werden.
+Wird eine andere als die Punkt vor Strich rechenregel benötigt, so müssen Klammern gesetzt werden.
+
+Im folgenden Beispiel werden zwei Aufgaben berechnet die durch unterschiedliche Klammern unterschiedliche Ergebnisse liefern.
+
+```python3
+>>> 6 / 3 + 3
+5.0
+>>> (6 / 3) + 3
+5.0
+>>> 6 / (3 + 3)
+1.0
+```
+
+Die erste Eingabe ist ganz ohne Klammern.
+Python macht dann automatisch die klammern so, wie sie in der zweiten Eingabe sind.
+Das Ergebnis ist beide Male `5.0`.
+In der dritten Eingabe sind die Klammern so, dass sie `3 + 3` umschließen.
+Nun rechnet Python zuerst die Klammer aus, um dann 6 durch (3 + 3) = 6 zu teilen.
+Das Ergebnis ist nun `1.0`. 
