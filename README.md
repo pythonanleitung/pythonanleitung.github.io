@@ -140,4 +140,52 @@ wird nicht angezeigt
 >>>
 ```
 
+# Eingaben mit `input`
 
+Bis jetzt waren die Programme so, dass sie immer das selbe Ergebniss hatten. Um langsam richtung sinnvolles Programm zu gehen, kann der Befehl `input` verwendet werden. Dieser nimmt als Argument eine Frage, also einen Text, welcher auf dem Bildschirm erscheinen soll, danach wartet er auf eine Eingabe. Das was hier eingegeben wird gibt er zurück.
+
+Zum Beispiel:
+```python3
+>>> input("Grußwort ")
+Grußwort Hallo
+'Hallo'
+```
+
+Zunächst wird der Befehl `input("Grußwort ")` eingegeben. Dann Antwortet der Computer mit `Grußwort ` und wartet nun auf eine Eingabe. Es kann nun zum Beispiel `Hallo` eingegeben werden. Was immer man hier eingibt, der Computer antwortet nun genau mit diesem eingegebenen.
+
+Statt es direkt wieder auszugeben kann man das eingegebene auch verwenden zum Beispiel:
+
+```python3
+>>> "hallo" == input("Grußwort ")
+Grußwort hallo
+True
+```
+
+Es wurde hier `"hallo"` verglichen mit der Eingabe (`hallo`) und es kommt `True` also wahr heraus. Wird in der Zeile in der der Computer nach einem Grußwort fragt nicht `hallo` eingegeben, sondern etwas anderes kommt das Ergebnis `False` also falsch heraus. Ein Beispiel hierzu:
+
+```python3
+>>> "hallo" == input("Grußwort ")
+Grußwort nö
+False
+```
+
+Das so erzeugte `True` oder `False` kann in einem `if` verwendet werden:
+
+```python3
+>>> if "hallo" == input("Grußwort "):
+...     print("hallo")
+... else:
+...     print("nicht hallo")
+... 
+Grußwort hallo
+hallo
+>>> if "hallo" == input("Grußwort "):
+...     print("hallo")
+... else:
+...     print("nicht hallo")
+... 
+Grußwort nö
+nicht hallo
+```
+
+Die beiden Beispiele verdeutlichen, einmal die Eingabe `hallo` welche `True` ergibt, und einmal die Eingabe `nö` welche `False` ergibt.
