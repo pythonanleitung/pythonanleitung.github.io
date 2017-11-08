@@ -147,7 +147,7 @@ wird nicht angezeigt
 > 1. Schreibe ein if welches als Bedingung `True` hat, und im Wahrheitsfall `"richtig so!"` ausgibt.
 > 2. Schreibe ein if welches als Bedingung `False` hat, und im Sonstfall `"Sonstfall False"` ausgibt.
 
-# Eingaben mit `input`
+# Eingaben mit input
 
 Bis jetzt waren die Programme so, dass sie immer das selbe Ergebniss hatten. Um langsam richtung sinnvolles Programm zu gehen, kann der Befehl `input` verwendet werden. Dieser nimmt als Argument eine Frage, also einen Text, welcher auf dem Bildschirm erscheinen soll, danach wartet er auf eine Eingabe. Das was hier eingegeben wird gibt er zurück.
 
@@ -352,3 +352,30 @@ In der letzten Umformung ist zu beachten, dass nicht gerundet wird, sondern einf
 
 > ### Beachte
 > Text hat Anführungszeichen und kann beliebiges enthalten. Zahlen haben keine Anführungszeichen. Dezimalzahlen müssen mit Punkten statt Kommas aufgeschrieben werden.
+
+# Ein Passwortprogramm
+
+Die nun  gestellte Aufgabe ist es ein passwort zu erraten, welches im Programm festgelegt wird. Zunächst speichern wir das zu erratende Passwort in einer Variablen.
+```
+geheim = "Döner"
+```
+Es werden drei Versuche gegeben das Passwort zu erraten:
+```
+geheim = "Döner"
+
+if geheim == input("Versuch1: "):
+    print("geschaft")
+elif geheim == input("Versuch2: "):
+    print("geschaft")
+elif geheim == input("Versuch2: "):
+    print("geschaft")
+else:
+    print("nicht geschafft")
+```
+
+Beispiel:
+```
+Versuch1: hi
+Versuch2: Döner
+geschaft
+```
