@@ -216,7 +216,7 @@ Nocheinmal überprüfen ob man gespeichert hat, dann kann man das Programm im Te
 
 Dann kann mit dem Befehl `python3 hallo.py` das selbst geschriebene Programm gestartet werden. Es Fragt nach einem Grußwort und gibt dann die entsprechende Antwort, wie schon vorher.
 
-```bash
+```
 user@computer ~$ python3 hallo.py 
 Grußwort hallo
 hallo
