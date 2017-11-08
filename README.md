@@ -233,8 +233,32 @@ In der ersten Zeile wird die Zahl `5` in die Variable `x` eingespeichert. Die zw
 
 Diese Variablen können nun verwendet werden hat man zum Beispiel mit `x = 5` der Variablen `x` den Wert `5` gegeben, so kann man nun statt der dritten Zeile auch `z = x + x` schreiben und wird wieder in `z` den selben Wert (`10`) gespeichert haben. Möchte man den Wert einer Variablen ausgeben, so kann man dies mit `print` tun. Um den Wert von `z` zu erfahren also `print(z)`.
 
-> ## Aufgabe
+> ### Aufgabe
 >  1. Erstelle eine Python-Datei `Beispielaufgabe.py` welche die Variablen `x, y, z` die Werte `34, 24, 'hallo'` zuweist.
 >  2. Berechne nun in die Variable `summe` die summe von `x` und `y`.
 >  3. Gebe alle vier variablen mit `print` aus.
 >  4. Führe die Datei mit `python3` aus und löse alle Fehlermeldungen.
+
+## Verwendung von Variablen
+
+Um nun also das Programm zu schreiben, welches zwischen `hallo` und `tschüss` unterscheidet kann man nun das vorherige `if` Beispiel anpassen:
+
+```python3
+gru = input("Welcher gruß? ")
+if gru == "hallo":
+     print("Guten Tag")
+elif gru == "tschüss":
+     print("Auf Wiedersehen")
+else:
+     print("Ich habe Sie leider nicht verstanden")
+```
+In diesem Beispiel wird eine weitere Option der `if`-Ausdrücke verwendet: `elif`. Dieses steht für `else if` und bedeutet Falls nicht die erste Bedingung dann vielleicht diese Bedingung. Zwischen einem `if` und einem `else` können beliebig viele `elif` stehen.
+
+Wird dies in eine Datei `gru.py` gespeichert und diese dann (zwei mal) ausgeführt, so entsteht folgende Ausgabe:
+
+    dietrich@lehrer ~$ python3 gru.py
+    Welcher gruß? hallo
+    Guten Tag
+    dietrich@lehrer ~$ python3 gru.py
+    Welcher gruß? nö
+    Ich habe Sie leider nicht verstanden
