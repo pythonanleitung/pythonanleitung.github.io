@@ -188,4 +188,53 @@ Grußwort nö
 nicht hallo
 ```
 
-Die beiden Beispiele verdeutlichen, einmal die Eingabe `hallo` welche `True` ergibt, und einmal die Eingabe `nö` welche `False` ergibt.
+Die beiden Beispiele verdeutlichen, einmal die Eingabe `hallo` welche `True` ergibt, und einmal die Eingabe `nö` welche `False` ergibt. Je nach Ergebnis wird `hallo` oder `nicht hallo` ausgegeben.
+
+# Speichern in eine Datei
+
+Da das ständige erneut Tippen auf Dauer nicht besonders effizient ist, kann man den Programmcode von Python in eine Datei abspeichern und dann diese Datei ausführen.
+
+Hierzu wird zunächst die Textbearbeitung geöffnet (Vorsicht nicht Libreoffice). Dann wird der Python Code eingegeben und die Datei unter `hallo.py` im Persönlichen Ordner abgespeichert. Der Inhalt von `hallo.py` kann dann zum Beispiel so aussehen:
+
+### `hallo.py`
+```python3
+if "hallo" == input("Grußwort "):
+    print("hallo")
+else:
+    print("nicht hallo")
+```
+
+Nocheinmal überprüfen ob man gespeichert hat, dann kann man das Programm im Terminal ausführen (Vorsicht nicht in Python - am Ende der vom Computer geschriebenen Zeile sollte ein `$` stehen. Falls dies nicht so ist einfach das Terminal schließen und neu starten).
+
+Dann kann mit dem Befehl `python3 hallo.py` das selbst geschriebene Programm gestartet werden. Es Fragt nach einem Grußwort und gibt dann die entsprechende Antwort, wie schon vorher.
+
+```bash
+user@computer ~$ python3 hallo.py 
+Grußwort hallo
+hallo
+user@computer ~$ python3 hallo.py 
+Grußwort nö
+nicht hallo
+```
+
+# Variablen
+
+Bis jetzt haben wir den Wert der Eingabe immer sofort verwendet. Wenn aber der Wert an zwei Stellen im Programm verwendet werden soll, also zum Beispiel um einmal zu überprüfen, ob die Eingabe `hallo` ist und einmal um zu prüfen ob die Eingabe `tschüss` ist, so muss der Wert zwischengespeichert werden. Hierzu werden Variablen verwendet. Um eine Variable zu erstellen schreibt man einen Beliebigen Namen der Variablen (ohne Leerzeichen) und dann, nach einem `=` den Wert den die Variable haben soll.
+
+Einige Beispiele:
+```python3
+x = 5
+y = 'hallo'
+z = 5 + 5
+dreingabe = input("was soll gespeichert werden? ")
+```
+
+In der ersten Zeile wird die Zahl `5` in die Variable `x` eingespeichert. Die zweite Zeile speichert `'hallo'` in `y`. Die Dritte das Ergebnis der Berechnung `5 + 5` in `z`. Und die vierte den eingegebenen Text in die Variable `dreingabe`.
+
+Diese Variablen können nun verwendet werden hat man zum Beispiel mit `x = 5` der Variablen `x` den Wert `5` gegeben, so kann man nun statt der dritten Zeile auch `z = x + x` schreiben und wird wieder in `z` den selben Wert (`10`) gespeichert haben. Möchte man den Wert einer Variablen ausgeben, so kann man dies mit `print` tun. Um den Wert von `z` zu erfahren also `print(z)`.
+
+> ## Aufgabe
+>  1. Erstelle eine Python-Datei `Beispielaufgabe.py` welche die Variablen `x, y, z` die Werte `34, 24, 'hallo'` zuweist.
+>  2. Berechne nun in die Variable `summe` die summe von `x` und `y`.
+>  3. Gebe alle vier variablen mit `print` aus.
+>  4. Führe die Datei mit `python3` aus und löse alle Fehlermeldungen.
