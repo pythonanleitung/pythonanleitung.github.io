@@ -270,3 +270,44 @@ Wird dies in eine Datei `gru.py` gespeichert und diese dann (zwei mal) ausgefüh
     dietrich@lehrer ~$ python3 gru.py
     Welcher gruß? nö
     Ich habe Sie leider nicht verstanden
+
+# Datentypen
+
+Bis jetzt wurden zwei Datentypen verwendet. Zahlen (`1, 2, 3, 445, 1.2`) und Text (`"hallo", "tschüss", "a", 'a', "2"`). Zahlen werden einfach als zahlen geschrieben. Um kommazahlen zu schreiben, muss man einen Punkt statt ein Komma schreiben: `1.2`. Text ist zwischen einfachen `'` (großes `#`) oder doppelten `"` (große `2`) Anführungszeichen. Es ist python egal wie lange ein Text ist. Er muss jedoch in einer Zeile geschrieben sein. Soll ein Text über mehrere Zeilen gehen, so muss man dreifache Anführungszeichen verwenden: `"""`. Der darauf folgende Text ist alles Teil des Textes bis erneut drei Anführungszeichen folgen.
+
+Ein Beispiel hierfür:
+```python3
+a = """Das ist ein Meer,
+ein Textmeer,
+ein Meer aus Text,
+durch mehr Text.
+"""
+print(a)
+```
+ergibt ausgeführt:
+```bash
+$ python3 t.py
+Das ist ein Meer,
+ein Textmeer,
+ein Meer aus Text,
+durch mehr Text.
+```
+Wichtig ist auch noch zu bemerken, dass die zahl `2` verschieden ist von dem Buchstaben `"2"`. Soll etwas zu einem Text verwandelt werden, so kann der befehl `str` verwendet werden (`str` ist die kurzform von string, was die Englische Bezeichnung für einen solchen Text ist). Soll etwas in eine ganze Zahl verwandelt werden, so verwendet man den Befehl `int` (für integer). Soll etwas in eine Kommazahl verwandelt werden verwendet man den Befehl `float` (für floating point number).
+
+Beispiele für diese Verwandlungen:
+```python3
+>>> float("13.5")
+13.5
+>>> int("15")
+15
+>>> str(23)
+'23'
+>>> int(str(23))
+23
+>>> int(5.6)
+5
+```
+In der letzten Umformung ist zu beachten, dass nicht gerundet wird, sondern einfach die Kommazahl abgeschnitten.
+
+> ### Beachte
+> Text hat Anführungszeichen und kann beliebiges enthalten. Zahlen haben keine Anführungszeichen. Dezimalzahlen müssen mit Punkten statt Kommas aufgeschrieben werden.
