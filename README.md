@@ -204,7 +204,7 @@ Da das ständige erneut Tippen auf Dauer nicht besonders effizient ist, kann man
 
 Hierzu wird zunächst die Textbearbeitung geöffnet (Vorsicht nicht Libreoffice). Dann wird der Python Code eingegeben und die Datei unter `hallo.py` im Persönlichen Ordner abgespeichert. Der Inhalt von `hallo.py` kann dann zum Beispiel so aussehen:
 
-### `hallo.py`
+### Dateiname: `hallo.py`
 ```python3
 if "hallo" == input("Grußwort "):
     print("hallo")
