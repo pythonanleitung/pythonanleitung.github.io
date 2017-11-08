@@ -19,7 +19,6 @@ Das ist das Zeichen dafür, dass Python gestartet ist und man es nun verwenden k
 Jede Eingabe, die man in Python macht muss man mit `Enter` bestätigen.
 Sollte einmal die Zeile nicht mit `>>>` beginnen so ist etwas mit Python nicht in Ordnung und man startet am besten nochmal vom Anfang des Beispiels.
 
-In dem sich öffnenden Prompt können alle Python befehle eingegeben werden.
 Hat ein Befehl ein Ergebnis, so wird dieses direkt ausgegeben.
 Keine Panik nach dem Beispiel werden die Zeilen einzeln erklärt.
 
@@ -42,10 +41,10 @@ In Zeile 6 wird eine einfache Rechenaufgabe in Python gestellt.
 Worauf Python diese berechnet und das Ergebnis zurück gibt.
 
 Es können so alle Grundrechenarten verwendet wobei die folgenden Rechenzeichen verwendet werden:
-  * Plus mit `1 + 2`
-  * Minus mit `2 - 1`
-  * Mal mit `3 * 4`
-  * Geteilt und Brüche mit mit `6 / 3`
+  * Plus: `1 + 2`
+  * Minus: `2 - 1`
+  * Mal: `3 * 4`
+  * Geteilt und Brüche: `6 / 3`
 
 Beispiel:
 ```python3
@@ -89,7 +88,7 @@ Nun rechnet Python zuerst die Klammer aus, um dann 6 durch (3 + 3) = 6 zu teilen
 Das Ergebnis ist nun `1.0`.
 
 > ### Aufgabe
-> 1. Berechne das Ergebnis von `5` mal `3` plus `2`.
+> 1. Berechne das Ergebnis von `5` mal `3` und das ganze plus `2`.
 > 2. Berechne das Ergebnis von `3` plus `2` und das ganze mal `5`.
 
 # Bedingtes ausführen
@@ -116,7 +115,7 @@ Wird nun die Eingabe durch zweimaliges drücken von `Enter` bestätigt, erschein
 
 Python verwendet verschieden starke Einrückungen, um die Zusammengehörigkeit von Befehlen zu markieren. Ist also zum Beispiel eine Zeile nach dem `if` Befehl mehr eingerückt als das `if` selbst, so gehört diese Zeile zu diesem `if`. Einrückungen sind immer notwendig nach einem Doppelpunkt und andersherum sind Doppelpunkte immer notwendig vor Einrückungen. Auch innerhalb eines eingerückten Bereiches kann wieder ein `if`vorkommen. Der Eingerückte teil des inneren `if`s muss dann noch weiter eingerückt werden.
 
-## Wenn → Dann → Sonst
+## Wenn → Dann → Ansonsten
 
 Oft wird es benötigt, dass ein bestimmter Befehl ausgeführt wird, wenn eine Bedingung zutrifft, ansonsten ein anderer. Der Befehl hierzu ist `else`. Auch `else` braucht andere zugehörige Befehle, das heißt ihm folgt ein Doppelpunkt und die nächste Zeile muss eingerückt werden.
 
@@ -260,7 +259,7 @@ elif gru == "tschüss":
 else:
      print("Ich habe Sie leider nicht verstanden")
 ```
-In diesem Beispiel wird eine weitere Option der `if`-Ausdrücke verwendet: `elif`. Dieses steht für `else if` und bedeutet Falls nicht die erste Bedingung dann vielleicht diese Bedingung. Zwischen einem `if` und einem `else` können beliebig viele `elif` stehen.
+In diesem Beispiel wird eine weitere Option der `if`-Ausdrücke verwendet: `elif`. Dieses steht für `else if` und bedeutet Falls nicht die erste Bedingung dann vielleicht diese Bedingung also am ehesten zu übersetzen mit "oder wenn". Zwischen einem `if` und einem `else` können beliebig viele `elif` stehen.
 
 Wird dies in eine Datei `gru.py` gespeichert und diese dann (zwei mal) ausgeführt, so entsteht folgende Ausgabe:
 
@@ -270,6 +269,48 @@ Wird dies in eine Datei `gru.py` gespeichert und diese dann (zwei mal) ausgefüh
     dietrich@lehrer ~$ python3 gru.py
     Welcher gruß? nö
     Ich habe Sie leider nicht verstanden
+
+# Fehler
+
+Vermutlich ist schon aufgefallen, wie kleinlich python auf die korrektheit achtet. sobald auch nur ein einzelner Buchstabe falsch ist bekommt man einen Fehler zu sehen. Die Fehler geben meistens einen Hinweis darüber was falsch sein könnte.
+
+### NameError
+
+Mögliche Gründe:
+
+  * Eine Variable wurde nicht definiert
+  * Es wurden Anführungszeichen um Text vergessen
+  * Ein Befehl wurde falsch geschrieben (Achtung auch Groß- und Kleinschreibung ist wichtig)
+Beispiel:
+```
+>>> print(z)
+Traceback (most recent call last):
+  File "<pyshell>", line 1, in <module>
+NameError: name 'z' is not defined
+```
+### SyntaxError
+Dieser Fehler ist relativ allgemein. Netterweise zeigt Python manchmal mit einem `^` auf die Stelle an der es den Fehler vermutet.
+
+Ursachen:
+  * Doppelpunkt vergessen
+  * Klammerfehler
+  * Anführungszeichenfehler
+  * Erwartete, aber nicht vorhandene Einrückung (intendation)
+  * Vorhandene, aber nicht erwartete Einrückung (intendation)
+  * ...
+
+Im folgenden Beispiel wurden Doppelpunkte vergessen:
+```
+>>> if True
+  print("True")
+  
+  File "<pyshell>", line 1
+    if True
+          ^
+SyntaxError: invalid syntax
+```
+
+
 
 # Datentypen
 
