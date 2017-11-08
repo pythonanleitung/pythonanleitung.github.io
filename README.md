@@ -88,6 +88,10 @@ In der dritten Eingabe sind die Klammern so, dass sie `3 + 3` umschließen.
 Nun rechnet Python zuerst die Klammer aus, um dann 6 durch (3 + 3) = 6 zu teilen.
 Das Ergebnis ist nun `1.0`.
 
+> ### Aufgabe
+> 1. Berechne das Ergebnis von `5` mal `3` plus `2`.
+> 2. Berechne das Ergebnis von `3` plus `2` und das ganze mal `5`.
+
 # Bedingtes ausführen
 Alle Programmiersprachen bieten die Möglichkeit, einen Befehl nur dann auszuführen, wenn eine bestimmte Bedingung eintrifft.
 In Python trifft eine Bedingung ein, wenn sie Wahr (`True`) ist - oder zu `True` ausgewertet wird.
@@ -139,6 +143,10 @@ Alternativ kann man natürlich auch eine Wahre Bedingung einstellen, welche dem 
 wird nicht angezeigt
 >>>
 ```
+
+> ### Aufgabe
+> 1. Schreibe ein if welches als Bedingung `True` hat, und im Wahrheitsfall `"richtig so!"` ausgibt.
+> 2. Schreibe ein if welches als Bedingung `False` hat, und im Sonstfall `"Sonstfall False"` ausgibt.
 
 # Eingaben mit `input`
 
