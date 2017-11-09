@@ -201,7 +201,7 @@ Die beiden Beispiele verdeutlichen, einmal die Eingabe `hallo` welche `True` erg
 
 Da das ständige erneut Tippen auf Dauer nicht besonders effizient ist, kann man den Programmcode von Python in eine Datei abspeichern und dann diese Datei ausführen.
 
-Hierzu wird zunächst die Textbearbeitung geöffnet (Vorsicht nicht Libreoffice). Dann wird der Python Code eingegeben und die Datei unter `hallo.py` im Persönlichen Ordner abgespeichert. Der Inhalt von `hallo.py` kann dann zum Beispiel so aussehen:
+Hierzu wird zunächst die Textbearbeitung geöffnet (Windowstaste drücken, `textbearbeitung` eingeben, und mit `Enter` bestätigen - Vorsicht nicht Libreoffice öffnen). Dann wird der Python Code eingegeben und die Datei unter `hallo.py` im Persönlichen Ordner abgespeichert. Der Inhalt von `hallo.py` kann dann zum Beispiel so aussehen:
 
 ### Dateiname: `hallo.py`
 ```python3
@@ -223,6 +223,14 @@ user@computer ~$ python3 hallo.py
 Grußwort nö
 nicht hallo
 ```
+
+# Thonny
+
+Da der Wechsel zwischen Terminal und Editor lästig sein kann, gibt es auch ein Programm Thonny welches diese Funktionen in sich vereint. Thonny ist speziell für Schüler und Studenten geschrieben. Es kann gestartet werden mit Windowstaste → Eingabe `thonny` → `Enter`.
+
+Nach dem Start sieht Thonny so aus:
+
+![Screenshot Thonny](/ThonnyLeer.png)
 
 # Variablen
 
