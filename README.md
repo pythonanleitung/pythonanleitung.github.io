@@ -232,6 +232,32 @@ Nach dem Start sieht Thonny so aus:
 
 ![Screenshot Thonny](/ThonnyLeer.png)
 
+Direkt unter dem Menü befinden sich die wichtigsten Funktionen als Buttons.
+
+![Screenshot Thonny](/ThonnyButtons.png)
+
+ 1. Eine neue Datei anlegen
+ 2. Eine Datei öffnen
+ 3. Die Datei speichern
+ 4. "Play-Button" das Programm ausführen
+ 5. Das Programm Schritt für Schritt ausführen.
+ 6. Beim Schrittweisen ausführen einen großen Schritt machen
+ 7. Beim Schrittweisen ausführen einen kleinen Schritt machen
+ 8. So ähnlich wie 6.
+ 9. "Stopp-Button" das Programm beenden. Wenn es probleme gibt und das ausführen nicht mehr funktioniert so hilft es oft das alte Programm zu beenden und dann neu starten.
+ 
+Wurde ein Programm geöffnet und gestartet, so sieht Thonny so aus:
+
+![Screenshot Thonny](/BildschirmfotoThonny.png)
+
+Der große Teil des Fensters wird ausgefüllt von dem Inhalt der geöffneten Datei. Alles was hier steht ist das was wir in dem Textbearbeitungsfenster gemacht haben.
+
+Darunter ist ein kleinerer Teil, welcher das derzeitige Programm im Interaktiven Modus ausführt. Das heißt hier erscheinen Ausgaben, wenn man auf "play" drückt und man muss die Eingaben tätigen, wenn im Programm ein `input` steht. Dieses Fenster ist also so wie das Terminal, beziehungsweise das `python3`.
+
+Alle weiteren Programme und Beispiele werden in Thonny ausgeführt. Beginnen die Beispiele mit `>>>` so sind sie für das untere interaktive- "ausprobier"-Fenster gedacht. Beginnen sie direkt mit Python-Befehlen, so sind sie für das obere Fenster gedacht.
+
+Immer wenn etwas im oberen Fenster verändert wurde, so muss wieder der "Play-Button" gedrückt werden.
+
 # Variablen
 
 Bis jetzt haben wir den Wert der Eingabe immer sofort verwendet. Wenn aber der Wert an zwei Stellen im Programm verwendet werden soll, also zum Beispiel um einmal zu überprüfen, ob die Eingabe `hallo` ist und einmal um zu prüfen ob die Eingabe `tschüss` ist, so muss der Wert zwischengespeichert werden. Hierzu werden Variablen verwendet. Um eine Variable zu erstellen schreibt man einen Beliebigen Namen der Variablen (ohne Leerzeichen) und dann, nach einem `=` den Wert den die Variable haben soll.
