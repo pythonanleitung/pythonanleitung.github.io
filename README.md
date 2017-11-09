@@ -379,3 +379,38 @@ Versuch1: hi
 Versuch2: Döner
 geschaft
 ```
+
+# Zufall
+
+Oft ist es notwendig eine zufällige Zahl zu generieren. Python benötigt ein modul um dies zu tun. Module werden mit dem `import` Befehl geladen. Das Modul, welches viele Zufallsrelevanten Funktionen beherbergt heißt `random`.
+Dieses kann geladen werden mit `import random`.
+
+Nachdem das Modul geladen ist kann mit `random.randint(0,100)` eine Zufällige Zahl zwischen `0` und `100` ausgewählt werden.
+
+Beispiel:
+
+```python3
+>>> import random
+>>> random.randint(0,100)
+48
+>>> random.randint(0,100)
+78
+>>> random.randint(0,100)
+17
+```
+
+Diese Zufallszahl kann natürlich auch in eine Variable gespeichert werden mit `zahl = random.randint(0,100)`.
+
+> ### Aufgabe
+> 1. Schreibe ein Programm, welches eine Zufallszahl zwischen `1` und `10` generiert, und diese ausgibt.
+> 2. Erweitere dieses Programm so, dass es drei mal nach einem Tipp fragt, für diese Zahl () die Ausgabe der zahl sollte natürlich entfernt werden.
+> 3. Speichere den Tipp in eine Variable und gebe jedes mal aus, ob der Tipp zu groß oder zu klein war.
+> Beispiel:
+> ```python3
+> Tipp: 5
+> zu klein
+> Tipp: 8
+> zu groß
+> Tipp: 7
+> richtig
+> ```
