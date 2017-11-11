@@ -230,11 +230,11 @@ Da der Wechsel zwischen Terminal und Editor lästig sein kann, gibt es auch ein 
 
 Nach dem Start sieht Thonny so aus:
 
-![Screenshot Thonny](/ThonnyLeer.png)
+![Screenshot Thonny](/img/ThonnyLeer.png)
 
 Direkt unter dem Menü befinden sich die wichtigsten Funktionen als Buttons.
 
-![Screenshot Thonny](/ThonnyButtons.png)
+![Screenshot Thonny](/img/ThonnyButtons.png)
 
  1. Eine neue Datei anlegen
  2. Eine Datei öffnen
@@ -248,7 +248,7 @@ Direkt unter dem Menü befinden sich die wichtigsten Funktionen als Buttons.
  
 Wurde ein Programm geöffnet und gestartet, so sieht Thonny so aus:
 
-![Screenshot Thonny](/BildschirmfotoThonny.png)
+![Screenshot Thonny](/img/BildschirmfotoThonny.png)
 
 Der große Teil des Fensters wird ausgefüllt von dem Inhalt der geöffneten Datei. Alles was hier steht ist das was wir in dem Textbearbeitungsfenster gemacht haben.
 
