@@ -1,4 +1,4 @@
-# Pythonanleitung
+# Pythonanleitung V 2.0
 Eine sehr einfache Aleitung Python zu lernen.
 
 # Was ist Python
