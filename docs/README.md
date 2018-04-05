@@ -4,6 +4,7 @@ Eine sehr einfache Aleitung Python zu lernen.
 # Was ist Python
 Python ist eine Programmiersprache. Mit Python können alle Programme geschrieben werden (Spiele, Musikspieler, Texteditor usw.).
 
+[Weiter zum ersten Abschnitt](01ErsteSchritte.md)
 
 # Bedingtes ausführen
 Alle Programmiersprachen bieten die Möglichkeit, einen Befehl nur dann auszuführen, wenn eine bestimmte Bedingung eintrifft.
