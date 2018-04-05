@@ -38,7 +38,7 @@ In Zeile 4 des Beispiels wurde einfach eine Zahl eingegeben.
 Python antwortet darauf einfach, indem es dieselbe Zahl wieder gibt.
 
 In Zeile 6 wird eine einfache Rechenaufgabe in Python gestellt.
-Worauf Python diese berechnet und das Ergebnis zurückgibt.
+Worauf Python diese berechnet und das Ergebnis zurück gibt.
 
 Es können so alle Grundrechenarten verwendet wobei die folgenden Rechenzeichen verwendet werden:
   * Plus: `1 + 2`
@@ -113,7 +113,7 @@ Wird nun die Eingabe durch zweimaliges drücken von `Enter` bestätigt, erschein
 
 ## Kurze Bemerkung zur **Einrückung**
 
-Python verwendet verschieden starke Einrückungen, um die Zusammengehörigkeit von Befehlen zu markieren. Ist also zum Beispiel eine Zeile nach dem `if` Befehl mehr eingerückt als das `if` selbst, so gehört diese Zeile zu diesem `if`. Einrückungen sind immer notwendig nach einem Doppelpunkt und andersherum sind Doppelpunkte immer notwendig vor Einrückungen. Auch innerhalb eines eingerückten Bereiches kann wieder ein `if`vorkommen. Der Eingerückte teil des inneren `if`s muss dann noch weiter eingerückt werden.
+Python verwendet verschieden starke Einrückungen, um die Zusammengehörigkeit von Befehlen zu markieren. Ist also zum Beispiel eine Zeile nach dem `if` Befehl mehr eingerückt als das `if` selbst, so gehört diese Zeile zu diesem `if`. Einrückungen sind immer notwendig nach einem Doppelpunkt und andersherum sind Doppelpunkte immer notwendig vor Einrückungen. Auch innerhalb eines eingerückten Bereiches kann wieder ein `if` vorkommen. Der Eingerückte teil des inneren `if`s muss dann noch weiter eingerückt werden.
 
 ## Wenn → Dann → Ansonsten
 
@@ -150,7 +150,7 @@ wird nicht angezeigt
 # Eingaben mit Input
 
 Bis jetzt waren die Programme so, dass sie immer dasselbe Ergebnis hatten.
-Das heißt wurde ein Programm gestartet, so zeigt es immer die selben Ausgaben,
+Das heißt, wurde ein Programm gestartet, so zeigt es immer dieselben Ausgaben,
 es sei denn, das Programm wurde verändert.
 Um langsam Richtung sinnvolles Programm zu gehen, kann der Befehl `input`
 verwendet werden. Dieser nimmt als Argument eine Frage, also einen Text,
@@ -207,7 +207,7 @@ Die beiden Beispiele verdeutlichen, einmal die Eingabe `hallo`, welche `True` er
 
 Da das ständige erneut Tippen auf Dauer nicht besonders effizient ist, kann man den Programmcode von Python in eine Datei abspeichern und dann diese Datei ausführen.
 
-Hierzu wird zunächst die Textbearbeitung geöffnet (Windowstaste drücken, `textbearbeitung` eingeben, und mit `Enter` bestätigen - Vorsicht nicht Libreoffice öffnen). Dann wird der Python Code eingegeben und die Datei unter `hallo.py` im Persönlichen Ordner abgespeichert. Der Inhalt von `hallo.py` kann dann zum Beispiel so aussehen:
+Hierzu wird zunächst die Textbearbeitung geöffnet (Windowstaste drücken, `textbearbeitung` eingeben, und mit `Enter` bestätigen - Vorsicht nicht Libreoffice öffnen). Dann wird der Python Code eingegeben und die Datei unter `hallo.py` im "Persönlichen Ordner" abgespeichert. Der Inhalt von `hallo.py` kann dann zum Beispiel so aussehen:
 
 ### Dateiname: `hallo.py`
 ```python3
@@ -221,10 +221,10 @@ Noch einmal überprüfen, ob man gespeichert hat, dann kann man das Programm im
 Terminal ausführen.
 Der Befehl lautet: `python3 hallo.py`.
 
-Es Fragt nach einem Grußwort und gibt dann die entsprechende Antwort, wie schon vorher.
+Es fragt nach einem Grußwort und gibt dann die entsprechende Antwort, wie schon vorher.
 
 > Wenn Python noch von vorherigen Experimenten läuft, kann man keine Programme
-> ausführen sondern nur Python code eingeben.
+> ausführen, sondern nur Python code eingeben.
 >
 > Zeigt der Computer in der untersten Zeile noch `>>>` an, ist Python noch
 > gestartet und muss beendet werden. Am Ende der vom Computer
@@ -272,7 +272,7 @@ Der große Teil des Fensters wird ausgefüllt von dem Inhalt der geöffneten Dat
 
 Darunter ist ein kleinerer Teil, welcher das derzeitige Programm im interaktiven Modus ausführt. Das heißt hier erscheinen Ausgaben, wenn man auf "play" drückt und man muss die Eingaben tätigen, wenn im Programm ein `input` steht. Dieses Fenster ist also so wie das Terminal, beziehungsweise das `python3`.
 
-Alle weiteren Programme und Beispiele werden in Thonny ausgeführt. Beginnen die Beispiele mit `>>>` so sind sie für das untere interaktive- "ausprobier"-Fenster gedacht. Beginnen sie direkt mit Python-Befehlen, so sind sie für das obere Fenster gedacht.
+Alle weiteren Programme und Beispiele werden in Thonny ausgeführt. Beginnen die Beispiele mit `>>>` so sind sie für das untere interaktive  "Ausprobier"-Fenster gedacht. Beginnen sie direkt mit Python-Befehlen, so sind sie für das obere Fenster gedacht.
 
 Immer wenn etwas im oberen Fenster verändert wurde, so muss wieder der "Play-Button" gedrückt werden.
 
@@ -390,7 +390,7 @@ ein Textmeer,
 ein Meer aus Text,
 durch mehr Text.
 ```
-Wichtig ist auch noch zu bemerken, dass die zahl `2` verschieden ist von dem Buchstaben `"2"`. Soll etwas zu einem Text verwandelt werden, so kann der Befehl `str` verwendet werden (`str` ist die Kurzform von String, was die Englische Bezeichnung für einen solchen Text ist). Soll etwas in eine ganze Zahl verwandelt werden, so verwendet man den Befehl `int` (für Integer). Soll etwas in eine Kommazahl verwandelt werden verwendet man den Befehl `float` (für floating point number).
+Wichtig ist auch noch zu bemerken, dass die zahl `2` verschieden ist von dem Buchstaben `"2"`. Soll etwas zu einem Text verwandelt werden, so kann der Befehl `str` verwendet werden (`str` ist die Kurzform von String, was die englische Bezeichnung für einen solchen Text ist). Etwas in eine ganze Zahl verwandeln funktioniert mit `int` (für Integer). Soll etwas in eine Gleitkommazahl verwandelt werden verwendet man den Befehl `float` (für floating point number).
 
 Beispiele für diese Verwandlungen:
 ```python3
@@ -465,7 +465,7 @@ Diese Zufallszahl kann natürlich auch in eine Variable gespeichert werden mit `
 
 > ### Aufgabe
 > 1. Schreibe ein Programm, welches eine Zufallszahl zwischen `1` und `10` generiert, und diese ausgibt.
-> 2. Erweitere dieses Programm so, dass es drei mal nach einem Tipp fragt, für diese Zahl () die Ausgabe der zahl sollte natürlich entfernt werden.
+> 2. Erweitere dieses Programm so, dass es dreimal nach einem Tipp fragt, für diese Zahl () die Ausgabe der zahl sollte natürlich entfernt werden.
 > 3. Speichere den Tipp in eine Variable und gebe jedes Mal aus, ob der Tipp zu groß oder zu klein war.
 > Beispiel:
 > ```python3
@@ -482,18 +482,21 @@ Diese Zufallszahl kann natürlich auch in eine Variable gespeichert werden mit `
 Oftmals in einem Computerprogramm soll der Computer Dinge wiederholen. Dies kann eine bestimmte Anzahl sein oder es kann etwas wiederholt werden so lange bis eine Bedingung nicht mehr zutrifft.
 
 ## While
-Für den zweiten Fall ist der Befehl `while` vorgesehen. While wiederholt einen Programmteil so oft bis die Bedingung nicht mehr zutrifft. Ein Abstraktes Beispiel:
+Für den zweiten Fall ist der Befehl `while` vorgesehen. While wiederholt einen Programmteil so oft, bis die Bedingung nicht mehr zutrifft. Ein abstraktes Beispiel:
 
 ```python3
 while <Bedingung>:
     print("ich werde wiederholt")
 ```
-Ein konkretes Beispiel welches immer wieder nach einer Eingabe fragt, bis `"ende"` eingegeben wurde:
+
+Ein konkretes Beispiel, welches immer wieder nach einer Eingabe fragt, bis `"ende"` eingegeben wurde:
+
 ```python3
 eingabe = input("Eingabe: ")
 while not (eingabe == "ende"):
     eingabe = input("Eingabe: ")
 ```
+
 Wird dieses Programm ausgeführt so muss man irgendwann ende eingeben, sonst beendet sich das Programm nicht.
 
 > ### Aufgabe
