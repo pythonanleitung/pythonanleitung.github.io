@@ -1,6 +1,6 @@
 # Ein erstes Beispiel
 
-[Zurück zur Einleitung](README.md)
+[Zurück zur Einleitung](/) |
 
 Python kann in einem Modus verwendet werden, in dem die Programmiersprache immer sofort eine Rückmeldung gibt. Dieser spezielle Modus wird wie folgt gestartet.
 
@@ -20,7 +20,7 @@ Hat ein Befehl ein Ergebnis, so wird dieses direkt ausgegeben.
 Keine Panik nach dem Beispiel werden die Zeilen einzeln erklärt.
 
 Werden einige Befehle in Python eingegeben könnte das so aussehen:
-```python3
+```bash
 $ python3
 Python 3.6.2 (default, Sep 22 2017, 08:28:09) 
 [GCC 7.2.1 20170915 (Red Hat 7.2.1-2)] on linux
@@ -35,7 +35,7 @@ In Zeile 4 des Beispiels wurde einfach eine Zahl eingegeben.
 Python antwortet darauf einfach, indem es dieselbe Zahl wieder gibt.
 
 In Zeile 6 wird eine einfache Rechenaufgabe in Python gestellt.
-Worauf Python diese berechnet und das Ergebnis zurück gibt.
+Worauf Python diese berechnet und das Ergebnis zurückgibt.
 
 Es können so alle Grundrechenarten verwendet wobei die folgenden Rechenzeichen verwendet werden:
   * Plus: `1 + 2`
@@ -44,7 +44,7 @@ Es können so alle Grundrechenarten verwendet wobei die folgenden Rechenzeichen 
   * Geteilt und Brüche: `6 / 3`
 
 Beispiel:
-```python3
+```bash
 $ python3
 Python 3.6.2 (default, Sep 22 2017, 08:28:09)
 [GCC 7.2.1 20170915 (Red Hat 7.2.1-2)] on linux
@@ -68,7 +68,7 @@ Wird eine andere als die Punkt-vor-Strich-Rechenregel benötigt, so müssen Klam
 
 Im folgenden Beispiel werden zwei Aufgaben berechnet die durch unterschiedliche Klammern unterschiedliche Ergebnisse liefern.
 
-```python3
+```python
 >>> 6 / 3 + 3
 5.0
 >>> (6 / 3) + 3
@@ -84,8 +84,13 @@ In der dritten Eingabe sind die Klammern so, dass sie `3 + 3` umschließen.
 Nun rechnet Python zuerst die Klammer aus, um dann 6 durch (3 + 3) = 6 zu teilen.
 Das Ergebnis ist nun `1.0`.
 
-> ### Aufgabe
-> 1. Berechne das Ergebnis von `5` mal `3` und das ganze plus `2`.
-> 2. Berechne das Ergebnis von `3` plus `2` und das ganze mal `5`.
+> ### Übungen
+> Lösen Sie die folgenden Aufgaben in Python:
+> 1. Dividieren Sie die Zahlen `79` und `13`
+> 1. Addieren Sie die Zahlen `2.5` und `11.5`
+> 1. Multiplizieren Sie `2.7` mit `5`
+> 1. Berechne das Quadrat aus `65`
+> 1. Berechnen Sie das Ergebnis von `5` mal `3` und das ganze plus `2`
+> 1. Berechnen Sie das Ergebnis von `3` plus `2` und das ganze mal `5`
 
-[Weiter zum nächsten Kapitel](02Speichern.md)
+[Weiter zum nächsten Abschnitt](02Speichern.md) |
