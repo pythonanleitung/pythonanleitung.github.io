@@ -34,7 +34,7 @@ Diese Zufallszahl kann natürlich auch in eine Variable gespeichert werden mit `
 > ### Aufgabe
 > 1. Schreiben Sie ein Programm, welches eine Zufallszahl zwischen `1` und `10` generiert, und diese ausgibt.
 > 2. Erweitern Sie dieses Programm so, dass es dreimal nach einem Tipp fragt, für diese Zahl () die Ausgabe der zahl sollte natürlich entfernt werden.
-> 3. Speicheren Sie die Zufallszahl in eine Variable und geben Sie jedes Mal aus, ob der Tipp zu groß oder zu klein war.
+> 3. Speicheren Sie die Zufallszahl zu Beginn in eine Variable und verändern Sie diese dann nicht mehr. Nun geben Sie jedes Mal aus, ob der Tipp zu groß oder zu klein war. Es sollte nun möglich sein die Zahl in 3 Versuchen zu erraten.
 > Beispiel:
 >
 > ```python
