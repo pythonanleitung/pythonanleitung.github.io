@@ -24,7 +24,7 @@ liebsten verwenden würden.
 
 Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens herangeführt.
 
-[Weiter zum ersten Abschnitt](01ErsteSchritte.md)
+[Weiter zum ersten Abschnitt](01ErsteSchritte.md) |
 
 # Inhaltsverzeichnis
 
