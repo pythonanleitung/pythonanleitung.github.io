@@ -1,6 +1,6 @@
 # Wiederholungen
 
-[Zurück zum sechsten Abschnitt](06Zufall.md) | [Zurück zur ersten Seite](/)
+[Zurück zum sechsten Abschnitt](06Zufall.md) | [Zurück zur ersten Seite](README.md)
 
 Oftmals in einem Computerprogramm soll der Computer Dinge wiederholen. Eine Form der Wiederholung ist es etwas so lange zu wiederholen, bis eine Bedingung nicht mehr zutrifft. Die Bedingung wird dabei genauso geschrieben, wie dies bei `if` gemacht wurde.
 

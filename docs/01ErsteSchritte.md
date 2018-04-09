@@ -1,6 +1,6 @@
 # Ein erstes Beispiel
 
-[Zurück zur Einleitung](/) |
+[Zurück zur Einleitung](README.md) |
 
 Python kann in einem Modus verwendet werden, in dem die Programmiersprache immer sofort eine Rückmeldung gibt. Dieser spezielle Modus wird wie folgt gestartet.
 

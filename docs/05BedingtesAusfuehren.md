@@ -1,6 +1,6 @@
 # Bedingtes ausführen
 
-[Zurück zum vierten Abschnitt](04Eingaben.md) | [Zurück zur ersten Seite](/)
+[Zurück zum vierten Abschnitt](04Eingaben.md) | [Zurück zur ersten Seite](README.md)
 
 Alle Programmiersprachen bieten die Möglichkeit, einen Befehl nur dann auszuführen, wenn eine bestimmte Bedingung eintritt.
 In Python tritt eine Bedingung ein, wenn sie Wahr (`True`) ist - oder zu `True` ausgewertet wird.

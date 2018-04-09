@@ -1,6 +1,6 @@
 # Eingaben mit Input
 
-[Zurück zum dritten Abschnitt](03Variablen.md) | [Zurück zur ersten Seite](/)
+[Zurück zum dritten Abschnitt](03Variablen.md) | [Zurück zur ersten Seite](README.md)
 
 Bis jetzt waren die Programme so, dass sie immer dasselbe Ergebnis hatten.
 Das heißt, wurde ein Programm gestartet, so zeigt es immer dieselben Ausgaben,

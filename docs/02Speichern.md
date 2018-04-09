@@ -1,6 +1,6 @@
 # Speichern in eine Datei
 
-[Zurück zum ersten Abschnitt](01ErsteSchritte.md) | [Zurück zur ersten Seite](/)
+[Zurück zum ersten Abschnitt](01ErsteSchritte.md) | [Zurück zur ersten Seite](README.md)
 
 Da das ständige erneut Tippen auf Dauer nicht besonders effizient ist, kann man den Programmcode von Python in eine Datei abspeichern und dann diese Datei ausführen.
 
