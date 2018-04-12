@@ -83,4 +83,24 @@ t.forward(30)
 > 
 > Ergebnis:
 > 
-> ![Quadrate](turtlequadrate.png)
+> ![Quadrate](img/turtlequadrate.png)
+
+## Rechnen in Python
+
+Wenn Sie bestimmte Formen zeichnen wollen, so müssen Sie bestimmte Winkel und längen berechnen. Im rechtwinkligen Dreieck lässt sich das sehr einfach durch die Formel von Pythagoras a² + b² = c² lösen. Also die beiden kürzeren Seitenlängen eines rechtwinkligen Dreiecks quadriert und zusammengezählt ergeben das quadrat der längsten Seitenlänge.
+
+Um aus dieser Quadratszahl die Wurzel zu berechnen benötigen sie die Wurzelfunktion. Diese ist in dem `math` modul enthalten.
+
+Import und Verwendung der `sqrt` Wurzelfunktion:
+
+```python
+import math
+a = 5
+b = 7
+c = math.sqrt(a * a + b * b)
+
+> ### Übung
+> 
+> Zeichnen Sie das Haus vom Nikolaus. Berechnen Sie dabei die Länge der diagonalen in Python.
+> 
+> ![Haus vom Nikolaus](img/nikolaushaus.png)
