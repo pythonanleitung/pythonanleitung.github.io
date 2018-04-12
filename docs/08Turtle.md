@@ -1,10 +1,12 @@
 # Schildkröten
 
-Nachdem Nun die gröbsten Grundlagen der Programmiersprache gelernt sind, fängt es jetzt an Spaß zu machen. Im folgenden wird das Modul `turtle` verwendet. Dieses stellt eine einfache Möglichkeit zur Verfügung ein Fenster zu öffnen und in dieses Fenster mithilfe eines `turtles` zu zeichnen.
+Nachdem Nun die gröbsten Grundlagen der Programmiersprache gelernt sind, fängt es jetzt an (noch mehr) Spaß zu machen. Im folgenden wird das Modul `turtle` verwendet. Dieses stellt eine einfache Möglichkeit zur Verfügung ein Fenster zu öffnen und in dieses Fenster mithilfe eines `turtles` zu zeichnen.
 
 ## Erstellen des Fensters
 
 Zunächst muss das `turtle`-modul geladen werden. Danach wird das Fenster geöffnet mit dem Befehl `turtle.Pen()`. Damit später in dieses Fenster gezeichnet werden kann, muss es in einer Variablen gespeichert werden.
+
+Wenn man möchte, kann man auch noch das aussehen der "Schildkröte" verändern. Die Standardeinstellung ist ein dreieck, dessen Spitze in Laufrichtung zeigt. Mit dem Befehl `t.shape("turtle")` wird diese Form zu einer Schildkrötensiluette.
 
 Die Datei `meine-kröte.py` sieht also bis jetzt so aus:
 
@@ -12,6 +14,7 @@ Die Datei `meine-kröte.py` sieht also bis jetzt so aus:
 import turtle
 
 t = turtle.Pen()
+t.shape("turtle")
 ```
 
 > ### Achtung
