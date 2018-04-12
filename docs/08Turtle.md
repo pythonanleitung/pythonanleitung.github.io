@@ -53,3 +53,33 @@ Es ist natürlich auch möglich weniger weit zu gehen `t.forward(87)` oder sich 
 > 
 > Ergebis der Übung:
 > ![Übungsresultat](img/turtleshapes.png)
+
+## Das Turtle bewegen, ohne zu zeichnen
+
+Soll das Turtle an eine Position, ohne dabei eine Spur zu hinterlassen, dann kann man folgende Befehle verwenden:
+
+ * `t.penup()`: sagt der `turtle` höre auf zu zeichnen.
+ * `t.pendown()`: sagt der `turtle` fange wieder an zu zeichnen.
+
+Man kann also dem turtle sagen zeichne jetzt nicht, dann kann man es ganz normal bewegen, und wenn das `turtle` wieder zeichnen soll, so sagt man das einfach mit dem `pendown`-Befehl.
+
+Beispiel einer unterbrochenen Linie:
+
+```python
+t.forward(30)
+t.penup()
+t.forward(30)
+t.pendown()
+t.forward(30)
+t.penup()
+t.forward(30)
+t.pendown()
+t.forward(30)
+```
+
+> ### Übung
+> Zeichnen Sie 3 Quadrate mit dem selben Mittelpunkt wobei jeweils das folgende kleiner ist als das erste.
+> 
+> Ergebnis:
+> 
+> ![Quadrate](turtlequadrate.png)
