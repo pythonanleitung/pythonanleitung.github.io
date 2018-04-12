@@ -52,4 +52,5 @@ Es ist natürlich auch möglich weniger weit zu gehen `t.forward(87)` oder sich 
 > 1. Zeichnen Sie ein gleichseitiges Dreieck
 > 
 > Ergebis der Übung:
+> 
 > ![Übungsresultat](img/turtleshapes.png)
