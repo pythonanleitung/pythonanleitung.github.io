@@ -22,6 +22,30 @@ t.shape("turtle")
 
 Nach dem Speichern und Ausführen, sollte ein Fenster sich öffnen, in dessen Mitte sich die Schildkröte befindet:
 
-![Leeres Turtle Fenster]()
+![Leeres Turtle Fenster](img/leerturtle.png)
+
+## Das Turtle bewegen und dabei zeichnen
 
 Nun können Sie der Schildkröte Befehle geben. Es gibt unter anderem: `forward`, `left` und `right`. Dabei sind alle Befehle in Fahrtrichtung. Das heißt wenn am Anfang `left(90)` angegeben wird, dann schaut die Schildkröte zuerst nach rechts, und wird dann gegen den Urzeigersinn gedreht, sodass sie nach oben schaut.
+
+Um also mit dem `turtle` einen rechten Winkel zu zeichnen, der zunächst waagerecht verläuft und dann nach unten geht kann man nun folgenden Code eingeben:
+
+```python
+import turtle
+
+t = turtle.Pen()
+t.shape("turtle")
+
+t.forward(200)
+t.right(90)
+t.forward(200)
+```
+Das Ergebnis ist dann folgendes:
+
+![Rechter Winkel Turtle](img/turtlerightangle.png)
+
+Es ist natürlich auch möglich weniger weit zu gehen `t.forward(87)` oder sich um einen anderen Winkel zu drehen `t.left(63)`.
+
+> ### Übungen
+> 1. Zeichnen Sie ein Quadrat
+> 1. Zeichnen Sie ein Rechteck, welches doppelt so breit ist, wie hoch.
