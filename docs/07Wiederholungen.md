@@ -55,3 +55,5 @@ Es wird an diesem 2. Beispiel deutlich, dass die Wiederholung unter Umständen a
 >
 > 1. Verändern Sie das Zahlen-Rate-Programm so, dass man beliebig viele Versuche hat beim Raten. Verwenden Sie hierzu `while`.
 > 1. Erweitern Sie das Programm so, dass es Zufallszahlen zwischen `0` und `100` verwendet.
+
+[Weiter zum nächsten Abschnitt](08Turtle.md) |

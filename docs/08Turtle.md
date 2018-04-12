@@ -1,5 +1,7 @@
 # Schildkröten
 
+[Zurück zum siebten Abschnitt](07Wiederholungen.md) | [Zurück zur ersten Seite](README.md)
+
 Nachdem Nun die gröbsten Grundlagen der Programmiersprache gelernt sind, fängt es jetzt an (noch mehr) Spaß zu machen. Im folgenden wird das Modul `turtle` verwendet. Dieses stellt eine einfache Möglichkeit zur Verfügung ein Fenster zu öffnen und in dieses Fenster mithilfe eines `turtles` zu zeichnen.
 
 ## Erstellen des Fensters
@@ -105,3 +107,5 @@ c = math.sqrt(a * a + b * b)
 > Zeichnen Sie das Haus vom Nikolaus. Berechnen Sie dabei die Länge der diagonalen in Python.
 > 
 > ![Haus vom Nikolaus](img/nikolaushaus.png)
+
+[Weiter zum nächsten Abschnitt](09nope.md) |
