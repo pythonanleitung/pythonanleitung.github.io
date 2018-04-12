@@ -98,6 +98,7 @@ import math
 a = 5
 b = 7
 c = math.sqrt(a * a + b * b)
+```
 
 > ### Übung
 > 
