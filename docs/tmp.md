@@ -8,19 +8,25 @@ False
 
 Das so erzeugte `True` oder `False` kann in einem `if` verwendet werden:
 
+
+
+Beispiel verwendung eines `if`:
+
 ```python
->>> if "Hallo" == input("Sag fein Hallo: "):
-...     print("Hallo")
-... else:
-...     print("Nicht Hallo!")
-... 
+if "Hallo" == input("Sag fein Hallo: "):
+   print("Hallo")
+else:
+   print("Nicht Hallo!")
+```
+
+Beispiel Aus- und Eingabe 1:
+```
 Sag fein Hallo: Hallo
 Hallo
->>> if "Hallo" == input("Sag fein Hallo: "):
-...     print("Hallo")
-... else:
-...     print("Nicht Hallo!")
-... 
+```
+
+Beispiel Aus- und Eingabe 2 (nach neustart):
+```
 Sag fein Hallo: never
 Nicht Hallo!
 ```

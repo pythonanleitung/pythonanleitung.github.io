@@ -9,9 +9,12 @@ Sie tritt nicht ein, wenn sie zu `False` ausgewertet wird.
 Ein einfaches Beispiel ist somit:
 
 ```python
->>> if True:
-...     print("wird angezeigt")
-...
+if 1 == 1:
+   print("wird angezeigt")
+```
+
+Ausgabe:
+```
 wird angezeigt
 ```
 
@@ -36,11 +39,14 @@ Python verwendet verschieden starke Einrückungen, um die Zusammengehörigkeit v
 Beispiel:
 
 ```python
->>> if 1 == 1:
-       if 5 == 6:
-           print("fünfundsechs")
-       print("einsundeins")
+if 1 == 1:
+  if 5 == 6:
+     print("fünfundsechs")
+  print("einsundeins")
+```
 
+Ausgabe:
+```
 einsundeins
 ```
 
@@ -57,11 +63,14 @@ Oft wird es benötigt, dass ein bestimmter Befehl ausgeführt wird, wenn eine Be
 > Notiz: Sowohl nach `if` als auch nach `else` muss mindestens ein eingerückter Befehl kommen. Also man kann  im folgenden Beispiel **keines** der beiden `print`s weglassen (man kann sie aber durch beliebige andere Befehle ersetzen).
 
 ```python
->>> if False:
-...     print("wird nicht gezeigt")
-... else:
-...     print("wird gezeigt")
-...
+if False:
+   print("wird nicht gezeigt")
+else:
+   print("wird gezeigt")
+```
+
+Ausgabe:
+```
 wird angezeigt
 ```
 Logischerweise ist `else` nur nach einem fertigen `if` sinnvoll. Man sieht durch die `>>>`, das if beginnt den Befehl und alles weitere ist Teil dieses Befehls, was durch `...` gezeigt wird.
@@ -69,11 +78,14 @@ Logischerweise ist `else` nur nach einem fertigen `if` sinnvoll. Man sieht durch
 Alternativ kann man natürlich auch eine wahre Bedingung einstellen, welche dem Text in `print` widerspricht. Man sieht hier, dass dem Computer die Bedeutung der Worte völlig gleichgültig ist er folgt nur der Logik der Befehle:
 
 ```python
->>> if True:
-...     print("wird nicht gezeigt")
-... else:
-...     print("wird gezeigt")
-...
+if True:
+   print("wird nicht gezeigt")
+else:
+   print("wird gezeigt")
+```
+
+Ausgabe:
+```
 wird nicht angezeigt
 ```
 
@@ -132,7 +144,7 @@ else:
 ```
 In diesem Beispiel wird eine weitere Option der `if`-Ausdrücke verwendet: `elif`. Dieses steht für `else if` und bedeutet: Falls nicht die erste Bedingung dann vielleicht diese Bedingung also am ehesten zu übersetzen mit "oder wenn". Zwischen einem `if` und einem `else` können beliebig viele `elif` stehen, aber vorher muss immer ein `if` und stehen.
 
-Wird dies in eine Datei `gru.py` gespeichert und diese dann (zweimal) ausgeführt, so entsteht folgende Ausgabe:
+Wird dies in eine Datei `gru.py` gespeichert und diese dann (dreimal) ausgeführt, so entsteht folgende Ausgabe:
 
 ```bash
 >>> %Run gru.py

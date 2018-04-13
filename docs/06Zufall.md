@@ -17,7 +17,7 @@ Die Funktion, die eine zufällige Zahl produziert und zurück gibt, heißt `rand
 Mit `random.randint(0,100)` erstellt man also eine zufällige
 ganze Zahl zwischen `0` und `100` ausgewählt werden.
 
-Beispiel:
+Beispiel im Ausprobierfenster:
 
 ```python
 >>> import random
@@ -25,8 +25,12 @@ Beispiel:
 48
 >>> random.randint(0,100)
 78
->>> random.randint(0,100)
+>>> x = random.randint(0,100)
+>>> x
 17
+>>> x = random.randint(0,100)
+>>> x
+53
 ```
 
 Diese Zufallszahl kann natürlich auch in eine Variable gespeichert werden mit `zahl = random.randint(0,100)`.
