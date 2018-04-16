@@ -61,12 +61,12 @@ Es ist natürlich auch möglich weniger weit zu gehen `t.forward(87)` oder sich 
 
 Soll das Turtle an eine Position, ohne dabei eine Spur zu hinterlassen, dann kann man folgende Befehle verwenden:
 
- * `t.penup()`: sagt der `turtle` höre auf zu zeichnen.
- * `t.pendown()`: sagt der `turtle` fange wieder an zu zeichnen.
+ * `t.penup()`: sagt dem `turtle` höre auf zu zeichnen.
+ * `t.pendown()`: sagt dem `turtle` fange wieder an zu zeichnen.
 
-Man kann also dem turtle sagen zeichne jetzt nicht, dann kann man es ganz normal bewegen, und wenn das `turtle` wieder zeichnen soll, so sagt man das einfach mit dem `pendown`-Befehl.
+Man kann also dem `turtle` sagen zeichne jetzt nicht, dann kann man es ganz normal mit `forward`, `left` und `right` bewegen, und wenn das `turtle` wieder zeichnen soll, sagt man das einfach mit dem `pendown`-Befehl.
 
-Beispiel einer unterbrochenen Linie:
+Beispiel einer unterbrochenen Linie (Achtung Die Befehle zum erstellen des `turtles` sind hier weg gelassen):
 
 ```python
 t.forward(30)
