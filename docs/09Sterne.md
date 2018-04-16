@@ -2,6 +2,8 @@
 
 > ### Übung
 > Zeichnen Sie einen Fünfstern. Der Innenwinkel in einem Fünfstern ist 35° Grad.
+> 
+> ![Fünfstern mit Turtle](img/fuenfstern.png)
 
 Im Folgenden wird es Ziel sein viele Fünfsterne zu zeichnen in unterschiedlichen Größen.
 Eine Möglichkeit das zu tun wäre nun, den bisher geschriebenen Code einfach zu kopieren und woanders wieder einzufügen.
