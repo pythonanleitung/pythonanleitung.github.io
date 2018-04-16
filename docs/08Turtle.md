@@ -50,7 +50,7 @@ Es ist natürlich auch möglich weniger weit zu gehen `t.forward(87)` oder sich 
 
 > ### Übungen
 > 1. Zeichnen Sie ein Quadrat
-> 1. Zeichnen Sie ein Rechteck, welches doppelt so breit ist, wie hoch, aber vollständig in dem ersten Quadrat liegt. (Es darf gemeinsame Kanten und Ecken haben)
+> 1. Zeichnen Sie ein Rechteck, welches doppelt so breit ist, wie hoch und nur eine Ecke gemeinsam mit dem ersten Quadrat hat.
 > 1. Zeichnen Sie ein gleichseitiges Dreieck
 > 
 > Ergebis der Übung:
