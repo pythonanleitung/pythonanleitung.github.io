@@ -1,6 +1,6 @@
 # Schildkröten
 
-[Zurück zum siebten Abschnitt](07Wiederholungen.md) | [Zurück zur ersten Seite](README.md)
+| [Zurück zum siebten Abschnitt](07Wiederholungen.md) | [Zurück zur ersten Seite](README.md) |
 
 Nachdem Nun die gröbsten Grundlagen der Programmiersprache gelernt sind, fängt es jetzt an (noch mehr) Spaß zu machen. Im folgenden wird das Modul `turtle` verwendet. Dieses stellt eine einfache Möglichkeit zur Verfügung ein Fenster zu öffnen und in dieses Fenster mithilfe eines `turtles` zu zeichnen.
 
@@ -108,4 +108,4 @@ c = math.sqrt(a * a + b * b)
 > 
 > ![Haus vom Nikolaus](img/nikolaushaus.png)
 
-[Weiter zum nächsten Abschnitt](09nope.md) |
+| [Weiter zum nächsten Abschnitt](09nope.md) |
