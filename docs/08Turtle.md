@@ -108,4 +108,4 @@ c = math.sqrt(a * a + b * b)
 > 
 > ![Haus vom Nikolaus](img/nikolaushaus.png)
 
-| [Weiter zum nächsten Abschnitt](09nope.md) |
+| [Weiter zum nächsten Abschnitt](09Sterne.md) |
