@@ -14,7 +14,7 @@ Das heißt man schreibt zunächst eine Schablone und sagt dem Computer was er ve
 
 Eine Schablone, beim Programmieren nennt man solche Schablonen Funktion, erstellt man So:
 
-```python
+```
 def stern(größe):
     t.forward(größe)
     t.left(144)
@@ -30,7 +30,7 @@ indem man einfach konstante Zahlen schreibt.
 Diese Funktionsschablone wird jetzt aber noch nicht ausgeführt. Man sagt Python nur wie die Schablone aussieht.
 Um jetzt einen Stern zu zeichnen, muss man diese Schablone verwenden, und Python sagen, welcher Platzhalter welchen Wert annehmen soll.
 
-```python
+```
 stern(größe=100)
 ```
 
