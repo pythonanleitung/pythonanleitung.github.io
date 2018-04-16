@@ -91,7 +91,7 @@ t.forward(30)
 
 ## Rechnen in Python
 
-Wenn Sie bestimmte Formen zeichnen wollen, so müssen Sie bestimmte Winkel und längen berechnen. Im rechtwinkligen Dreieck lässt sich das sehr einfach durch die Formel von Pythagoras $a² + b² = c²$ lösen. Also die beiden kürzeren Seitenlängen eines rechtwinkligen Dreiecks quadriert und zusammengezählt ergeben das quadrat der längsten Seitenlänge.
+Wenn Sie bestimmte Formen zeichnen wollen, so müssen Sie bestimmte Winkel und längen berechnen. Im rechtwinkligen Dreieck lässt sich das sehr einfach durch die Formel von Pythagoras `a² + b² = c²` lösen. Also die beiden kürzeren Seitenlängen eines rechtwinkligen Dreiecks quadriert und zusammengezählt ergeben das quadrat der längsten Seitenlänge.
 
 Um aus dieser Quadratszahl die Wurzel zu berechnen benötigen sie die Wurzelfunktion. Diese ist in dem `math` modul enthalten.
 
