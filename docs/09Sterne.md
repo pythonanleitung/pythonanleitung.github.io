@@ -1,5 +1,7 @@
 # Sterne zeichnen mit Turtle
 
+| [Zurück zum achten Abschnitt](08Turtle.md) | [Zurück zur ersten Seite](README.md) |
+
 > ### Übung
 > Zeichnen Sie einen Fünfstern. Der Innenwinkel in einem Fünfstern ist 36° Grad.
 > 
@@ -48,3 +50,5 @@ dass Sie die ganze Zeit schon solche Funktionen verwendet haben zum Beispiel `pr
 > 
 > ![Turtle mit zufälligem Ort](img/turtlesternerandom.png)
 > ![Turtle mit gleichem Zentrum](img/turtlesterne.png)
+
+[Weiter zum nächsten Abschnitt](10Kreise.md) |
