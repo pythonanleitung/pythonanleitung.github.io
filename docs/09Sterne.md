@@ -1,7 +1,7 @@
 # Sterne zeichnen mit Turtle
 
 > ### Übung
-> Zeichnen Sie einen Fünfstern. Der Innenwinkel in einem Fünfstern ist 35° Grad.
+> Zeichnen Sie einen Fünfstern. Der Innenwinkel in einem Fünfstern ist 36° Grad.
 > 
 > ![Fünfstern mit Turtle](img/fuenfstern.png)
 
@@ -17,7 +17,7 @@ Eine Schablone, beim Programmieren nennt man solche Schablonen Funktion, erstell
 ```python
 def stern(größe):
     t.forward(größe)
-    t.left(36)
+    t.left(144)
 ```
 
 Indem man zunächst das Schlüsselwort `def` schreibt, sagt man Python dass nun eine Schablone kommt, die nicht sofort ausgeführt
@@ -41,4 +41,10 @@ dass Sie die ganze Zeit schon solche Funktionen verwendet haben zum Beispiel `pr
 
 > ### Übung
 > 1. Ergänzen Sie die `stern`-Funktion, sodass sie den gesamten Stern zeichnet
-> 2. Zeichnen Sie mehrere verschieden große Sterne.
+> 3. Zeichnen Sie 20 Sterne mit zufälliger Positionierung (siehe Kapitel Zufall)
+> 2. Zeichnen Sie 20 verschieden große Sterne mit gleichem Zentrum
+> 
+> Beispiele:
+> 
+> ![Turtle mit zufälligem Ort](img/turtlesternerandom.png)
+> ![Turtle mit gleichem Zentrum](img/turtlesterne.png)

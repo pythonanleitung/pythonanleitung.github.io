@@ -36,6 +36,7 @@ Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens he
 1. [Zufall](06Zufall.md)
 1. [Wiederholungen](07Wiederholungen.md)
 1. [Schildkröten](08Turtle.md)
+1. [Sterne](08Sterne.md)
 
 
 
