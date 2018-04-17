@@ -1,6 +1,6 @@
 # Zusammenfassung der Turtle Befehle
 
-| [Zurück zum neunten Abschnitt](09Sterne.md) | [Zurück zur ersten Seite](README.md) |
+| [Zurück zum zehnten Abschnitt](10Kreise.md) | [Zurück zur ersten Seite](README.md) |
 
 Erstellen eines Turtlefensters mit:
 
@@ -35,6 +35,7 @@ t.pencolor("red")       # Stiftfarbe setzen
 t.begin_fill()          # Ausgemalten Umris starten
 t.end_fill()            # Ausgemalten Umris beenden
 t.fillcolor("blue")     # Ausmalfarbe setzen
+t.screen.bgcolor("pink")# Die Hintergrundfarbe setzen
 ```
 
 # Turtle:
@@ -44,4 +45,4 @@ t.hideturtle()          # Verstecken der Schildkröte
 t.showturtle()          # zeigen der Schildkröte
 ```
 
-
+[Weiter zum nächsten Abschnitt](12Turtlebeispielaufgaben.md) |

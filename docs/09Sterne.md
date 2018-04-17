@@ -11,6 +11,8 @@ Im Folgenden wird es Ziel sein viele Fünfsterne zu zeichnen in unterschiedliche
 Eine Möglichkeit das zu tun wäre nun, den bisher geschriebenen Code einfach zu kopieren und woanders wieder einzufügen.
 Man muss nun nur noch ein paar Zahlen ändern und fertig ist der zweite Stern.
 
+## Funktionen
+
 Beim Programmieren möchte man aber solche wiederholende Aufgaben eigentlich lieber den Computer selbst machen lassen.
 Das heißt man schreibt zunächst eine Schablone und sagt dem Computer was er veränderbar in dieser Schablone machen soll.
 

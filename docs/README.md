@@ -39,6 +39,9 @@ Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens he
 1. [Sterne](09Sterne.md)
 1. [Kreise](10Kreise.md)
 1. [Turtle Zusammenfassung](11Turtlebefehle.md)
+1. [Turtle Beispielaufgaben](12Turtlebeispielaufgaben.md)
+1. [Listen](13Listen.md)
+1. [For Schleifen](14Forschleifen.md)
 
 
 
