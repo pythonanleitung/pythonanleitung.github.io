@@ -42,7 +42,8 @@ Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens he
 1. [Turtle Beispielaufgaben](12Turtlebeispielaufgaben.md)
 1. [Listen](13Listen.md)
 1. [For Schleifen](14Forschleifen.md)
-1. [Epochenheft](15AufgabenEpochenheft.md)
+1. [Kommentare](15Kommentare.md)
+1. [Epochenheft](16AufgabenEpochenheft.md)
 
 
 

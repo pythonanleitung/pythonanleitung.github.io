@@ -1,6 +1,6 @@
 # Aufgaben für das Epochenheft
 
-| [Zurück zum vierzehnten Abschnitt](14Forschleifen.md) | [Zurück zur ersten Seite](README.md) |
+| [Zurück zum fünfzehnten Abschnitt](15Kommentare.md) | [Zurück zur ersten Seite](README.md) |
 
 1. Laden Sie 3 kommentierte `turtle`-Grafiken als Pythonquelltext ins Epochenheft hoch.
 2. Schreiben Sie eine Seite mit Dateinamen `turtlegrafiken.md`, die eine Zusammenfassung und Beschreibung der Grafiken enthält. Verwenden Sie um die Seite zu gestalten die Markdown syntax wie hier beschrieben: [markdown explained](https://docs.gitlab.com/ce/user/markdown.html)
@@ -25,4 +25,4 @@
 
 Gestalten Sie auch diese `README.md` mit den Gestaltungselementen aus: [markdown explained](https://docs.gitlab.com/ce/user/markdown.html)
 
-[Weiter zum nächsten Abschnitt](15AufgabenEpochenheft.md) |
+[Weiter zum nächsten Abschnitt](16AufgabenEpochenheft.md) |
