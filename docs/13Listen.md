@@ -17,7 +17,7 @@ Mit zahlen ist das noch relativ uninteressant aber zum Beispiel eine Liste mit F
 ```python
 b = ["red", "blue", "green", "yellow", "purple", "pink"]
 i = 0
-while i < 6:
+while i <= 5:
     t.color(b[i])
     t.forward(30)
     t.left(45)
@@ -29,7 +29,7 @@ Auch Wörter lassen sich wie Listen behandeln. Man kann zum Beispiel ein "Wort" 
 ```python
 wort = "lrllrrrlrlrrlrr"
 i=0
-while i < 15:
+while i <= 14:
     if wort[i] == "l":
         t.left(90)
     if wort[i] == "r":
