@@ -43,6 +43,7 @@ t.screen.bgcolor("pink")# Die Hintergrundfarbe setzen
 t.shape()               # Auswählen einer Form
 t.hideturtle()          # Verstecken der Schildkröte
 t.showturtle()          # zeigen der Schildkröte
+t.exitonclick()         # schließen wenn ins fenster geklickt wird
 ```
 
 [Weiter zum nächsten Abschnitt](12Turtlebeispielaufgaben.md) |
