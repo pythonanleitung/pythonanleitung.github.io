@@ -28,4 +28,4 @@ Die Folgenden Aufgaben dienen als Leitfaden für die Gestaltung des Epochenhefts
 
 Gestalten Sie auch diese `README.md` mit den Gestaltungselementen aus: [markdown explained](https://docs.gitlab.com/ce/user/markdown.html)
 
-[Weiter zum nächsten Abschnitt](16AufgabenEpochenheft.md) |
+[Weiter zum nächsten Abschnitt](17Computerspiel.md) |
