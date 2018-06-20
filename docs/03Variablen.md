@@ -22,9 +22,9 @@ Die Variablen sind so etwas wie das Kurzzeitgedächtnis des Computers... Er kann
 > ### Übungen
 >  1. Erstellen Sie eine Python-Datei `Variablen.py` welche die Variablen `x, y, z` die Werte `34, 24, 'hallo'` zuweist.
 >  1. Führen Sie das Programm aus. Es erscheint keine Ausgabe (warum? Siehe [hier](02Speichern.md/#automatische-ausgabe))
->  1. Geben Sie alle Variablen mit `print` aus.
+>  1. Geben Sie alle Variablen mit `print` aus. Achtung Geben Sie die Variablen aus und nicht nur die selbe Zahl.
 >  1. Testen Sie, indem Sie das Programm nochmals starten, ihre neue Ausgabe.
->  2. Berechnen Sie in die Variable `summe` die Summe von `x` und `y`.
+>  2. Berechnen Sie in die Variable `summe` die Summe von `x` und `y`. Verwenden Sie auch hier die Variablen statt ihren Zahlenwert.
 >  3. Geben Sie die Summe mit `print` aus.
 >  4. Starten Sie das Programm erneut lösen Sie alle Fehlermeldungen. Im nächsten Absatz werden einige Meldungen erklärt.
 
@@ -81,6 +81,23 @@ Im folgenden Beispiel wurden Doppelpunkte vergessen:
 SyntaxError: invalid syntax
 ```
 
+### TypeError
+
+Dieser Fehler sagt, dass der Computer zum Beispiel eine Zahl und einen Buchstaben nicht zusammen addieren kann. (Zahl mit Zahl, und Buchstabe mit Buchstabe funktioniert).
+
+Ursachen:
+
+  * Vergessen ein Wort zu einer Zahl zu verwandeln - Siehe nächste Überschrift.
+  * Vergessen eine Variable zu aktualisieren
+  * ...
+
+Im folgenden Beispiel wird versucht eine Zahl `1` und einen Buchstaben `'i'` zu addieren:
+```python
+>>> 1 + 'i'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+```
 
 
 # Datentypen
