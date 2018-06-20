@@ -45,9 +45,9 @@ print("Das siebenundfünfzigfache der Zahl ist: ", umg * 57)
 > ### Übungen
 > 1. Schreiben Sie ein Programm, welches nach einer Kommazahl fragt
 > 2. Diese Zahl zu einer Kommazahl umwandelt (Vorsicht statt `int` muss ein anderer Befehl verwendet werden)
-> 3. Die Kommazahl mit 2.5 multipliziert und ausgibt
+> 3. Die Kommazahl mit `2.5` multipliziert und ausgibt
 > 4. Die Kommazahl in eine ganzzahlige Zahl umwandelt, indem die Kommastellen abgeschnitten werden
-> 5. Die Ganze Zahl mit 5 multipliziert und ausgibt
+> 5. Die Ganze Zahl mit `6` multipliziert und ausgibt
 
 Beispieldurchlauf des Übungsaufgabenprogramms:
 ```python
