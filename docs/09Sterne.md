@@ -4,7 +4,7 @@
 
 > ### Übung
 > 
-> Speichern Sie diese Übung als `sternchen.py`
+> Speichern Sie diese Übung als `sternchen-uebung.py`
 >
 > Zeichnen Sie einen Fünfstern. Der Innenwinkel in einem Fünfstern ist 36° Grad.
 > 
@@ -48,7 +48,7 @@ dass Sie die ganze Zeit schon solche Funktionen verwendet haben zum Beispiel `pr
 
 > ### Übung
 >
-> Speichern Sie diese Datei unter `sternchen-uebung.py`
+> Speichern Sie diese Datei unter `sternhimmel-uebung.py`
 >
 > 1. Ergänzen Sie die `stern`-Funktion, sodass sie den gesamten Stern zeichnet
 > 3. Zeichnen Sie 20 Sterne mit zufälliger Positionierung (siehe Kapitel Zufall)
