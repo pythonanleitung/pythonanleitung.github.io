@@ -51,6 +51,9 @@ Das Ergebnis ist dann folgendes:
 Es ist natürlich auch möglich weniger weit zu gehen `t.forward(87)` oder sich um einen anderen Winkel zu drehen `t.left(63)`.
 
 > ### Übungen
+>
+> Speichern Sie dies in die Datei `geometrische-uebung.py`
+>
 > 1. Zeichnen Sie ein Quadrat
 > 1. Zeichnen Sie ein Rechteck, welches doppelt so breit ist, wie hoch und nur eine Ecke gemeinsam mit dem ersten Quadrat hat.
 > 1. Zeichnen Sie ein gleichseitiges Dreieck
@@ -83,6 +86,9 @@ t.forward(30)
 ```
 
 > ### Übung
+> 
+> Speichern Sie dies in die Datei `quadrate-uebung.py`
+>
 > Zeichnen Sie 3 Quadrate mit dem selben Mittelpunkt wobei jeweils das folgende kleiner ist als das erste.
 > 
 > Ergebnis:
@@ -105,6 +111,8 @@ c = math.sqrt(a * a + b * b)
 ```
 
 > ### Übung
+>
+> Speichern Sie dies in die Datei `nikolaushaus-uebung.py`
 > 
 > Zeichnen Sie das Haus vom Nikolaus. Berechnen Sie dabei die Länge der diagonalen in Python.
 > 
