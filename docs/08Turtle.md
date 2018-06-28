@@ -114,7 +114,7 @@ c = math.sqrt(a * a + b * b)
 >
 > Speichern Sie dies in die Datei `nikolaushaus-uebung.py`
 > 
-> Zeichnen Sie das Haus vom Nikolaus. Berechnen Sie dabei die Länge der diagonalen in Python.
+> Zeichnen Sie das Haus vom Nikolaus. Berechnen Sie dabei die Länge der diagonalen in Python. Verwenden Sie ein gleichseitiges Dreieck als Dach.
 > 
 > ![Haus vom Nikolaus](img/nikolaushaus.png)
 
