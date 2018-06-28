@@ -3,6 +3,9 @@
 | [Zurück zum achten Abschnitt](08Turtle.md) | [Zurück zur ersten Seite](README.md) |
 
 > ### Übung
+> 
+> Speichern Sie diese Übung als `sternchen.py`
+>
 > Zeichnen Sie einen Fünfstern. Der Innenwinkel in einem Fünfstern ist 36° Grad.
 > 
 > ![Fünfstern mit Turtle](img/fuenfstern.png)
@@ -44,6 +47,9 @@ dann in Klammern die Zuweisungen, welcher Platzhalter welchen Wert erhalten soll
 dass Sie die ganze Zeit schon solche Funktionen verwendet haben zum Beispiel `print`, `input`, ….
 
 > ### Übung
+>
+> Speichern Sie diese Datei unter `sternchen-uebung.py`
+>
 > 1. Ergänzen Sie die `stern`-Funktion, sodass sie den gesamten Stern zeichnet
 > 3. Zeichnen Sie 20 Sterne mit zufälliger Positionierung (siehe Kapitel Zufall)
 > 2. Zeichnen Sie 20 verschieden große Sterne mit gleichem Zentrum
