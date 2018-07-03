@@ -47,6 +47,7 @@ Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens he
 1. [Epochenheft](16AufgabenEpochenheft.md)
 1. [Computerspiele](17Computerspiel.md)
 1. [Animation](18Animation.md)
+1. [Cheat-Sheet](99Cheat-Sheet.md)
 
 
 
