@@ -4,12 +4,14 @@
 
 Nachdem Nun die gröbsten Grundlagen der Programmiersprache gelernt sind, fängt es jetzt an (noch mehr) Spaß zu machen. Im folgenden wird das Modul `turtle` verwendet. Dieses stellt eine einfache Möglichkeit zur Verfügung ein Fenster zu öffnen und in dieses Fenster mithilfe eines `turtles` zu zeichnen.
 
+Bedenken Sie, dass beim Programmieren die eigene Arbeit immer auf der Arbeit von ganz vielen anderen Beruht. Zum Beispiel um Python zu entwickeln müsste eine Person ca. 285 Jahre arbeiten. Um Python entwickeln zu lassen müsste man 13.5 Millionen Euro veranschlagen. Im Folgenden Wird ein relativ kleines Modul verwendet mit welchem man eine Bestimmte Art von Grafiken erstellen kann. Auch für dieses Modul wurden über 4000 Zeilen programmiert.
+
 ## Erstellen des Fensters
 
 Die Datei `meine-kröte.py` sieht also bis jetzt so aus und erstellt bei Ausführung ein Fenster mit einem turtle in der mitte.
 
 > ### Achtung
-> Beim Speichern der Datei darf nicht der name `turtle.py` gewählt werden. Dieser Name wird quasi von dem `turtle`-Modul reserviert.
+> Beim Speichern der Datei darf **nicht der name** `turtle.py` gewählt werden. Dieser Name wird quasi von dem `turtle`-Modul reserviert.
 
 ```python
 import turtle

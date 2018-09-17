@@ -1,6 +1,6 @@
 # Variablen
 
-[Zurück zum zweiten Abschnitt](02Speichern.md) | [Zurück zur ersten Seite](README.md)
+[Zurück zum vorherigen Abschnitt](02Speichern.md) | [Zurück zur ersten Seite](README.md)
 
 Bis jetzt Werte immer sofort verwendet. Wurde eine `5` geschrieben, wurde sie zum Beispiel in einer Rechnung verwendet. Wenn aber der Wert an zwei Stellen im Programm verwendet werden soll, also zum Beispiel um  die Mitternachtsformel einmal mit plus und einmal mit minus zu rechnen, so muss der Wert zwischengespeichert werden. Hierzu werden Variablen verwendet. Um eine Variable zu erstellen, schreibt man einen beliebigen Namen der Variablen (ohne Leerzeichen) und dann, nach einem `=` den Wert den die Variable haben soll.
 
@@ -20,6 +20,7 @@ Diese Variablen können nun verwendet werden hat man zum Beispiel mit `x = 5` de
 Die Variablen sind so etwas wie das Kurzzeitgedächtnis des Computers... Er kann sich alles darin merken, aber nach Ende des Programms sind alle Variablen weg. Soll beim Start die Variable wieder vorhanden sein, dann muss sie wieder neu gesetzt werden.
 
 > ### Übungen
+> 
 >  1. Erstellen Sie eine Python-Datei `Variablen.py` welche die Variablen `x, y, z` die Werte `34, 24, 'hallo'` zuweist.
 >  1. Führen Sie das Programm aus. Es erscheint keine Ausgabe (warum? Siehe [hier](02Speichern.md/#automatische-ausgabe))
 >  1. Geben Sie alle Variablen mit `print` aus. Achtung Geben Sie die Variablen aus und nicht nur die selbe Zahl.
@@ -29,75 +30,7 @@ Die Variablen sind so etwas wie das Kurzzeitgedächtnis des Computers... Er kann
 >  4. Starten Sie das Programm erneut lösen Sie alle Fehlermeldungen. Im nächsten Absatz werden einige Meldungen erklärt.
 
 
-# Fehler
 
-Vermutlich ist schon aufgefallen, wie kleinlich python auf die Korrektheit
-achtet. Sobald auch nur ein einzelner Buchstabe falsch ist, bekommt man einen
-Fehler zu sehen. Die Fehler geben meistens einen Hinweis darüber was falsch
-sein könnte.
-
-Der Fehler ist so aufgebaut, dass er zuerst die Position des Fehlers angibt. Hierzu werden einige Dateien gelistet. Erst in der letzten Zeile erscheint der eigentliche Fehler. Meistens reicht es die letzten beiden Zeilen des Fehlers zu betrachten.
-
-Im Folgenden sind ein paar Beispiele von Fehlern:
-
-### NameError
-
-Mögliche Gründe:
-
-  * Eine Variable wurde nicht definiert
-  * Es wurden Anführungszeichen um Text vergessen
-  * Ein Befehl wurde falsch geschrieben (Achtung auch Groß- und Kleinschreibung
-    ist wichtig)
-
-Beispiel:
-
-```python
->>> print(z)
-Traceback (most recent call last):
-  File "<pyshell>", line 1, in <module>
-NameError: name 'z' is not defined
-```
-
-### SyntaxError
-Dieser Fehler ist relativ allgemein. Netterweise zeigt Python manchmal mit einem `^` auf die Stelle an der es den Fehler vermutet.
-
-Ursachen:
-
-  * Doppelpunkt vergessen
-  * Klammerfehler
-  * Anführungszeichenfehler
-  * Erwartete, aber nicht vorhandene Einrückung (intendation), also zu wenig Leerzeichen am Anfang der Zeile.
-  * Vorhandene, aber nicht erwartete Einrückung (intendation), also zu viele Leerzeichen am Anfang der Zeile
-  * ...
-
-Im folgenden Beispiel wurden Doppelpunkte vergessen:
-```python
->>> if True
-  print("True")
-  
-  File "<pyshell>", line 1
-    if True
-          ^
-SyntaxError: invalid syntax
-```
-
-### TypeError
-
-Dieser Fehler sagt, dass der Computer zum Beispiel eine Zahl und einen Buchstaben nicht zusammen addieren kann. (Zahl mit Zahl, und Buchstabe mit Buchstabe funktioniert).
-
-Ursachen:
-
-  * Vergessen ein Wort zu einer Zahl zu verwandeln - Siehe nächste Überschrift.
-  * Vergessen eine Variable zu aktualisieren
-  * ...
-
-Im folgenden Beispiel wird versucht eine Zahl `1` und einen Buchstaben `'i'` zu addieren:
-```python
->>> 1 + 'i'
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
-```
 
 
 # Datentypen
@@ -149,4 +82,4 @@ In der letzten Umformung ist zu beachten, dass nicht gerundet wird, sondern einf
 >   * Zahlen haben keine Anführungszeichen.
 >   * Dezimalzahlen müssen mit Punkten statt Kommas aufgeschrieben werden.
 
-[Weiter zum nächsten Abschnitt](04Eingaben.md) |
+[Weiter zum nächsten Abschnitt](03ZFehler.md) |

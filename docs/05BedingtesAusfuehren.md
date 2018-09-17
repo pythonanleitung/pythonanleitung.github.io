@@ -190,6 +190,6 @@ Dieses Programm ist natürlich nicht so, wie der Computer ein Passwort abfragen 
 > ### Übungen
 > Schreiben Sie ein Programm, welches 3 Versuche gewährt eine Zahl zu erraten.
 > 
-> Vorsicht beim Vergleichen: der Buchstabe einer Zahl ist nicht gleich der Zahl. Zum Beispiel ist `"2" == 2` unwahr also `False`. Um diese beiden Werte sinnvoll zu vergleichen, muss der Buchstabe `"2"` zur Zahl `2` konvertiert werden ([mehr](03Variablen.md#umwandlung-von-datentypen)). 
+> Vorsicht beim Vergleichen: der Buchstabe einer Zahl ist nicht gleich der Zahl. Zum Beispiel ist `"2" == 2` unwahr also `False`. Um diese beiden Werte sinnvoll zu vergleichen, muss der Buchstabe `"2"` zur Zahl `2` konvertiert werden ([mehr](03ZZDatentypen.md#umwandlung-von-datentypen)). 
 
 [Weiter zum nächsten Abschnitt](06Zufall.md) |

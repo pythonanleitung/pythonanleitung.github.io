@@ -5,7 +5,7 @@ Eine sehr einfache Anleitung Python zu lernen.
 Python ist eine Programmiersprache. Mit Python können alle Programme geschrieben
 werden (Spiele, Musikspieler, Texteditor usw.).
 
-## Entwicklung
+## Geschichte
 
 Schon 1990 entstand der Erste Vorschlag der Programmiersprache Python.
 Seit diesem Zeitpunkt wird die Sprache weiter entwickelt.
@@ -31,6 +31,8 @@ Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens he
 1. [Erste Schritte](01ErsteSchritte.md)
 1. [Speichern in eine Datei](02Speichern.md)
 1. [Variablen - Das Kurzzeitgedächtnis](03Variablen.md)
+1. [Fehlermeldung - sieht zwar sinnlos aus, hilft aber](03ZFehler.md)
+1. [Datentypen - Der Unterschied zwischen Zahl und Text](03ZZDatentypen.md)
 1. [Eingaben - Wenn der Computer reagiert](04Eingaben.md)
 1. [Fallunterscheidung - Wenn -> Dann](05BedingtesAusfuehren.md)
 1. [Zufall](06Zufall.md)
