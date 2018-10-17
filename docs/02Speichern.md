@@ -10,6 +10,8 @@ Zunächst die Buttons direkt unter dem Menü.
 
 ![Screenshot Thonny](./img/ThonnyButtons.png)
 
+Von links nach rechts haben die Buttons folgende Funtkionen, wobei die ersten vier und der letzte die wichtigsten sind:
+
  1. Eine neue Datei anlegen
  2. Eine Datei öffnen
  3. Die Datei speichern
@@ -21,17 +23,15 @@ Zunächst die Buttons direkt unter dem Menü.
  9. "Stopp-Button" das Programm beenden, wenn es Probleme gibt und das Ausführen
     nicht mehr funktioniert so hilft es oft das alte Programm zu beenden und dann neu starten
 
-Noch einmal überprüfen, ob man gespeichert hat, dann kann man das Programm im
-Terminal ausführen.
 
 > ### Übung
 > 1. Öffnen Sie eine neue Datei durch einen Klick auf den neuen Datei-Button.
-> 1. Geben Sie den Befehl `print("hallo")` in die neu geöffnete Datei ein.
+> 1. Geben Sie den Befehl `print("hallo")` in die neu geöffnete Datei, also den oberen Teil des Fensters, ein.
 > 1. Speichern Sie diese Datei mit dem Namen `Hallo.py` ab.
 > 1. Führen Sie nun die Datei mit dem grünen "Play-Button" aus.
 > 1. Finden Sie, wo der Text `"hallo"` ausgegeben wurde.
 
-Dieses kurze Programm tut nichts anderes, als `"hallo"` auszugeben.
+Dieses kurze Programm tut nichts anderes, als `hallo` auszugeben.
 
 # Automatische Ausgabe
 
@@ -46,6 +46,8 @@ Der Computer rechnet zwar fleißig was 5+7 ist, aber verwendet dann das Ergebnis
 ```python
 print(5 + 7)
 ```
+
+Dieses Verhalten hat den Grund, dass große Programme sehr viel berechnen. Würde all das ausgegeben, dann würde einfach viel zu viel ausgegeben.
 
 
 > ### Notiz
