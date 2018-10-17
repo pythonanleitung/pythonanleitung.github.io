@@ -53,4 +53,11 @@ In der letzten Umformung ist zu beachten, dass nicht gerundet wird, sondern einf
 >   * Zahlen haben keine Anführungszeichen.
 >   * Dezimalzahlen müssen mit Punkten statt Kommas aufgeschrieben werden.
 
+> ### Übungen
+>   1. Speichern Sie in den Variablen `eis`, `zwerg`, 'drache' die Werte `45`, `93`, `"lo"`
+>   1. Speichern Sie ihr Werk unter dem Namen `typen.py`.
+>   2. Multiplizieren Sie `eis` und `zwerg`, geben Sie das Ergebnis mit `print` aus.
+>   3. Multiplizieren Sie `eis` und `drache`, geben Sie das Ergebnis mit `print` aus.
+>   4. Addieren Sie `eis` und `Drache`, und geben Sie das Ergebnis aus. Wenn ein Fehler auftritt schauen Sie nocheinmal oben nach woran es liegen könnte: das Ergebniss sollte `45lo` sein.
+
 [Weiter zum nächsten Abschnitt](04Eingaben.md) |
