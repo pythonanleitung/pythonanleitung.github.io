@@ -3,8 +3,6 @@
 [Zurück zum vierten Abschnitt](04Eingaben.md) | [Zurück zur ersten Seite](README.md)
 
 Alle Programmiersprachen bieten die Möglichkeit, einen Befehl nur dann auszuführen, wenn eine bestimmte Bedingung eintritt.
-In Python tritt eine Bedingung ein, wenn sie Wahr (`True`) ist - oder zu `True` ausgewertet wird.
-Sie tritt nicht ein, wenn sie zu `False` ausgewertet wird.
 
 Ein einfaches Beispiel ist somit:
 
@@ -18,10 +16,21 @@ Ausgabe:
 wird angezeigt
 ```
 
-Das `if` in diesem Beispiel ist das Kommando, welches den bedingten Aufruf einleitet. Das `True` ist die Bedingung.
-In diesem Fall also die Immer wahre Bedingung - man könnte stattdessen auch `1==1` schreiben.
-Nun folgt ein **Doppelpunkt**. Die nächste Zeile wird eingerückt. Der `print`-Befehl gibt einfach das ihm zwischen Klammern übergebene aus. Ausgaben, also etwas was das Programm geschrieben hat, haben keine Punkte oder Pfeile am Anfang der Zeile.
-Wird nun die Eingabe durch zweimaliges drücken von `Enter` bestätigt, erscheint, wie erwartet, der Text `wird angezeigt`.
+Ein einfaches Beispiel ist somit:
+
+```python
+if 1 == 2:
+   print("wird nicht angezeigt")
+```
+
+Ausgabe:
+``` 
+
+```
+
+Das `if` in diesem Beispiel ist das Kommando, welches den bedingten Aufruf einleitet. Das `1 == 1` bzw. `1 == 2` ist die Bedingung.
+Im ersten Fall also die wahre Bedingung, im zweiten die unwahre Bedingung.
+Nun folgt ein **Doppelpunkt**. Die nächste Zeile wird eingerückt.
 
 > ### Übungen
 > 1. Schreiben Sie ein `if`, welches eine wahre Bedingung hat und mit print `"Wahr"` ausgibt
@@ -40,9 +49,11 @@ Beispiel:
 
 ```python
 if 1 == 1:
+  print("einsundeins")
   if 5 == 6:
      print("fünfundsechs")
-  print("einsundeins")
+     if 3 == 3:
+         print("dreiunddrei")
 ```
 
 Ausgabe:
@@ -50,7 +61,7 @@ Ausgabe:
 einsundeins
 ```
 
-In einer grafischen Programmiersprache `scratch` wird der obere Code so dargestellt, dass deutlicher ist, was wie zusammen gehört.
+In einer grafischen Programmiersprache `scratch` wird der obere Code so dargestellt, dass deutlicher ist, was wie zusammen gehört. Dieses Bild ist nur, falls Sie sich das dann besser vorstellen können. Falls nicht ignorieren Sie es.
 
 ![Geschachteltes If in Scratch](img/ifInScratch.png)
 
@@ -63,7 +74,7 @@ Oft wird es benötigt, dass ein bestimmter Befehl ausgeführt wird, wenn eine Be
 > Notiz: Sowohl nach `if` als auch nach `else` muss mindestens ein eingerückter Befehl kommen. Also man kann  im folgenden Beispiel **keines** der beiden `print`s weglassen (man kann sie aber durch beliebige andere Befehle ersetzen).
 
 ```python
-if False:
+if 1 == 2:
    print("wird nicht gezeigt")
 else:
    print("wird gezeigt")
@@ -73,12 +84,12 @@ Ausgabe:
 ```
 wird angezeigt
 ```
-Logischerweise ist `else` nur nach einem fertigen `if` sinnvoll. Man sieht durch die `>>>`, das if beginnt den Befehl und alles weitere ist Teil dieses Befehls, was durch `...` gezeigt wird.
+Logischerweise ist `else` nur nach einem fertigen `if` sinnvoll.
 
 Alternativ kann man natürlich auch eine wahre Bedingung einstellen, welche dem Text in `print` widerspricht. Man sieht hier, dass dem Computer die Bedeutung der Worte völlig gleichgültig ist er folgt nur der Logik der Befehle:
 
 ```python
-if True:
+if 1 == 1:
    print("wird nicht gezeigt")
 else:
    print("wird gezeigt")
@@ -90,12 +101,13 @@ wird nicht angezeigt
 ```
 
 > ### Aufgabe
-> 1. Schreibe ein if, welches als Bedingung `True` hat und im Wahrheitsfall `"richtig so!"` ausgibt.
-> 2. Schreibe ein if, welches als Bedingung `False` hat und im Sonstfall `"Sonstfall False"` ausgibt.
+> 1. Schreiben Sie folgende Aufgaben in die Datei `ifelse.py`
+> 1. Schreibe ein if, welches als Bedingung `64 == 64` hat und im Wahrheitsfall `"richtig so!"` ausgibt.
+> 2. Schreibe ein if, welches als Bedingung `1 == 5000` hat und im Sonstfall `"Sonstfall False"` ausgibt.
 
 # Bedingungungen schreiben
 
-Neben den normalen Rechenoperationen kann Python auch Vergleichsoperationen. Diese geben immer entweder wahr oder falsch zurück:
+Neben den normalen Rechenoperationen kann Python auch Vergleichsoperationen. Diese geben immer entweder wahr (`True`) oder falsch (`False`) zurück:
 
 | Operator (Zeichen) | ist `True`(wahr) wenn... |
 | `A == B` | A ist gleich wie B |
@@ -113,7 +125,7 @@ Außerdem kann man noch zwei Wahrheitswerte mit den folgenden Befehlen kombinier
 | `not A` | ist wahr, wenn A unwahr (`False`) ist |
 
 > ### Übung
-> sind die folgenden Ausdrücke `True` oder `False`?
+> sind die folgenden Ausdrücke wahr oder falsch? - Schreiben Sie die Ergebnisse in die Datei `ifelse.py` mit dazu Beginnen Sie jede Zeile mit einem `#` dann ignoriert der Computer diese Zeile.
 > 1. `5 < 6`
 > 1. `5 != 6`
 > 1. `5 <= 6`
