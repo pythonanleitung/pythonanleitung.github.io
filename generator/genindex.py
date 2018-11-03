@@ -69,7 +69,7 @@ strings = dict()
 #strings['back'] = "[Zurück zu Kapitel {index}: {name}]({filename}) | ".format(index=chapter_index, name=prev[0], filename=prev[1])
 strings['inhalt'] = "[Inhaltsverzeichnis]({filename}) | ".format(filename="README.md")
 strings['next'] = "[Weiter zu Kapitel {index}: {name}]({filename}) | ".format(index=1, name = chapters_list[0][0], filename=chapters_list[0][1])
-inhaltsstrings = [" 1. [{0}]({1})".format( x[0], x[1]) for x in chapters_list]
+inhaltsstrings = [" 1. [{0}{1}]({2})".format( x[0], " - " + x[1] if x[1] else "" , x[2]) for x in chapters_list]
 strings['inhaltsverzeichnis'] = '\n'.join(inhaltsstrings)
 
 with open(src("README.md"), 'r') as s:
