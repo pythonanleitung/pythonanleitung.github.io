@@ -26,8 +26,8 @@ chapters_list = [
     ("Cheat-Sheet", "Cheat-Sheet.md")
 ]
 projpath = os.path.dirname(os.path.dirname(__file__))
-srcpath = "docs/src"
-destpath = "docs/page"
+srcpath = "src"
+destpath = "docs"
 
 def src(filename):
     return os.path.join(projpath, srcpath, filename)
