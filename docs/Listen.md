@@ -1,6 +1,6 @@
 # Listen
 
-| [Zurück zum zwölften Abschnitt](12Turtlebeispielaufgaben.md) | [Zurück zur ersten Seite](README.md) |
+| [Zurück zum zwölften Abschnitt](Turtlebeispielaufgaben.md) | [Zurück zur ersten Seite](README.md) |
 
 Python kann neben einem einzelnen Wert auch eine Liste von Werten in einer Variablen abspeichern.
 
@@ -41,4 +41,4 @@ while i <= 14:
 Statt die Länge des Wortes händisch zu zählen (also die 15), kann auch die Funktion `len(wort)` verwendet werden.
 
 
-[Weiter zum nächsten Abschnitt](14Forschleifen.md) |
+[Weiter zum nächsten Abschnitt](Forschleifen.md) |

@@ -1,6 +1,6 @@
 # Aufgaben für das Epochenheft
 
-| [Zurück zum fünfzehnten Abschnitt](15Kommentare.md) | [Zurück zur ersten Seite](README.md) |
+| [Zurück zum fünfzehnten Abschnitt](Kommentare.md) | [Zurück zur ersten Seite](README.md) |
 
 Die Folgenden Aufgaben dienen als Leitfaden für die Gestaltung des Epochenhefts. Versuchen Sie dieses strukturiert und schön zu gestalten. Die verschiedenen Gestaltungsmöglichkeiten finden Sie unter [markdown explained](https://docs.gitlab.com/ce/user/markdown.html). Wenn Sie auf eine andere Datei verweisen wollen, schreiben Sie zum Beispiel:
 `[Epochenheft](README.md)` was dann ergibt: [Epochenheft](README.md) - Einen Link mit Namen Epochenheft, der auf die `README.md`-Datei verweist.
@@ -28,4 +28,4 @@ Die Folgenden Aufgaben dienen als Leitfaden für die Gestaltung des Epochenhefts
 
 Gestalten Sie auch diese `README.md` mit den Gestaltungselementen aus: [markdown explained](https://docs.gitlab.com/ce/user/markdown.html)
 
-[Weiter zum nächsten Abschnitt](17Computerspiel.md) |
+[Weiter zum nächsten Abschnitt](Computerspiel.md) |

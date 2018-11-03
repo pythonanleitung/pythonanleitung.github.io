@@ -1,6 +1,6 @@
 # Zusammenfassung der Turtle Befehle
 
-| [Zurück zum zehnten Abschnitt](10Kreise.md) | [Zurück zur ersten Seite](README.md) |
+| [Zurück zum zehnten Abschnitt](Kreise.md) | [Zurück zur ersten Seite](README.md) |
 
 Erstellen eines Turtlefensters mit:
 
@@ -46,4 +46,4 @@ t.showturtle()          # zeigen der Schildkröte
 t.exitonclick()         # schließen wenn ins fenster geklickt wird
 ```
 
-[Weiter zum nächsten Abschnitt](12Turtlebeispielaufgaben.md) |
+[Weiter zum nächsten Abschnitt](Turtlebeispielaufgaben.md) |

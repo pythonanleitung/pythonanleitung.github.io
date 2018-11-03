@@ -1,6 +1,6 @@
 # Eingaben mit Input
 
-[Zurück zum vorherigen Abschnitt](03ZZDatentypen.md) | [Zurück zur ersten Seite](README.md)
+[Zurück zum vorherigen Abschnitt](Datentypen.md) | [Zurück zur ersten Seite](README.md)
 
 Bis jetzt waren die Programme so, dass sie immer dasselbe Ergebnis hatten.
 Das heißt, wurde ein Programm gestartet, so zeigt es immer dieselben Ausgaben,
@@ -69,4 +69,4 @@ Die ganze Zahl ist: 6
 Die ganze Zahl mal sechs ist: 30
 ```
 
-[Weiter zum nächsten Abschnitt](05BedingtesAusfuehren.md) |
+[Weiter zum nächsten Abschnitt](BedingtesAusfuehren.md) |

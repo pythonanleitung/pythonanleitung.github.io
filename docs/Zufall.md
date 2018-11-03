@@ -1,6 +1,6 @@
 # Zufall
 
-[Zurück zum fünften Abschnitt](05BedingtesAusfuehren.md) | [Zurück zur ersten Seite](README.md)
+[Zurück zum fünften Abschnitt](BedingtesAusfuehren.md) | [Zurück zur ersten Seite](README.md)
 
 Für das Programm aus der letzten Übung wäre es natürlich schön, wenn sich der Computer die Zahl, die zu erraten ist, selbst ausdenkt, da sonst das Ratespiel recht schnell langweilig wird.
 
@@ -51,4 +51,4 @@ Diese Zufallszahl kann natürlich auch in eine Variable gespeichert werden mit `
 > richtig
 > ```
 
-[Weiter zum nächsten Abschnitt](07Wiederholungen.md) |
+[Weiter zum nächsten Abschnitt](Wiederholungen.md) |

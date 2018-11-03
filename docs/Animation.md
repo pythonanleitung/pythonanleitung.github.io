@@ -1,6 +1,6 @@
 # Animation
 
-[Zurück zum siebzehnten Abschnitt](17Computerspiel.md) | [Zurück zur ersten Seite](README.md)
+[Zurück zum siebzehnten Abschnitt](Computerspiel.md) | [Zurück zur ersten Seite](README.md)
 
 Ein Spiel wäre nun relativ langweilig, wenn sich nichts "bewegen" würde. Bei diesem Spiel Soll sich eine Schlange bewegen. Bewegung heißt, dass der Pixel vor dem Kopf der Schlange blau wird, und der letzte wieder weiß.
 

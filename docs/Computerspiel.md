@@ -1,6 +1,6 @@
 # Computerspiele
 
-[Zurück zum sechzehnten Abschnitt](16AufgabenEpochenheft.md) | [Zurück zur ersten Seite](README.md)
+[Zurück zum sechzehnten Abschnitt](AufgabenEpochenheft.md) | [Zurück zur ersten Seite](README.md)
 
 Das nächste Ziel ist ein kleine Snake-Spiel zu entwickeln.
 
@@ -77,4 +77,4 @@ s.level[9] = 1
 > * Zeichnen Sie dieses Level mit einer Funktion namens `level1`.
 > * Erstellen Sie noch eine Funktion `level2`, die ein eigenes Muster macht.
 
-[Weiter zum nächsten Abschnitt](18Animation.md) |
+[Weiter zum nächsten Abschnitt](Animation.md) |

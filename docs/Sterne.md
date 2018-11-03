@@ -1,6 +1,6 @@
 # Sterne zeichnen mit Turtle
 
-| [Zurück zum achten Abschnitt](08Turtle.md) | [Zurück zur ersten Seite](README.md) |
+| [Zurück zum achten Abschnitt](Turtle.md) | [Zurück zur ersten Seite](README.md) |
 
 > ### Übung
 > 
@@ -59,4 +59,4 @@ dass Sie die ganze Zeit schon solche Funktionen verwendet haben zum Beispiel `pr
 > ![Turtle mit zufälligem Ort](img/turtlesternerandom.png)
 > ![Turtle mit gleichem Zentrum](img/turtlesterne.png)
 
-[Weiter zum nächsten Abschnitt](10Kreise.md) |
+[Weiter zum nächsten Abschnitt](Kreise.md) |

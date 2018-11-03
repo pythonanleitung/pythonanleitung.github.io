@@ -102,4 +102,4 @@ Das Ergebnis ist nun `1.0`.
 > 1. Berechnen Sie das Ergebnis von `5` mal `3` und das ganze plus `2`
 > 1. Berechnen Sie das Ergebnis von `3` plus `2` und das ganze mal `5`
 
-[Weiter zum nächsten Abschnitt](02Speichern.md) |
+[Weiter zum nächsten Abschnitt](Speichern.md) |

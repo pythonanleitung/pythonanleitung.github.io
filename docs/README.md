@@ -24,32 +24,32 @@ liebsten verwenden würden.
 
 Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens herangeführt.
 
-[Weiter zum ersten Abschnitt](01ErsteSchritte.md) |
+[Weiter zum ersten Abschnitt](ErsteSchritte.md) |
 
 # Inhaltsverzeichnis
 
-1. [Erste Schritte](01ErsteSchritte.md)
-1. [Speichern in eine Datei](02Speichern.md)
-1. [Variablen - Das Kurzzeitgedächtnis](03Variablen.md)
-1. [Fehlermeldung - sieht zwar sinnlos aus, hilft aber](03ZFehler.md)
-1. [Datentypen - Der Unterschied zwischen Zahl und Text](03ZZDatentypen.md)
-1. [Eingaben - Wenn der Computer reagiert](04Eingaben.md)
-1. [Fallunterscheidung - Wenn -> Dann](05BedingtesAusfuehren.md)
-1. [Zufall](06Zufall.md)
-1. [Wiederholungen](07Wiederholungen.md)
-1. [Schildkröten](08Turtle.md)
-1. [Mehrmaliges tun](08.1Turtle-Wiederholungen.md)
-1. [Sterne](09Sterne.md)
-1. [Kreise](10Kreise.md)
-1. [Turtle Zusammenfassung](11Turtlebefehle.md)
-1. [Turtle Beispielaufgaben](12Turtlebeispielaufgaben.md)
-1. [Listen](13Listen.md)
-1. [For Schleifen](14Forschleifen.md)
-1. [Kommentare](15Kommentare.md)
-1. [Epochenheft](16AufgabenEpochenheft.md)
-1. [Computerspiele](17Computerspiel.md)
-1. [Animation](18Animation.md)
-1. [Cheat-Sheet](99Cheat-Sheet.md)
+1. [Erste Schritte](ErsteSchritte.md)
+1. [Speichern in eine Datei](Speichern.md)
+1. [Variablen - Das Kurzzeitgedächtnis](Variablen.md)
+1. [Fehlermeldung - sieht zwar sinnlos aus, hilft aber](Fehler.md)
+1. [Datentypen - Der Unterschied zwischen Zahl und Text](Datentypen.md)
+1. [Eingaben - Wenn der Computer reagiert](Eingaben.md)
+1. [Fallunterscheidung - Wenn -> Dann](BedingtesAusfuehren.md)
+1. [Schildkröten](Turtle.md)
+1. [Zufall](Zufall.md)
+1. [Wiederholungen](Wiederholungen.md)
+1. [Mehrmaliges tun](Turtle-Wiederholungen.md)
+1. [Sterne](Sterne.md)
+1. [Kreise](Kreise.md)
+1. [Turtle Zusammenfassung](Turtlebefehle.md)
+1. [Turtle Beispielaufgaben](Turtlebeispielaufgaben.md)
+1. [Listen](Listen.md)
+1. [For Schleifen](Forschleifen.md)
+1. [Kommentare](Kommentare.md)
+1. [Epochenheft](AufgabenEpochenheft.md)
+1. [Computerspiele](Computerspiel.md)
+1. [Animation](Animation.md)
+1. [Cheat-Sheet](Cheat-Sheet.md)
 
 
 

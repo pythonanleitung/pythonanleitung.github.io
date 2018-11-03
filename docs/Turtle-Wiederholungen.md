@@ -1,6 +1,6 @@
 # Wiederholungen mit Turtles
 
-[Zurück zum sechsten Abschnitt](08Turtle.md) | [Zurück zur ersten Seite](README.md)
+[Zurück zum sechsten Abschnitt](Turtle.md) | [Zurück zur ersten Seite](README.md)
 
 ## Wiederholung bis nicht mehr wahr
 

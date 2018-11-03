@@ -1,6 +1,6 @@
 # Fehler
 
-[Zurück zum vorherigen Abschnitt](03Variablen.md) | [Zurück zur ersten Seite](README.md)
+[Zurück zum vorherigen Abschnitt](Variablen.md) | [Zurück zur ersten Seite](README.md)
 
 Vermutlich ist schon aufgefallen, wie kleinlich python auf die Korrektheit
 achtet. Sobald auch nur ein einzelner Buchstabe falsch ist, bekommt man einen
@@ -72,4 +72,4 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
-[Weiter zum nächsten Abschnitt](03ZZDatentypen.md) |
+[Weiter zum nächsten Abschnitt](Datentypen.md) |

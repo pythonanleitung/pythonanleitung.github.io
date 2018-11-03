@@ -1,6 +1,6 @@
 # For Schleifen
 
-| [Zurück zum dreizehnten Abschnitt](13Listen.md) | [Zurück zur ersten Seite](README.md) |
+| [Zurück zum dreizehnten Abschnitt](Listen.md) | [Zurück zur ersten Seite](README.md) |
 
 Möchte man etwas eine bestimmte Anzahl oft wiederholen, so könnte man dies mit einer
 `while` schleife tun, muss dann aber mit zählen und aufhören, wenn die gewünschte Anzahl von Durchläufen erreicht ist.
@@ -24,4 +24,4 @@ for el in ["blue", "green", "yellow"]:
 Es wird also ausgegeben: `A blue bird`, `A green bird`, `A yellow bird`
 
 
-[Weiter zum nächsten Abschnitt](15AufgabenEpochenheft.md) |
+[Weiter zum nächsten Abschnitt](AufgabenEpochenheft.md) |
