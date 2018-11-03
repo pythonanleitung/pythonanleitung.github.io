@@ -1,6 +1,5 @@
 # Zeichnen von Kreisen
 
-
 {back} {inhalt} {next}
 
 Möchte man zum Beispiel einen Kreis um die Sterne oder ein Herz zeichnen, so benötigt man

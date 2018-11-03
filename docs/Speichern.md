@@ -1,6 +1,6 @@
 # Speichern in eine Datei
 
-[Zurück zu Kapitel 1: Erste Schritte](ErsteSchritte.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 3: Variablen - Das Kurzzeitgedächtnis](Variablen.md) | 
+[Zurück zu Kapitel 1: Erste Schritte](ErsteSchritte.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 3: Variablen](Variablen.md) | 
 
 Da das ständige erneut Tippen auf Dauer nicht besonders effizient ist, kann man den Programmcode von Python in eine Datei abspeichern und dann diese Datei ausführen.
 
@@ -60,4 +60,4 @@ Immer wenn etwas im oberen Fenster verändert wurde, so muss wieder der "Play-Bu
 > 1. Speichern Sie diese Datei mit dem Namen `rechnung.py` ab.
 > 1. Führen Sie nun die Datei mit dem "Play-Button" aus.
 
-[Zurück zu Kapitel 1: Erste Schritte](ErsteSchritte.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 3: Variablen - Das Kurzzeitgedächtnis](Variablen.md) | 
+[Zurück zu Kapitel 1: Erste Schritte](ErsteSchritte.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 3: Variablen](Variablen.md) | 

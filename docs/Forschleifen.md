@@ -23,5 +23,4 @@ for el in ["blue", "green", "yellow"]:
 
 Es wird also ausgegeben: `A blue bird`, `A green bird`, `A yellow bird`
 
-
 [Zurück zu Kapitel 16: Listen](Listen.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 18: Kommentare](Kommentare.md) | 

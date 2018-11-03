@@ -1,6 +1,6 @@
 # Eingaben mit Input
 
-[Zurück zu Kapitel 5: Datentypen - Buchstaben und Zahlen](Datentypen.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 7: Fallunterscheidung - Wenn -> Dann](BedingtesAusfuehren.md) | 
+[Zurück zu Kapitel 5: Datentypen](Datentypen.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 7: Fallunterscheidung](BedingtesAusfuehren.md) | 
 
 Bis jetzt waren die Programme so, dass sie immer dasselbe Ergebnis hatten.
 Das heißt, wurde ein Programm gestartet, so zeigt es immer dieselben Ausgaben,
@@ -69,4 +69,4 @@ Die ganze Zahl ist: 6
 Die ganze Zahl mal sechs ist: 30
 ```
 
-[Zurück zu Kapitel 5: Datentypen - Buchstaben und Zahlen](Datentypen.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 7: Fallunterscheidung - Wenn -> Dann](BedingtesAusfuehren.md) | 
+[Zurück zu Kapitel 5: Datentypen](Datentypen.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 7: Fallunterscheidung](BedingtesAusfuehren.md) | 

@@ -24,31 +24,31 @@ liebsten verwenden würden.
 
 Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens herangeführt.
 
-[Weiter zu Kapitel 1: Erste Schritte](ErsteSchritte.md) | 
+[Weiter zu Kapitel 1: Erste Schritte]() | 
 
 # Inhaltsverzeichnis
 
- 1. [Erste Schritte](ErsteSchritte.md)
- 1. [Speichern in eine Datei](Speichern.md)
- 1. [Variablen - Das Kurzzeitgedächtnis](Variablen.md)
- 1. [Fehlermeldungen - können helfen](Fehler.md)
- 1. [Datentypen - Buchstaben und Zahlen](Datentypen.md)
- 1. [Eingaben - Interaktive Programme](Eingaben.md)
- 1. [Fallunterscheidung - Wenn -> Dann](BedingtesAusfuehren.md)
- 1. [Schildkröten](Turtle.md)
- 1. [Zufall](Zufall.md)
- 1. [Wiederholungen](Wiederholungen.md)
- 1. [Mehrmaliges tun](Turtle-Wiederholungen.md)
- 1. [Sterne](Sterne.md)
- 1. [Kreise](Kreise.md)
- 1. [Turtle Zusammenfassung](Turtlebefehle.md)
- 1. [Turtle Beispielaufgaben](Turtlebeispielaufgaben.md)
- 1. [Listen](Listen.md)
- 1. [For Schleifen](Forschleifen.md)
- 1. [Kommentare](Kommentare.md)
- 1. [Epochenheft](AufgabenEpochenheft.md)
- 1. [Computerspiele](Computerspiel.md)
- 1. [Animation](Animation.md)
- 1. [Cheat-Sheet](Cheat-Sheet.md)
+ 1. [Erste Schritte]()
+ 1. [Speichern in eine Datei]()
+ 1. [Variablen](Das Kurzzeitgedächtnis)
+ 1. [Fehlermeldungen](können helfen)
+ 1. [Datentypen](Buchstaben und Zahlen)
+ 1. [Eingaben](Interaktive Programme)
+ 1. [Fallunterscheidung](Wenn -> Dann)
+ 1. [Schildkröten]()
+ 1. [Zufall]()
+ 1. [Wiederholungen]()
+ 1. [Mehrmaliges tun]()
+ 1. [Sterne]()
+ 1. [Kreise]()
+ 1. [Turtle Zusammenfassung]()
+ 1. [Turtle Beispielaufgaben]()
+ 1. [Listen]()
+ 1. [For Schleifen]()
+ 1. [Kommentare]()
+ 1. [Epochenheft]()
+ 1. [Computerspiele]()
+ 1. [Animation]()
+ 1. [Cheat-Sheet]()
 
-[Weiter zu Kapitel 1: Erste Schritte](ErsteSchritte.md) | 
+[Weiter zu Kapitel 1: Erste Schritte]() | 

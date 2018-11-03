@@ -23,5 +23,4 @@ for el in ["blue", "green", "yellow"]:
 
 Es wird also ausgegeben: `A blue bird`, `A green bird`, `A yellow bird`
 
-
 {back} {inhalt} {next}

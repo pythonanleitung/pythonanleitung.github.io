@@ -1,6 +1,6 @@
 # Schildkröten
 
-[Zurück zu Kapitel 7: Fallunterscheidung - Wenn -> Dann](BedingtesAusfuehren.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 9: Zufall](Zufall.md) | 
+[Zurück zu Kapitel 7: Fallunterscheidung](BedingtesAusfuehren.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 9: Zufall](Zufall.md) | 
 
 Nachdem Nun die gröbsten Grundlagen der Programmiersprache gelernt sind, fängt es jetzt an (noch mehr) Spaß zu machen. Im folgenden wird das Modul `turtle` verwendet. Dieses stellt eine einfache Möglichkeit zur Verfügung ein Fenster zu öffnen und in dieses Fenster mithilfe eines `turtles` zu zeichnen.
 
@@ -120,4 +120,4 @@ c = math.sqrt(a * a + b * b)
 > 
 > ![Haus vom Nikolaus](img/nikolaushaus.png)
 
-[Zurück zu Kapitel 7: Fallunterscheidung - Wenn -> Dann](BedingtesAusfuehren.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 9: Zufall](Zufall.md) | 
+[Zurück zu Kapitel 7: Fallunterscheidung](BedingtesAusfuehren.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 9: Zufall](Zufall.md) | 

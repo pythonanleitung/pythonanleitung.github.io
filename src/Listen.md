@@ -40,5 +40,4 @@ while i <= 14:
 
 Statt die Länge des Wortes händisch zu zählen (also die 15), kann auch die Funktion `len(wort)` verwendet werden.
 
-
 {back} {inhalt} {next}

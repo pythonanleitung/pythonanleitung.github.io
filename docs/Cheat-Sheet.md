@@ -1,5 +1,7 @@
 # Cheat-Sheet
-[Zurück zu Kapitel 21: Animation](Animation.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 23: ]() | 
+
+[Zurück zu Kapitel 21: Animation](Animation.md) |  [Inhaltsverzeichnis](README.md) |  
+
 ### Zahlen
 
 ```python
@@ -65,4 +67,4 @@ doFun(name="Gollom")
 doFun(name="Dobby")
 ```
 
-[Zurück zu Kapitel 21: Animation](Animation.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 23: ]() | 
+[Zurück zu Kapitel 21: Animation](Animation.md) |  [Inhaltsverzeichnis](README.md) |  

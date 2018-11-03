@@ -40,5 +40,4 @@ while i <= 14:
 
 Statt die Länge des Wortes händisch zu zählen (also die 15), kann auch die Funktion `len(wort)` verwendet werden.
 
-
 [Zurück zu Kapitel 15: Turtle Beispielaufgaben](Turtlebeispielaufgaben.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 17: For Schleifen](Forschleifen.md) | 
