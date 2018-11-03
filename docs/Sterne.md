@@ -1,6 +1,6 @@
 # Sterne zeichnen mit Turtle
 
-[Zurück zu Kapitel 11: Mehrmaliges tun](Turtle-Wiederholungen.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 13: Kreise](Kreise.md) | 
+[Zurück zu Kapitel 13: Zufall](Zufall.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 15: Kreise](Kreise.md) | 
 
 > ### Übung
 > 
@@ -59,4 +59,4 @@ dass Sie die ganze Zeit schon solche Funktionen verwendet haben zum Beispiel `pr
 > ![Turtle mit zufälligem Ort](img/turtlesternerandom.png)
 > ![Turtle mit gleichem Zentrum](img/turtlesterne.png)
 
-[Zurück zu Kapitel 11: Mehrmaliges tun](Turtle-Wiederholungen.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 13: Kreise](Kreise.md) | 
+[Zurück zu Kapitel 13: Zufall](Zufall.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 15: Kreise](Kreise.md) | 

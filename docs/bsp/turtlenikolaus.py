@@ -21,7 +21,7 @@ def nikolausdiag(größe):
     t.left(45)
     t.forward(diag)
     t.left(45)
-    nikolausdach(größe)
+    nikolausdach2(größe)
     t.left(45)
     t.forward(diag)
     t.left(45)
@@ -33,6 +33,15 @@ def nikolausdach(größe):
     t.left(120)
     t.forward(größe)
     t.left(30)
+    
+def nikolausdach2(größe):
+    quadrat = größe * größe
+    diag = math.sqrt(quadrat + quadrat)
+    t.left(45)
+    t.forward(diag/2)
+    t.left(90)
+    t.forward(diag/2)
+    t.left(45)
     
 
 def nikolaus(größe):

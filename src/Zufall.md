@@ -38,11 +38,12 @@ Diese Zufallszahl kann natürlich auch in eine Variable gespeichert werden mit `
 > ### Aufgabe
 > 1. Schreiben Sie folgende Aufgaben in die Datei `ratespiel.py`.
 > 1. Schreiben Sie ein Programm, welches eine Zufallszahl zwischen `1` und `10` generiert, und diese ausgibt.
-> 2. Erweitern Sie dieses Programm so, dass es dreimal nach einem Tipp fragt, für diese Zahl () die Ausgabe der zahl sollte natürlich entfernt werden.
+> 2. Erweitern Sie dieses Programm so, dass es drei mal nach einem Tipp fragt, die Ausgabe der zahl sollte natürlich entfernt werden. Hierzu müssen Sie die Befehle `input` und `print` verwenden siehe [hier](Eingaben.md). Die Kapitel [Variablen](Variablen.md) und [Datentypen](Datentypen.md) könnten auch helfen. Die Wiederholung der Frage wird am Besten mit einem [while](Wiederholungenwhile.md) realisiert
 > 3. Speicheren Sie die Zufallszahl zu Beginn in eine Variable und verändern Sie diese dann nicht mehr. Nun geben Sie jedes Mal aus, ob der Tipp zu groß oder zu klein war. Es sollte nun möglich sein die Zahl in 3 Versuchen zu erraten.
+> 4. Erweitern Sie das Spiel so, dass es unbegrenzt oft fragt. Erweitern Sie auch die Zufallszahl auf eine Zahl zwischen 1 und 100. Oder sogar 1 und 1000. Überlegen Sie nach wie vielen Tipps sie jeweils die Antwort sicher wissen können.
 > Beispiel:
 >
-> ```python
+> ```
 > Tipp: 5
 > zu klein
 > Tipp: 8

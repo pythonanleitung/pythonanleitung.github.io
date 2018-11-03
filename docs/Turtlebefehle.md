@@ -1,6 +1,6 @@
 # Zusammenfassung der Turtle Befehle
 
-[Zurück zu Kapitel 13: Kreise](Kreise.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 15: Turtle Beispielaufgaben](Turtlebeispielaufgaben.md) | 
+[Zurück zu Kapitel 15: Kreise](Kreise.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 17: Turtle Beispielaufgaben](Turtlebeispielaufgaben.md) | 
 
 Erstellen eines Turtlefensters mit:
 
@@ -46,4 +46,4 @@ t.showturtle()          # zeigen der Schildkröte
 t.exitonclick()         # schließen wenn ins fenster geklickt wird
 ```
 
-[Zurück zu Kapitel 13: Kreise](Kreise.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 15: Turtle Beispielaufgaben](Turtlebeispielaufgaben.md) | 
+[Zurück zu Kapitel 15: Kreise](Kreise.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 17: Turtle Beispielaufgaben](Turtlebeispielaufgaben.md) | 

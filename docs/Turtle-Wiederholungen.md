@@ -1,6 +1,6 @@
 # Wiederholungen mit Turtles
 
-[Zurück zu Kapitel 10: Wiederholungen](Wiederholungen.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 12: Sterne](Sterne.md) | 
+[Zurück zu Kapitel 9: Wiederholungen](Wiederholungen.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 11: Zufall](Zufall.md) | 
 
 ## Wiederholung bis nicht mehr wahr
 
@@ -80,4 +80,4 @@ Da die Zeile mit `t.forward` wieder weniger eingerückt ist als `t.left` gehört
 >    4. d geradeaus geht
 > 2. Denken Sie sich ein schönes Bild aus, welches sie mit obigem for zeichnen.
 
-[Zurück zu Kapitel 10: Wiederholungen](Wiederholungen.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 12: Sterne](Sterne.md) | 
+[Zurück zu Kapitel 9: Wiederholungen](Wiederholungen.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 11: Zufall](Zufall.md) | 

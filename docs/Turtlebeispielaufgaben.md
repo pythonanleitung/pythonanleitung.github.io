@@ -1,13 +1,13 @@
 # Eine Liste von möglichen Turtlegrafiken
 
-[Zurück zu Kapitel 14: Turtle Zusammenfassung](Turtlebefehle.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 16: Listen](Listen.md) | 
+[Zurück zu Kapitel 16: Turtle Zusammenfassung](Turtlebefehle.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 18: Kommentare](Kommentare.md) | 
 
 ## YinYang
 
 Benötigt werden:
-  * [Kreise](10Kreise.md)
-  * [Bewegen ohne Zeichnen](08Turtle.md#das-turtle-bewegen-ohne-zu-zeichnen)
-  * [begin_fill, end_fill](11Turtlebefehle.md)
+  * [Kreise](Kreise.md)
+  * [Bewegen ohne Zeichnen](Turtle.md#das-turtle-bewegen-ohne-zu-zeichnen)
+  * [begin_fill, end_fill](Turtlebefehle.md)
 
   ![YinYang](img/turtleyinyang.png)
   
@@ -16,8 +16,8 @@ Zeichnen Sie einer Sechseckspirale. Der Trick ist, dass man nicht genau den Wink
 
 Benötigt werden:
 
-  * [Forschleifen](14Forschleifen.md)
-  * [Listen für die Farben](12Turtlebeispielaufgaben.md)
+  * [Forschleifen](Forschleifen.md)
+  * [Listen für die Farben](Listen.md)
 
   ![Sechseckspirale](img/turtlesechseckspirale.png)
 
@@ -27,7 +27,7 @@ Zeichnen Sie einer Viereckspirale in Schwarzweiß. Der Trick ist, dass man nicht
 
 Benötigt werden:
 
-  * [Forschleifen](14Forschleifen.md)
+  * [Forschleifen](Forschleifen.md)
 
   ![Viereckspirale](img/turtleviereckspiralesw.png)
 
@@ -37,8 +37,8 @@ Zeichnen Sie einer Viereckspirale. Die Farben müssen aus einer Liste von Farben
 
 Benötigt werden:
 
-  * [Forschleifen](14Forschleifen.md)
-  * [Listen für die Farben](12Turtlebeispielaufgaben.md)
+  * [Forschleifen](Forschleifen.md)
+  * [Listen für die Farben](Turtlebeispielaufgaben.md)
 
   ![Viereckspirale](img/turtleviereckspirale.png)
 
@@ -48,9 +48,9 @@ Mit turtle und der `goto(x,y)` Funktion kann man sehr gut mathematische Graphen,
 
 Benötigt werden:
 
-  * [Forschleifen](14Forschleifen.md)
-  * [Goto](11Turtlebefehle.md)
-  * [Bewegen ohne Zeichnen](08Turtle.md#das-turtle-bewegen-ohne-zu-zeichnen)
+  * [Forschleifen](Forschleifen.md)
+  * [Goto](Turtlebefehle.md)
+  * [Bewegen ohne Zeichnen](Turtle.md#das-turtle-bewegen-ohne-zu-zeichnen)
 
   ![Mathematische Parabel](img/turtleparabel.png)
   
@@ -60,11 +60,11 @@ Zeichnen Sie ein Mandala mit Sternchen, Herzen und Kreisen.
 
 Benötigt werden:
 
-  * [Forschleifen](14Forschleifen.md)
-  * [Funktionen](09Sterne.md#funktionen)
-  * [Das Herz](10Kreise.md)
-  * [begin_fill, end_fill](11Turtlebefehle.md)
+  * [Forschleifen](Forschleifen.md)
+  * [Funktionen](Sterne.md#funktionen)
+  * [Das Herz](Kreise.md)
+  * [begin_fill, end_fill](Turtlebefehle.md)
   
   ![Herzmandala](img/turtleherzmandala.png)
 
-[Zurück zu Kapitel 14: Turtle Zusammenfassung](Turtlebefehle.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 16: Listen](Listen.md) | 
+[Zurück zu Kapitel 16: Turtle Zusammenfassung](Turtlebefehle.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 18: Kommentare](Kommentare.md) | 

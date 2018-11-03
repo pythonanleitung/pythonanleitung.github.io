@@ -34,9 +34,9 @@ Nun folgt ein **Doppelpunkt**. Die nächste Zeile wird eingerückt.
 
 > ### Übungen
 > 1. Schreiben Sie ein `if`, welches eine wahre Bedingung hat und mit print `"Wahr"` ausgibt
-> 2. Schreiben Sie ein `if`, welches eine unwahre Bedingung hat und mit print `"Unwahr"` ausgibt
+> 2. Schreiben Sie ein zweites `if`, welches eine unwahre Bedingung hat und mit print `"Unwahr"` ausgibt
 > 
-> Was gibt das erste, was gibt das zweite aus?
+> Was gibt das erste, was gibt das zweite aus? Schreiben Sie die antwort als Kommentar in den code.
 
 ## Kurze Bemerkung zur **Einrückung**
 
@@ -102,8 +102,16 @@ wird nicht angezeigt
 
 > ### Aufgabe
 > 1. Schreiben Sie folgende Aufgaben in die Datei `ifelse.py`
-> 1. Schreibe ein if, welches als Bedingung `64 == 64` hat und im Wahrheitsfall `"richtig so!"` ausgibt.
-> 2. Schreibe ein if, welches als Bedingung `1 == 5000` hat und im Sonstfall `"Sonstfall False"` ausgibt.
+> 1. Schreibe ein if, welches als Bedingung `64 == 64` hat und im **Wahrheitsfall** `"Richtig so!"` ausgibt.
+> 2. Schreibe ein zweites if, welches als Bedingung `1 == 5000` hat und im **Sonstfall** `"Sonstfall!"` ausgibt.
+> 
+> Wird dieses Programm ausgeführt produziert es folgende Ausgabe:
+> 
+```
+>>> %Run ifelse.py
+Richtig so!
+Sonstfall
+```
 
 # Bedingungungen schreiben
 
@@ -125,7 +133,10 @@ Außerdem kann man noch zwei Wahrheitswerte mit den folgenden Befehlen kombinier
 | `not A` | ist wahr, wenn A unwahr (`False`) ist |
 
 > ### Übung
-> sind die folgenden Ausdrücke wahr oder falsch? - Schreiben Sie die Ergebnisse in die Datei `ifelse.py` mit dazu Beginnen Sie jede Zeile mit einem `#` dann ignoriert der Computer diese Zeile.
+> sind die folgenden Ausdrücke wahr oder falsch? - Schreiben Sie die Ergebnisse in die Datei `ifelse.py` mit. Nach einem `#` wird der Rest der Zeile vom Computer ignoriert.
+> 
+> Für die erste Zeile ist die Lösung also: `5 < 6 # Wahr (True)`
+> 
 > 1. `5 < 6`
 > 1. `5 != 6`
 > 1. `5 <= 6`
@@ -134,12 +145,11 @@ Außerdem kann man noch zwei Wahrheitswerte mit den folgenden Befehlen kombinier
 > 1. `3 < 4 and 4 < 5`
 > 1. `not (3 != 4)`
 >
-> Prüfen Sie die Ergebnisse, die Sie im Kopf herausgefunden haben mit Python nach.
+> Prüfen Sie die Ergebnisse, die Sie im Kopf herausgefunden haben mit Python im ausprobierfenster nach.
 
 # Kombinieren mit dem bisher gelernten
 
 Natürlich kann dieses `if` mit allem zuvor gelernten und mit allem kommenden kombiniert werden. Die folgenden Beispiele kombinieren den `input`-Befehl mit den `if`-Abfragen.
-
 
 # Beispiel: ein Grußprogramm
 

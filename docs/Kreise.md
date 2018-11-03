@@ -1,6 +1,6 @@
 # Zeichnen von Kreisen
 
-[Zurück zu Kapitel 12: Sterne](Sterne.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 14: Turtle Zusammenfassung](Turtlebefehle.md) | 
+[Zurück zu Kapitel 14: Sterne](Sterne.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 16: Turtle Zusammenfassung](Turtlebefehle.md) | 
 
 Möchte man zum Beispiel einen Kreis um die Sterne oder ein Herz zeichnen, so benötigt man
 gebogene Linien.
@@ -27,4 +27,4 @@ t.circle(radius=50, extent=180, steps=5)
 > 
 > ![Turtle Herz](img/turtleherz.png) ![Turtle Sternkreise](img/turtlesternerandomkreise.png)
 
-[Zurück zu Kapitel 12: Sterne](Sterne.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 14: Turtle Zusammenfassung](Turtlebefehle.md) | 
+[Zurück zu Kapitel 14: Sterne](Sterne.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 16: Turtle Zusammenfassung](Turtlebefehle.md) | 
