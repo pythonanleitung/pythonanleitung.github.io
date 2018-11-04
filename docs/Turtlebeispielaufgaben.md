@@ -1,6 +1,6 @@
 # Eine Liste von möglichen Turtlegrafiken
 
-[Zurück zu Kapitel 16: Turtle Zusammenfassung](Turtlebefehle.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 18: Kommentare](Kommentare.md) | 
+[Zurück: Kapitel 16 - Kommentare](Kommentare.md) |  [Home](README.md) |  [Weiter: Kapitel 18 - Turtle Zusammenfassung](Turtlebefehle.md) | 
 
 ## YinYang
 
@@ -67,4 +67,4 @@ Benötigt werden:
   
   ![Herzmandala](img/turtleherzmandala.png)
 
-[Zurück zu Kapitel 16: Turtle Zusammenfassung](Turtlebefehle.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 18: Kommentare](Kommentare.md) | 
+[Zurück: Kapitel 16 - Kommentare](Kommentare.md) |  [Home](README.md) |  [Weiter: Kapitel 18 - Turtle Zusammenfassung](Turtlebefehle.md) | 

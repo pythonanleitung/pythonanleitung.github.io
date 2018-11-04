@@ -1,6 +1,6 @@
 # Ein erstes Beispiel
 
-[Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 2: Speichern in eine Datei](Speichern.md) | 
+[Home](README.md) |  [Weiter: Kapitel 2 - Speichern in eine Datei](Speichern.md) | 
 
 Als Erstes wird ein `thonny` geöffnet.
 
@@ -102,4 +102,4 @@ Das Ergebnis ist nun `1.0`.
 > 1. Berechnen Sie das Ergebnis von `5` mal `3` und das ganze plus `2`
 > 1. Berechnen Sie das Ergebnis von `3` plus `2` und das ganze mal `5`
 
-[Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 2: Speichern in eine Datei](Speichern.md) | 
+[Home](README.md) |  [Weiter: Kapitel 2 - Speichern in eine Datei](Speichern.md) | 

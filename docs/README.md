@@ -24,7 +24,7 @@ liebsten verwenden würden.
 
 Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens herangeführt.
 
-[Weiter zu Kapitel 1: Erste Schritte](ErsteSchritte.md) | 
+[Weiter: Kapitel 1 - Erste Schritte](ErsteSchritte.md) | 
 
 # Inhaltsverzeichnis
 
@@ -43,12 +43,11 @@ Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens he
  1. [Zufall](Zufall.md)
  1. [Sterne](Sterne.md)
  1. [Kreise](Kreise.md)
- 1. [Turtle Zusammenfassung](Turtlebefehle.md)
- 1. [Turtle Beispielaufgaben](Turtlebeispielaufgaben.md)
  1. [Kommentare](Kommentare.md)
- 1. [Epochenheft](AufgabenEpochenheft.md)
+ 1. [Turtle Beispielaufgaben](Turtlebeispielaufgaben.md)
+ 1. [Turtle Zusammenfassung](Turtlebefehle.md)
  1. [Computerspiele](Computerspiel.md)
  1. [Animation](Animation.md)
  1. [Cheat-Sheet](Cheat-Sheet.md)
 
-[Weiter zu Kapitel 1: Erste Schritte](ErsteSchritte.md) | 
+[Weiter: Kapitel 1 - Erste Schritte](ErsteSchritte.md) | 

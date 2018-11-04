@@ -1,6 +1,6 @@
 # Kommentare
 
-[Zurück zu Kapitel 17: Turtle Beispielaufgaben](Turtlebeispielaufgaben.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 19: Epochenheft](AufgabenEpochenheft.md) | 
+[Zurück: Kapitel 15 - Kreise](Kreise.md) |  [Home](README.md) |  [Weiter: Kapitel 17 - Turtle Beispielaufgaben](Turtlebeispielaufgaben.md) | 
 
 Die Aufgaben Programme, die hier geschrieben werden sind immer komplexer und größer. Je mehr man schreibt, desto schwieriger ist es den Überblick zu bewahren. Um diesen Überblick zu vereinfachen kann man Programme kommentieren.
 Ein beispiel:
@@ -15,4 +15,4 @@ Man schreibt also zunächst ein "Hashtag" `#` und dann seinen Kommentar. Der Com
 
 Solche Kommentare sind sehr Hilfreich dabei sich zu orientieren. Zum Beispiel beim Haus des Nikolaus können so die einzelnen `forward`-Befehle mit wörtern wie "Dach", "Boden" usw. markiert werden. Soll zum Beispiel noch ein Kamin an das Haus gebaut werden, dann ist jetzt der zu verändernde `forward`-Befehl viel einfacher zu finden.
 
-[Zurück zu Kapitel 17: Turtle Beispielaufgaben](Turtlebeispielaufgaben.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 19: Epochenheft](AufgabenEpochenheft.md) | 
+[Zurück: Kapitel 15 - Kreise](Kreise.md) |  [Home](README.md) |  [Weiter: Kapitel 17 - Turtle Beispielaufgaben](Turtlebeispielaufgaben.md) | 

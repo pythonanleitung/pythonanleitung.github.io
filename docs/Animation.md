@@ -1,6 +1,6 @@
 # Animation
 
-[Zurück zu Kapitel 20: Computerspiele](Computerspiel.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 22: Cheat-Sheet](Cheat-Sheet.md) | 
+[Zurück: Kapitel 19 - Computerspiele](Computerspiel.md) |  [Home](README.md) |  [Weiter: Kapitel 21 - Cheat-Sheet](Cheat-Sheet.md) | 
 
 Ein Spiel wäre nun relativ langweilig, wenn sich nichts "bewegen" würde. Bei diesem Spiel Soll sich eine Schlange bewegen. Bewegung heißt, dass der Pixel vor dem Kopf der Schlange blau wird, und der letzte wieder weiß.
 
@@ -33,4 +33,4 @@ Ist diese Zeile noch hinzu gefügt, dann müsste sich jetzt ein Bild ähnlich fo
 
 [Video snake Test](img/snaketest.webm)
 
-[Zurück zu Kapitel 20: Computerspiele](Computerspiel.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 22: Cheat-Sheet](Cheat-Sheet.md) | 
+[Zurück: Kapitel 19 - Computerspiele](Computerspiel.md) |  [Home](README.md) |  [Weiter: Kapitel 21 - Cheat-Sheet](Cheat-Sheet.md) | 

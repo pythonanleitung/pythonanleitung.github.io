@@ -1,6 +1,6 @@
 # Datentypen
 
-[Zurück zu Kapitel 4: Fehlermeldungen](Fehler.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 6: Eingaben](Eingaben.md) | 
+[Zurück: Kapitel 4 - Fehlermeldungen](Fehler.md) |  [Home](README.md) |  [Weiter: Kapitel 6 - Eingaben](Eingaben.md) | 
 
 Bis jetzt wurden zwei Datentypen verwendet. Zahlen (`1, 2, 3, 445, 1.2`) und Text (`"hallo", "tschüss", "a", 'a', "2"`). Zahlen werden einfach als zahlen geschrieben. Um Gleitkommazahlen zu schreiben, muss man einen Punkt statt ein Komma schreiben: `1.2`. Text ist zwischen einfachen `'` (Auf der Tastatus ein großes `#`) oder doppelten `"` (eine große `2`) Anführungszeichen. Es ist python egal, wie lange ein Text ist. Er muss jedoch in einer Zeile geschrieben sein. Soll ein Text über mehrere Zeilen gehen, so muss man dreifache Anführungszeichen verwenden: `"""`. Der darauf folgende Text ist alles Teil des Textes bis erneut drei Anführungszeichen folgen.
 
@@ -58,4 +58,4 @@ In der letzten Umformung ist zu beachten, dass nicht gerundet wird, sondern einf
 >   3. Multiplizieren Sie `eis` und `drache`, geben Sie das Ergebnis mit `print` aus.
 >   4. Addieren Sie `eis` und `Drache`, und geben Sie das Ergebnis aus. Wenn ein Fehler auftritt schauen Sie nocheinmal oben nach woran es liegen könnte: das Ergebniss sollte `45lo` sein.
 
-[Zurück zu Kapitel 4: Fehlermeldungen](Fehler.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 6: Eingaben](Eingaben.md) | 
+[Zurück: Kapitel 4 - Fehlermeldungen](Fehler.md) |  [Home](README.md) |  [Weiter: Kapitel 6 - Eingaben](Eingaben.md) | 

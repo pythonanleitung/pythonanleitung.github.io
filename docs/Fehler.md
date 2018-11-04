@@ -1,6 +1,6 @@
 # Fehler
 
-[Zurück zu Kapitel 3: Variablen](Variablen.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 5: Datentypen](Datentypen.md) | 
+[Zurück: Kapitel 3 - Variablen](Variablen.md) |  [Home](README.md) |  [Weiter: Kapitel 5 - Datentypen](Datentypen.md) | 
 
 Vermutlich ist schon aufgefallen, wie kleinlich python auf die Korrektheit
 achtet. Sobald auch nur ein einzelner Buchstabe falsch ist, bekommt man einen
@@ -72,4 +72,4 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
-[Zurück zu Kapitel 3: Variablen](Variablen.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 5: Datentypen](Datentypen.md) | 
+[Zurück: Kapitel 3 - Variablen](Variablen.md) |  [Home](README.md) |  [Weiter: Kapitel 5 - Datentypen](Datentypen.md) | 

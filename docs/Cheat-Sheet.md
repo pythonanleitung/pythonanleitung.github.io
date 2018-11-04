@@ -1,6 +1,6 @@
 # Cheat-Sheet
 
-[Zurück zu Kapitel 21: Animation](Animation.md) |  [Inhaltsverzeichnis](README.md) |  
+[Zurück: Kapitel 20 - Animation](Animation.md) |  [Home](README.md) |  
 
 ### Zahlen
 
@@ -67,4 +67,4 @@ doFun(name="Gollom")
 doFun(name="Dobby")
 ```
 
-[Zurück zu Kapitel 21: Animation](Animation.md) |  [Inhaltsverzeichnis](README.md) |  
+[Zurück: Kapitel 20 - Animation](Animation.md) |  [Home](README.md) |  

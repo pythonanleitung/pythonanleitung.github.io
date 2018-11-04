@@ -1,6 +1,6 @@
 # Listen
 
-[Zurück zu Kapitel 10: Mandala mit while](Turtlewiederholungenwhile.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 12: For Schleifen](Forschleifen.md) | 
+[Zurück: Kapitel 10 - Mandala mit while](Turtlewiederholungenwhile.md) |  [Home](README.md) |  [Weiter: Kapitel 12 - For Schleifen](Forschleifen.md) | 
 
 Python kann neben einem einzelnen Wert auch eine Liste von Werten in einer Variablen abspeichern.
 
@@ -40,4 +40,4 @@ while i <= 14:
 
 Statt die Länge des Wortes händisch zu zählen (also die 15), kann auch die Funktion `len(wort)` verwendet werden.
 
-[Zurück zu Kapitel 10: Mandala mit while](Turtlewiederholungenwhile.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 12: For Schleifen](Forschleifen.md) | 
+[Zurück: Kapitel 10 - Mandala mit while](Turtlewiederholungenwhile.md) |  [Home](README.md) |  [Weiter: Kapitel 12 - For Schleifen](Forschleifen.md) | 

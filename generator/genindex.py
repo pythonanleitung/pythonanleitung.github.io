@@ -17,10 +17,9 @@ chapters_list = [
     ("Zufall", "", "Zufall.md"),
     ("Sterne", "", "Sterne.md"),
     ("Kreise", "", "Kreise.md"),
-    ("Turtle Zusammenfassung", "", "Turtlebefehle.md"),
-    ("Turtle Beispielaufgaben", "", "Turtlebeispielaufgaben.md"),
     ("Kommentare", "", "Kommentare.md"),
-    ("Epochenheft", "", "AufgabenEpochenheft.md"),
+    ("Turtle Beispielaufgaben", "", "Turtlebeispielaufgaben.md"),
+    ("Turtle Zusammenfassung", "", "Turtlebefehle.md"),
     ("Computerspiele", "", "Computerspiel.md"),
     ("Animation", "", "Animation.md"),
     ("Cheat-Sheet", "", "Cheat-Sheet.md")
@@ -50,9 +49,9 @@ for chapter_index in range(len(chapters_list)):
     prevname, prevdescription, prevfilename = prev
 
     strings = dict()
-    strings['back'] = "[Zurück zu Kapitel {index}: {name}]({filename}) | ".format(index=chapter_index, name=prevname, filename=prevfilename)
-    strings['inhalt'] = "[Inhaltsverzeichnis]({filename}) | ".format(filename="README.md")
-    strings['next'] = "[Weiter zu Kapitel {index}: {name}]({filename}) | ".format(index=chapter_index+2, name=nextname, filename=nextfilename)
+    strings['back'] = "[Zurück: Kapitel {index} - {name}]({filename}) | ".format(index=chapter_index, name=prevname, filename=prevfilename)
+    strings['inhalt'] = "[Home]({filename}) | ".format(filename="README.md")
+    strings['next'] = "[Weiter: Kapitel {index} - {name}]({filename}) | ".format(index=chapter_index+2, name=nextname, filename=nextfilename)
 
     if chapter_index == 0:
         strings['back'] = ""
@@ -67,8 +66,8 @@ for chapter_index in range(len(chapters_list)):
 
 strings = dict()
 #strings['back'] = "[Zurück zu Kapitel {index}: {name}]({filename}) | ".format(index=chapter_index, name=prev[0], filename=prev[1])
-strings['inhalt'] = "[Inhaltsverzeichnis]({filename}) | ".format(filename="README.md")
-strings['next'] = "[Weiter zu Kapitel {index}: {name}]({filename}) | ".format(index=1, name = chapters_list[0][0], filename=chapters_list[0][2])
+strings['inhalt'] = "[Home]({filename}) | ".format(filename="README.md")
+strings['next'] = "[Weiter: Kapitel {index} - {name}]({filename}) | ".format(index=1, name = chapters_list[0][0], filename=chapters_list[0][2])
 inhaltsstrings = [" 1. [{0}{1}]({2})".format( x[0], " - " + x[1] if x[1] else "" , x[2]) for x in chapters_list]
 strings['inhaltsverzeichnis'] = '\n'.join(inhaltsstrings)
 

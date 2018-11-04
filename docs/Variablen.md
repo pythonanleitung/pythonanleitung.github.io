@@ -1,6 +1,6 @@
 # Variablen
 
-[Zurück zu Kapitel 2: Speichern in eine Datei](Speichern.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 4: Fehlermeldungen](Fehler.md) | 
+[Zurück: Kapitel 2 - Speichern in eine Datei](Speichern.md) |  [Home](README.md) |  [Weiter: Kapitel 4 - Fehlermeldungen](Fehler.md) | 
 
 Bis jetzt Werte immer sofort verwendet. Wurde eine `5` geschrieben, wurde sie zum Beispiel in einer Rechnung verwendet. Wenn aber der Wert an zwei Stellen im Programm verwendet werden soll, also zum Beispiel um  die Mitternachtsformel einmal mit plus und einmal mit minus zu rechnen, so muss der Wert zwischengespeichert werden. Hierzu werden Variablen verwendet. Um eine Variable zu erstellen, schreibt man einen beliebigen Namen der Variablen (ohne Leerzeichen) und dann, nach einem `=` den Wert den die Variable haben soll.
 
@@ -29,4 +29,4 @@ Die Variablen sind so etwas wie das Kurzzeitgedächtnis des Computers... Er kann
 >  3. Geben Sie die Summe mit `print` aus.
 >  4. Starten Sie das Programm erneut lösen Sie alle Fehlermeldungen. Im nächsten Absatz werden einige Meldungen erklärt.
 
-[Zurück zu Kapitel 2: Speichern in eine Datei](Speichern.md) |  [Inhaltsverzeichnis](README.md) |  [Weiter zu Kapitel 4: Fehlermeldungen](Fehler.md) | 
+[Zurück: Kapitel 2 - Speichern in eine Datei](Speichern.md) |  [Home](README.md) |  [Weiter: Kapitel 4 - Fehlermeldungen](Fehler.md) | 
