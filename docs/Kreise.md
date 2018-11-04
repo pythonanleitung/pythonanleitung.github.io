@@ -22,8 +22,9 @@ t.circle(radius=50, extent=180, steps=5)
 
 > ### Übungen
 > 
-> 1. Zeichnen Sie ein Herz. Machen Sie sich dabei vorher Gedanken, wie dieses aufgebaut ist, dass Sie strukturiert vorgehen können.
+> 1. Zeichnen Sie ein Herz ind der Datei `herzi.py`. Machen Sie sich dabei vorher Gedanken, wie dieses aufgebaut ist, dass Sie strukturiert vorgehen können.
 > 2. Erweitern Sie die Sterndatei um eine Funktion Kreisstern, welche einen Stern und darum einen Kreis zeichnet.
+> 3. Bonus: Schauen Sie in der [Turtle Befehlssammlung](Turtlebefehle.md) nach, wie sie das Herz Farbig gestalten können, bzw. die Linien anders gestalten können.
 > 
 > ![Turtle Herz](img/turtleherz.png) ![Turtle Sternkreise](img/turtlesternerandomkreise.png)
 
