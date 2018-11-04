@@ -24,7 +24,7 @@ liebsten verwenden würden.
 
 Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens herangeführt.
 
-[Weiter zu Kapitel 1: Erste Schritte]() | 
+[Weiter zu Kapitel 1: Erste Schritte](ErsteSchritte.md) | 
 
 # Inhaltsverzeichnis
 
@@ -51,4 +51,4 @@ Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens he
  1. [Animation](Animation.md)
  1. [Cheat-Sheet](Cheat-Sheet.md)
 
-[Weiter zu Kapitel 1: Erste Schritte]() | 
+[Weiter zu Kapitel 1: Erste Schritte](ErsteSchritte.md) | 
