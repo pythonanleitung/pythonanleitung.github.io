@@ -4,18 +4,18 @@ import os
 chapters_list = [
     ("Erste Schritte", "", "ErsteSchritte.md"),
     ("Speichern in eine Datei", "", "Speichern.md"),
-    ("Variablen", "Das Kurzzeitgedächtnis", "Variablen.md"),
+    ("Variablen", "das Kurzzeitgedächtnis", "Variablen.md"),
     ("Fehlermeldungen", "können helfen", "Fehler.md"),
     ("Datentypen", "Buchstaben und Zahlen", "Datentypen.md"),
-    ("Eingaben", "Interaktive Programme", "Eingaben.md"),
-    ("Fallunterscheidung", "Wenn -> Dann", "BedingtesAusfuehren.md"),
+    ("Eingaben", "interaktive Programme", "Eingaben.md"),
+    ("Fallunterscheidung", "wenn → dann", "BedingtesAusfuehren.md"),
     ("Schildkröten", "", "Turtle.md"),
     ("Wiederholungen mit While", "", "Wiederholungenwhile.md"),
     ("Mandala mit while", "", "Turtlewiederholungenwhile.md"),
     ("Listen", "", "Listen.md"),
     ("For Schleifen", "", "Forschleifen.md"),
     ("Zufall", "", "Zufall.md"),
-    ("Sterne", "", "Sterne.md"),
+    ("Funktionen", "so etwas wie Schablonen", "Funktionen.md"),
     ("Kreise", "", "Kreise.md"),
     ("Kommentare", "", "Kommentare.md"),
     ("Turtle Beispielaufgaben", "", "Turtlebeispielaufgaben.md"),
@@ -24,6 +24,7 @@ chapters_list = [
     ("Animation", "", "Animation.md"),
     ("Cheat-Sheet", "", "Cheat-Sheet.md")
 ]
+
 projpath = os.path.dirname(os.path.dirname(__file__))
 srcpath = "src"
 destpath = "docs"

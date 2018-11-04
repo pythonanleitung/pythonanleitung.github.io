@@ -1,6 +1,6 @@
 # Zufall
 
-[Zurück: Kapitel 12 - For Schleifen](Forschleifen.md) |  [Home](README.md) |  [Weiter: Kapitel 14 - Sterne](Sterne.md) | 
+[Zurück: Kapitel 12 - For Schleifen](Forschleifen.md) |  [Home](README.md) |  [Weiter: Kapitel 14 - Funktionen](Funktionen.md) | 
 
 Für das Programm aus der letzten Übung wäre es natürlich schön, wenn sich der Computer die Zahl, die zu erraten ist, selbst ausdenkt, da sonst das Ratespiel recht schnell langweilig wird.
 
@@ -52,4 +52,4 @@ Diese Zufallszahl kann natürlich auch in eine Variable gespeichert werden mit `
 > richtig
 > ```
 
-[Zurück: Kapitel 12 - For Schleifen](Forschleifen.md) |  [Home](README.md) |  [Weiter: Kapitel 14 - Sterne](Sterne.md) | 
+[Zurück: Kapitel 12 - For Schleifen](Forschleifen.md) |  [Home](README.md) |  [Weiter: Kapitel 14 - Funktionen](Funktionen.md) | 
