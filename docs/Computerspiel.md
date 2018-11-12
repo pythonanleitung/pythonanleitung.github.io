@@ -62,7 +62,7 @@ Alles was wir jetzt weiter mit dieser Datei verändern muss **zwischen** die `s.
 # Zugriff auf das Level
 
 Nachdem nun das Spielfenster geöffnet ist, können einzelne Pixel verändert werden.
-in `s.level` ist die gesamte Liste der Pixel gespeichert. Es kann nun zum Beispiel der zehnte Pixel blau gefärbt werden, indem man folgende Zeilen einfügt:
+in `s.level` ist die gesamte Liste der Pixel gespeichert. Es kann nun zum Beispiel der zehnte Pixel der ersten Zeile blau gefärbt werden, indem man folgende Zeile einfügt zwischen `create` und `start` einfügt.
 
 ```python
 s.level[9] = 1
@@ -74,7 +74,7 @@ s.level[9] = 1
 > 
 > ![Level 1](img/snakelevel.png)
 >
-> * Zeichnen Sie dieses Level mit einer Funktion namens `level1`.
+> * Zeichnen Sie dieses Level mit einer Funktion namens `level1`. Erstellen Sie die Funktionen mit `def` wie im Kapitel [Funktionen](Funktionen.md)
 > * Erstellen Sie noch eine Funktion `level2`, die ein eigenes Muster macht.
 
 [Zurück: Kapitel 18 - Turtle Zusammenfassung](Turtlebefehle.md) |  [Home](README.md) |  [Weiter: Kapitel 20 - Animation](Animation.md) | 
