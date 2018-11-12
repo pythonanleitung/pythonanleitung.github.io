@@ -40,5 +40,33 @@ Wie Oben dargestellt muss diese `ame()`-Funktion jetzt regelmäßig ausgeführt 
 > Fügen Sie den Befehl `s.addStep(ame)` vor s.start zu Ihrem Snake hinzu. Das Ergebnis sollte jetzt so aussehen.
 > 
 > [Video snake Test](img/snaketest.webm)
+> 
+> Natürlich verschwindet jetzt die schlange, statt zu laufen. Das ist so, weil noch kein neuer Kopf gesetzt wird.
+
+# Setzen des neuen Kopfes
+
+Soll der Kopf der Schlange gesetzt werden muss zunächst bekannt sein wohin dieser gesetzt werden muss. Dies ist abhängig von der Richtung und der vorherigen Position. Zum Beispiel muss das Feld oberhalb des alten Kopfes angemalt werden, wenn die Schlange nach oben läuft.
+
+Um dies zu ermöglichen muss das Programm sich die Position des Kopfes sowie die Richtung merken:
+
+```python
+s.pos = 210
+s.dir = 1
+```
+
+Nun kann man mithilfe dieser Variablen eine Funktion schreiben, die die neue Kopfposition berechnet, und diesen auch zeichnet:
+
+```python
+def neuerKopf():
+    s.pos = s.pos + s.dir
+    s.level[s.pos] = 5
+```
+
+> ### Übung
+> 
+>  1. Schreiben Sie die Funktion neuerKopf
+>  2. Fügen Sie die Funktion auch zu den regelmäßig ausgeführten Funktionen hinzu
+>  3. Testen Sie, ob Ihre Schlange läuft
+>  4. Probieren Sie alle möglichen Richtungen zu gehen (nach oben, nach unten, nach rechts, nach links), indem Sie bei `s.dir` andere Zahlen einspeichern.
 
 {back} {inhalt} {next}
