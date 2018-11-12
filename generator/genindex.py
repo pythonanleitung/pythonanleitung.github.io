@@ -22,6 +22,7 @@ chapters_list = [
     ("Turtle Zusammenfassung", "", "Turtlebefehle.md"),
     ("Computerspiele", "", "Computerspiel.md"),
     ("Animation", "", "Animation.md"),
+    ("Steuerung", "", "Steuerung.md"),
     ("Cheat-Sheet", "", "Cheat-Sheet.md")
 ]
 

@@ -48,6 +48,7 @@ Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens he
  1. [Turtle Zusammenfassung](Turtlebefehle.md)
  1. [Computerspiele](Computerspiel.md)
  1. [Animation](Animation.md)
+ 1. [Steuerung](Steuerung.md)
  1. [Cheat-Sheet](Cheat-Sheet.md)
 
 [Weiter: Kapitel 1 - Erste Schritte](ErsteSchritte.md) | 
