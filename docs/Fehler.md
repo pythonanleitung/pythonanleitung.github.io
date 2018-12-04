@@ -2,12 +2,9 @@
 
 [Zurück: Kapitel 3 - Variablen](Variablen.md) |  [Home](README.md) |  [Weiter: Kapitel 5 - Datentypen](Datentypen.md) | 
 
-Vermutlich ist schon aufgefallen, wie kleinlich python auf die Korrektheit
-achtet. Sobald auch nur ein einzelner Buchstabe falsch ist, bekommt man einen
-Fehler zu sehen. Die Fehler geben meistens einen Hinweis darüber was falsch
-sein könnte.
+Vermutlich ist schon aufgefallen, wie kleinlich `python` auf die Korrektheit achtet. Sobald auch nur ein einzelner Buchstabe falsch ist, bekommt man einen Fehler zu sehen. Die Fehler geben meistens einen Hinweis darüber was falsch sein könnte.
 
-Der Fehler ist so aufgebaut, dass er zuerst die Position des Fehlers angibt. Hierzu werden einige Dateien gelistet. Erst in der letzten Zeile erscheint der eigentliche Fehler. Meistens reicht es die letzten beiden Zeilen des Fehlers zu betrachten.
+Der Fehler ist so aufgebaut, dass er zuerst die Position des Fehlers angibt. Hierzu werden einige Dateien gelistet. **Erst in der letzten Zeile erscheint der eigentliche Fehler.** Meistens reicht es die letzten beiden Zeilen des Fehlers zu betrachten.
 
 Im Folgenden sind ein paar Beispiele von Fehlern:
 
@@ -46,7 +43,7 @@ Im folgenden Beispiel wurden Doppelpunkte vergessen:
 ```python
 >>> if True
   print("True")
-  
+
   File "<pyshell>", line 1
     if True
           ^

@@ -2,6 +2,26 @@
 
 {inhalt} {next}
 
+Es wird immer wieder Übungen geben. Diese Übungen stehen meist am Anfang der Texte. Für dieses Kapitel besteht die Übung darin mit Python einige Rechenaufgaben zu berechnen. Die Erklärungen zu den Aufgaben kommen nach den Aufgaben.
+
+> ### Übungen
+>
+> Lösen Sie die folgenden Aufgaben mit Python:
+>
+> > Wichtig: berechnen Sie das Ergebnis mit dem Computer, nicht im Kopf.
+>
+> > Wichtig: Kommazahlen werden mit einem Punkt geschrieben nicht mit einem Komma.
+>
+>
+> 1. Dividieren Sie die Zahlen `79` und `13`
+> 1. Addieren Sie die Zahlen `2.5` und `11.5`
+> 1. Multiplizieren Sie `2.7` mit `5`
+> 1. Berechne das Quadrat aus `65`
+> 1. Berechnen Sie das Ergebnis von `5` mal `3` und das ganze plus `2`
+> 1. Berechnen Sie das Ergebnis von `3` plus `2` und das ganze mal `5`
+>
+> Zeigen Sie dem Lehrer, was Sie gemacht haben.
+
 Als Erstes wird ein `thonny` geöffnet.
 
 Es muss hierzu:
@@ -85,21 +105,5 @@ Das Ergebnis ist beide Male `5.0`.
 In der dritten Eingabe sind die Klammern so, dass sie `3 + 3` umschließen.
 Nun rechnet Python zuerst die Klammer aus, um dann 6 durch (3 + 3) = 6 zu teilen.
 Das Ergebnis ist nun `1.0`.
-
-> ### Übungen
-> 
-> Lösen Sie die folgenden Aufgaben mit Python:
-> 
-> > Wichtig: berechnen Sie das Ergebnis mit dem Computer, nicht im Kopf.
-> 
-> > Wichtig: Kommazahlen werden mit einem Punkt geschrieben nicht mit einem Komma.
-> 
-> 
-> 1. Dividieren Sie die Zahlen `79` und `13`
-> 1. Addieren Sie die Zahlen `2.5` und `11.5`
-> 1. Multiplizieren Sie `2.7` mit `5`
-> 1. Berechne das Quadrat aus `65`
-> 1. Berechnen Sie das Ergebnis von `5` mal `3` und das ganze plus `2`
-> 1. Berechnen Sie das Ergebnis von `3` plus `2` und das ganze mal `5`
 
 {inhalt} {next}

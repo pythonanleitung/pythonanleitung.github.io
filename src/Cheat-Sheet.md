@@ -40,7 +40,7 @@ if herbert < 121:
 ### [Ein und Ausgabe](ErsteSchritte.md)
 ```python
 print("hallo")
-input("tipp etwas: ")
+input()
 ```
 
 ### Wiederholung [while](Wiederholungwhile.md), [for](Wiederholungfor.md)

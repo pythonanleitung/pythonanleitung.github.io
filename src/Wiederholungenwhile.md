@@ -20,10 +20,12 @@ Der Aufbau des `while` ist identisch dem des `if` Befehls. Die Einleitung mit `w
 Ein konkretes Beispiel, welches immer wieder nach einer Eingabe fragt, bis `"ende"` eingegeben wurde:
 
 ```python
-eingabe = input("Eingabe: ")
+print("Eingabe: ")
+eingabe = input()
 while not (eingabe == "ende"):
     print("Bei der Eingabe ", eingabe, "konnte ich kein ende finden")
-    eingabe = input("Eingabe: ")
+    print("Eingabe: ")
+    eingabe = input()
 print("So, jetzt ist aber fertig.")
 ```
 
