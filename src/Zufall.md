@@ -35,7 +35,7 @@ Beispiel im Ausprobierfenster:
 
 Diese Zufallszahl kann natürlich auch in eine Variable gespeichert werden mit `zahl = random.randint(0,100)`.
 
-> ### Aufgabe
+> ### Übungen
 >
 > Schreiben Sie folgende Aufgaben in die Datei `ratespiel.py`.
 >

@@ -2,7 +2,7 @@
 
 {inhalt} {next}
 
-Es wird immer wieder Übungen geben. Diese Übungen stehen meist am Anfang der Texte. Für dieses Kapitel besteht die Übung darin mit Python einige Rechenaufgaben zu berechnen. Die Erklärungen zu den Aufgaben kommen nach den Aufgaben.
+Es wird immer wieder Übungen geben. Für dieses Kapitel besteht die Übung darin mit Python einige Rechenaufgaben zu berechnen. Die Aufgaben beziehen sich fast immer auf die Erklärungen unmittelbar davor.
 
 > ### Übungen
 >
@@ -40,7 +40,7 @@ Zunächst liegt der Fokus auf dem unteren Teil, welcher den Titel `Shell` hat un
 
 Dieses "Pfeil"-Symbol ist das Zeichen dafür, dass Python gestartet ist und man es nun interaktiv verwenden kann.
 Jede Eingabe, die man im unteren Teil macht, muss man mit `Enter` bestätigen.
-Sollte einmal die Zeile nicht mit `>>>` beginnen so ist etwas mit Python nicht in Ordnung und man startet am besten nochmal vom Anfang des Beispiels, indem man oben auf das kleine "Stop"-Symbol klickt.
+Sollte einmal die Zeile nicht mit `>>>` beginnen so ist etwas mit Python nicht in Ordnung und man startet am besten nochmal vom Anfang des Beispiels, indem man oben auf das kleine "Stopp"-Symbol klickt.
 
 Hat ein Befehl ein Ergebnis, so wird dieses direkt ausgegeben.
 Keine Panik nach dem Beispiel werden die Zeilen einzeln erklärt.
@@ -105,5 +105,26 @@ Das Ergebnis ist beide Male `5.0`.
 In der dritten Eingabe sind die Klammern so, dass sie `3 + 3` umschließen.
 Nun rechnet Python zuerst die Klammer aus, um dann 6 durch (3 + 3) = 6 zu teilen.
 Das Ergebnis ist nun `1.0`.
+
+
+
+> ### Übungen
+> 1. Schreiben Sie ein Programm, welches nach einer Kommazahl fragt
+> 1. Speichern Sie dieses Programm in der Datei `kommazahl.py`
+> 2. Diese Zahl zu einer Kommazahl umwandelt (Vorsicht statt `int` muss ein anderer Befehl verwendet werden)
+> 3. Die Kommazahl mit `2.5` multipliziert und ausgibt
+> 4. Die Kommazahl in eine ganzzahlige Zahl umwandelt, indem die Kommastellen abgeschnitten werden
+> 5. Die Ganze Zahl mit `6` multipliziert und ausgibt
+> 6. Geben Sie die Ergebnisse jeweils mit einem Antwortsatz aus.
+>
+Beispieldurchlauf des Übungsaufgabenprogramms:
+```python
+>>> %Run hallo.py
+Gib eine Kommazahl:
+6.7
+Das zweieinhalbfache der Kommazahl ist: 16.75
+Die ganze Zahl ist: 6
+Die ganze Zahl mal sechs ist: 30
+```
 
 {inhalt} {next}

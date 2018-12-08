@@ -2,42 +2,8 @@
 
 {back} {inhalt} {next}
 
-> ### Übung einfache if
-> 1. Schreiben Sie ein `if`, welches eine wahre Bedingung hat und mit `print` `"Wahr"` ausgibt
-> 2. Schreiben Sie ein zweites `if`, welches eine unwahre Bedingung hat und mit `print` `"Unwahr"` ausgibt
->
-> Was gibt das erste, was gibt das zweite aus? Schreiben Sie die Antwort als Kommentar in den code.
 
 
-> ### Übung Welche Bedingungen versteht der Computer?
-> sind die folgenden Ausdrücke wahr oder falsch? - Schreiben Sie die Ergebnisse in die Datei `ifelse.py` mit. Nach einem `#` wird der Rest der Zeile vom Computer ignoriert.
->
-> Für die erste Zeile ist die Lösung also: `5 < 6 # Wahr (True)`
->
-> 1. `5 < 6`
-> 1. `5 != 6`
-> 1. `5 <= 6`
-> 1. `True and True`
-> 1. `False or True`
-> 1. `3 < 4 and 4 < 5`
-> 1. `not (3 != 4)`
->
-> Prüfen Sie die Ergebnisse, die Sie im Kopf herausgefunden haben mit Python im Ausprobierfenster nach.
-
-> ### Übung Grußprogramm
-> Schreiben Sie wie weiter unten erklärt ein Programm, welches nach einem Gruß fragt und je nach Gruß entsprechend reagiert.
-
-> Speichern Sie dieses Programm unter dem Namen `gru.py`.
-
-> ### Übung Zahlenratespiel
-> Schreiben Sie ein Programm, welches 3 Versuche gewährt eine Zahl zu erraten. Dieses Programm kann sehr ähnlich zu dem Grußprogramm geschrieben werden.
-> Speichern Sie dieses Programm unter `ratemal.py`.
->
-> Gehen Sie Schrittweise vor:
-> 1. Schreiben Sie ein Programm, welches nach einer Zahl fragt und diese ausgibt.
-> 2. Testen Sie das Programm ob es tut was es soll.
-> 3. entfernen Sie die Ausgabe, und fügen Sie stattdessen ein `if` und `else` ein, welches auf die Eingabe reagiert.
->> Vorsicht beim Vergleichen: der Buchstabe einer Zahl ist nicht gleich der Zahl. Zum Beispiel ist `"2" == 2` unwahr also `False`. Um diese beiden Werte sinnvoll zu vergleichen, muss der Buchstabe `"2"` zur Zahl `2` konvertiert werden: `int("2") == 2` ([mehr](Datentypen.md#umwandlung-von-datentypen)).
 
 
 Alle Programmiersprachen bieten die Möglichkeit, einen Befehl nur dann auszuführen, wenn eine bestimmte Bedingung eintritt.
@@ -69,6 +35,17 @@ Ausgabe:
 Das `if` in diesem Beispiel ist das Kommando, welches den bedingten Aufruf einleitet. Das `1 == 1` bzw. `1 == 2` ist die Bedingung.
 Im ersten Fall also die wahre Bedingung, im zweiten die unwahre Bedingung.
 Nun folgt ein **Doppelpunkt**. Die nächste Zeile wird eingerückt.
+
+
+> ### Übung einfache if
+>
+> Speichern Sie diese Übung in der Datei `iffer.py`.
+
+> 1. Schreiben Sie ein `if`, welches eine wahre Bedingung hat und mit `print` `"Wahr"` ausgibt
+> 2. Schreiben Sie ein zweites `if`, welches eine unwahre Bedingung hat und mit `print` `"Unwahr"` ausgibt
+>
+> Was gibt das erste, was gibt das zweite aus? Schreiben Sie die Antwort als Kommentar in den Code.
+
 
 
 ## Kurze Bemerkung zur **Einrückung**
@@ -153,6 +130,22 @@ Außerdem kann man noch zwei Wahrheitswerte mit den folgenden Befehlen kombinier
 | `not A` | ist wahr, wenn A unwahr (`False`) ist |
 
 
+> ### Übung Welche Bedingungen versteht der Computer?
+> sind die folgenden Ausdrücke wahr oder falsch? - Schreiben Sie die Ergebnisse in die Datei `ifelse.py` mit. Nach einem `#` wird der Rest der Zeile vom Computer ignoriert.
+>
+> Für die erste Zeile ist die Lösung also: `5 < 6 # Wahr (True)`
+>
+> 1. `5 < 6`
+> 1. `5 != 6`
+> 1. `5 <= 6`
+> 1. `True and True`
+> 1. `False or True`
+> 1. `3 < 4 and 4 < 5`
+> 1. `not (3 != 4)`
+>
+> Prüfen Sie die Ergebnisse, die Sie im Kopf herausgefunden haben mit Python im Ausprobierfenster nach.
+
+
 # Kombinieren mit dem bisher gelernten
 
 Natürlich kann dieses `if` mit allem zuvor gelernten und mit allem kommenden kombiniert werden. Die folgenden Beispiele kombinieren den `input`-Befehl mit den `if`-Abfragen.
@@ -186,6 +179,11 @@ Auf Wiedersehen
 Welcher Gruß? tschau
 Ich habe Sie leider nicht verstanden
 ```
+
+> ### Übung Grußprogramm
+> Schreiben und testen Sie ein Programm, welches nach einem Gruß fragt und je nach Gruß unterschiedlich reagiert.
+
+> Speichern Sie dieses Programm unter dem Namen `gru.py`.
 
 ## Beispiel: ein "Passwortprogramm"
 
@@ -222,5 +220,21 @@ geschafft
 ```
 
 Dieses Programm ist natürlich nicht so, wie der Computer ein Passwort abfragen würde, da das Passwort für jeden lesbar im Programm steht. Normalerweise wird das Passwort nur verschlüsselt abgespeichert.
+
+> ### Übung Passwortprogramm
+
+> Schreiben Sie ein Programm, welches drei Versuche gewährt ein Passwort zu erraten. Speichern Sie dieses Programm in der Datei `passwort.py`.
+>
+
+
+> ### Übung Zahlenratespiel
+> Schreiben Sie ein Programm, welches 3 Versuche gewährt eine Zahl zu erraten. Dieses Programm kann sehr ähnlich zu dem Grußprogramm geschrieben werden.
+> Speichern Sie dieses Programm unter `ratemal.py`.
+>
+> Gehen Sie Schrittweise vor:
+> 1. Schreiben Sie ein Programm, welches nach einer Zahl fragt und diese ausgibt.
+> 2. Testen Sie das Programm ob es tut was es soll.
+> 3. entfernen Sie die Ausgabe, und fügen Sie stattdessen ein `if` und `else` ein, welches auf die Eingabe reagiert.
+>> Vorsicht beim Vergleichen: der Buchstabe einer Zahl ist nicht gleich der Zahl. Zum Beispiel ist `"2" == 2` unwahr also `False`. Um diese beiden Werte sinnvoll zu vergleichen, muss der Buchstabe `"2"` zur Zahl `2` konvertiert werden: `int("2") == 2` ([mehr](Datentypen.md#umwandlung-von-datentypen)).
 
 {back} {inhalt} {next}
