@@ -26,7 +26,7 @@ for i in range(30):
 
 Der eingerückte Teil von wird also genau 30 mal wiederholt. Diesmal ist die Variable `i` genannt, die die Nummer des durchlaufs enthält...
 
-> ### Aufgaben
+> ### Übungen
 >
 > Speichern Sie Ihre Lösung in die Datei `TurtleFor.py`
 >
@@ -62,7 +62,7 @@ Hier wird jetzt die Variable `d` verwendet, um entweder einen 90° Winkel im ode
 
 Da die Zeile mit `t.forward` wieder weniger eingerückt ist als `t.left` gehört diese Zeile zu dem `for`, nicht aber zu dem `if` das heißt egal ob das `if` ausgeführt wird oder nicht, das `t.forward` wird ausgeführt.
 
-> ### Aufgaben
+> ### Übungen
 >
 > Fügen Sie Ihre Lösung der Datei `TurtleFor.py` hinzu.
 >
