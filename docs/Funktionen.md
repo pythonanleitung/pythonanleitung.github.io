@@ -1,13 +1,13 @@
 # Sterne zeichnen mit Turtle
 
-[Zurück: Kapitel 13 - Zufall](Zufall.md) |  [Home](README.md) |  [Weiter: Kapitel 15 - Kreise](Kreise.md) | 
+[Zurück: Kapitel 14 - Zufall](Zufall.md) |  [Home](README.md) |  [Weiter: Kapitel 16 - Kreise](Kreise.md) | 
 
 > ### Übung
-> 
+>
 > Speichern Sie diese Übung als `sternchen-uebung.py`
 >
 > Zeichnen Sie einen Fünfstern. Der Innenwinkel in einem Fünfstern ist 36° Grad.
-> 
+>
 > ![Fünfstern mit Turtle](img/fuenfstern.png)
 
 Im Folgenden wird es Ziel sein viele Fünfsterne zu zeichnen in unterschiedlichen Größen.
@@ -35,9 +35,9 @@ def stern(größe):
 ```
 
 Indem man zunächst das Schlüsselwort `def` schreibt, sagt man Python dass nun eine Schablone kommt, die nicht sofort ausgeführt
-werden soll, sondern die sich das Programm erstmal merken soll. Danach folgt ein beliebiger Name in diesem Fall ist `stern` gewählt worden.
-Zuletzt kommt in Klammern eine Liste der veränderlichen Namen als Platzhalter. Für den Stern wird erstmal nur die `größe` veränderlich sein.
-Statt nun eine feste Zahl vorwärts zu gehen, muss man jetzt die veränderliche größe aus der Schablone vorwärts gehen.
+werden soll, sondern die sich das Programm erst mal merken soll. Danach folgt ein beliebiger Name in diesem Fall ist `stern` gewählt worden.
+Zuletzt kommt in Klammern eine Liste der veränderlichen Namen als Platzhalter. Für den Stern wird erst mal nur die `größe` veränderlich sein.
+Statt nun eine feste Zahl vorwärts zu gehen, muss man jetzt die veränderliche Größe aus der Schablone vorwärts gehen.
 Für alle Fünfsterne sind die Winkel die selben. Das heißt man kann die Zeilen mit `left` unveränderbar lassen,
 indem man einfach konstante Zahlen schreibt.
 
@@ -62,10 +62,10 @@ dass Sie die ganze Zeit schon solche Funktionen verwendet haben zum Beispiel `pr
      Dabei benötigen Sie [`penup` und `pendown`](Turtle.md#das-turtle-bewegen-ohne-zu-zeichnen) und [`t.goto`](Turtlebefehle.md).
 > 3. Zeichnen Sie 20 Sterne mit zufälliger Positionierung verwenden Sie die Funktion von aufgabe 2 zum Platzwechsel. Für die zufällige Positionierung verwenden Sie [Zufall](Zufall.md)
 > 2. Zeichnen Sie 20 verschieden große Sterne mit gleichem Zentrum.
-> 
+>
 > Beispiele:
-> 
+>
 > ![Turtle mit zufälligem Ort](img/turtlesternerandom.png)
 > ![Turtle mit gleichem Zentrum](img/turtlesterne.png)
 
-[Zurück: Kapitel 13 - Zufall](Zufall.md) |  [Home](README.md) |  [Weiter: Kapitel 15 - Kreise](Kreise.md) | 
+[Zurück: Kapitel 14 - Zufall](Zufall.md) |  [Home](README.md) |  [Weiter: Kapitel 16 - Kreise](Kreise.md) | 

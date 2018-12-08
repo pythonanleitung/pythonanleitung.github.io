@@ -19,7 +19,7 @@ präsentieren.
 Die Sprache Python rangiert in den Top 10 der häufigst verwendeten
 Programmiersprachen und ist 2017 zu der Sprache gewählt worden die Entwickler am
 liebsten verwenden würden.
-[Quelle: Stackoverflow Survey](https://insights.stackoverflow.com/survey/2017)
+[Quelle: Stackoverflow Survey](https://insights.stackoverflow.com/survey/2018)
 
 
 Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens herangeführt.

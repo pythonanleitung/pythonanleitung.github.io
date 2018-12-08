@@ -57,7 +57,7 @@ In Zeile 1 des Beispiels wurde einfach eine Zahl `1` eingegeben.
 Python antwortet darauf einfach, indem es dieselbe Zahl wieder gibt.
 
 In Zeile 3 wird eine einfache Rechenaufgabe in Python gestellt.
-Worauf Python diese berechnet und das Ergebnis zurückgibt.
+Worauf Python diese berechnet und das Ergebnis zurück gibt.
 
 > Der Computer wird auch als Rechner bezeichnet, das liegt daran, dass er nie irgendetwas anderes tut als Berechnungen auszuführen. Wird ein Computerspiel gestartet, so ist das Bild auf dem Bildschirm das Ergebnis einer (sehr komplexen) Berechnung. Das heißt natürlich auch, dass die einfachsten Befehle für einen Computer die Rechenoperationen sind.
 

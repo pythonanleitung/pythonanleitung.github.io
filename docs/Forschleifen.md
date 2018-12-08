@@ -1,6 +1,6 @@
 # For Schleifen
 
-[Zurück: Kapitel 11 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 13 - Zufall](Zufall.md) | 
+[Zurück: Kapitel 12 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 14 - Zufall](Zufall.md) | 
 
 ## Wiederholung für eine bestimmte Anzahl
 
@@ -58,9 +58,9 @@ for d in "rllrrlllrllrrrll":
     t.forward(50)
 ```
 
-Hier wird jetzt die Variable `d` verwendet, um entweder einen 90° winkel im oder gegen den Uhrzeigersinn durchzuführen. Das for macht in der ersten Runde den ersten Buchstaben, also `'r'` in die `d` Variable. Mit `if` wird dies überprüft und das Programm reagiert entsprechend.
+Hier wird jetzt die Variable `d` verwendet, um entweder einen 90° Winkel im oder gegen den Uhrzeigersinn durchzuführen. Das for macht in der ersten Runde den ersten Buchstaben, also `'r'` in die `d` Variable. Mit `if` wird dies überprüft und das Programm reagiert entsprechend.
 
-Da die Zeile mit `t.forward` wieder weniger eingerückt ist als `t.left` gehört diese Zeile zu dem `for`, nicht aber zu dem `if` das heißt egal ob das if ausgeführt wird oder nicht, das t.forward wird ausgeführt.
+Da die Zeile mit `t.forward` wieder weniger eingerückt ist als `t.left` gehört diese Zeile zu dem `for`, nicht aber zu dem `if` das heißt egal ob das `if` ausgeführt wird oder nicht, das `t.forward` wird ausgeführt.
 
 > ### Aufgaben
 >
@@ -76,4 +76,4 @@ Da die Zeile mit `t.forward` wieder weniger eingerückt ist als `t.left` gehört
 > 2. Denken Sie sich ein schönes Bild aus, welches sie mit obigem for zeichnen.
 > 3. Bonus: machen Sie Rechts, Links, Kreis, … in jeweils einer anderen Farbe.
 
-[Zurück: Kapitel 11 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 13 - Zufall](Zufall.md) | 
+[Zurück: Kapitel 12 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 14 - Zufall](Zufall.md) | 

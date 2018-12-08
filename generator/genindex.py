@@ -10,6 +10,7 @@ chapters_list = [
     ("Eingaben", "interaktive Programme", "Eingaben.md"),
     ("Fallunterscheidung", "wenn → dann", "BedingtesAusfuehren.md"),
     ("Schildkröten", "", "Turtle.md"),
+    ("Eingaben in Turtle", "Turtle hat eigene Möglichkeiten für Eingaben", "TurtleInput.md"),
     ("Wiederholungen mit While", "", "Wiederholungenwhile.md"),
     ("Mandala mit while", "", "Turtlewiederholungenwhile.md"),
     ("Listen", "", "Listen.md"),
@@ -29,6 +30,7 @@ chapters_list = [
 projpath = os.path.dirname(os.path.dirname(__file__))
 srcpath = "src"
 destpath = "docs"
+
 
 def src(filename):
     return os.path.join(projpath, srcpath, filename)
@@ -78,4 +80,3 @@ with open(src("README.md"), 'r') as s:
             text = s.read()
             text = text.format(**strings)
             d.write(text)
-        

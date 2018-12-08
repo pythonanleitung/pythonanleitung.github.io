@@ -2,7 +2,7 @@
 
 {back} {inhalt} {next}
 
-Erstellen eines Turtlefensters mit:
+Erstellen eines Turtle-Fensters mit:
 
 ```python
 import turtle
@@ -10,7 +10,7 @@ t = turtle.Turtle()
 t.shape("turtle")
 ```
 
-Eine Auswahl zu möglichen Funktionen des Turtlemoduls. Eine vollständige Liste aller funktionen gibt es unter:
+Eine Auswahl zu möglichen Funktionen des Turtle-Moduls. Eine vollständige Liste aller Funktionen gibt es unter:
 [Turtle Dokumentation](https://docs.python.org/3.6/library/turtle.html)
 
 # Bewegungen:
@@ -30,11 +30,11 @@ t.circle(radius, extent, steps) # Male einen (Teil-)Kreis
 ```python
 t.penup()               # Aufhören zu zeichnen
 t.pendown()             # Anfangen zu zeichnen
-t.width(width=5)        # Strichdicke
+t.width(width=5)        # Strich dicke
 t.pencolor("red")       # Stiftfarbe setzen
-t.begin_fill()          # Ausgemalten Umris starten
-t.end_fill()            # Ausgemalten Umris beenden
-t.fillcolor("blue")     # Ausmalfarbe setzen
+t.begin_fill()          # Ausgemalten Umriss starten
+t.end_fill()            # Ausgemalten Umriss beenden
+t.fillcolor("blue")     # Ausmal-Farbe setzen
 t.screen.bgcolor("pink")# Die Hintergrundfarbe setzen
 ```
 
@@ -43,7 +43,9 @@ t.screen.bgcolor("pink")# Die Hintergrundfarbe setzen
 t.shape()               # Auswählen einer Form
 t.hideturtle()          # Verstecken der Schildkröte
 t.showturtle()          # zeigen der Schildkröte
-t.exitonclick()         # schließen wenn ins fenster geklickt wird
+t.exitonclick()         # schließen wenn ins Fenster geklickt wird
+turtle.numinput("", "") # Turtle Fragt nach einer Zahl mit `title` und `promt`
+turtle.textinput("", "")# Turtle Fragt nach einem Text mit `title` und `promt`
 ```
 
 {back} {inhalt} {next}

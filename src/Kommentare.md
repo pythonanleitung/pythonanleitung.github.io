@@ -13,6 +13,6 @@ def fun(test):
 
 Man schreibt also zunächst ein "Hashtag" `#` und dann seinen Kommentar. Der Computer ignoriert alles, was nach dem Hashtag in der selben Zeile steht. Das was davor steht wird aber verwendet.
 
-Solche Kommentare sind sehr Hilfreich dabei sich zu orientieren. Zum Beispiel beim Haus des Nikolaus können so die einzelnen `forward`-Befehle mit wörtern wie "Dach", "Boden" usw. markiert werden. Soll zum Beispiel noch ein Kamin an das Haus gebaut werden, dann ist jetzt der zu verändernde `forward`-Befehl viel einfacher zu finden.
+Solche Kommentare sind sehr Hilfreich dabei sich zu orientieren. Zum Beispiel beim Haus des Nikolaus können so die einzelnen `forward`-Befehle mit Wörtern wie "Dach", "Boden" usw. markiert werden. Soll zum Beispiel noch ein Kamin an das Haus gebaut werden, dann ist jetzt der zu verändernde `forward`-Befehl viel einfacher zu finden.
 
 {back} {inhalt} {next}

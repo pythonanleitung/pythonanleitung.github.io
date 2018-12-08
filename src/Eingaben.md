@@ -69,7 +69,7 @@ eing = input()
 print("auch ich sage fünf mal: ", eing * 5)
 ```
 
-Oder für eine Rechnung verwenden... Die `input`-Funktion gibt das eingegebene als Wort zurück. Soll also die Eingabe zum Beispiel in einer Rechnung verwendet werden, dann muss man die Eingabe erst zu einer Zahl (int - Integer) konvertieren (genauer [hier](03Variablen.md#umwandlung-von-datentypen).
+Oder für eine Rechnung verwenden... Die `input`-Funktion gibt das eingegebene als Wort zurück. Soll also die Eingabe zum Beispiel in einer Rechnung verwendet werden, dann muss man die Eingabe erst zu einer Zahl (int - Integer) konvertieren (genauer [hier](Variablen.md#umwandlung-von-datentypen).
 
 ```python
 print("Gib eine ganze Zahl: ")
