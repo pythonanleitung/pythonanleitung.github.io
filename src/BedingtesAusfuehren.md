@@ -40,7 +40,7 @@ Nun folgt ein **Doppelpunkt**. Die nächste Zeile wird eingerückt.
 > ### Übung einfache if
 >
 > Speichern Sie diese Übung in der Datei `iffer.py`.
-
+>
 > 1. Schreiben Sie ein `if`, welches eine wahre Bedingung hat und mit `print` `"Wahr"` ausgibt
 > 2. Schreiben Sie ein zweites `if`, welches eine unwahre Bedingung hat und mit `print` `"Unwahr"` ausgibt
 >
@@ -222,7 +222,7 @@ geschafft
 Dieses Programm ist natürlich nicht so, wie der Computer ein Passwort abfragen würde, da das Passwort für jeden lesbar im Programm steht. Normalerweise wird das Passwort nur verschlüsselt abgespeichert.
 
 > ### Übung Passwortprogramm
-
+>
 > Schreiben Sie ein Programm, welches drei Versuche gewährt ein Passwort zu erraten. Speichern Sie dieses Programm in der Datei `passwort.py`.
 >
 
