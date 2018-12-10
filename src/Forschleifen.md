@@ -37,6 +37,7 @@ Der eingerückte Teil von wird also genau 30 mal wiederholt. Diesmal ist die Var
 > Speichern Sie folgendes in eine `fünfsten-variation.py` Datei.
 > 1. Zeichnen Sie einen Fünstern indem Sie `for` benutzen. Sie brauchen natürlich auch `t.forward` und `t.left` …
 > 2. Ersetzen Sie das `t.forward` durch ein weiteres for und zeichnen Sie ein Muster statt der Kante:
+>
 > ![turtle stern fancy](img/fuenfsternfancy.png)
 > ![turtle stern fancy](img/fuenfsternfancy2.png)
 
