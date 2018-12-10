@@ -17,12 +17,12 @@ while <Bedingung>:
 
 Der Aufbau des `while` ist identisch dem des `if` Befehls. Die Einleitung mit `while`, danach die Bedingung gefolgt von einem Doppelpunkt. In den nächsten Zeilen eingerückt die Befehle, die wiederholt werden sollen. Sollen mehrere Zeilen wiederholt werden, können auf das `while` mehrere eingerückte Zeilen folgen. Die Zugehörigkeit zu diesem `while` ist wie beim `if` durch die Einrückung definiert. Es kann auch innerhalb eines `while` noch ein `while` oder ein `if` vorkommen.
 
-Ein konkretes Beispiel, welches immer wieder nach einer Eingabe fragt, bis `ende` eingegeben wurde:
+Ein konkretes Beispiel, welches immer wieder nach einer Eingabe fragt, bis `ende` eingegeben wurde (es wird hier `!=` also ungleich verwendet. Alle möglichen  [Bedingungen](Bedingungen.md)):
 
 ```python
 print("Eingabe: ")
 eingabe = input()
-while not (eingabe == "ende"):
+while eingabe != "ende":
     print("Bei der Eingabe ", eingabe, "konnte ich kein ende finden")
     print("Eingabe: ")
     eingabe = input()
@@ -33,15 +33,19 @@ Hat je nach Eingaben folgende Ausgabe (das Programm wurde zwei mal gestartet):
 
 ```python
 >>> %Run hallo.py
-Eingabe: tut
+Eingabe:
+tut
 Bei der Eingabe  tut konnte ich kein ende finden
-Eingabe: Ende
+Eingabe:
+Ende
 Bei der Eingabe  Ende konnte ich kein ende finden
-Eingabe: ende
+Eingabe:
+ende
 So, jetzt ist aber fertig.
 >>>
 >>> %Run hallo.py
-Eingabe: ende
+Eingabe:
+ende
 So, jetzt ist aber fertig.
 ```
 
