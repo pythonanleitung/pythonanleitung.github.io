@@ -1,18 +1,16 @@
 # Bedingtes ausführen
 
-[Zurück: Kapitel 6 - Eingaben](Eingaben.md) |  [Home](README.md) |  [Weiter: Kapitel 8 - Schildkröten](Turtle.md) | 
-
-
-
-
+[Zurück: Kapitel 11 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 13 - Bedingungen](Bedingungen.md) | 
 
 Alle Programmiersprachen bieten die Möglichkeit, einen Befehl nur dann auszuführen, wenn eine bestimmte Bedingung eintritt.
 
-Ein einfaches Beispiel ist somit:
+Ein Programm soll einen bestimmten Satz nur sagen, wenn der Benutzer auf einen `input()` Befehl `hallo` sagt:
 
 ```python
-if 1 == 1:
-   print("wird angezeigt")
+print("Sagen Sie hallo:")
+antwort = input()
+if antwort == "hallo":
+   print("Einen lieben Gruß")
 ```
 
 Ausgabe:
@@ -20,33 +18,9 @@ Ausgabe:
 wird angezeigt
 ```
 
-Ein einfaches Beispiel ist somit:
+Das `if` in diesem Beispiel ist das Kommando, welches den bedingten Aufruf einleitet. Das `antwort == "hallo"` ist die Bedingung. Es vergleicht das, was in der Variablen antwort steht mit dem Wort `"hallo"` ist beides das gleiche wird die folgende Zeile ausgefürt, ist es etwas verschiedenes wird die folgende Zeile übersprungen.
 
-```python
-if 1 == 2:
-   print("wird nicht angezeigt")
-```
-
-Ausgabe:
-```
-
-```
-
-Das `if` in diesem Beispiel ist das Kommando, welches den bedingten Aufruf einleitet. Das `1 == 1` bzw. `1 == 2` ist die Bedingung.
-Im ersten Fall also die wahre Bedingung, im zweiten die unwahre Bedingung.
-Nun folgt ein **Doppelpunkt**. Die nächste Zeile wird eingerückt.
-
-
-> ### Übung einfache if
->
-> Speichern Sie diese Übung in der Datei `iffer.py`.
->
-> 1. Schreiben Sie ein `if`, welches eine wahre Bedingung hat und mit `print` `"Wahr"` ausgibt
-> 2. Schreiben Sie ein zweites `if`, welches eine unwahre Bedingung hat und mit `print` `"Unwahr"` ausgibt
->
-> Was gibt das erste, was gibt das zweite aus? Schreiben Sie die Antwort als Kommentar in den Code.
-
-
+Nach der Bedingung folgt immer ein **Doppelpunkt**. Die nächste Zeile wird ein stück weiter eingerückt als das `if`.
 
 ## Kurze Bemerkung zur **Einrückung**
 
@@ -58,20 +32,38 @@ Python verwendet verschieden starke Einrückungen, um die Zusammengehörigkeit v
 Beispiel:
 
 ```python
-if 1 == 1:
-  print("einsundeins")
-  if 5 == 6:
-     print("fünfundsechs")
-     if 3 == 3:
-         print("dreiunddrei")
+print("Sagen Sie einen Tag:")
+freitag = input()
+if freitag == "Montag":
+  print("Geben Sie eine Note")
+  zeit = input()
+  if zeit == "6":
+     print("Falsch Montage sind die Besten!")
+
+print("Viel Spass!")
 ```
 
 Ausgabe:
 ```
-einsundeins
+>>> %Run tage.py
+Sagen Sie einen Tag:
+Montag
+Geben Sie eine Note
+6
+Falsch Montage sind die Besten!
+Viel Spass!
 ```
 
-In einer grafischen Programmiersprache `scratch` wird der obere Code so dargestellt, dass deutlicher ist, was wie zusammen gehört. Dieses Bild ist nur, falls Sie sich das dann besser vorstellen können. Falls nicht ignorieren Sie es.
+```
+>>> %Run tage.py
+Sagen Sie einen Tag:
+Dienstag
+Viel Spass!
+```
+
+In einer grafischen Programmiersprache `scratch` wird ein if als "Klammer" dargestellt.
+
+Dieses Bild ist nur, falls Sie sich das dann besser vorstellen können. Falls nicht ignorieren Sie es.
 
 ![Geschachteltes If in Scratch](img/ifInScratch.png)
 
@@ -84,66 +76,17 @@ Oft wird es benötigt, dass ein bestimmter Befehl ausgeführt wird, wenn eine Be
 > Notiz: Sowohl nach `if` als auch nach `else` muss mindestens ein eingerückter Befehl kommen. Also man kann  im folgenden Beispiel **keines** der beiden `print`s weglassen (man kann sie aber durch beliebige andere Befehle ersetzen).
 
 ```python
-if 1 == 2:
-   print("wird nicht gezeigt")
+gruß = input()
+if gruß == "hallo":
+   print("Ich antworte mit Hallo")
 else:
-   print("wird gezeigt")
+   print("Bah! - zu unfreundlich!")
 ```
 
-Ausgabe:
-```
-wird angezeigt
-```
 Logischerweise ist `else` nur nach einem fertigen `if` sinnvoll.
 
-Alternativ kann man natürlich auch eine wahre Bedingung einstellen, welche dem Text in `print` widerspricht. Man sieht hier, dass dem Computer die Bedeutung der Worte völlig gleichgültig ist er folgt nur der Logik der Befehle:
+Man sieht hier, dass dem Computer die Bedeutung der Worte völlig gleichgültig ist er folgt nur der Logik der Befehle:
 
-```python
-if 1 == 1:
-   print("wird nicht gezeigt")
-else:
-   print("wird gezeigt")
-```
-
-Ausgabe:
-```
-wird nicht angezeigt
-```
-
-# Bedingungungen schreiben
-
-Neben den normalen Rechenoperationen kann Python auch Vergleichsoperationen. Diese geben immer entweder wahr (`True`) oder falsch (`False`) zurück:
-
-| Operator (Zeichen) | ist `True`(wahr) wenn... |
-| `A == B` | A ist gleich wie B |
-| `A < B` | A ist kleiner als B |
-| `A > B` | A ist größer als B |
-| `A != B` | A ist ungleich B |
-| `A <= B` | A ist kleiner oder gleich B |
-| `A >= B` | A ist größer oder gleich B |
-
-Außerdem kann man noch zwei Wahrheitswerte mit den folgenden Befehlen kombinieren:
-
-| Operator (Zeichen) | ist `True`(wahr) wenn... |
-| `A and B` | ist wahr, wenn A und B wahr sind |
-| `A or B` | ist wahr, wenn A oder B oder beide wahr sind |
-| `not A` | ist wahr, wenn A unwahr (`False`) ist |
-
-
-> ### Übung Welche Bedingungen versteht der Computer?
-> sind die folgenden Ausdrücke wahr oder falsch? - Schreiben Sie die Ergebnisse in die Datei `ifelse.py` mit. Nach einem `#` wird der Rest der Zeile vom Computer ignoriert.
->
-> Für die erste Zeile ist die Lösung also: `5 < 6 # Wahr (True)`
->
-> 1. `5 < 6`
-> 1. `5 != 6`
-> 1. `5 <= 6`
-> 1. `True and True`
-> 1. `False or True`
-> 1. `3 < 4 and 4 < 5`
-> 1. `not (3 != 4)`
->
-> Prüfen Sie die Ergebnisse, die Sie im Kopf herausgefunden haben mit Python im Ausprobierfenster nach.
 
 
 # Kombinieren mit dem bisher gelernten
@@ -237,4 +180,4 @@ Dieses Programm ist natürlich nicht so, wie der Computer ein Passwort abfragen 
 > 3. entfernen Sie die Ausgabe, und fügen Sie stattdessen ein `if` und `else` ein, welches auf die Eingabe reagiert.
 >> Vorsicht beim Vergleichen: der Buchstabe einer Zahl ist nicht gleich der Zahl. Zum Beispiel ist `"2" == 2` unwahr also `False`. Um diese beiden Werte sinnvoll zu vergleichen, muss der Buchstabe `"2"` zur Zahl `2` konvertiert werden: `int("2") == 2` ([mehr](Datentypen.md#umwandlung-von-datentypen)).
 
-[Zurück: Kapitel 6 - Eingaben](Eingaben.md) |  [Home](README.md) |  [Weiter: Kapitel 8 - Schildkröten](Turtle.md) | 
+[Zurück: Kapitel 11 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 13 - Bedingungen](Bedingungen.md) | 

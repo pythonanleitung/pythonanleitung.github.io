@@ -1,6 +1,6 @@
 # Eingaben mit Input
 
-[Zurück: Kapitel 5 - Datentypen](Datentypen.md) |  [Home](README.md) |  [Weiter: Kapitel 7 - Fallunterscheidung](BedingtesAusfuehren.md) | 
+[Zurück: Kapitel 5 - Datentypen](Datentypen.md) |  [Home](README.md) |  [Weiter: Kapitel 7 - Schildkröten](Turtle.md) | 
 
 Ziel dieses Kapitels ist es die eigenen Programme etwas "interaktiver" zu machen.
 
@@ -81,4 +81,4 @@ Die ganze Zahl mal sechs ist: 30
 ```
 
 
-[Zurück: Kapitel 5 - Datentypen](Datentypen.md) |  [Home](README.md) |  [Weiter: Kapitel 7 - Fallunterscheidung](BedingtesAusfuehren.md) | 
+[Zurück: Kapitel 5 - Datentypen](Datentypen.md) |  [Home](README.md) |  [Weiter: Kapitel 7 - Schildkröten](Turtle.md) | 

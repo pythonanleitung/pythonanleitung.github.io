@@ -1,6 +1,6 @@
 # For Schleifen
 
-[Zurück: Kapitel 12 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 14 - Zufall](Zufall.md) | 
+[Zurück: Kapitel 13 - Bedingungen](Bedingungen.md) |  [Home](README.md) |  [Weiter: Kapitel 15 - Zufall](Zufall.md) | 
 
 ## Wiederholung für eine bestimmte Anzahl
 
@@ -76,4 +76,4 @@ Da die Zeile mit `t.forward` wieder weniger eingerückt ist als `t.left` gehört
 > 2. Denken Sie sich ein schönes Bild aus, welches sie mit obigem for zeichnen.
 > 3. Bonus: machen Sie Rechts, Links, Kreis, … in jeweils einer anderen Farbe.
 
-[Zurück: Kapitel 12 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 14 - Zufall](Zufall.md) | 
+[Zurück: Kapitel 13 - Bedingungen](Bedingungen.md) |  [Home](README.md) |  [Weiter: Kapitel 15 - Zufall](Zufall.md) | 

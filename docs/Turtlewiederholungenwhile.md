@@ -1,6 +1,6 @@
 # Zeichnen eines Mandalas mit turtle grafiken.
 
-[Zurück: Kapitel 10 - Wiederholungen mit While](Wiederholungenwhile.md) |  [Home](README.md) |  [Weiter: Kapitel 12 - Listen](Listen.md) | 
+[Zurück: Kapitel 9 - Wiederholungen mit While](Wiederholungenwhile.md) |  [Home](README.md) |  [Weiter: Kapitel 11 - Listen](Listen.md) | 
 
 Natürlich kann `while` auch mit `turtle` zusammen verwendet werden.
 
@@ -38,6 +38,6 @@ Dieses Sechseck kann jetzt verschönert werden. Zum Beispiel kann man kleine Kre
 > 
 > ![TurtleFünfstern fancy](img/Turtlewiederholungenwhile3.png)
 
-[Zurück: Kapitel 10 - Wiederholungen mit While](Wiederholungenwhile.md) |  [Home](README.md) |  [Weiter: Kapitel 12 - Listen](Listen.md) | 
+[Zurück: Kapitel 9 - Wiederholungen mit While](Wiederholungenwhile.md) |  [Home](README.md) |  [Weiter: Kapitel 11 - Listen](Listen.md) | 
 
 

@@ -1,6 +1,6 @@
 # Steuerung der Schlange per Tastatur
 
-[Zurück: Kapitel 21 - Animation](Animation.md) |  [Home](README.md) |  [Weiter: Kapitel 23 - Cheat-Sheet](Cheat-Sheet.md) | 
+[Zurück: Kapitel 22 - Animation](Animation.md) |  [Home](README.md) |  [Weiter: Kapitel 24 - Cheat-Sheet](Cheat-Sheet.md) | 
 
 Nachdem nun die Schlange läuft, ist es jedoch immernoch nicht möglich diese per Tastatur zu steuern.
 
@@ -31,4 +31,4 @@ def reagiereauftasten(taste):
 >  2. Fügen Sie jetzt alle anderen Richtungen hinzu.
 >  3. Testen Sie ihr Spiel ausgiebig. Welche Probleme haben Sie noch?
 
-[Zurück: Kapitel 21 - Animation](Animation.md) |  [Home](README.md) |  [Weiter: Kapitel 23 - Cheat-Sheet](Cheat-Sheet.md) | 
+[Zurück: Kapitel 22 - Animation](Animation.md) |  [Home](README.md) |  [Weiter: Kapitel 24 - Cheat-Sheet](Cheat-Sheet.md) | 

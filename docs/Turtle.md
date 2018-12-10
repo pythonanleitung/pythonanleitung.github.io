@@ -1,6 +1,6 @@
 # Schildkröten
 
-[Zurück: Kapitel 7 - Fallunterscheidung](BedingtesAusfuehren.md) |  [Home](README.md) |  [Weiter: Kapitel 9 - Eingaben in Turtle](TurtleInput.md) | 
+[Zurück: Kapitel 6 - Eingaben](Eingaben.md) |  [Home](README.md) |  [Weiter: Kapitel 8 - Eingaben in Turtle](TurtleInput.md) | 
 
 Nachdem Nun die gröbsten Grundlagen der Programmiersprache gelernt sind, fängt es jetzt an (noch mehr) Spaß zu machen. Im folgenden wird das Modul `turtle` verwendet. Dieses stellt eine einfache Möglichkeit zur Verfügung ein Fenster zu öffnen und in dieses Fenster mithilfe eines `turtles` zu zeichnen.
 
@@ -131,4 +131,4 @@ Es wird hier in `c` die Wurzel aus `a² + b²` also `a*a + b*b` gespeichert. Pas
 >
 >    ![Haus vom Nikolaus](img/nikolaushaus2.png)
 
-[Zurück: Kapitel 7 - Fallunterscheidung](BedingtesAusfuehren.md) |  [Home](README.md) |  [Weiter: Kapitel 9 - Eingaben in Turtle](TurtleInput.md) | 
+[Zurück: Kapitel 6 - Eingaben](Eingaben.md) |  [Home](README.md) |  [Weiter: Kapitel 8 - Eingaben in Turtle](TurtleInput.md) | 

@@ -1,6 +1,6 @@
 # Der input-Befehl des turtle-Moduls
 
-[Zurück: Kapitel 8 - Schildkröten](Turtle.md) |  [Home](README.md) |  [Weiter: Kapitel 10 - Wiederholungen mit While](Wiederholungenwhile.md) | 
+[Zurück: Kapitel 7 - Schildkröten](Turtle.md) |  [Home](README.md) |  [Weiter: Kapitel 9 - Wiederholungen mit While](Wiederholungenwhile.md) | 
 
 Möchte man eine Form in variabler Größe zeichnen, könnte man einfach den `input` Befehl aus dem Kapitel [Eingaben](Eingaben.md) verwenden. Dieser ist jedoch in der "Shell" - man müsste also zunächst unten im Fenster von Thonny die Fragen beantworten, danach wird dann die Form gezeichnet. Eine etwas schönere Variante ist es, wenn das Turtlefenster selbst nach den Eingaben fragt.
 
@@ -20,4 +20,4 @@ Zu beachten ist, dass tatsächlich `turtle.` vor `*input` stehen muss. Was in `t
 > 1. Schreiben Sie ein Turtle-Programm, welches zuerst nach einer Zahl fragt, und dann ein Quadrat in entsprechender Größe, also Seitenlänge zeichnet.
 > 2. Erweitern Sie das Programm, dass es nach dem Zeichnen des Quadrats noch eine Größe für ein gleichseitiges Dreieck fragt, und dieses dann zeichnet.
 
-[Zurück: Kapitel 8 - Schildkröten](Turtle.md) |  [Home](README.md) |  [Weiter: Kapitel 10 - Wiederholungen mit While](Wiederholungenwhile.md) | 
+[Zurück: Kapitel 7 - Schildkröten](Turtle.md) |  [Home](README.md) |  [Weiter: Kapitel 9 - Wiederholungen mit While](Wiederholungenwhile.md) | 
