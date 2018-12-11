@@ -2,10 +2,17 @@
 
 [Zurück: Kapitel 24 - Steuerung](Steuerung.md) |  [Home](README.md) |  
 
-### [Zahlen](Datentypen.md)
+### [Zahlen und Wörter](Datentypen.md)
 
 ```python
-1, 2, 25, 10000000, 0.1
+1, 2, 25, 10000000, 0.1, "hallo", "hallo welt!", """merhzeiliger text
+geht so"""
+```
+
+### [Listen](Listen.md)
+
+```python
+[], [1,2,3,4], range(5), range(5,15,2)
 ```
 
 ### [Rechnen](ErsteSchritte.md)
