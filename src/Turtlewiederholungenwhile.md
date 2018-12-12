@@ -23,21 +23,19 @@ Dieses Sechseck kann jetzt verschönert werden. Zum Beispiel kann man kleine Kre
 ![Turtlesechseck fancy](img/Turtlewiederholungenwhile2.png)
 
 > ### Übungen
-> 
+>
 > Die folgende Übung wird in Datei `sechseck.py` gespeichert.
 > 
-> 1. Programmieren Sie ein turgle Sechseck.
+> 1. Programmieren Sie ein turtle Sechseck.
 > 2. Verzieren Sie dieses mit einem **eigenen** "Muster". Achten Sie drarauf, dass das Sechseck noch zu erkennen ist.
-> 
+>
 > Die nächste Übung wird in `fünfstern.py` gespeichert.
-> 
+>
 > 1. Programmieren Sie einen Fünfstern mit einem turtle.
 > 2. Verzieren Sie diesen mit eigenen Ideen. Achten Sie auch hier darauf, dass es ein Fünfstern bleibt.
-> 
+>
 > Beispiel:
-> 
+>
 > ![TurtleFünfstern fancy](img/Turtlewiederholungenwhile3.png)
 
 {back} {inhalt} {next}
-
-
