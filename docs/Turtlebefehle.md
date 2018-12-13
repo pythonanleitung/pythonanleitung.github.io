@@ -23,6 +23,8 @@ t.left(angle=60)        # drehe links
 t.goto(x=0,y=0)         # gehe zu Koordinaten
 t.home()                # gehe zur Mitte
 t.circle(radius, extent, steps) # Male einen (Teil-)Kreis
+t.speed(0)              # schnellste Geschwindigkeit
+t.speed(1)              # langsamste Geschwindigkeit
 ```
 
 # Malen:
