@@ -42,7 +42,6 @@ Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens he
  1. [For Schleifen](Forschleifen.md)
  1. [Listen](Listen.md)
  1. [For mit Listen ](Formitlisten.md)
- 1. [Bedingungen - was alles im `if` stehen kann](Bedingungen.md)
  1. [Zufall](Zufall.md)
  1. [Funktionen - so etwas wie Schablonen](Funktionen.md)
  1. [Kreise](Kreise.md)

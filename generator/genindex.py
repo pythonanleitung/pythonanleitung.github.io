@@ -16,7 +16,6 @@ chapters_list = [
     ("For Schleifen", "", "Forschleifen.md"),
     ("Listen", "", "Listen.md"),
     ("For mit Listen ", "", "Formitlisten.md"),
-    ("Bedingungen", "was alles im `if` stehen kann", "Bedingungen.md"),
     ("Zufall", "", "Zufall.md"),
     ("Funktionen", "so etwas wie Schablonen", "Funktionen.md"),
     ("Kreise", "", "Kreise.md"),
@@ -27,6 +26,10 @@ chapters_list = [
     ("Animation", "", "Animation.md"),
     ("Steuerung", "", "Steuerung.md"),
     ("Cheat-Sheet", "", "Cheat-Sheet.md")
+]
+
+other = [
+("Bedingungen", "was alles im `if` stehen kann", "Bedingungen.md"),
 ]
 
 projpath = os.path.dirname(os.path.dirname(__file__))

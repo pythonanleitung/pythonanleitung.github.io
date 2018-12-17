@@ -18,7 +18,7 @@ Ausgabe:
 wird angezeigt
 ```
 
-Das `if` in diesem Beispiel ist das Kommando, welches den bedingten Aufruf einleitet. Das `antwort == "hallo"` ist die Bedingung. Es vergleicht das, was in der Variablen antwort steht mit dem Wort `"hallo"` ist beides das gleiche wird die folgende Zeile ausgefürt, ist es etwas verschiedenes wird die folgende Zeile übersprungen.
+Das `if` in diesem Beispiel ist das Kommando, welches den bedingten Aufruf einleitet. Das `antwort == "hallo"` ist die Bedingung, es gibt noch viele [weitere Möglichkeiten Bedingungen zu schreiben](Bedingungen.md). Es vergleicht das, was in der Variablen antwort steht mit dem Wort `"hallo"` ist beides das gleiche wird die folgende Zeile ausgefürt, ist es etwas verschiedenes wird die folgende Zeile übersprungen.
 
 Nach der Bedingung folgt immer ein **Doppelpunkt**. Die nächste Zeile wird ein stück weiter eingerückt als das `if`.
 
