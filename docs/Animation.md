@@ -1,6 +1,6 @@
 # Animation
 
-[Zurück: Kapitel 21 - Computerspiele](Computerspiel.md) |  [Home](README.md) |  [Weiter: Kapitel 23 - Steuerung](Steuerung.md) | 
+[Zurück: Kapitel 17 - Computerspiele](Computerspiel.md) |  [Home](README.md) |  [Weiter: Kapitel 19 - Steuerung](Steuerung.md) | 
 
 Ein Spiel wäre nun relativ langweilig, wenn sich nichts "bewegen" würde. Bei diesem Spiel Soll sich eine Schlange bewegen. Bewegung heißt, dass der Pixel **vor** dem Kopf der Schlange blau wird, und der letzte wieder weiß.
 
@@ -69,4 +69,4 @@ def neuerKopf():
 >  3. Testen Sie, ob Ihre Schlange läuft
 >  4. Probieren Sie alle möglichen Richtungen zu gehen (nach oben, nach unten, nach rechts, nach links), indem Sie bei `s.dir` andere Zahlen einspeichern.
 
-[Zurück: Kapitel 21 - Computerspiele](Computerspiel.md) |  [Home](README.md) |  [Weiter: Kapitel 23 - Steuerung](Steuerung.md) | 
+[Zurück: Kapitel 17 - Computerspiele](Computerspiel.md) |  [Home](README.md) |  [Weiter: Kapitel 19 - Steuerung](Steuerung.md) | 

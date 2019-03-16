@@ -30,10 +30,6 @@ Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens he
 
  1. [Erste Schritte](ErsteSchritte.md)
  1. [Speichern in eine Datei](Speichern.md)
- 1. [Variablen - das Kurzzeitgedächtnis](Variablen.md)
- 1. [Fehlermeldungen - können helfen](Fehler.md)
- 1. [Datentypen - Buchstaben und Zahlen](Datentypen.md)
- 1. [Eingaben - interaktive Programme](Eingaben.md)
  1. [Schildkröten](Turtle.md)
  1. [Eingaben in Turtle - Turtle hat eigene Möglichkeiten für Eingaben](TurtleInput.md)
  1. [Fallunterscheidung - wenn → dann (→ sonst)](BedingtesAusfuehren.md)

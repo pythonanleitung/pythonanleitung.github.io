@@ -16,7 +16,7 @@ Nach dem Start sieht Thonny so aus:
 
 ![Screenshot Thonny](./img/ThonnyLeer.png)
 
-Python ist speziell für Schüler und Studenten geschrieben. Es ist in zwei teile aufgeteilt.
+Thonny ist speziell für Schüler und Studenten geschrieben. Es ist in zwei teile aufgeteilt.
 
 Zunächst liegt der Fokus auf dem unteren Teil, welcher den Titel `Shell` hat und den Inhalt `>>>`.
 
@@ -41,7 +41,7 @@ Python antwortet darauf einfach, indem es dieselbe Zahl wieder gibt.
 In Zeile 3 wird eine einfache Rechenaufgabe in Python gestellt.
 Worauf Python diese berechnet und das Ergebnis zurück gibt.
 
-> Der Computer wird auch als Rechner bezeichnet, das liegt daran, dass er nie irgendetwas anderes tut als Berechnungen auszuführen. Wird ein Computerspiel gestartet, so ist das Bild auf dem Bildschirm das Ergebnis einer (sehr komplexen) Berechnung. Das heißt natürlich auch, dass die einfachsten Befehle für einen Computer die Rechenoperationen sind.
+> Der Computer wird auch als Rechner bezeichnet, das liegt daran, dass er nie irgendetwas anderes tut als Berechnungen auszuführen. Wird ein Computerspiel gestartet, so ist das Bild auf dem Bildschirm das Ergebnis einer (sehr komplexen) Berechnung. Das heißt natürlich auch, dass die einfachsten Befehle, die man in einen Computer eingeben kann die Rechenoperationen sind.
 
 Es können so alle Grundrechenarten verwendet wobei die folgenden Rechenzeichen verwendet werden:
   * Plus: `1 + 2`
@@ -88,25 +88,5 @@ In der dritten Eingabe sind die Klammern so, dass sie `3 + 3` umschließen.
 Nun rechnet Python zuerst die Klammer aus, um dann 6 durch (3 + 3) = 6 zu teilen.
 Das Ergebnis ist nun `1.0`.
 
-
-
-> ### Übungen
-> 1. Schreiben Sie ein Programm, welches nach einer Kommazahl fragt
-> 1. Speichern Sie dieses Programm in der Datei `kommazahl.py`
-> 2. Diese Zahl zu einer Kommazahl umwandelt (Vorsicht statt `int` muss ein anderer Befehl verwendet werden)
-> 3. Die Kommazahl mit `2.5` multipliziert und ausgibt
-> 4. Die Kommazahl in eine ganzzahlige Zahl umwandelt, indem die Kommastellen abgeschnitten werden
-> 5. Die Ganze Zahl mit `6` multipliziert und ausgibt
-> 6. Geben Sie die Ergebnisse jeweils mit einem Antwortsatz aus.
->
-Beispieldurchlauf des Übungsaufgabenprogramms:
-```python
->>> %Run hallo.py
-Gib eine Kommazahl:
-6.7
-Das zweieinhalbfache der Kommazahl ist: 16.75
-Die ganze Zahl ist: 6
-Die ganze Zahl mal sechs ist: 30
-```
 
 [Home](README.md) |  [Weiter: Kapitel 2 - Speichern in eine Datei](Speichern.md) | 

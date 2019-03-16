@@ -4,10 +4,6 @@ import os
 chapters_list = [
     ("Erste Schritte", "", "ErsteSchritte.md"),
     ("Speichern in eine Datei", "", "Speichern.md"),
-    ("Variablen", "das Kurzzeitgedächtnis", "Variablen.md"),
-    ("Fehlermeldungen", "können helfen", "Fehler.md"),
-    ("Datentypen", "Buchstaben und Zahlen", "Datentypen.md"),
-    ("Eingaben", "interaktive Programme", "Eingaben.md"),
     ("Schildkröten", "", "Turtle.md"),
     ("Eingaben in Turtle", "Turtle hat eigene Möglichkeiten für Eingaben", "TurtleInput.md"),
     ("Fallunterscheidung", "wenn → dann (→ sonst)", "BedingtesAusfuehren.md"),

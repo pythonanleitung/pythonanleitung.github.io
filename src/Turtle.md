@@ -30,7 +30,6 @@ t.shape("turtle")
 
 1. Wenn man möchte, kann man auch noch das aussehen der "Schildkröte" verändern. Die Standardeinstellung ist ein Dreieck, dessen Spitze in Laufrichtung zeigt. Mit dem Befehl `t.shape("turtle")` wird diese Form zu einer Schildkrötensiluette.
 
-
 Nach dem Speichern und Ausführen, sollte ein Fenster sich öffnen, in dessen Mitte sich die Schildkröte befindet:
 
 ![Leeres Turtle Fenster](img/leerturtle.png)
@@ -38,6 +37,9 @@ Nach dem Speichern und Ausführen, sollte ein Fenster sich öffnen, in dessen Mi
 ## Das Turtle bewegen und dabei zeichnen
 
 Nun können Sie der Schildkröte Befehle geben. Es gibt unter anderem: `forward`, `left` und `right`. Dabei sind alle Befehle in Fahrtrichtung. Das heißt wenn am Anfang `t.left(90)` angegeben wird: Die Schildkröte zuerst nach rechts, und wird dann gegen den Uhrzeigersinn gedreht, sodass sie nach oben schaut.
+
+> ### Merke
+> Die Befehle werden Zeile für Zeile ausgeführt. Drückt man auf den grünen "Play-Knopf" wird alles neu gestartet, dann der Befehl in der ersten Zeile ausgeführt, dann der in der zweiten und so weiter.
 
 Um also mit dem `turtle` einen rechten Winkel zu zeichnen, der zunächst waagerecht verläuft und dann nach unten geht kann man nun folgenden Code eingeben:
 
