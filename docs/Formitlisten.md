@@ -1,6 +1,8 @@
 
 ## Wiederholungen für jedes Element einer Liste
 
+[Zurück: Kapitel 13 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 15 - Zufall](Zufall.md) | 
+
 Das `for` kann auch dazu verwendet werden, etwas für jedes Element einer Liste einmal aufzurufen. Zum Beispiel so:
 
 ```python
@@ -40,3 +42,5 @@ Da die Zeile mit `t.forward` wieder weniger eingerückt ist als `t.left` gehört
 >    6. Bonus: f für diagonal fallend
 > 2. Denken Sie sich ein schönes Bild aus, welches sie mit obigem for zeichnen.
 > 3. Bonus: machen Sie Rechts, Links, Kreis, … in jeweils einer anderen Farbe.
+
+[Zurück: Kapitel 13 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 15 - Zufall](Zufall.md) | 
