@@ -1,6 +1,12 @@
 # Pythonanleitung
 Eine sehr einfache Anleitung Python zu lernen.
 
+{next}
+
+# Inhaltsverzeichnis
+
+{inhaltsverzeichnis}
+
 ## Was ist Python
 Python ist eine Programmiersprache. Mit Python können alle Programme geschrieben
 werden (Spiele, Musikspieler, Texteditor usw.).
@@ -23,11 +29,5 @@ liebsten verwenden würden.
 
 
 Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens herangeführt.
-
-{next}
-
-# Inhaltsverzeichnis
-
-{inhaltsverzeichnis}
 
 {next}
