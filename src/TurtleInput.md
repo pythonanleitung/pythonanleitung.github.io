@@ -2,9 +2,14 @@
 
 {back} {inhalt} {next}
 
-Möchte man eine Form in variabler Größe zeichnen, könnte man einfach den `input` Befehl aus dem Kapitel [Eingaben](Eingaben.md) verwenden. Dieser ist jedoch in der "Shell" - man müsste also zunächst unten im Fenster von Thonny die Fragen beantworten, danach wird dann die Form gezeichnet. Eine etwas schönere Variante ist es, wenn das Turtlefenster selbst nach den Eingaben fragt.
+Das `turtle`-modul hat die Möglichkeit ein "Dialogfenster" zu öffnen.  Damit kann nach einem Text oder eine Zahl gefragt werden. Das was in diesem diealogfenster eingegeben wird, wird unter dem Namen vor dem `=` abgespeichert. Später kann man diesen Wert dann verwenden. Zum Beispiel kann dann mit `t.forward(zahl)` eine Linie der Länge die erfragt wurde gezeichnet werden.
 
 Turtle stellt zwei Befehle zur Verfügung:
+
+1. `turtle.numinput(title="", prompt="")`
+2. `turtle.textinput(title="", prompt="")`
+
+Zwischen den Anführungszeichen steht der Text der im Dialogfenster angezeigt wird. Ersetzen Sie die Beispiele durch eigene Texte.
 
 ```python
 zahl = turtle.numinput(title="was dann im titel des Fensters steht", prompt="Welche Frage vor dem Eingabefeld steht")

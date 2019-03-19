@@ -1,6 +1,6 @@
 # For Schleifen
 
-[Zurück: Kapitel 7 - Mandala mit while](Turtlewiederholungenwhile.md) |  [Home](README.md) |  [Weiter: Kapitel 9 - Listen](Listen.md) | 
+[Zurück: Kapitel 6 - Mandala mit while](Turtlewiederholungenwhile.md) |  [Home](README.md) |  [Weiter: Kapitel 8 - Listen](Listen.md) | 
 
 ## Wiederholung für eine bestimmte Anzahl
 
@@ -41,4 +41,4 @@ Der eingerückte Teil von wird also genau 30 mal wiederholt. Diesmal ist die Var
 > ![turtle stern fancy](img/fuenfsternfancy.png)
 > ![turtle stern fancy](img/fuenfsternfancy2.png)
 
-[Zurück: Kapitel 7 - Mandala mit while](Turtlewiederholungenwhile.md) |  [Home](README.md) |  [Weiter: Kapitel 9 - Listen](Listen.md) | 
+[Zurück: Kapitel 6 - Mandala mit while](Turtlewiederholungenwhile.md) |  [Home](README.md) |  [Weiter: Kapitel 8 - Listen](Listen.md) | 
