@@ -10,7 +10,7 @@ Beispiele für solche Grafiken sind im [Kapitel Beispielaufgaben](Turtlebeispiel
 
 ## Erstellen des Fensters
 
-Die Datei `meine-kröte.py` sieht also bis jetzt so aus und erstellt bei Ausführung ein Fenster mit einem turtle in der Mitte.
+Erstellen Sie in `thonny` die Datei `meine-kröte.py` und fügen Sie die folgenden 3 Zeilen ein. Nach einem Klick auf "Play" erscheint ein Fenster mit einem turtle in der Mitte.
 
 > ### Achtung
 > **Beim Speichern der Datei darf nicht der Name `turtle.py` gewählt werden.** Dieser Name wird quasi von dem `turtle`-Modul reserviert.
@@ -21,6 +21,7 @@ import turtle
 t = turtle.Pen()
 t.shape("turtle")
 ```
+Erklärungen der Zeilen:
 
 1. Zunächst muss mit `import turtle` das `turtle`-Modul geladen werden.
 
@@ -36,7 +37,7 @@ Nach dem Speichern und Ausführen, sollte ein Fenster sich öffnen, in dessen Mi
 
 ## Das Turtle bewegen und dabei zeichnen
 
-Nun können Sie der Schildkröte Befehle geben. Es gibt unter anderem: `forward`, `left` und `right`. Dabei sind alle Befehle in Fahrtrichtung. Das heißt wenn am Anfang `t.left(90)` angegeben wird: Die Schildkröte zuerst nach rechts, und wird dann gegen den Uhrzeigersinn gedreht, sodass sie nach oben schaut.
+Nun können Sie der Schildkröte Befehle geben. Es gibt unter anderem: `forward`, `left` und `right`. Dabei sind alle Befehle in Fahrtrichtung. Das heißt wenn am Anfang `t.left(90)` angegeben wird: Die Schildkröte zuerst nach rechts, und wird dann gegen den Uhrzeigersinn um 90° gedreht, sodass sie nach oben schaut.
 
 > ### Merke
 > Die Befehle werden Zeile für Zeile ausgeführt. Drückt man auf den grünen "Play-Knopf" wird alles neu gestartet, dann der Befehl in der ersten Zeile ausgeführt, dann der in der zweiten und so weiter.
@@ -119,7 +120,7 @@ b = 7
 c = math.sqrt(a * a + b * b)
 ```
 
-Es wird hier in `c` die Wurzel aus `a² + b²` also `a*a + b*b` gespeichert. Passen Sie dies so an, dass sie damit die Diagonalen der folgenden Übungen ausrechnen können.
+Es wird hier in `c` die Wurzel aus `a² + b²` also `a*a + b*b` gespeichert. Passen Sie `a` und `b` so an, dass sie damit die Diagonalen der folgenden Übungen ausrechnen können. Um die Länge einer Diagonalen zu zeichnen, gehen sie um `c` vorwärts: `t.forward(c)`
 
 > ### Übung
 >
