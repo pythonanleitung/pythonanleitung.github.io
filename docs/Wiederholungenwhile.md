@@ -19,7 +19,7 @@ while <Bedingung>:
 
 Zuerst kommt das Schlüsselwort `while`, danach die Bedingung gefolgt von einem Doppelpunkt. In den nächsten Zeilen eingerückt die Befehle, die wiederholt werden sollen. Sollen mehrere Zeilen wiederholt werden, können auf das `while` mehrere eingerückte Zeilen folgen. Die Zugehörigkeit zu diesem `while` ist durch die Einrückung definiert. Es kann auch innerhalb eines `while` noch ein `while` vorkommen. Das innere `while` muss dann aber eingerückt sein und der innere Teil des inneren `while` muss noch weiter eingerückt sein.
 
-Ein konkretes Beispiel, welches immer wieder nach einer Eingabe fragt, bis `ende` eingegeben wurde (es wird hier `!=` also ungleich verwendet. Alle möglichen  [Bedingungen](Bedingungen.md)):
+Ein konkretes Beispiel `ohneende.py`, welches immer wieder nach einer Eingabe fragt, bis `ende` eingegeben wurde (es wird hier `!=` also ungleich verwendet. Alle möglichen  [Bedingungen](Bedingungen.md)):
 
 ```python
 import turtle
