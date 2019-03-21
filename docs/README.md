@@ -11,6 +11,7 @@ Eine sehr einfache Anleitung Python zu lernen.
  1. [Eingaben in Turtle - Turtle hat eine Möglichkeite für Eingaben](TurtleInput.md)
  1. [Wiederholungen mit While](Wiederholungenwhile.md)
  1. [Mandala mit while](Turtlewiederholungenwhile.md)
+ 1. [Fallunterscheidung - wenn → dann (→ sonst)](BedingtesAusfuehren.md)
  1. [For Schleifen](Forschleifen.md)
  1. [Listen](Listen.md)
  1. [For mit Listen ](Formitlisten.md)

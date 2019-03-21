@@ -1,6 +1,6 @@
 # Zeichnen von Kreisen
 
-[Zurück: Kapitel 11 - Funktionen](Funktionen.md) |  [Home](README.md) |  [Weiter: Kapitel 13 - Kommentare](Kommentare.md) | 
+[Zurück: Kapitel 12 - Funktionen](Funktionen.md) |  [Home](README.md) |  [Weiter: Kapitel 14 - Kommentare](Kommentare.md) | 
 
 Möchte man zum Beispiel einen Kreis um die Sterne oder ein Herz zeichnen, so benötigt man
 gebogene Linien.
@@ -28,4 +28,4 @@ t.circle(radius=50, extent=180, steps=5)
 > 
 > ![Turtle Herz](img/turtleherz.png) ![Turtle Sternkreise](img/turtlesternerandomkreise.png)
 
-[Zurück: Kapitel 11 - Funktionen](Funktionen.md) |  [Home](README.md) |  [Weiter: Kapitel 13 - Kommentare](Kommentare.md) | 
+[Zurück: Kapitel 12 - Funktionen](Funktionen.md) |  [Home](README.md) |  [Weiter: Kapitel 14 - Kommentare](Kommentare.md) | 

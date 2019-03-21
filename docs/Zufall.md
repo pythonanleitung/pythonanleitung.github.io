@@ -1,6 +1,6 @@
 # Zufall
 
-[Zurück: Kapitel 9 - For mit Listen ](Formitlisten.md) |  [Home](README.md) |  [Weiter: Kapitel 11 - Funktionen](Funktionen.md) | 
+[Zurück: Kapitel 10 - For mit Listen ](Formitlisten.md) |  [Home](README.md) |  [Weiter: Kapitel 12 - Funktionen](Funktionen.md) | 
 
 Für das Programm aus der letzten Übung wäre es natürlich schön, wenn sich der Computer die Zahl, die zu erraten ist, selbst ausdenkt, da sonst das Ratespiel recht schnell langweilig wird.
 
@@ -56,4 +56,4 @@ Diese Zufallszahl kann natürlich auch in eine Variable gespeichert werden mit `
 > richtig
 > ```
 
-[Zurück: Kapitel 9 - For mit Listen ](Formitlisten.md) |  [Home](README.md) |  [Weiter: Kapitel 11 - Funktionen](Funktionen.md) | 
+[Zurück: Kapitel 10 - For mit Listen ](Formitlisten.md) |  [Home](README.md) |  [Weiter: Kapitel 12 - Funktionen](Funktionen.md) | 

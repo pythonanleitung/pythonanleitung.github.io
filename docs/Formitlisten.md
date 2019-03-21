@@ -1,7 +1,7 @@
 
 ## Wiederholungen für jedes Element einer Liste
 
-[Zurück: Kapitel 8 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 10 - Zufall](Zufall.md) | 
+[Zurück: Kapitel 9 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 11 - Zufall](Zufall.md) | 
 
 Das `for` kann auch dazu verwendet werden, etwas für jedes Element einer Liste einmal aufzurufen. Zum Beispiel so:
 
@@ -43,4 +43,4 @@ Da die Zeile mit `t.forward` wieder weniger eingerückt ist als `t.left` gehört
 > 2. Denken Sie sich ein schönes Bild aus, welches sie mit obigem for zeichnen.
 > 3. Bonus: machen Sie Rechts, Links, Kreis, … in jeweils einer anderen Farbe.
 
-[Zurück: Kapitel 8 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 10 - Zufall](Zufall.md) | 
+[Zurück: Kapitel 9 - Listen](Listen.md) |  [Home](README.md) |  [Weiter: Kapitel 11 - Zufall](Zufall.md) | 
