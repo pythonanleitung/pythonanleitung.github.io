@@ -23,10 +23,14 @@ Ein konkretes Beispiel `ohneende.py`, welches immer wieder nach einer Eingabe fr
 
 ```python
 import turtle
-eingabe = turtle.textinput(title="hello", prompt="you")
+t = turtle.Pen()
+eingabe = turtle.textinput(title="Sag ende", prompt="Was sagst du?")
 while eingabe != "ende":
-    print("Bei der Eingabe ", eingabe, "konnte ich kein ende finden")
-    eingabe = turtle.textinput(title="hello", prompt="you")
+    # Schreibe den Text in das Turtle-Fenster
+    t.write("Bei der Eingabe -" + eingabe + "- konnte ich kein ende finden")
+    eingabe = turtle.textinput(title="Sag ende", prompt="Was sagst du?")
+    # Lösche das vorher geschriebene
+    t.clear()
 print("So, jetzt ist aber fertig.")
 ```
 
