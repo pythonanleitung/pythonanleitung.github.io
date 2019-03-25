@@ -20,7 +20,7 @@ Die Zuweisung einer Variable hat keinerlei Ausgabe - es wird also nirgends sicht
 
 > ### Hinweis
 > möchte man die vorhandenen Variablen sehen, kann man eine Anzeige an der rechten Seite aktivieren. Hierzu klickt man auf `View`→`Variables`. Die definierten Variablen sind dann nach einem klick auf den Play-Button sichtbar:
-> ![VariablesView](img/ThonnyVariables.png)
+> ![VariablesView](img/thonnyvariables.png)
 
 Diese Variablen können nun verwendet werden hat man zum Beispiel mit `x = 5` der Variablen `x` den Wert `5` gegeben, so kann man nun statt der dritten Zeile auch `z = x + x` schreiben und wird wieder in `z` denselben Wert (`10`) gespeichert haben. Möchte man den Wert einer Variablen ausgeben, so kann man dies mit `print` tun. Um den Wert von `z` zu erfahren also `print(z)`.
 
