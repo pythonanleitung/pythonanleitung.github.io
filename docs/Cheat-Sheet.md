@@ -36,7 +36,7 @@ b = 70
 herbert = a + b
 ```
 
-### [Fallunterscheidung](BedingtesAusfueren.md)
+### [Fallunterscheidung](BedingtesAusfuehren.md)
 Mit if können Teile des Programms nur unter bestimmten Bedingungen ausgeführt werden.
 
 ```python
@@ -50,7 +50,7 @@ print("hallo")
 input()
 ```
 
-### Wiederholung [while](Wiederholungwhile.md), [for](Wiederholungfor.md)
+### Wiederholung [while](Wiederholungenwhile.md), [for](Wiederholungenfor.md)
 ```python
 while 1 < 2:
     print("go")
