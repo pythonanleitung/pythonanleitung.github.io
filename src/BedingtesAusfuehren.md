@@ -4,23 +4,25 @@
 
 Alle Programmiersprachen bieten die Möglichkeit, einen Befehl nur dann auszuführen, wenn eine bestimmte Bedingung eintritt.
 
-Ein Programm soll einen bestimmten Satz nur sagen, wenn der Benutzer auf einen `input()` Befehl `hallo` sagt:
+Ein Programm soll zum Beispiel einen bestimmten Satz nur sagen, wenn der Benutzer auf einen `turtle.textinput()` Befehl `hallo` sagt:
 
 ```python
-print("Sagen Sie hallo:")
-antwort = input()
+import turtle
+t = turtle.Pen()
+t.shape("turtle")
+
+antwort = turtle.textinput("Frage", "Sagen Sie hallo:")
 if antwort == "hallo":
-   print("Einen lieben Gruß")
+  t.write("Einen lieben Gruß", True) #(Das True bewirkt dass die Turtle beim Schreiben läuft.)
 ```
 
-Ausgabe:
-```
-wird angezeigt
-```
+Ergebnis nach der Eingabe von `hallo`, wurde was anderes eingegeben, so kommt der Text nicht:
+![Gruß](img/einenliebengru.png)
 
-Das `if` in diesem Beispiel ist das Kommando, welches den bedingten Aufruf einleitet. Das `antwort == "hallo"` ist die Bedingung, es gibt noch viele [weitere Möglichkeiten Bedingungen zu schreiben](Bedingungen.md). Es vergleicht das, was in der Variablen antwort steht mit dem Wort `"hallo"` ist beides das gleiche wird die folgende Zeile ausgefürt, ist es etwas verschiedenes wird die folgende Zeile übersprungen.
 
-Nach der Bedingung folgt immer ein **Doppelpunkt**. Die nächste Zeile wird ein stück weiter eingerückt als das `if`.
+Das `if` in diesem Beispiel ist das Kommando, welches den bedingten Aufruf einleitet. Das `antwort == "hallo"` ist die Bedingung, es gibt noch viele [weitere Möglichkeiten Bedingungen zu schreiben](Bedingungen.md). Es vergleicht das, was in der Variablen `antwort` steht mit dem Wort `"hallo"` ist beides das gleiche wird die folgende Zeile ausgeführt, ist es etwas verschiedenes wird die folgende Zeile übersprungen.
+
+Nach der Bedingung folgt immer ein **Doppelpunkt**. Die nächste Zeile wird ein Stück weiter eingerückt als das `if`.
 
 ## Kurze Bemerkung zur **Einrückung**
 
@@ -32,42 +34,22 @@ Python verwendet verschieden starke Einrückungen, um die Zusammengehörigkeit v
 Beispiel:
 
 ```python
-print("Sagen Sie einen Tag:")
-freitag = input()
+import turtle
+t = turtle.Pen()
+freitag = turtle.textinput("Frage", "Sagen Sie einen Tag:")
+note = turtle.textinput("Frage", "Geben Sie eine Note für diesen Tag:")
 if freitag == "Montag":
-  print("Geben Sie eine Note")
-  zeit = input()
-  if zeit == "6":
-     print("Falsch Montage sind die Besten!")
+  if note == "6":
+     t.write("Falsch Montage sind die Besten! ", True)
+     note = "1"
 
-print("Viel Spass!")
+t.write(freitag + " mit Note " + note + " stimme ich zu! Viel Spass!")
 ```
 
-Ausgabe:
-```
->>> %Run tage.py
-Sagen Sie einen Tag:
-Montag
-Geben Sie eine Note
-6
-Falsch Montage sind die Besten!
-Viel Spass!
-```
-
-```
->>> %Run tage.py
-Sagen Sie einen Tag:
-Dienstag
-Viel Spass!
-```
-
-In einer grafischen Programmiersprache `scratch` wird ein if als "Klammer" dargestellt.
-
-Dieses Bild ist nur, falls Sie sich das dann besser vorstellen können. Falls nicht ignorieren Sie es.
-
-![Geschachteltes If in Scratch](img/ifInScratch.png)
-
-Das `if`, welches zu falls übersetzt wird, ist eine Klammer. Alles was innerhalb dieses `if`s ist, wird nur ausgeführt, wenn die Bedingung des `if`s zutrifft. Dieses "innerhalb" wird in Python durch "stärker eingerückt", also mehr Leerzeichen am Anfang der Zeile deutlich gemacht. Natürlich kann auch innerhalb eines `if`s ein zweites `if` stehen.
+> In einer ganz anderen, grafischen Programmiersprache `scratch` wird ein if als "Klammer" dargestellt.
+> Dieses Bild ist nur, falls Sie sich das dann besser vorstellen können. Falls nicht ignorieren Sie es.
+> ![Geschachteltes If in Scratch](img/ifInScratch.png)
+> Das `if`, welches zu falls übersetzt wird, ist eine Klammer. Alles was innerhalb dieses `if`s ist, wird nur ausgeführt, wenn die Bedingung des `if`s zutrifft. Dieses "innerhalb" wird in Python durch "stärker eingerückt", also mehr Leerzeichen am Anfang der Zeile deutlich gemacht. Natürlich kann auch innerhalb eines `if`s ein zweites `if` stehen.
 
 ## Wenn → Dann → Ansonsten
 
@@ -76,52 +58,40 @@ Oft wird es benötigt, dass ein bestimmter Befehl ausgeführt wird, wenn eine Be
 > Notiz: Sowohl nach `if` als auch nach `else` muss mindestens ein eingerückter Befehl kommen. Also man kann  im folgenden Beispiel **keines** der beiden `print`s weglassen (man kann sie aber durch beliebige andere Befehle ersetzen).
 
 ```python
-gruß = input()
-if gruß == "hallo":
-   print("Ich antworte mit Hallo")
+import turtle
+t=turtle.Pen()
+gru = turtle.textinput("Frage", "Geben Sie ein Grußwort ein:")
+if gru == "Guten Tag":
+   t.write("Ich antworte mit Hallo")
 else:
-   print("Bah! - zu unfreundlich!")
+   t.write("Bah! - zu unfreundlich!")
 ```
 
 Logischerweise ist `else` nur nach einem fertigen `if` sinnvoll.
 
-Man sieht hier, dass dem Computer die Bedeutung der Worte völlig gleichgültig ist er folgt nur der Logik der Befehle:
+Man sieht hier, dass dem Computer die Bedeutung der Worte völlig gleichgültig ist er folgt nur der Logik der Befehle. Sie können das freundlichste Grußwort eingeben, wenn es aber nicht "Guten Tag" ist, wird der Computer das unfreundlich finden.
 
 
 
-# Kombinieren mit dem bisher gelernten
-
-Natürlich kann dieses `if` mit allem zuvor gelernten und mit allem kommenden kombiniert werden. Die folgenden Beispiele kombinieren den `input`-Befehl mit den `if`-Abfragen.
-
-# Beispiel: ein Grußprogramm
+# Ein Grußprogramm mit drei Möglichkeiten
 
 Ein Programm, das auf `hallo` und `tschüss` unterschiedlich reagiert:
 
 ```python
-print("Welcher Gruß? ")
-gru = input()
+import turtle
+t=turtle.Pen()
+
+gru = turtle.textinput("Frage", "Geben Sie ein Grußwort ein:")
 if gru == "hallo":
-     print("Guten Tag")
+     t.write("Guten Tag")
 elif gru == "tschüss":
-     print("Auf Wiedersehen")
+     t.write("Auf Wiedersehen")
 else:
-     print("Ich habe Sie leider nicht verstanden")
+     t.write("Ich habe Sie leider nicht verstanden")
 ```
 In diesem Beispiel wird eine weitere Option der `if`-Ausdrücke verwendet: `elif`. Dieses steht für `else if` und bedeutet: Falls nicht die erste Bedingung dann vielleicht diese Bedingung also am ehesten zu übersetzen mit "oder wenn". Zwischen einem `if` und einem `else` können beliebig viele `elif` stehen, aber vorher muss immer ein `if` und stehen.
 
-Wird dies in eine Datei `gru.py` gespeichert und diese dann (dreimal) ausgeführt, so entsteht folgende Ausgabe:
-
-```bash
->>> %Run gru.py
-Welcher Gruß? hallo
-Guten Tag
->>> %Run gru.py
-Welcher Gruß? tschüss
-Auf Wiedersehen
->>> %Run gru.py
-Welcher Gruß? tschau
-Ich habe Sie leider nicht verstanden
-```
+Dies wird in die Datei `gru.py` gespeichert.
 
 > ### Übung Grußprogramm
 > Schreiben und testen Sie ein Programm, welches nach einem Gruß fragt und je nach Gruß unterschiedlich reagiert.
@@ -138,31 +108,22 @@ Es werden drei Versuche gegeben das Passwort zu erraten unter Verwendung des Ein
 ```python
 geheim = "Döner"
 
-print("Versuch1: ")
-if geheim == input():
-    print("geschafft")
+import turtle
+t=turtle.Pen()
+
+if geheim == turtle.textinput("Frage", "Versuch Nummer 1:"):
+    t.write("geschafft")
 else:
-    print("Versuch2: ")
-    if geheim == input():
-        print("geschafft")
+    if geheim == turtle.textinput("Frage", "Versuch Nummer 1:")::
+        t.write("geschafft")
     else:
-        print("Versuch3: ")
-        if geheim == input():
-            print("geschafft")
+        if geheim == turtle.textinput("Frage", "Versuch Nummer 1:")::
+            t.write("geschafft")
         else:
-            print("nicht geschafft")
+            t.write("nicht geschafft")
 ```
 
-Beispiel:
-```
-Versuch1:
-hi
-Versuch2:
-Döner
-geschafft
-```
-
-Dieses Programm ist natürlich nicht so, wie der Computer ein Passwort abfragen würde, da das Passwort für jeden lesbar im Programm steht. Normalerweise wird das Passwort nur verschlüsselt abgespeichert.
+Dieses Programm ist natürlich nicht so, wie der Computer ein Passwort abfragen würde, da das Passwort für jeden lesbar im Programm steht. Normalerweise wird das Passwort nur verschlüsselt also nicht lesbar abgespeichert.
 
 > ### Übung Passwortprogramm
 >
