@@ -8,6 +8,7 @@ chapters_list = [
     ("Eingaben in Turtle", "Turtle hat eine Möglichkeite für Eingaben", "TurtleInput.md"),
     ("Wiederholungen mit While", "", "Wiederholungenwhile.md"),
     ("Mandala mit while", "", "Turtlewiederholungenwhile.md"),
+    ("Variablen", "Das Kurzzeitgedächtnis", "Variablen.md"),
     ("Fallunterscheidung", "wenn → dann (→ sonst)", "BedingtesAusfuehren.md"),
     ("For Schleifen", "", "Forschleifen.md"),
     ("Listen", "", "Listen.md"),
