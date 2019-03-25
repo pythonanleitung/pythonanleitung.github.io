@@ -114,10 +114,10 @@ t=turtle.Pen()
 if geheim == turtle.textinput("Frage", "Versuch Nummer 1:"):
     t.write("geschafft")
 else:
-    if geheim == turtle.textinput("Frage", "Versuch Nummer 1:")::
+    if geheim == turtle.textinput("Frage", "Versuch Nummer 2:"):
         t.write("geschafft")
     else:
-        if geheim == turtle.textinput("Frage", "Versuch Nummer 1:")::
+        if geheim == turtle.textinput("Frage", "Versuch Nummer 3:"):
             t.write("geschafft")
         else:
             t.write("nicht geschafft")
