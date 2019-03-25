@@ -6,9 +6,24 @@ Die Aufgaben Programme, die hier geschrieben werden sind immer komplexer und gr√
 Ein beispiel:
 
 ```python
-# Eine Funktion, die etwas ausgibt
-def fun(test):
-    print(test) # hier wird ausgegeben
+# Das Turtlemodul aktivieren
+import turtle
+t = turtle.Pen()
+# Ein Dreieck zeichnen:
+t.forward(100) # 100 Schritte laufen
+t.left(120)    # Um 120 Grad drehen. (Innenwinkel 60 Grad)
+t.forward(100)
+t.left(120)
+t.forward(100)
+t.left(120)
+# Ein Viereck zeichnen
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
 ```
 
 Man schreibt also zun√§chst ein "Hashtag" `#` und dann seinen Kommentar. Der Computer ignoriert alles, was nach dem Hashtag in der selben Zeile steht. Das was davor steht wird aber verwendet.

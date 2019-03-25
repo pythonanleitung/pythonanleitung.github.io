@@ -101,6 +101,8 @@ t.forward(30)
 >
 > Zeichnen Sie 3 Quadrate mit dem selben Mittelpunkt wobei jeweils das folgende kleiner ist als das erste.
 >
+> Tipp: Wenn Sie die [Kommentarfunktion](Kommentare.md) benutzen, dann ist es einfacher die Übersicht zu behalten.
+>
 > Ergebnis:
 >
 > ![Quadrate](img/turtlequadrate.png)
