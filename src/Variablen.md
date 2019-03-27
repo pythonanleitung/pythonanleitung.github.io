@@ -31,10 +31,10 @@ Die Variablen sind so etwas wie das Kurzzeitgedächtnis des Computers... Er kann
 >  1. Erstellen Sie eine Python-Datei `Variablen.py` welche die Variablen `x, y, z` die Werte `34, 24, 'hallo'` zuweist.
 >  1. Führen Sie das Programm aus. Es erscheint keine Ausgabe, da `python` beim Variablen erstellen keine Ausgabe anzeigt.
 >  5. Betrachten Sie die erstellten Variablen im "`Variables View`", indem Sie auf `View`→`Variables` klicken.
->  1. Geben Sie alle Variablen mit `print` aus. Achtung Geben Sie die Variablen aus und nicht nur die selbe Zahl.
+>  1. Lassen Sie das turtle alle Variablen sagen mit `t.write(variable, True)`. Achtung Geben Sie die Variablen aus und nicht nur die selbe Zahl.
 >  1. Testen Sie, indem Sie das Programm nochmals starten, ihre neue Ausgabe.
 >  2. Berechnen Sie in die Variable `summe` die Summe von `x` und `y`. Verwenden Sie auch hier die Variablen statt ihren Zahlenwert.
->  3. Geben Sie die Summe mit `print` aus.
+>  3. Geben Sie die Summe mit `t.write` aus.
 >  4. Starten Sie das Programm erneut lösen Sie alle [Fehlermeldungen](Fehler.md).
 
 {back} {inhalt} {next}
