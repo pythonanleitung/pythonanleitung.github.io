@@ -1,3 +1,6 @@
+Datei kopieren Sie folgendes in die Datei: `wortliste.py`
+
+
 ```
 wortliste = ["lyrisches",
 "Formelement",
