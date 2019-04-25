@@ -1,6 +1,6 @@
 # For Schleifen
 
-[Zurück: Kapitel 8 - Fallunterscheidung](BedingtesAusfuehren.md) |  [Home](README.md) |  [Weiter: Kapitel 10 - Listen](Listen.md) | 
+[Zurück: 1.8 - Fallunterscheidung](BedingtesAusfuehren.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  [Weiter: 1.10 - Listen](Listen.md) | 
 
 ## Wiederholung für eine bestimmte Anzahl
 
@@ -41,4 +41,4 @@ Der eingerückte Teil von wird also genau 30 mal wiederholt. Diesmal ist die Var
 > ![turtle stern fancy](img/fuenfsternfancy.png)
 > ![turtle stern fancy](img/fuenfsternfancy2.png)
 
-[Zurück: Kapitel 8 - Fallunterscheidung](BedingtesAusfuehren.md) |  [Home](README.md) |  [Weiter: Kapitel 10 - Listen](Listen.md) | 
+[Zurück: 1.8 - Fallunterscheidung](BedingtesAusfuehren.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  [Weiter: 1.10 - Listen](Listen.md) | 

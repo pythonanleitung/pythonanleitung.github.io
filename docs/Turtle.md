@@ -1,6 +1,6 @@
 # Schildkröten
 
-[Zurück: Kapitel 2 - Speichern in eine Datei](Speichern.md) |  [Home](README.md) |  [Weiter: Kapitel 4 - Eingaben in Turtle](TurtleInput.md) | 
+[Zurück: 1.2 - Speichern in eine Datei](Speichern.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  [Weiter: 1.4 - Eingaben in Turtle](TurtleInput.md) | 
 
 Nachdem Nun die gröbsten Grundlagen der Programmiersprache gelernt sind, fängt es jetzt an (noch mehr) Spaß zu machen. Im folgenden wird das Modul `turtle` verwendet. Dieses stellt eine einfache Möglichkeit zur Verfügung ein Fenster zu öffnen und in dieses Fenster mithilfe eines `turtles` zu zeichnen.
 
@@ -136,4 +136,4 @@ Es wird hier in `c` die Wurzel aus `a² + b²` also `a*a + b*b` gespeichert. Pas
 >
 >    ![Haus vom Nikolaus](img/nikolaushaus2.png)
 
-[Zurück: Kapitel 2 - Speichern in eine Datei](Speichern.md) |  [Home](README.md) |  [Weiter: Kapitel 4 - Eingaben in Turtle](TurtleInput.md) | 
+[Zurück: 1.2 - Speichern in eine Datei](Speichern.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  [Weiter: 1.4 - Eingaben in Turtle](TurtleInput.md) | 

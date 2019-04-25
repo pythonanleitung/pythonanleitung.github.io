@@ -1,6 +1,6 @@
 # Listen
 
-[Zurück: Kapitel 9 - For Schleifen](Forschleifen.md) |  [Home](README.md) |  [Weiter: Kapitel 11 - For mit Listen ](Formitlisten.md) | 
+[Zurück: 1.9 - For Schleifen](Forschleifen.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  [Weiter: 1.11 - For mit Listen ](Formitlisten.md) | 
 
 Python kann neben einem einzelnen Wert auch eine Liste von Werten in einer Variablen abspeichern.
 
@@ -40,4 +40,4 @@ while i <= 14:
 
 Statt die Länge des Wortes händisch zu zählen (also die 15), kann auch die Funktion `len(wort)` verwendet werden.
 
-[Zurück: Kapitel 9 - For Schleifen](Forschleifen.md) |  [Home](README.md) |  [Weiter: Kapitel 11 - For mit Listen ](Formitlisten.md) | 
+[Zurück: 1.9 - For Schleifen](Forschleifen.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  [Weiter: 1.11 - For mit Listen ](Formitlisten.md) | 

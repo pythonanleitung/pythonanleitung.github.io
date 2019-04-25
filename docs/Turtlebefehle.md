@@ -1,6 +1,6 @@
 # Zusammenfassung der Turtle Befehle
 
-[Zurück: Kapitel 16 - Turtle Beispielaufgaben](Turtlebeispielaufgaben.md) |  [Home](README.md) |  [Weiter: Kapitel 18 - Computerspiele](Computerspiel.md) | 
+[Zurück: 1.16 - Turtle Beispielaufgaben](Turtlebeispielaufgaben.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  
 
 Erstellen eines Turtle-Fensters mit:
 
@@ -50,4 +50,4 @@ turtle.numinput("", "") # Turtle Fragt nach einer Zahl mit `title` und `promt`
 turtle.textinput("", "")# Turtle Fragt nach einem Text mit `title` und `promt`
 ```
 
-[Zurück: Kapitel 16 - Turtle Beispielaufgaben](Turtlebeispielaufgaben.md) |  [Home](README.md) |  [Weiter: Kapitel 18 - Computerspiele](Computerspiel.md) | 
+[Zurück: 1.16 - Turtle Beispielaufgaben](Turtlebeispielaufgaben.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  

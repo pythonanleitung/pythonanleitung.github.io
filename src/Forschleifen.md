@@ -1,6 +1,6 @@
 # For Schleifen
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 ## Wiederholung für eine bestimmte Anzahl
 
@@ -41,4 +41,4 @@ Der eingerückte Teil von wird also genau 30 mal wiederholt. Diesmal ist die Var
 > ![turtle stern fancy](img/fuenfsternfancy.png)
 > ![turtle stern fancy](img/fuenfsternfancy2.png)
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

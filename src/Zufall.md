@@ -1,6 +1,6 @@
 # Zufall
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 Für das Programm aus der letzten Übung wäre es natürlich schön, wenn sich der Computer die Zahl, die zu erraten ist, selbst ausdenkt, da sonst das Ratespiel recht schnell langweilig wird.
 
@@ -56,4 +56,4 @@ Diese Zufallszahl kann natürlich auch in eine Variable gespeichert werden mit `
 > richtig
 > ```
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

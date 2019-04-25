@@ -1,6 +1,6 @@
 # Eine Liste von möglichen Turtlegrafiken
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 ## YinYang
 
@@ -67,4 +67,4 @@ Benötigt werden:
   
   ![Herzmandala](img/turtleherzmandala.png)
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

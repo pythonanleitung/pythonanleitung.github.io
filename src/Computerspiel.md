@@ -1,6 +1,6 @@
 # Computerspiele
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 Das nächste Ziel ist ein kleine Snake-Spiel zu entwickeln.
 
@@ -77,4 +77,4 @@ s.level[9] = 1
 > * Zeichnen Sie dieses Level mit einer Funktion namens `level1`. Erstellen Sie die Funktionen mit `def` wie im Kapitel [Funktionen](Funktionen.md)
 > * Erstellen Sie noch eine Funktion `level2`, die ein eigenes Muster macht.
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

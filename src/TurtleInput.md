@@ -1,6 +1,6 @@
 # Der input-Befehl des turtle-Moduls
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 Wollen Sie ein Programm schreiben, was ein Quadrat nicht immer in der selben größe zeichnet, sondern bei dem man nach dem Klick auf play die größe angeben kann und das Programm dann diese Größe verwendet, benötigen Sie eine Funktion mit der das Programm dem Benutzer fragen stellen kann.
 
@@ -31,4 +31,4 @@ Was in `title=` übergeben wird landet im Fenstertitel, was in `promt=` übergeb
 > 1. Schreiben Sie ein Turtle-Programm, welches zuerst nach einer Zahl fragt, und dann ein Quadrat in entsprechender Größe, also Seitenlänge zeichnet.
 > 2. Erweitern Sie das Programm, dass es nach dem Zeichnen des Quadrats noch eine Größe für ein gleichseitiges Dreieck fragt, und dieses dann zeichnet.
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

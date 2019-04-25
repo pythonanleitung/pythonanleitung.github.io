@@ -1,6 +1,6 @@
 # Eingaben mit Input
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 Ziel dieses Kapitels ist es die eigenen Programme etwas "interaktiver" zu machen.
 
@@ -81,4 +81,4 @@ Die ganze Zahl mal sechs ist: 30
 ```
 
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

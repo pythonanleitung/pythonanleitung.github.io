@@ -1,6 +1,6 @@
 # Zeichnen von Kreisen
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 Möchte man zum Beispiel einen Kreis um die Sterne oder ein Herz zeichnen, so benötigt man
 gebogene Linien.
@@ -28,4 +28,4 @@ t.circle(radius=50, extent=180, steps=5)
 > 
 > ![Turtle Herz](img/turtleherz.png) ![Turtle Sternkreise](img/turtlesternerandomkreise.png)
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

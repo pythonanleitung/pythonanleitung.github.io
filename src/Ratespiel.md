@@ -6,4 +6,4 @@
 > 1. Erweitern Sie das Programm so, dass es Zufallszahlen zwischen `0` und `100` verwendet.
 > 1. Nach wie vielen Versuchen haben Sie das Ergebnis sicher?
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

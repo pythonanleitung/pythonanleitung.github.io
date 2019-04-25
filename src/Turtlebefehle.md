@@ -1,6 +1,6 @@
 # Zusammenfassung der Turtle Befehle
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 Erstellen eines Turtle-Fensters mit:
 
@@ -50,4 +50,4 @@ turtle.numinput("", "") # Turtle Fragt nach einer Zahl mit `title` und `promt`
 turtle.textinput("", "")# Turtle Fragt nach einem Text mit `title` und `promt`
 ```
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

@@ -1,6 +1,6 @@
 # Wiederholungen mit while
 
-[Zurück: Kapitel 4 - Eingaben in Turtle](TurtleInput.md) |  [Home](README.md) |  [Weiter: Kapitel 6 - Mandala mit while](Turtlewiederholungenwhile.md) | 
+[Zurück: 1.4 - Eingaben in Turtle](TurtleInput.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  [Weiter: 1.6 - Mandala mit while](Turtlewiederholungenwhile.md) | 
 
 Oftmals in einem Computerprogramm soll der Computer Dinge wiederholen. Eine Form der Wiederholung ist es etwas so lange zu wiederholen, bis eine Bedingung nicht mehr zutrifft.
 
@@ -41,4 +41,4 @@ Es wird an diesem 2. Beispiel deutlich, dass die Wiederholung unter Umständen a
 > 1. Schreiben Sie in die Datei `darum.py` eine `while`-Schleife, die immer fragt `"warum soll ich? "` erst bei der Eingabe `"schluss jetzt!"` beendet sich die Schleife.
 > 1. Schreiben Sie in die Datei `weiter.py` eine Schleife, die die Frage `"immer noch weiter? "` wiederholt **solange** man `"weiter"` eingibt.
 
-[Zurück: Kapitel 4 - Eingaben in Turtle](TurtleInput.md) |  [Home](README.md) |  [Weiter: Kapitel 6 - Mandala mit while](Turtlewiederholungenwhile.md) | 
+[Zurück: 1.4 - Eingaben in Turtle](TurtleInput.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  [Weiter: 1.6 - Mandala mit while](Turtlewiederholungenwhile.md) | 

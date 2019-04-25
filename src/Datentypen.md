@@ -1,6 +1,6 @@
 # Datentypen
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 Ziel dieses Kapitels ist es zu verstehen, wie der Computer die Welt sieht. So wie wir Menschen verschiedene Sprachen sprechen, so gibt es für den Computer auch verschieden interpretierte Inhalte.
 
@@ -62,4 +62,4 @@ In der letzten Umformung ist zu beachten, dass nicht gerundet wird, sondern einf
 >   3. Multiplizieren Sie `eis` und `drache`, geben Sie das Ergebnis mit `print` aus.
 >   4. Addieren Sie `eis` und `Drache`, und geben Sie das Ergebnis aus. Wenn ein Fehler auftritt schauen Sie nocheinmal oben nach woran es liegen könnte: das Ergebniss sollte `45lo` sein.
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

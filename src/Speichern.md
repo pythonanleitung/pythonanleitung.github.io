@@ -1,6 +1,6 @@
 # Speichern in eine Datei
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 > Ziel dieses Kapitels ist es die Arbeit die wir machen abzuspeichern, sodass man es später wieder verwenden kann, und vielleicht auch jemand das Programm einfach verwenden kann ohne zu programmieren.
 
@@ -60,4 +60,4 @@ Immer wenn etwas im oberen Fenster verändert wurde, so muss wieder der "Play-Bu
 > 1. Speichern Sie diese Datei mit dem Namen `rechnung.py` ab.
 > 1. Führen Sie nun die Datei mit dem "Play-Button" aus.
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

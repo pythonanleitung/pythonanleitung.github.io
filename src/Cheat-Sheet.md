@@ -1,6 +1,6 @@
 # Cheat-Sheet
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 ### [Zahlen und Wörter](Datentypen.md)
 
@@ -74,4 +74,4 @@ doFun(name="Gollom")
 doFun(name="Dobby")
 ```
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

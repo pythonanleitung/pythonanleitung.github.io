@@ -1,6 +1,6 @@
 # Steuerung der Schlange per Tastatur
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 Nachdem nun die Schlange läuft, ist es jedoch immernoch nicht möglich diese per Tastatur zu steuern.
 
@@ -31,4 +31,4 @@ def reagiereauftasten(taste):
 >  2. Fügen Sie jetzt alle anderen Richtungen hinzu.
 >  3. Testen Sie ihr Spiel ausgiebig. Welche Probleme haben Sie noch?
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

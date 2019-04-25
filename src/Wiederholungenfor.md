@@ -1,6 +1,6 @@
 # Der Befehl for
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 For ist der Befehl, der "für jedes" wiederholt. Also zum Beispiel für jeden Buchstaben, oder für jede Zahl in einer Liste `[1,2,3,4,5]`.
 
@@ -47,4 +47,4 @@ Ergibt die Ausgabe:
 2620
 ```
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

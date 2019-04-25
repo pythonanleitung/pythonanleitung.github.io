@@ -1,6 +1,6 @@
 # Zeichnen eines Mandalas mit turtle grafiken.
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 Natürlich kann `while` auch mit `turtle` zusammen verwendet werden.
 
@@ -38,4 +38,4 @@ Dieses Sechseck kann jetzt verschönert werden. Zum Beispiel kann man kleine Kre
 >
 > ![TurtleFünfstern fancy](img/Turtlewiederholungenwhile3.png)
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

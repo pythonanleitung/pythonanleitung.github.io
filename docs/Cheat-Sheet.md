@@ -1,6 +1,6 @@
 # Cheat-Sheet
 
-[Zurück: Kapitel 20 - Steuerung](Steuerung.md) |  [Home](README.md) |  
+ [Inhalt](README.md) |  [Kapitel](anhang.md) |  
 
 ### [Zahlen und Wörter](Datentypen.md)
 
@@ -74,4 +74,4 @@ doFun(name="Gollom")
 doFun(name="Dobby")
 ```
 
-[Zurück: Kapitel 20 - Steuerung](Steuerung.md) |  [Home](README.md) |  
+ [Inhalt](README.md) |  [Kapitel](anhang.md) |  

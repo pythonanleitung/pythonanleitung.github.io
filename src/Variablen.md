@@ -1,6 +1,6 @@
 # Variablen
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 In diesem Kapitel geht es darum, wie sich das Computerprogramm etwas "merkt", und wie man dieses gemerkte dann wieder verwenden kann.
 
@@ -37,4 +37,4 @@ Die Variablen sind so etwas wie das Kurzzeitgedächtnis des Computers... Er kann
 >  3. Geben Sie die Summe mit `t.write` aus.
 >  4. Starten Sie das Programm erneut lösen Sie alle [Fehlermeldungen](Fehler.md).
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

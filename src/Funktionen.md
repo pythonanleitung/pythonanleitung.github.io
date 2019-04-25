@@ -1,6 +1,6 @@
 # Sterne zeichnen mit Turtle
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 > ### Übung
 >
@@ -68,4 +68,4 @@ dass Sie die ganze Zeit schon solche Funktionen verwendet haben zum Beispiel `pr
 > ![Turtle mit zufälligem Ort](img/turtlesternerandom.png)
 > ![Turtle mit gleichem Zentrum](img/turtlesterne.png)
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

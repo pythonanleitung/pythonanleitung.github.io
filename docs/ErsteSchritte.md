@@ -1,6 +1,6 @@
 # Ein erstes Beispiel
 
-[Home](README.md) |  [Weiter: Kapitel 2 - Speichern in eine Datei](Speichern.md) | 
+[Inhalt](README.md) |  [Weiter: 12 - Speichern in eine Datei](Speichern.md) | 
 
 Es wird immer wieder Übungen geben. Für dieses Kapitel besteht die Übung darin mit Python einige Rechenaufgaben zu berechnen. Die Aufgaben beziehen sich fast immer auf die Erklärungen unmittelbar davor.
 
@@ -89,4 +89,4 @@ Nun rechnet Python zuerst die Klammer aus, um dann 6 durch (3 + 3) = 6 zu teilen
 Das Ergebnis ist nun `1.0`.
 
 
-[Home](README.md) |  [Weiter: Kapitel 2 - Speichern in eine Datei](Speichern.md) | 
+[Inhalt](README.md) |  [Weiter: 12 - Speichern in eine Datei](Speichern.md) | 

@@ -1,6 +1,6 @@
 # Fehler
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}
 
 Vermutlich ist schon aufgefallen, wie kleinlich `python` auf die Korrektheit achtet. Sobald auch nur ein einzelner Buchstabe falsch ist, bekommt man einen Fehler zu sehen. Die Fehler geben meistens einen Hinweis darüber was falsch sein könnte.
 
@@ -69,4 +69,4 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
-{back} {inhalt} {next}
+{back} {inhalt} {chapter} {next}

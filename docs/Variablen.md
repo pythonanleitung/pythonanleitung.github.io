@@ -1,6 +1,6 @@
 # Variablen
 
-[Zurück: Kapitel 6 - Mandala mit while](Turtlewiederholungenwhile.md) |  [Home](README.md) |  [Weiter: Kapitel 8 - Fallunterscheidung](BedingtesAusfuehren.md) | 
+[Zurück: 1.6 - Mandala mit while](Turtlewiederholungenwhile.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  [Weiter: 1.8 - Fallunterscheidung](BedingtesAusfuehren.md) | 
 
 In diesem Kapitel geht es darum, wie sich das Computerprogramm etwas "merkt", und wie man dieses gemerkte dann wieder verwenden kann.
 
@@ -37,4 +37,4 @@ Die Variablen sind so etwas wie das Kurzzeitgedächtnis des Computers... Er kann
 >  3. Geben Sie die Summe mit `t.write` aus.
 >  4. Starten Sie das Programm erneut lösen Sie alle [Fehlermeldungen](Fehler.md).
 
-[Zurück: Kapitel 6 - Mandala mit while](Turtlewiederholungenwhile.md) |  [Home](README.md) |  [Weiter: Kapitel 8 - Fallunterscheidung](BedingtesAusfuehren.md) | 
+[Zurück: 1.6 - Mandala mit while](Turtlewiederholungenwhile.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  [Weiter: 1.8 - Fallunterscheidung](BedingtesAusfuehren.md) | 
