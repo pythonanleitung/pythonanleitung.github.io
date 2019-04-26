@@ -46,6 +46,8 @@ Eine sehr einfache Anleitung Python zu lernen.
 ### 4. [Anhang](anhang.md)
 
    * 4.1. – [Cheat-Sheet](Cheat-Sheet.md)
+   * 4.2. – [Bedingungen: was alles im `if` stehen kann](Bedingungen.md)
+   * 4.3. – [Fehlermeldungen](Fehler.md)
 
 ## Was ist Python
 Python ist eine Programmiersprache. Mit Python können alle Programme geschrieben

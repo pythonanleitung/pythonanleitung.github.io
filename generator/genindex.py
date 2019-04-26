@@ -39,12 +39,10 @@ chapters_list = [
         ("Steuerung", "", "Steuerung.md")]
     ],
     ["Anhang", "", "anhang.md",
-        [("Cheat-Sheet", "", "Cheat-Sheet.md"),]
+        [("Cheat-Sheet", "", "Cheat-Sheet.md"),
+        ("Bedingungen", "was alles im `if` stehen kann", "Bedingungen.md"),
+        ("Fehlermeldungen", "", "Fehler.md"),]
     ]
-]
-
-other = [
-("Bedingungen", "was alles im `if` stehen kann", "Bedingungen.md"),
 ]
 
 projpath = os.path.dirname(os.path.dirname(__file__))
@@ -74,8 +72,16 @@ def render_strings(index, subindex, prev, cur, next, chapter):
     return strings
 
 for chapter_index in range(len(chapters_list)):
-    for headline_index in range(len(chapters_list[chapter_index][3])):
-        chapter = chapters_list[chapter_index]
+    chapter = chapters_list[chapter_index]
+    strings = render_strings(chapter_index, -1, None, chapter, chapter[3][0], chapter)
+    filename = chapter[2]
+    with open(src(filename), 'r') as s:
+        with open(dest(filename), 'w') as d:
+            text = s.read()
+            text = text.format(**strings)
+            d.write(text)
+
+    for headline_index in range(len(chapter[3])):
 
         if headline_index > 0:
             prev = chapter[3][headline_index-1]
