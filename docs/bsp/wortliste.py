@@ -1,8 +1,4 @@
-Datei kopieren Sie folgendes in die Datei: `wortliste.py`
-
-
-```
-wortliste = ["lyrisches",
+wörter = ["lyrisches",
 "Formelement",
 "Bedeutung",
 "textimmanenten",
@@ -111,4 +107,3 @@ wortliste = ["lyrisches",
 "Versmaß",
 "Gedichte",
 "erhöhtem"]
-```
