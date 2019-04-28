@@ -2,17 +2,6 @@
 
 {back} {inhalt} {chapter} {next}
 
-Das nächste Ziel ist ein kleine Snake-Spiel zu entwickeln.
-
-![Snake Spiel](img/snake.png)
-
-Die Regeln:
-  * Die Schlange bewegt sich immer forwärts und hält nie an.
-  * Sie kann waagerecht, oder senkrecht kriechen.
-  * Sie darf nicht über sich selbst kriechen.
-  * Wenn sie einen Punkt frisst wird sie länger.
-  * Das Ziel ist es möglichst Viele Punkte zu fressen.
-
 # Der Bildschirm und Pixel
 
 Um ein Spiel zu spielen wird auf dem Bildschirm das Bild des Computerspiels angezeigt.
@@ -32,7 +21,10 @@ Diese Liste wird `level` genannt. Die Liste hat nur eine Dimmension, das heißt 
 
 # Starten des Spiels
 
-Wie auch das `turtle`-Modul muss das passende `game`-modul erst geladen werden. Dies geschieht mit `import game`.
+Wie auch das `turtle`-Modul muss das passende `game`-modul erst geladen werden. Im Gegensatz zum Turtle-Modul ist das `game`-modul allerdings nicht standardmäßig mit dabei. Es muss zunächst heruntergeladen werden: [game.py](bsp/game.py)
+
+
+Im selben Ordner, wie die Datei `snake.py` erstellt und das `game`-modul geladen. Dies geschieht mit `import game`.
 
 Im nächsten Schritt wird ein neues Spielfenster erzeugt: `s = game.Spiel()`
 
@@ -54,8 +46,8 @@ s.start()
 Alles was wir jetzt weiter mit dieser Datei verändern muss **zwischen** die `s.create()` und `s.start()` Zeile.
 
 > ### Aufgabe: Starten des Fensters
-> 
-> Öffnen und starten Sie ein Spiel. Probieren Sie dabei zwischendurch immerwieder ob alles funktioniert wie erwartet.
+>
+> Öffnen und starten Sie ein Spiel. Probieren Sie dabei zwischendurch immer wieder ob alles funktioniert wie erwartet.
 >
 > Es ist völlig normal, dass der Inhalt des Fensters komplett weiß ist.
 
@@ -69,9 +61,9 @@ s.level[9] = 1
 ```
 
 > ### Aufgabe: Das erste Level
-> 
+>
 > * Verändern Sie das Level so, dass es dieses Muster hat:
-> 
+>
 > ![Level 1](img/snakelevel.png)
 >
 > * Zeichnen Sie dieses Level mit einer Funktion namens `level1`. Erstellen Sie die Funktionen mit `def` wie im Kapitel [Funktionen](Funktionen.md)

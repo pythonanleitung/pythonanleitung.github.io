@@ -57,23 +57,29 @@ def dest(filename):
 
 def render_strings(index, subindex, prev, cur, next, chapter):
     strings = dict()
-    subinddot = "." if subindex > 0 else ""
     if prev:
-        strings['back'] = "[Zurück: {index}{subindexdot}{subindex} - {name}]({filename}) | ".format(index=index+1, subindexdot=subinddot, subindex = subindex, name=prev[0], filename=prev[2])
+        strings['back'] = "[Zurück: {index}.{subindex} - {name}]({filename}) | ".format(index=index+1, subindex = subindex, name=prev[0], filename=prev[2])
     else:
         strings['back'] = ""
 
     strings['inhalt'] = "[Inhalt]({filename}) | ".format(filename="README.md")
     strings['chapter'] = "[Kapitel]({filename}) | ".format(filename=chapter[2])
     if next:
-        strings['next'] = "[Weiter: {index}{subindexdot}{subindex} - {name}]({filename}) | ".format(index=index+1, subindexdot=subinddot, subindex=subindex +2, name=next[0], filename=next[2])
+        strings['next'] = "[Weiter: {index}.{subindex} - {name}]({filename}) | ".format(index=index+1, subindex=subindex +2, name=next[0], filename=next[2])
     else:
         strings['next'] = ""
     return strings
 
 for chapter_index in range(len(chapters_list)):
     chapter = chapters_list[chapter_index]
+    chap_lines = []
+
+    for numl, line in enumerate(chapter[3]):
+        chap_lines += ["\n   * {0}.{1} – [{2}{3}]({4})".format(chapter_index+1, numl+1, line[0], ": " + line[1] if line[1] else "" , line[2])]
+    chap_cont = ''.join(chap_lines)
+
     strings = render_strings(chapter_index, -1, None, chapter, chapter[3][0], chapter)
+    strings['inhaltsverzeichnis'] = chap_cont
     filename = chapter[2]
     with open(src(filename), 'r') as s:
         with open(dest(filename), 'w') as d:
@@ -104,7 +110,7 @@ index_lines = []
 for numc, chapter in enumerate(chapters_list):
     chap_lines = ["\n\n### {0}. [{1}{2}]({3})\n".format( numc+1, chapter[0], ": " + chapter[1] if chapter[1] else "" , chapter[2])]
     for numl, line in enumerate(chapter[3]):
-        chap_lines += ["\n   * {0}.{1}. – [{2}{3}]({4})".format(numc+1, numl+1, line[0], ": " + line[1] if line[1] else "" , line[2])]
+        chap_lines += ["\n   * {0}.{1} – [{2}{3}]({4})".format(numc+1, numl+1, line[0], ": " + line[1] if line[1] else "" , line[2])]
     index_lines.append(chap_lines)
 
 strings = dict()

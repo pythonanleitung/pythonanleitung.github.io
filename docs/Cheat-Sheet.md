@@ -1,6 +1,6 @@
 # Cheat-Sheet
 
- [Inhalt](README.md) |  [Kapitel](anhang.md) |  [Weiter: 42 - Bedingungen](Bedingungen.md) | 
+ [Inhalt](README.md) |  [Kapitel](anhang.md) |  [Weiter: 4.2 - Bedingungen](Bedingungen.md) | 
 
 ### [Zahlen und Wörter](Datentypen.md)
 
@@ -74,4 +74,4 @@ doFun(name="Gollom")
 doFun(name="Dobby")
 ```
 
- [Inhalt](README.md) |  [Kapitel](anhang.md) |  [Weiter: 42 - Bedingungen](Bedingungen.md) | 
+ [Inhalt](README.md) |  [Kapitel](anhang.md) |  [Weiter: 4.2 - Bedingungen](Bedingungen.md) | 

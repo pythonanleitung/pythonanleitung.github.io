@@ -5,7 +5,7 @@
 ## Wiederholung für eine bestimmte Anzahl
 
 Möchte man etwas eine bestimmte Anzahl oft wiederholen, so könnte man dies mit einer
-`while` schleife tun, muss dann aber "mitzählen" und aufhören, wenn die gewünschte Anzahl von Durchläufen erreicht ist.
+`while` Schleife tun, muss dann aber "mitzählen" und aufhören, wenn die gewünschte Anzahl von Durchläufen erreicht ist.
 
 Deutlich einfacher geht dies mit `for`:
 
@@ -24,7 +24,7 @@ for i in range(30):
     t.left(170)
 ```
 
-Der eingerückte Teil von wird also genau 30 mal wiederholt. Diesmal ist die Variable `i` genannt, die die Nummer des durchlaufs enthält...
+Der eingerückte Teil wird also genau 30 mal wiederholt. Diesmal ist die Variable `i` genannt, die die Nummer des Durchlaufs enthält...
 
 > ### Übungen
 >

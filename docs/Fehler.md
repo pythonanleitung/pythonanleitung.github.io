@@ -14,7 +14,7 @@ Mögliche Gründe:
 
   * Eine Variable wurde nicht definiert
   * Es wurden Anführungszeichen um Text vergessen
-  * Ein Befehl wurde falsch geschrieben (Achtung auch Groß- und Kleinschreibung
+  * Ein Befehl wurde falsch geschrieben (Achtung: auch Groß- und Kleinschreibung
     ist wichtig)
 
 Beispiel:
@@ -52,11 +52,11 @@ SyntaxError: invalid syntax
 
 ### TypeError
 
-Dieser Fehler sagt, dass der Computer zum Beispiel eine Zahl und einen Buchstaben nicht zusammen addieren kann. (Zahl mit Zahl, und Buchstabe mit Buchstabe funktioniert).
+Dieser Fehler sagt, dass der Computer zum Beispiel eine Zahl und einen Buchstaben nicht zusammen addieren kann. (Zahl mit Zahl, sowie Buchstabe mit Buchstabe funktioniert).
 
 Ursachen:
 
-  * Vergessen ein Wort zu einer Zahl zu verwandeln - Siehe nächste Überschrift.
+  * Vergessen ein Wort zu einer Zahl umzuwandeln.
   * Vergessen eine Variable zu aktualisieren
   * ...
 

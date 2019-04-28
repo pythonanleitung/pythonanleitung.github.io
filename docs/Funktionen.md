@@ -10,7 +10,7 @@
 >
 > ![Fünfstern mit Turtle](img/fuenfstern.png)
 
-Im Folgenden wird es Ziel sein viele Fünfsterne zu zeichnen in unterschiedlichen Größen.
+Im Folgenden wird es Ziel sein viele unterschiedlich große Fünfsterne zu zeichnen.
 Eine Möglichkeit das zu tun wäre nun, den bisher geschriebenen Code einfach zu kopieren und woanders wieder einzufügen.
 Man muss nun nur noch ein paar Zahlen ändern und fertig ist der zweite Stern.
 

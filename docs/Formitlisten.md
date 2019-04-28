@@ -27,7 +27,7 @@ for d in "rllrrlllrllrrrll":
 
 Hier wird jetzt die Variable `d` verwendet, um entweder einen 90° Winkel im oder gegen den Uhrzeigersinn durchzuführen. Das for macht in der ersten Runde den ersten Buchstaben, also `'r'` in die `d` Variable. Mit `if` wird dies überprüft und das Programm reagiert entsprechend.
 
-Da die Zeile mit `t.forward` wieder weniger eingerückt ist als `t.left` gehört diese Zeile zu dem `for`, nicht aber zu dem `if` das heißt egal ob das `if` ausgeführt wird oder nicht, das `t.forward` wird ausgeführt.
+Da die Zeile mit `t.forward` wieder weniger eingerückt ist als `t.left`, gehört diese Zeile zu dem `for`, nicht aber zu dem `if`. Das heißt, egal ob das `if` ausgeführt wird oder nicht, das `t.forward` wird ausgeführt.
 
 > ### Übungen
 >

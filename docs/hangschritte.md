@@ -1,6 +1,6 @@
 # Schrittweises Zeichnen des Galgenmännchens
 
- [Inhalt](README.md) |  [Kapitel](hangman.md) |  [Weiter: 22 - Immer wieder abfragen](hangabfrage.md) | 
+ [Inhalt](README.md) |  [Kapitel](hangman.md) |  [Weiter: 2.2 - Immer wieder abfragen](hangabfrage.md) | 
 
 Zunächst müssen die einzelnen Schritte des Galgenmännchens einzeln von jeweils einer Funktion gezeichnet werden.
 
@@ -74,4 +74,4 @@ Wenn alles gezeichnet ist sollte das Ganze so aussehen:
 
 Natürlich darf diese Grafik nach belieben angepasst werden, sodass jeder etwas anderes aufhängt... oder es kann die gewaltfreie Version gemacht werden, indem man eine Blume zeichnet.
 
- [Inhalt](README.md) |  [Kapitel](hangman.md) |  [Weiter: 22 - Immer wieder abfragen](hangabfrage.md) | 
+ [Inhalt](README.md) |  [Kapitel](hangman.md) |  [Weiter: 2.2 - Immer wieder abfragen](hangabfrage.md) | 
