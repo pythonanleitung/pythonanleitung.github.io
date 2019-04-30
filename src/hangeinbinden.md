@@ -11,7 +11,7 @@ import random
 
 da wir beides noch nicht verwenden erscheint noch keine Veränderung. Es sollte aber auch kein Fehler produziert werden, wenn das Programm ausgeführt wird.
 
-Nun kann ein Zufälliges Wort ausgewählt werden:
+Nun kann ein zufälliges Wort ausgewählt werden:
 
 ```python
 wort = random.choice(wortliste.wörter)

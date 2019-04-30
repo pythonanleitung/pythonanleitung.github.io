@@ -4,7 +4,7 @@
 
 Da das Programm nicht selbstständig Wörter kennt, muss man ihm eine Liste von Wörtern zur Verfügung stellen, aus welchen sich das Programm ein zufälliges Wort auswählt.
 
-Da in der Worliste sehr viele Wörter sind und damit unsere Datei sehr groß würde speichern wir die Worte in eine separate Datei und binden dann diese Datei ein.
+Da in der Worliste sehr viele Wörter sind und damit unsere Datei sehr groß würde, speichern wir die Worte in eine separate Datei und binden diese dann ein.
 
 Kopieren Sie folgendes in eine neue Datei: `wortliste.py`
 

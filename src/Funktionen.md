@@ -6,7 +6,7 @@
 >
 > Speichern Sie diese Übung als `sternchen-uebung.py`
 >
-> Zeichnen Sie einen Fünfstern. Der Innenwinkel in einem Fünfstern ist 36° Grad.
+> Zeichnen Sie einen Fünfstern. Der Innenwinkel in einem Fünfstern ist 36° Grad groß.
 >
 > ![Fünfstern mit Turtle](img/fuenfstern.png)
 
@@ -23,7 +23,7 @@ Das heißt man schreibt zunächst eine Schablone und sagt dem Computer was er ve
 
 Statt dem Bild der Schablone könnte man sich auch ein Kochrezept vorstellen. Man schreibt in das Rezept wie ein Kuchen oder ähnliches gebacken wird. Später muss man das Rezept noch backen.
 
-Eine Schablone, beim Programmieren nennt man Funktion und erstellt sie so:
+Eine Schablone, beim Programmieren nennt man Funktion, und erstellt sie so:
 
 ```
 def stern(größe):
@@ -34,8 +34,8 @@ def stern(größe):
     #… usw.
 ```
 
-Indem man zunächst das Schlüsselwort `def` schreibt, sagt man Python dass nun eine Schablone kommt, die nicht sofort ausgeführt
-werden soll, sondern die sich das Programm erst mal merken soll. Danach folgt ein beliebiger Name in diesem Fall ist `stern` gewählt worden.
+Indem man zunächst das Schlüsselwort `def` schreibt, sagt man Python, dass nun eine Schablone kommt, die nicht sofort ausgeführt
+werden soll, sondern die sich das Programm erst mal merken soll. Danach folgt ein beliebiger Name; in diesem Fall ist `stern` gewählt worden.
 Zuletzt kommt in Klammern eine Liste der veränderlichen Namen als Platzhalter. Für den Stern wird erst mal nur die `größe` veränderlich sein.
 Statt nun eine feste Zahl vorwärts zu gehen, muss man jetzt die veränderliche Größe aus der Schablone vorwärts gehen.
 Für alle Fünfsterne sind die Winkel die selben. Das heißt man kann die Zeilen mit `left` unveränderbar lassen,
@@ -48,9 +48,9 @@ Um jetzt einen Stern zu zeichnen, muss man diese Schablone verwenden, und Python
 stern(größe=100)
 ```
 
-Jetzt wird tatsächlich etwas gezeichnet natürlich noch nicht der volle Stern, da bis jetzt nur eine Linie gezeichnet wird.
+Jetzt wird tatsächlich etwas gezeichnet (natürlich noch nicht der volle Stern, da bis jetzt nur eine Linie gezeichnet wird).
 Zunächst schreibt man also einfach den Namen der Funktion,
-dann in Klammern die Zuweisungen, welcher Platzhalter welchen Wert erhalten soll. Es kann Ihnen hier auffallen,
+dann in Klammern die Zuweisungen und schließlich welcher Platzhalter welchen Wert erhalten soll. Es kann Ihnen hier auffallen,
 dass Sie die ganze Zeit schon solche Funktionen verwendet haben zum Beispiel `print`, `input`, `t.forward`, `t.left` usw…
 
 > ### Übung
