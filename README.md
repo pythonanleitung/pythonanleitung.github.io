@@ -1,6 +1,6 @@
 # Pythonanleitung
 
-Diese Anleitung für Python soll im Unterricht der [Freien Waldorfschule Uhlandshöhe](https://www.waldorfschule-uhlandshoehe.de/) verwendet werden.
+[Diese Anleitung](docs/README.md) für Python soll im Unterricht der [Freien Waldorfschule Uhlandshöhe](https://www.waldorfschule-uhlandshoehe.de/) verwendet werden.
 Allen anderen steht es frei sie zu nutzen.
 
 Sie ist zu finden unter:
