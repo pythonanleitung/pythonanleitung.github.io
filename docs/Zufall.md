@@ -14,26 +14,29 @@ Möchte man nun eine Funktion des `random`-Moduls nutzen, so muss man immer `ran
 
 Die Funktion, die eine zufällige Zahl produziert und zurück gibt, heißt `randint`. Sie nimmt zwei Parameter, also zwei Eingaben entgegen. Beide Eingaben müssen eine Zahl sein. Die erste ist die untere Grenze der Zufallszahlen, die zweite ist die obere mögliche Grenze der Zufallszahlen.
 
-Mit `random.randint(0,100)` erstellt man also eine zufällige
-ganze Zahl zwischen `0` und `100` ausgewählt werden.
+Mit `random.randint(0,100)` erzeugt man also eine zufällige
+ganze Zahl zwischen `0` und `100`.
 
 Beispiel im Ausprobierfenster:
 
 ```python
 >>> import random
->>> random.randint(0,100)
+>>> random.randint(0, 100)
 48
->>> random.randint(0,100)
+>>> random.randint(0, 100)
 78
->>> x = random.randint(0,100)
->>> x
-17
->>> x = random.randint(0,100)
->>> x
-53
 ```
 
 Diese Zufallszahl kann natürlich auch in eine Variable gespeichert werden mit `zahl = random.randint(0,100)`.
+
+```python
+>>> x = random.randint(0, 100)
+>>> x
+17
+>>> x = random.randint(0, 100)
+>>> x
+53
+```
 
 > ### Übungen
 >

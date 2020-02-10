@@ -11,7 +11,7 @@ In diesem Kapitel werden die Grundlagen des Programmierens erklärt. Das Turtlem
    * 1.1 – [Erste Schritte](ErsteSchritte.md)
    * 1.2 – [Speichern in eine Datei](Speichern.md)
    * 1.3 – [Schildkröten](Turtle.md)
-   * 1.4 – [Eingaben in Turtle: Turtle hat eine Möglichkeite für Eingaben](TurtleInput.md)
+   * 1.4 – [Eingaben in Turtle: Turtle hat eine Möglichkeit für Eingaben](TurtleInput.md)
    * 1.5 – [Wiederholungen mit While](Wiederholungenwhile.md)
    * 1.6 – [Mandala mit while](Turtlewiederholungenwhile.md)
    * 1.7 – [Variablen: Das Kurzzeitgedächtnis](Variablen.md)

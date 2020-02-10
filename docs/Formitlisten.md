@@ -7,7 +7,7 @@ Das `for` kann auch dazu verwendet werden, etwas für jedes Element einer Liste 
 
 ```python
 for el in ["blue", "green", "yellow"]:
-    print("A ", el, "bird")
+    print("A ", el, " bird")
 ```
 
 Es wird also ausgegeben: `A blue bird`, `A green bird`, `A yellow bird`

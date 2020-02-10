@@ -23,20 +23,20 @@ Das heißt man schreibt zunächst eine Schablone und sagt dem Computer was er ve
 
 Statt dem Bild der Schablone könnte man sich auch ein Kochrezept vorstellen. Man schreibt in das Rezept wie ein Kuchen oder ähnliches gebacken wird. Später muss man das Rezept noch backen.
 
-Eine Schablone, beim Programmieren nennt man Funktion und erstellt sie so:
+Eine Schablone beim Programmieren nennt man Funktion und erstellt sie so:
 
 ```
-def stern(größe):
-    t.forward(größe)
+def stern(groesse):
+    t.forward(groesse)
     t.left(144)
-    t.forward(größe)
+    t.forward(groesse)
     t.left(144)
     #… usw.
 ```
 
 Indem man zunächst das Schlüsselwort `def` schreibt, sagt man Python dass nun eine Schablone kommt, die nicht sofort ausgeführt
 werden soll, sondern die sich das Programm erst mal merken soll. Danach folgt ein beliebiger Name in diesem Fall ist `stern` gewählt worden.
-Zuletzt kommt in Klammern eine Liste der veränderlichen Namen als Platzhalter. Für den Stern wird erst mal nur die `größe` veränderlich sein.
+Zuletzt kommt in Klammern eine Liste der veränderlichen Namen als Platzhalter. Für den Stern wird erst mal nur die `groesse` veränderlich sein.
 Statt nun eine feste Zahl vorwärts zu gehen, muss man jetzt die veränderliche Größe aus der Schablone vorwärts gehen.
 Für alle Fünfsterne sind die Winkel die selben. Das heißt man kann die Zeilen mit `left` unveränderbar lassen,
 indem man einfach konstante Zahlen schreibt.
@@ -45,7 +45,7 @@ Diese Funktionsschablone wird jetzt aber noch nicht ausgeführt. Man sagt Python
 Um jetzt einen Stern zu zeichnen, muss man diese Schablone verwenden, und Python sagen, welcher Platzhalter welchen Wert annehmen soll.
 
 ```
-stern(größe=100)
+stern(100)
 ```
 
 Jetzt wird tatsächlich etwas gezeichnet natürlich noch nicht der volle Stern, da bis jetzt nur eine Linie gezeichnet wird.
