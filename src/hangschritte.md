@@ -10,7 +10,7 @@ Als Beispiel wird zunächst der Hügel gezeichnet.
 
 ```python
 
-def hügel():
+def huegel():
   t.left(90)
   t.penup()
   t.backward(200)
@@ -30,9 +30,9 @@ Nachdem nun der Hügel gezeichnet werden kann muss für jeden Der Schritte eine 
 
 Die zu schreibenden Funktionen sind:
 
-  * `hügel`
+  * `huegel`
   * `senkrechte`
-  * `waagerrechte`
+  * `waagerechte`
   * `stütze` (kleiner diagonaler Stützbalken zwischen senkrechter und waagerechter)
   * `seil`
   * `kopf` (mit Gesicht)
@@ -43,7 +43,7 @@ Die zu schreibenden Funktionen sind:
 Um das schon erstellte zu testen müssen die Funktionen jeweils aufgerufen werden. Die Zeilen außer Kopf sind noch mit einer `#` auskommentiert (also deaktiviert). Sobald die entsprechende Funktion geschrieben ist kann das `#` entfernt werden:
 
 ```python
-hügel()
+huegel()
 #senkrechte()
 #waagerechte()
 #stütze()

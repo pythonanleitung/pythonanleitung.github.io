@@ -28,7 +28,7 @@ Die Variablen sind so etwas wie das Kurzzeitgedächtnis des Computers... Er kann
 
 > ### Übungen
 >
->  1. Erstellen Sie eine Python-Datei `Variablen.py` welche die Variablen `x, y, z` die Werte `34, 24, 'hallo'` zuweist.
+>  1. Erstellen Sie eine Python-Datei `Variablen.py` welche den Variablen `x, y, z` die Werte `34, 24, 'hallo'` zuweist.
 >  1. Führen Sie das Programm aus. Es erscheint keine Ausgabe, da `python` beim Variablen erstellen keine Ausgabe anzeigt.
 >  5. Betrachten Sie die erstellten Variablen im "`Variables View`", indem Sie auf `View`→`Variables` klicken.
 >  1. Lassen Sie das turtle alle Variablen sagen mit `t.write(variable, True)`. Achtung Geben Sie die Variablen aus und nicht nur die selbe Zahl.

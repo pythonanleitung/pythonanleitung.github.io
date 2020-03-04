@@ -2,7 +2,7 @@
 
 [Zurück: 2.6 - Anzeigen der Geratenen Buchstaben](hanggeratenes.md) |  [Inhalt](README.md) |  [Kapitel](hangman.md) |  
 
-Vielleicht ist schon aufgefallen, dass das Spiel zwischen großen und kleinen Buchstaben unterscheidet. Das ist unüblich beim Galgenmännchenspiel. Darum sollte das noch angepasst werden. Ein Buchstabe hat die Möglichkeit zu einem großenbuchstaben gemacht zu werden indem `upper` verwendet wird.
+Vielleicht ist schon aufgefallen, dass das Spiel zwischen großen und kleinen Buchstaben unterscheidet. Das ist unüblich beim Galgenmännchenspiel. Darum sollte das noch angepasst werden. Ein Buchstabe hat die Möglichkeit zu einem Großbuchstaben gemacht zu werden indem `upper` verwendet wird.
 
 Beispiel aus `'a'.upper()` wird `'A'`.
 

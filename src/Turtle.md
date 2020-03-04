@@ -4,7 +4,7 @@
 
 Nachdem Nun die gröbsten Grundlagen der Programmiersprache gelernt sind, fängt es jetzt an (noch mehr) Spaß zu machen. Im folgenden wird das Modul `turtle` verwendet. Dieses stellt eine einfache Möglichkeit zur Verfügung ein Fenster zu öffnen und in dieses Fenster mithilfe eines `turtles` zu zeichnen.
 
-Bedenken Sie, dass beim Programmieren die eigene Arbeit immer auf der Arbeit von ganz vielen anderen Beruht. Zum Beispiel um Python zu entwickeln müsste eine Person ca. 285 Jahre arbeiten. Um Python entwickeln zu lassen müsste man 13.5 Millionen Euro veranschlagen. Im Folgenden Wird ein relativ kleines Modul verwendet mit welchem man eine Bestimmte Art von Grafiken erstellen kann. Auch für dieses Modul wurden über 4000 Zeilen programmiert.
+Bedenken Sie, dass beim Programmieren die eigene Arbeit immer auf der Arbeit von ganz vielen anderen beruht. Zum Beispiel um Python zu entwickeln müsste eine Person ca. 285 Jahre arbeiten. Um Python entwickeln zu lassen müsste man 13.5 Millionen Euro veranschlagen. Im Folgenden Wird ein relativ kleines Modul verwendet mit welchem man eine bestimmte Art von Grafiken erstellen kann. Auch für dieses Modul wurden über 4000 Zeilen programmiert.
 
 Beispiele für solche Grafiken sind im [Kapitel Beispielaufgaben](Turtlebeispielaufgaben.md) zu finden.
 
@@ -25,13 +25,13 @@ Erklärungen der Zeilen:
 
 1. Zunächst muss mit `import turtle` das `turtle`-Modul geladen werden.
 
-1. Danach wird das Fenster geöffnet mit dem Befehl `turtle.Pen()`.
+1. Danach erzeugt man eine Schildkröte mit dem Befehl `turtle.Pen()`. Hierbei wird das Fenster, in dem die Zeichnung entsteht, geöffnet.
 
-   Damit später in dieses Fenster gezeichnet werden kann, muss es in einer Variablen `t` gespeichert werden.
+   Damit später auf diese Schildkröte zugegriffen werden kann, muss sie in einer Variablen (hier `t`) gespeichert werden.
 
-1. Wenn man möchte, kann man auch noch das aussehen der "Schildkröte" verändern. Die Standardeinstellung ist ein Dreieck, dessen Spitze in Laufrichtung zeigt. Mit dem Befehl `t.shape("turtle")` wird diese Form zu einer Schildkrötensiluette.
+1. Wenn man möchte, kann man auch noch das aussehen der "Schildkröte" verändern. Die Standardeinstellung ist ein Dreieck, dessen Spitze in Laufrichtung zeigt. Mit dem Befehl `t.shape("turtle")` wird diese Form zu einer Schildkrötensilhouette.
 
-Nach dem Speichern und Ausführen, sollte ein Fenster sich öffnen, in dessen Mitte sich die Schildkröte befindet:
+Nach dem Speichern und Ausführen sollte sich ein Fenster öffnen, in dessen Mitte sich die Schildkröte befindet:
 
 ![Leeres Turtle Fenster](img/leerturtle.png)
 
@@ -111,7 +111,7 @@ t.forward(30)
 
 Wenn Sie bestimmte Formen zeichnen wollen, so müssen Sie bestimmte Winkel und Längen berechnen. Im rechtwinkligen Dreieck lässt sich das sehr einfach durch die Formel von Pythagoras `a² + b² = c²` lösen. Also die beiden kürzeren Seitenlängen eines rechtwinkligen Dreiecks quadriert und zusammengezählt ergeben das Quadrat der längsten Seitenlänge.
 
-Um aus dieser Quadratszahl die Wurzel zu berechnen benötigen sie die Wurzelfunktion. Diese ist in dem `math`-Modul enthalten.
+Um aus dieser Zahl die Quadratwurzel (engl. _square root_) zu berechnen benötigen Sie die Wurzelfunktion. Diese ist in dem `math`-Modul enthalten.
 
 Import und Verwendung der `sqrt` Wurzelfunktion:
 

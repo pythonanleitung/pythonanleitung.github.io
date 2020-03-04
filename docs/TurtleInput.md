@@ -2,7 +2,7 @@
 
 [Zurück: 1.3 - Schildkröten](Turtle.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  [Weiter: 1.5 - Wiederholungen mit While](Wiederholungenwhile.md) | 
 
-Wollen Sie ein Programm schreiben, was ein Quadrat nicht immer in der selben Größe zeichnet, sondern bei dem man nach dem Klick auf play die größe angeben kann und das Programm dann diese Größe verwendet, benötigen Sie eine Funktion mit der das Programm dem Benutzer Fragen stellen kann.
+Wollen Sie ein Programm schreiben, was ein Quadrat nicht immer in der selben Größe zeichnet, sondern bei dem man nach dem Klick auf play die Größe angeben kann und das Programm dann diese Größe verwendet, benötigen Sie eine Funktion mit der das Programm dem Benutzer Fragen stellen kann.
 
 Das `turtle`-modul hat die Möglichkeit ein "Dialogfenster" zu öffnen.
 
