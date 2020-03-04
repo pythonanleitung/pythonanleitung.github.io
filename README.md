@@ -9,4 +9,5 @@ Sie ist zu finden unter:
 
 Problemstellen, Veränderungs und Verbesserungsvorschläge nehme ich sehr gerne in Form von [Tickets](https://github.com/enaut/Pythonanleitung/issues) oder [Pullrequests](https://github.com/enaut/Pythonanleitung/pulls) entgegen.
 
-Viel Spaß
+Wer Helfen möchte sollte beachten: die Dateien im Verzeichnis `docs` sind automatisch generiert. **Veränderungen sollten nur an den Dateien im Verzeichnis `src` vorgenommen werden.**
+
