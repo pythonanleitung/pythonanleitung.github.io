@@ -1,6 +1,6 @@
 # Pythonanleitung
 
-Diese Anleitung für Python soll im Unterricht der [Freien Waldorfschule Uhlandshöhe](https://www.waldorfschule-uhlandshoehe.de/) verwendet werden.
+[Diese Anleitung](docs/README.md) für Python soll im Unterricht der [Freien Waldorfschule Uhlandshöhe](https://www.waldorfschule-uhlandshoehe.de/) verwendet werden.
 Allen anderen steht es frei sie zu nutzen.
 
 Sie ist zu finden unter:
@@ -11,3 +11,4 @@ Problemstellen, Veränderungs und Verbesserungsvorschläge nehme ich sehr gerne 
 
 Wer Helfen möchte sollte beachten: die Dateien im Verzeichnis `docs` sind automatisch generiert. **Veränderungen sollten nur an den Dateien im Verzeichnis `src` vorgenommen werden.**
 
+Viel Spaß

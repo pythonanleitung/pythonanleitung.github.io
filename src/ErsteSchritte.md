@@ -36,7 +36,7 @@ Werden einige Befehle in Python eingegeben könnte das so aussehen:
 ```
 
 In Zeile 1 des Beispiels wurde einfach eine Zahl `1` eingegeben.
-Python antwortet darauf einfach, indem es dieselbe Zahl wieder gibt.
+Python antwortet darauf einfach, indem es dieselbe Zahl wiedergibt.
 
 In Zeile 3 wird eine einfache Rechenaufgabe in Python gestellt.
 Woraufhin Python diese berechnet und das Ergebnis zurück gibt.

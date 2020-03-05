@@ -55,7 +55,7 @@ t.write(freitag + " mit Note " + note + " stimme ich zu! Viel Spass!")
 
 Oft wird es benötigt, dass ein bestimmter Befehl ausgeführt wird, wenn eine Bedingung zutrifft, ansonsten ein anderer Befehl. Der Befehl hierzu ist `else`. Auch auf `else` folgt ein Doppelpunkt und weitere eingerückte Befehle.
 
-> Notiz: Sowohl nach `if` als auch nach `else` muss mindestens ein eingerückter Befehl kommen. Also man kann  im folgenden Beispiel **keines** der beiden `print`s weglassen (man kann sie aber durch beliebige andere Befehle ersetzen).
+> Notiz: Sowohl nach `if` als auch nach `else` muss mindestens ein eingerückter Befehl kommen. Also man kann  im folgenden Beispiel **keines** der beiden `write`s weglassen (man kann sie aber durch beliebige andere Befehle ersetzen).
 
 ```python
 import turtle
@@ -69,7 +69,7 @@ else:
 
 Logischerweise ist `else` nur nach einem fertigen `if` sinnvoll.
 
-Man sieht hier, dass dem Computer die Bedeutung der Worte völlig gleichgültig ist er folgt nur der Logik der Befehle. Sie können das freundlichste Grußwort eingeben, wenn es aber nicht "Guten Tag" ist, wird der Computer das unfreundlich finden.
+Man sieht hier, dass dem Computer die Bedeutung der Worte völlig gleichgültig ist, er folgt nur der Logik der Befehle. Sie können das freundlichste Grußwort eingeben, wenn es aber nicht "Guten Tag" ist, wird der Computer das unfreundlich finden.
 
 
 
@@ -135,10 +135,10 @@ Dieses Programm ist natürlich nicht so, wie der Computer ein Passwort abfragen 
 > Schreiben Sie ein Programm, welches 3 Versuche gewährt eine Zahl zu erraten. Dieses Programm kann sehr ähnlich zu dem Grußprogramm geschrieben werden.
 > Speichern Sie dieses Programm unter `ratemal.py`.
 >
-> Gehen Sie Schrittweise vor:
+> Gehen Sie schrittweise vor:
 > 1. Schreiben Sie ein Programm, welches nach einer Zahl fragt und diese ausgibt.
 > 2. Testen Sie das Programm ob es tut was es soll.
-> 3. entfernen Sie die Ausgabe, und fügen Sie stattdessen ein `if` und `else` ein, welches auf die Eingabe reagiert.
->> Vorsicht beim Vergleichen: der Buchstabe einer Zahl ist nicht gleich der Zahl. Zum Beispiel ist `"2" == 2` unwahr also `False`. Um diese beiden Werte sinnvoll zu vergleichen, muss der Buchstabe `"2"` zur Zahl `2` konvertiert werden: `int("2") == 2` ([mehr](Datentypen.md#umwandlung-von-datentypen)).
+> 3. Entfernen Sie die Ausgabe, und fügen Sie stattdessen ein `if` und `else` ein, welches auf die Eingabe reagiert.
+>> Vorsicht beim Vergleichen: das Zeichen einer Zahl ist nicht gleich der Zahl. Zum Beispiel ist `"2" == 2` unwahr also `False`. Um diese beiden Werte sinnvoll zu vergleichen, muss das Zeichen `"2"` zur Zahl `2` konvertiert werden: `int("2") == 2` ([mehr](Datentypen.md#umwandlung-von-datentypen)).
 
 [Zurück: 1.7 - Variablen](Variablen.md) |  [Inhalt](README.md) |  [Kapitel](turtlekapitel.md) |  [Weiter: 1.9 - For Schleifen](Forschleifen.md) | 

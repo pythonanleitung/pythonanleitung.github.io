@@ -27,7 +27,7 @@ Dieses Sechseck kann jetzt verschönert werden. Zum Beispiel kann man kleine Kre
 > Die folgende Übung wird in Datei `sechseck.py` gespeichert.
 > 
 > 1. Programmieren Sie ein turtle Sechseck.
-> 2. Verzieren Sie dieses mit einem **eigenen** "Muster". Achten Sie drarauf, dass das Sechseck noch zu erkennen ist.
+> 2. Verzieren Sie dieses mit einem **eigenen** "Muster". Achten Sie darauf, dass das Sechseck noch zu erkennen ist.
 >
 > Die nächste Übung wird in `fünfstern.py` gespeichert.
 >

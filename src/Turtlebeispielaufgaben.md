@@ -12,7 +12,7 @@ Benötigt werden:
   ![YinYang](img/turtleyinyang.png)
   
 ## Sechseckspirale
-Zeichnen Sie einer Sechseckspirale. Der Trick ist, dass man nicht genau den Winkel 60° dreht, sondern knapp daneben z.B. 59°. Die Farben müssen aus einer Liste von Farben ausgewählt werden.
+Zeichnen Sie eine Sechseckspirale. Der Trick ist, dass man nicht genau den Winkel 60° dreht, sondern knapp daneben z.B. 59°. Die Farben müssen aus einer Liste von Farben ausgewählt werden.
 
 Benötigt werden:
 
@@ -23,7 +23,7 @@ Benötigt werden:
 
 ## Viereckspirale
 
-Zeichnen Sie einer Viereckspirale in Schwarzweiß. Der Trick ist, dass man nicht genau den Winkel 90° dreht, sondern knapp daneben z.B. 89°.
+Zeichnen Sie eine Viereckspirale in Schwarzweiß. Der Trick ist, dass man nicht genau den Winkel 90° dreht, sondern knapp daneben z.B. 89°.
 
 Benötigt werden:
 
