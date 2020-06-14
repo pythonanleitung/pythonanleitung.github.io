@@ -1,0 +1,17 @@
+[book]
+authors = ["Franz Dietrich"]
+language = "de"
+multilingual = false
+src = "src"
+title = "Pythonanleitung"
+
+[build]
+create-missing = true
+
+[output.html.fold]
+enable = true
+
+#[output.latex]
+#latex = true
+#pdf = false
+#markdown = true
