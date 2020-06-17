@@ -42,7 +42,7 @@ Wird ein Programm aus einer Datei heraus gestartet, so ist die automatische Ausg
 5 + 7
 ```
 
-Der Computer rechnet zwar fleißig was 5+7 ist, aber verwendet dann das Ergebnis nicht weiter. Um das Ergebnis angezeigt zu bekommen, muss man explizit sagen, dass man dies sehen möchte:
+Der Computer rechnet zwar fleißig was 5+7 ist, aber verwendet dann das Ergebnis nicht weiter. Um das Ergebnis angezeigt zu bekommen, muss man explizit sagen, dass man dies sehen möchte. Das Ergebnis erscheint dann im unteren Teil von Thonny:
 
 ```python
 print(5 + 7)
@@ -59,5 +59,3 @@ Immer wenn etwas im oberen Fenster verändert wurde, so muss wieder der "Play-Bu
 > 1. Schreiben Sie in den oberen Teil von Thonny einen Python Befehl, der `555` mit `364` multipliziert, und das Ergebnis ausgibt.
 > 1. Speichern Sie diese Datei mit dem Namen `rechnung.py` ab.
 > 1. Führen Sie nun die Datei mit dem "Play-Button" aus.
-
-

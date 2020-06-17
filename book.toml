@@ -6,12 +6,18 @@ src = "src"
 title = "Pythonanleitung"
 
 [build]
-create-missing = true
+create-missing = false
+build-dir = "book/latex"
+
+[preprocessor.links]
 
 [output.html.fold]
 enable = true
 
-#[output.latex]
-#latex = true
-#pdf = false
-#markdown = true
+#[output.epub]
+
+[output.latex]
+command = "/home/dietrich/Projekte/Source/mdbooklatex/target/debug/mdbook-latex"
+latex    = true  # default = true
+pdf      = true  # default = false
+markdown = true  # default = false

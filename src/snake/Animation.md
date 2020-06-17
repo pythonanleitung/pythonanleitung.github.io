@@ -18,13 +18,13 @@ Um dies zu tun schreiben wir zunächst eine Funktion die jedes Feld minus eins r
 >     * Funktionen waren das mit `def`
 >     * Verwenden Sie `for i in range(400):` um die Befehle für alle Pixel zu wiederholen.
 >     * Sie können von dem i'ten Pixel eins abziehen mit folgender Zeile: `s.level[i] = s.level[i] - 1`
-> 
+>
 >    Schreiben Sie nun diese `ame`-Funktion.
-> 
+>
 >  * Generieren Sie ein Testlevel mit folgender Struktur:
-> 
+>
 >    ![Test Level](img/snaketestlevel.png)
-> 
+>
 >  * Überprüfen Sie, ob `ame()` funktioniert, indem Sie es bei geöffnetem Spielfenster in den unteren Teil von Thonny eingeben. Nachdem Sie es eingegeben haben, sollte Ihre Schlange jetzt eines kürzer sein.
 >
 >  * Außerdem stellen Sie fest, dass jetzt der gesamte Hintergrund auch farbig geworden ist und überall `-1` steht. Das ist natürlich der Fall, weil wir auch von allen Nullen (`0` - also weiß) eins abgezogen haben.
@@ -37,11 +37,11 @@ Wie Oben dargestellt muss diese `ame()`-Funktion jetzt regelmäßig ausgeführt 
 
 > ### Übung
 >
-> Fügen Sie den Befehl `s.addStep(ame)` vor s.start zu Ihrem Snake hinzu. Das Ergebnis sollte jetzt so aussehen.
-> 
-> [Video snake Test](img/snaketest.webm)
-> 
-> Natürlich verschwindet jetzt die schlange, statt zu laufen. Das ist so, weil noch kein neuer Kopf gesetzt wird.
+> Fügen Sie den Befehl `s.addStep(ame)` vor s.start zu Ihrem Snake hinzu.
+>
+> Wenn alles richtig erstellt ist, sollte jetzt die Schlange immer kürzer werden und verschwinden.
+>
+> Natürlich verschwindet jetzt die Schlange, statt zu laufen. Das ist so, weil noch kein neuer Kopf gesetzt wird.
 
 # Setzen des neuen Kopfes
 
@@ -63,10 +63,8 @@ def neuerKopf():
 ```
 
 > ### Übung
-> 
+>
 >  1. Schreiben Sie die Funktion neuerKopf
 >  2. Fügen Sie die Funktion auch zu den regelmäßig ausgeführten Funktionen hinzu
 >  3. Testen Sie, ob Ihre Schlange läuft
 >  4. Probieren Sie alle möglichen Richtungen zu gehen (nach oben, nach unten, nach rechts, nach links), indem Sie bei `s.dir` andere Zahlen einspeichern.
-
-
