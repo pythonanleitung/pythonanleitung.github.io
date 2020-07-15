@@ -16,8 +16,8 @@ enable = true
 
 #[output.epub]
 
-[output.latex]
-command = "/home/dietrich/Projekte/Source/mdbooklatex/target/debug/mdbook-latex"
-latex    = true  # default = true
-pdf      = true  # default = false
-markdown = true  # default = false
+#[output.latex]
+#command = "/home/dietrich/Projekte/Source/mdbooklatex/target/debug/mdbook-latex"
+#latex    = true  # default = true
+#pdf      = true  # default = false
+#markdown = true  # default = false
