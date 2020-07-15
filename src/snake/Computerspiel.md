@@ -21,7 +21,7 @@ Diese Liste wird `level` genannt. Die Liste hat nur eine Dimmension, das heißt 
 
 # Starten des Spiels
 
-Wie auch das `turtle`-Modul muss das passende `game`-modul erst geladen werden. Im Gegensatz zum Turtle-Modul ist das `game`-modul allerdings nicht standardmäßig mit dabei. Es muss zunächst heruntergeladen werden: [game.py](bsp/game.py)
+Wie auch das `turtle`-Modul muss das passende `game`-modul erst geladen werden. Im Gegensatz zum Turtle-Modul ist das `game`-modul allerdings nicht standardmäßig mit dabei. Es muss zunächst heruntergeladen werden: [game.py](https://raw.githubusercontent.com/enaut/snake/master/game.py)
 
 
 Im selben Ordner, wie die Datei `snake.py` erstellt und das `game`-modul geladen. Dies geschieht mit `import game`.
@@ -66,7 +66,5 @@ s.level[9] = 1
 >
 > ![Level 1](img/snakelevel.png)
 >
-> * Zeichnen Sie dieses Level mit einer Funktion namens `level1`. Erstellen Sie die Funktionen mit `def` wie im Kapitel [Funktionen](Funktionen.md)
+> * Zeichnen Sie dieses Level mit einer Funktion namens `level1`. Erstellen Sie die Funktionen mit `def` wie im Kapitel [Funktionen](../3-turtle/120-funktionen.md)
 > * Erstellen Sie noch eine Funktion `level2`, die ein eigenes Muster macht.
-
-

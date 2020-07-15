@@ -106,7 +106,7 @@ t.forward(30)
 >
 > Zeichnen Sie 3 Quadrate mit dem selben Mittelpunkt wobei jeweils das folgende kleiner ist als das erste.
 >
-> Tipp: Wenn Sie die [Kommentarfunktion](03-kommentare.md) benutzen, dann ist es einfacher die Übersicht zu behalten.
+> Tipp: Wenn Sie die [Kommentarfunktion](030-kommentare.md) benutzen, dann ist es einfacher die Übersicht zu behalten.
 >
 > Ergebnis:
 >
@@ -140,6 +140,6 @@ Passen Sie `a` und `b` so an, dass sie damit die Diagonalen der folgenden Übung
 >
 >    ![Haus vom Nikolaus](img/nikolaushaus.png)
 > 2. Speichern Sie diese Datei zusätzlich unter dem Namen `nikolaushaus-uebung-rechtwinklig.py`. Hierzu klicken sie auf "File->Save as" oder "Datei->Speichern unter"
-> 2. Verändern Sie in dieser neuen Datei die Zeichnung so, dass das Dach rechtwinklig ist. Hier können Sie bemerken, dass die [Kommentarfunktion](03-kommentare.md) sehr hilfreich sein kann.
+> 2. Verändern Sie in dieser neuen Datei die Zeichnung so, dass das Dach rechtwinklig ist. Hier können Sie bemerken, dass die [Kommentarfunktion](030-kommentare.md) sehr hilfreich sein kann.
 >
 >    ![Haus vom Nikolaus](img/nikolaushaus2.png)
