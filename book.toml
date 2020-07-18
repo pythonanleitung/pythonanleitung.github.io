@@ -7,7 +7,7 @@ title = "Pythonanleitung"
 
 [build]
 create-missing = false
-build-dir = "book/latex"
+build-dir = "book"
 
 [preprocessor.links]
 
