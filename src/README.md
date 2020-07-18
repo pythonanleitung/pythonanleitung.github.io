@@ -18,8 +18,8 @@ Seit diesem Zeitpunkt wird die Sprache weiter entwickelt.
 2008 kam die letzte große Version der Sprache heraus: Python 3
 
 Das Ziel der Python Programmiersprache ist es einfach und kompakt zu sein.
-Die Einfachheit ist gut für Schüler die versuchen sie zu lernen,
-die Kompaktheit ist gut für Lehrer, die die Sprache mit dem Beamer
+Die Einfachheit ist gut für SuS die versuchen sie zu lernen,
+die Kompaktheit ist gut für LuL, die die Sprache mit dem Beamer
 präsentieren.
 
 Die Sprache Python rangiert in den Top 10 der häufigst verwendeten
@@ -29,5 +29,3 @@ liebsten verwenden würden.
 
 
 Mit dieser Anleitung wird der Leser an die ersten Anfänge des Programmierens herangeführt.
-
-
