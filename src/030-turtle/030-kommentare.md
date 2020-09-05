@@ -36,4 +36,9 @@ t.forward(100)
 Solche Kommentare sind sehr hilfreich dabei sich zu orientieren. Zum Beispiel beim Haus des Nikolaus können so die einzelnen `forward`-Befehle mit Wörtern wie "Dach", "Boden" usw. markiert werden. Soll zum Beispiel noch ein Kamin an das Haus gebaut werden, dann ist jetzt der zu verändernde `forward`-Befehl viel einfacher zu finden.
 
 > ### Übung
-> Statten Sie ihr Nikolaushaus mit Kommentaren aus.
+> 1. Statten Sie ihr Nikolaushaus mit Kommentaren aus.
+>
+> 2. Speichern Sie diese Datei zusätzlich unter dem Namen `nikolaushaus-uebung-rechtwinklig.py`. Hierzu klicken sie auf "File->Save as" oder "Datei->Speichern unter"
+> 2. Verändern Sie in dieser neuen Datei die Zeichnung so, dass das Dach rechtwinklig ist. Hier können Sie bemerken, dass die [Kommentarfunktion](030-kommentare.md) sehr hilfreich sein kann.
+>
+>    ![Haus vom Nikolaus](img/nikolaushaus2.png)

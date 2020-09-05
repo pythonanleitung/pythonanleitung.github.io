@@ -1,6 +1,8 @@
 # Ein erstes Beispiel
 
-> Ziel dieses Kapitels ist es das Ausprobier-Fenster, sowie erste rechenbefehle
+> Ziel dieses Kapitels:
+>   * Ausprobier-Fenster
+>   * erste Rechenbefehle
 
 Es wird immer wieder Übungen geben. Für dieses Kapitel besteht die Übung darin mit Python einige Rechenaufgaben zu berechnen. Die Aufgaben beziehen sich fast immer auf die Erklärungen unmittelbar davor.
 

@@ -2,13 +2,15 @@
 
 
 
-> Ziel dieses Kapitels ist es die Arbeit die wir machen abzuspeichern, sodass man es später wieder verwenden kann, und vielleicht auch jemand das Programm einfach verwenden kann ohne zu programmieren.
+> Ziel dieses Kapitels
+>   * abspeichern
+>   * wiederverwendbare Programme
 
-Da das ständige erneut Tippen auf Dauer nicht besonders effizient ist, kann man den Programmcode von Python in eine Datei abspeichern und dann diese Datei ausführen.
+Da das ständige erneut Tippen auf Dauer nicht besonders effizient ist, kann man den Programmcode von Python in eine Datei abspeichern und dann diese Datei starten.
 
-Um dies zu tun muss der obere Teil von `thonny` verwendet werden.
+Wir verwenden hierfür den oberen Teil von `thonny`.
 
-  > ### Übung Speichern in eine Datei
+  > ### Übung Folgen Sie den Punkten um ein erstes Programm zu erstellen:
   > 1. Öffnen Sie eine neue Datei durch einen Klick auf den neuen Datei-Button.
   > 1. Geben Sie den Befehl `print("hallo")` in die neu geöffnete Datei, also den oberen Teil des Fensters, ein.
   > 1. Speichern Sie diese Datei mit dem Namen `Hallo.py` ab, indem Sie auf das Diskettensymbol klicken, oder indem Sie `Datei->Speichern` klicken.
@@ -17,7 +19,7 @@ Um dies zu tun muss der obere Teil von `thonny` verwendet werden.
 
 Dieses kurze Programm tut nichts anderes, als `hallo` auszugeben.
 
-## Die Buttons erklärt
+## Die Buttons von Thonny
 
 ![Screenshot Thonny](./img/ThonnyButtons.png)
 
@@ -50,9 +52,11 @@ print(5 + 7)
 
 
 > ### Notiz
-> Alle weiteren Programme und Beispiele werden in Thonny ausgeführt. Beginnen die Beispiele mit `>>>` so sind sie für das untere interaktive  **"Ausprobier"-Fenster** gedacht. Beginnen sie direkt mit Python-Befehlen, so sind sie für das obere Fenster gedacht.
+> Alle weiteren Programme und Beispiele werden in Thonny ausgeführt. Beginnen die Beispiele mit `>>>` so sind sie für das untere interaktive  **"Ausprobier"-Fenster** unten gedacht. Beginnen sie direkt mit Python-Befehlen, so sind sie für das obere Fenster gedacht.
 
-Immer wenn etwas im oberen Fenster verändert wurde, so muss wieder der "Play-Button" gedrückt werden, dass das neu veränderte Programm gestartet wird. Vorsicht Eingaben, die in dem unteren Teil gemacht wurden, sind danach "verloren".
+Immer wenn etwas im oberen Fenster verändert wurde, so muss wieder der "Play-Button" gedrückt werden, dass das neu veränderte Programm gestartet wird.
+
+Vorsicht Eingaben, die in dem unteren Teil gemacht wurden, sind nach jedem neuen "Play-Button"-Druck gelöscht.
 
 
 > ### Übung Rechnung mit Ausgabe

@@ -9,30 +9,30 @@ Nachdem Nun die gröbsten Grundlagen der Programmiersprache gelernt sind, fängt
 Bedenken Sie, dass beim Programmieren die eigene Arbeit immer auf der Arbeit von ganz vielen anderen beruht. Zum Beispiel um Python zu entwickeln müsste eine Person ca. 285 Jahre arbeiten. Um Python entwickeln zu lassen müsste man 13.5 Millionen Euro veranschlagen. Im Folgenden Wird ein relativ kleines Modul verwendet mit welchem man eine bestimmte Art von Grafiken erstellen kann. Auch für dieses Modul wurden über 4000 Zeilen programmiert.
 
 ## Erstellen des Fensters
+Die Folgenden Schritte sind notwendig für jedes Turtle-Programm, also für jede Übung die in den Kapiteln 3-5 gestellt sind. Wenn Sie eine Übung erstellen müssen Sie immer mit den folgenden vier Schritten beginnen:
+> 1. Erstellen Sie in `thonny` eine neue Datei durch Klick auf das weiße Symbol ganz links.
+> 2. Schreiben sie die 3 Zeilen aus dem folgenden Beispiel in diese Datei. Die Zeilen werden später einzeln  erklärt.
+>   ```python
+>   import turtle
+>
+>   t = turtle.Pen()
+>   t.shape("turtle")
+>   ```
+>
+> 3. Klicken Sie auf "Play".
+> 4. Speichern Sie die Datei unter einem Namen ab. Hier `meine-kröte.py`.
 
-1. Erstellen Sie in `thonny` eine neue Datei durch Klick auf das weiße Symbol ganz links.
-2. Schreiben sie die 3 Zeilen aus dem folgenden Beispiel in diese Datei. Die Zeilen werden danach einzeln besprochen.
-   ```python
-   import turtle
-
-   t = turtle.Pen()
-   t.shape("turtle")
-   ```
-
-3. Speichern Sie die Datei unter dem Namen `meine-kröte.py` ab.
-4. Klicken Sie auf "Play". Es sollte ein Fenster mit einer kleinen Schildkröte in der Mitte erscheinen.
+Es sollte ein Fenster mit einer kleinen Schildkröte in der Mitte erscheinen.
 
 ![Leeres Turtle Fenster](img/leerturtle.png)
 
 Erklärungen der Zeilen:
 
-1. Zunächst muss mit `import turtle` das `turtle`-Modul geladen werden.
+1. Zeile: Lade das `turtle`-Modul
 
-2. Danach erzeugt man eine Schildkröte mit dem Befehl `turtle.Pen()`. Hierbei wird das Fenster, in dem die Zeichnung entsteht, geöffnet.
+2. Zeile: erzeugen der Schildkröte mit `turtle.Pen()`. Hierbei wird das Fenster, in dem die Zeichnung entsteht, geöffnet.
 
-   Damit später auf diese Schildkröte zugegriffen werden kann, muss sie in einer Variablen (hier `t`) gespeichert werden.
-
-3. Wenn man möchte, kann man auch noch das aussehen der "Schildkröte" verändern. Die Standardeinstellung ist ein Dreieck, dessen Spitze in Laufrichtung zeigt. Mit dem Befehl `t.shape("turtle")` wird diese Form zu einer Schildkrötensilhouette.
+3. Zeile: Diese Zeile ist nicht unbedingt notwendig. Wenn man aber möchte, kann man das aussehen der "Schildkröte" verändern. Die Standardeinstellung ist ein Dreieck, dessen Spitze in Laufrichtung zeigt. Mit dem Befehl `t.shape("turtle")` wird diese Form zu einer Schildkrötensilhouette.
 
 Diese drei Zeilen sind die Grundlage jedes turtle-Programms. Immer, wenn sie turtle verwenden wollen müssen diese Zeilen zu Beginn ihrer Datei stehen.
 
@@ -41,7 +41,7 @@ Diese drei Zeilen sind die Grundlage jedes turtle-Programms. Immer, wenn sie tur
 
 ## Das Turtle bewegen und dabei zeichnen
 
-Nun können Sie der Schildkröte Befehle geben. Es gibt unter anderem: `forward`, `left` und `right`. Dabei sind alle Befehle in Fahrtrichtung.Die Schildkröte steht zu Begin in der mitte, so dass sie nach rechts läuft, wenn man ihr zum Beispiel den Befehl `t.forward(100)` gibt. Das heißt wenn am Anfang `t.left(90)` angegeben wird:  wird sie gegen den Uhrzeigersinn um 90° gedreht, sodass sie nach oben schaut.
+Nun können Sie der Schildkröte Befehle geben. Es gibt unter anderem: `forward`, `left` und `right`. Dabei sind alle Befehle in Fahrtrichtung. Die Schildkröte steht zu Beginn in der Mitte, so dass sie nach rechts läuft, wenn man ihr zum Beispiel den Befehl `t.forward(100)` gibt. Das heißt wenn am Anfang `t.left(90)` angegeben wird:  wird sie gegen den Uhrzeigersinn um 90° gedreht, sodass sie nach oben schaut.
 
 > ### Merke
 > * Die Befehle werden Zeile für Zeile ausgeführt.
@@ -112,34 +112,13 @@ t.forward(30)
 >
 > ![Quadrate](img/turtlequadrate.png)
 
-## Rechnen in Python
 
-Wenn Sie bestimmte Formen zeichnen wollen, so müssen Sie bestimmte Winkel und Längen berechnen. Im rechtwinkligen Dreieck lässt sich das sehr einfach durch die Formel von Pythagoras `a² + b² = c²` lösen. Also die beiden kürzeren Seitenlängen eines rechtwinkligen Dreiecks quadriert und zusammengezählt ergeben das Quadrat der längsten Seitenlänge.
-
-Um aus dieser Zahl die Quadratwurzel (engl. _square root_) zu berechnen benötigen Sie die Wurzelfunktion. Diese ist in dem `math`-Modul enthalten.
-
-Berechnen des Pythagoras:
-
-```python
-import math
-a = 5
-b = 7
-c = math.sqrt(a * a + b * b)
-```
-
-Es wird hier in `c` die Wurzel aus `a² + b²` also `a*a + b*b` gespeichert.
-
-Passen Sie `a` und `b` so an, dass sie damit die Diagonalen der folgenden Übungen ausrechnen können. Um die Länge einer Diagonalen zu zeichnen, gehen sie um `c` vorwärts: `t.forward(c)`
 
 
 > ### Übung
 >
 > Speichern Sie dies in die Datei `nikolaushaus-uebung.py`
 >
-> 1. Zeichnen Sie das Haus vom Nikolaus. Berechnen Sie dabei die Länge der diagonalen in Python. Verwenden Sie ein gleichseitiges Dreieck als Dach.
+> 1. Zeichnen Sie das Haus vom Nikolaus. Verwenden Sie ein gleichseitiges Dreieck als Dach.
 >
 >    ![Haus vom Nikolaus](img/nikolaushaus.png)
-> 2. Speichern Sie diese Datei zusätzlich unter dem Namen `nikolaushaus-uebung-rechtwinklig.py`. Hierzu klicken sie auf "File->Save as" oder "Datei->Speichern unter"
-> 2. Verändern Sie in dieser neuen Datei die Zeichnung so, dass das Dach rechtwinklig ist. Hier können Sie bemerken, dass die [Kommentarfunktion](030-kommentare.md) sehr hilfreich sein kann.
->
->    ![Haus vom Nikolaus](img/nikolaushaus2.png)

@@ -60,6 +60,7 @@ Es kann Ihnen auffallen,dass Sie die ganze Zeit schon solche Funktionen verwende
 > ### Übung
 >
 > 1. Erstellen Sie eine Funktion für einen Fünfstern.
-> 2. Zeichnen Sie einen Kreis mit Fünfsternen außen dran. Achten Sie darauf, dass die Sterne senkrecht auf dem Kreis stehen.
+> 2. Zeichnen Sie einen Kreis mit Fünfsternen außen dran. Verwenden Sie ihre Fünfstern Funktion und achten Sie darauf, dass die Sterne senkrecht auf dem Kreis stehen.
+> 3. Fügen Sie weitere Symbole, z.B. Herzen hinzu, die abwechselnd oder nach innen gezeichnet werden.
 >
 > ![Fünfsternkreis](img/fünfsternkreis.png)

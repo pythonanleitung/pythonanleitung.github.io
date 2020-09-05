@@ -1,7 +1,6 @@
 # Summary
 
-- [Einleitung](010-einleitung/1-einleitung.md)
-  - [Diese Anleitung](010-einleitung/2-dieseanleitung.md)
+- [Einleitung](010-einleitung/2-dieseanleitung.md)
   - [Installation](010-einleitung/3-installation.md)
 - [Programmieren](020-programmieren/1-programmieren.md)
   - [Erste Schritte](020-programmieren/2-ersteschritte.md)
@@ -15,6 +14,7 @@
   - [Variablen](030-turtle/060-variablen.md)
   - [Listen](030-turtle/090-listen.md)
   - [Funktionen](030-turtle/120-funktionen.md)
+  - [Beispiel Funktion: Diagonale](030-turtle/125-diagonalfunktionen.md)
   - [Turtle Beispielaufgaben](030-turtle/140-turtlebeispielaufgaben.md)
   - [Turtle Zusammenfassung](030-turtle/150-turtlebefehle.md)
 - [Ratespiel mit turtle](040-ratespiel/04.1-ratespiel.md)
