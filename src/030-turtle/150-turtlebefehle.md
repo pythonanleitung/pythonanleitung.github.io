@@ -42,12 +42,10 @@ t.screen.bgcolor("pink")# Die Hintergrundfarbe setzen
 
 # Turtle:
 ```python
-t.shape()               # Auswählen einer Form
+t.shape("turtle")       # Auswählen einer Form statt Dreieck
 t.hideturtle()          # Verstecken der Schildkröte
 t.showturtle()          # zeigen der Schildkröte
 t.exitonclick()         # schließen wenn ins Fenster geklickt wird
 turtle.numinput("", "") # Turtle Fragt nach einer Zahl mit `title` und `promt`
 turtle.textinput("", "")# Turtle Fragt nach einem Text mit `title` und `promt`
 ```
-
-
