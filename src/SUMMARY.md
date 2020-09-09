@@ -25,6 +25,7 @@
   - [Das Spiel](040-ratespiel/04.6-dasspiel.md)
 - [Galgenmännchen mit turtle](050-galgen/010-hangman.md)
   - [Eine Funktion für jeden Galgenschritt](050-galgen/020-hangschritte.md)
+  - [Das hangman Modul](050-galgen/025-hangmanmodul.md)
   - [Immer wieder abfragen](050-galgen/030-hangabfrage.md)
   - [Geheimwortliste](050-galgen/040-hanggeheimliste.md)
   - [Einbinden der Wortliste](050-galgen/050-hangeinbinden.md)
