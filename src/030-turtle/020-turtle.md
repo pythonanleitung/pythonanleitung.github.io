@@ -119,6 +119,8 @@ t.forward(30)
 >
 > Speichern Sie dies in die Datei `nikolaushaus-uebung.py`
 >
-> 1. Zeichnen Sie das Haus vom Nikolaus. Verwenden Sie ein gleichseitiges Dreieck als Dach.
+> 1. Zeichnen Sie das Haus vom Nikolaus.
+>    2. Gehen Sie keine Linie zwei mal
+>    3. Verwenden Sie ein gleichseitiges Dreieck als Dach
 >
 >    ![Haus vom Nikolaus](img/nikolaushaus.png)
