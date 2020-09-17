@@ -1,0 +1,341 @@
+<!DOCTYPE HTML>
+<html lang="de" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Schildkröten - Pythonanleitung</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        
+        <link rel="shortcut icon" href="../favicon.png">
+        
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="../010-einleitung/2-dieseanleitung.html"><strong aria-hidden="true">1.</strong> Einleitung</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../010-einleitung/3-installation.html"><strong aria-hidden="true">1.1.</strong> Installation</a></li></ol></li><li class="chapter-item "><a href="../020-programmieren/1-programmieren.html"><strong aria-hidden="true">2.</strong> Programmieren</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../020-programmieren/2-ersteschritte.html"><strong aria-hidden="true">2.1.</strong> Erste Schritte</a></li><li class="chapter-item "><a href="../020-programmieren/3-speichern.html"><strong aria-hidden="true">2.2.</strong> Speichern in eine Datei</a></li></ol></li><li class="chapter-item expanded "><a href="../030-turtle/010-turtlekapitel.html"><strong aria-hidden="true">3.</strong> Grafiken mit Turtle</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../030-turtle/020-turtle.html" class="active"><strong aria-hidden="true">3.1.</strong> Schildkröten</a></li><li class="chapter-item "><a href="../030-turtle/030-kommentare.html"><strong aria-hidden="true">3.2.</strong> Kommentare</a></li><li class="chapter-item "><a href="../030-turtle/035-kreise.html"><strong aria-hidden="true">3.3.</strong> Kreise</a></li><li class="chapter-item "><a href="../030-turtle/040-forschleifen.html"><strong aria-hidden="true">3.4.</strong> For Schleifen</a></li><li class="chapter-item "><a href="../030-turtle/045-forschleifen2.html"><strong aria-hidden="true">3.5.</strong> Wiederholte Wiederholungen</a></li><li class="chapter-item "><a href="../030-turtle/060-variablen.html"><strong aria-hidden="true">3.6.</strong> Variablen</a></li><li class="chapter-item "><a href="../030-turtle/090-listen.html"><strong aria-hidden="true">3.7.</strong> Listen</a></li><li class="chapter-item "><a href="../030-turtle/120-funktionen.html"><strong aria-hidden="true">3.8.</strong> Funktionen</a></li><li class="chapter-item "><a href="../030-turtle/125-diagonalfunktionen.html"><strong aria-hidden="true">3.9.</strong> Beispiel Funktion: Diagonale</a></li><li class="chapter-item "><a href="../030-turtle/140-turtlebeispielaufgaben.html"><strong aria-hidden="true">3.10.</strong> Turtle Beispielaufgaben</a></li><li class="chapter-item "><a href="../030-turtle/150-turtlebefehle.html"><strong aria-hidden="true">3.11.</strong> Turtle Zusammenfassung</a></li></ol></li><li class="chapter-item "><a href="../040-ratespiel/04.1-ratespiel.html"><strong aria-hidden="true">4.</strong> Ratespiel mit turtle</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../040-ratespiel/04.2-turtleinput.html"><strong aria-hidden="true">4.1.</strong> Eingaben in Turtle</a></li><li class="chapter-item "><a href="../040-ratespiel/04.3-bedingtesausfuehren.html"><strong aria-hidden="true">4.2.</strong> Fallunterscheidung</a></li><li class="chapter-item "><a href="../040-ratespiel/04.4-wiederholungenwhile.html"><strong aria-hidden="true">4.3.</strong> Wiederholungen mit While</a></li><li class="chapter-item "><a href="../040-ratespiel/04.5-zufall.html"><strong aria-hidden="true">4.4.</strong> Zufall</a></li><li class="chapter-item "><a href="../040-ratespiel/04.6-dasspiel.html"><strong aria-hidden="true">4.5.</strong> Das Spiel</a></li></ol></li><li class="chapter-item "><a href="../050-galgen/010-hangman.html"><strong aria-hidden="true">5.</strong> Galgenmännchen mit turtle</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../050-galgen/020-hangschritte.html"><strong aria-hidden="true">5.1.</strong> Eine Funktion für jeden Galgenschritt</a></li><li class="chapter-item "><a href="../050-galgen/025-hangmanmodul.html"><strong aria-hidden="true">5.2.</strong> Das hangman Modul</a></li><li class="chapter-item "><a href="../050-galgen/030-hangabfrage.html"><strong aria-hidden="true">5.3.</strong> Immer wieder abfragen</a></li><li class="chapter-item "><a href="../050-galgen/040-hanggeheimliste.html"><strong aria-hidden="true">5.4.</strong> Geheimwortliste</a></li><li class="chapter-item "><a href="../050-galgen/050-hangeinbinden.html"><strong aria-hidden="true">5.5.</strong> Einbinden der Wortliste</a></li><li class="chapter-item "><a href="../050-galgen/060-hangtipsspeich.html"><strong aria-hidden="true">5.6.</strong> Abspeichern der Tipps</a></li><li class="chapter-item "><a href="../050-galgen/070-hanggeratenes.html"><strong aria-hidden="true">5.7.</strong> Anzeigen der Geratenen Buchstaben</a></li><li class="chapter-item "><a href="../050-galgen/080-hangfeinschl.html"><strong aria-hidden="true">5.8.</strong> Feinschliff</a></li></ol></li><li class="chapter-item "><a href="../060-snake/snakespiel.html"><strong aria-hidden="true">6.</strong> Ein Snakespiel</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../060-snake/Computerspiel.html"><strong aria-hidden="true">6.1.</strong> Computerspiele</a></li><li class="chapter-item "><a href="../060-snake/Animation.html"><strong aria-hidden="true">6.2.</strong> Animation</a></li><li class="chapter-item "><a href="../060-snake/Steuerung.html"><strong aria-hidden="true">6.3.</strong> Steuerung</a></li></ol></li><li class="chapter-item "><a href="../x-anhang/0-anhang.html"><strong aria-hidden="true">7.</strong> Anhang</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../x-anhang/1-cheat-sheet.html"><strong aria-hidden="true">7.1.</strong> Cheat-Sheet</a></li><li class="chapter-item "><a href="../x-anhang/2-bedingungen.html"><strong aria-hidden="true">7.2.</strong> Bedingungen</a></li><li class="chapter-item "><a href="../x-anhang/3-fehler.html"><strong aria-hidden="true">7.3.</strong> Fehlermeldungen</a></li><li class="chapter-item "><a href="../x-anhang/4-datentypen.html"><strong aria-hidden="true">7.4.</strong> Datentypen</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Pythonanleitung</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#schildkröten" id="schildkröten">Schildkröten</a></h1>
+<p>Nachdem Nun die gröbsten Grundlagen der Programmiersprache gelernt sind, fängt es jetzt an (noch mehr) Spaß zu machen.</p>
+<h2><a class="header" href="#schultern-von-giganten" id="schultern-von-giganten">Schultern von Giganten</a></h2>
+<p>Bedenken Sie, dass beim Programmieren die eigene Arbeit immer auf der Arbeit von ganz vielen anderen beruht. Zum Beispiel um Python zu entwickeln müsste eine Person ca. 285 Jahre arbeiten. Um Python entwickeln zu lassen müsste man 13.5 Millionen Euro veranschlagen. Im Folgenden Wird ein relativ kleines Modul verwendet mit welchem man eine bestimmte Art von Grafiken erstellen kann. Auch für dieses Modul wurden über 4000 Zeilen programmiert.</p>
+<h2><a class="header" href="#erstellen-des-fensters" id="erstellen-des-fensters">Erstellen des Fensters</a></h2>
+<p>Die Folgenden Schritte sind notwendig für jedes Turtle-Programm, also für jede Übung die in den Kapiteln 3-5 gestellt sind. Wenn Sie eine Übung erstellen müssen Sie immer mit den folgenden vier Schritten beginnen:</p>
+<blockquote>
+<ol>
+<li>Erstellen Sie in <code>thonny</code> eine neue Datei durch Klick auf das weiße Symbol ganz links.</li>
+<li>Schreiben sie die 3 Zeilen aus dem folgenden Beispiel in diese Datei. Die Zeilen werden später einzeln  erklärt.</li>
+</ol>
+<pre><code class="language-python">import turtle
+
+t = turtle.Pen()
+t.shape(&quot;turtle&quot;)
+</code></pre>
+<ol start="3">
+<li>Klicken Sie auf &quot;Play&quot;.</li>
+<li>Speichern Sie die Datei unter einem Namen ab. Hier <code>meine-kröte.py</code>.</li>
+</ol>
+</blockquote>
+<p>Es sollte ein Fenster mit einer kleinen Schildkröte in der Mitte erscheinen.</p>
+<p><img src="img/leerturtle.png" alt="Leeres Turtle Fenster" /></p>
+<p>Erklärungen der Zeilen:</p>
+<ol>
+<li>
+<p>Zeile: Lade das <code>turtle</code>-Modul</p>
+</li>
+<li>
+<p>Zeile: erzeugen der Schildkröte mit <code>turtle.Pen()</code>. Hierbei wird das Fenster, in dem die Zeichnung entsteht, geöffnet.</p>
+</li>
+<li>
+<p>Zeile: Diese Zeile ist nicht unbedingt notwendig. Wenn man aber möchte, kann man das aussehen der &quot;Schildkröte&quot; verändern. Die Standardeinstellung ist ein Dreieck, dessen Spitze in Laufrichtung zeigt. Mit dem Befehl <code>t.shape(&quot;turtle&quot;)</code> wird diese Form zu einer Schildkrötensilhouette.</p>
+</li>
+</ol>
+<p>Diese drei Zeilen sind die Grundlage jedes turtle-Programms. Immer, wenn sie turtle verwenden wollen müssen diese Zeilen zu Beginn ihrer Datei stehen.</p>
+<blockquote>
+<h3><a class="header" href="#achtung" id="achtung">Achtung</a></h3>
+<p><strong>Beim Speichern der Datei darf nicht der Name <code>turtle.py</code> gewählt werden.</strong> Dieser Name wird quasi von dem <code>turtle</code>-Modul reserviert.</p>
+</blockquote>
+<h2><a class="header" href="#das-turtle-bewegen-und-dabei-zeichnen" id="das-turtle-bewegen-und-dabei-zeichnen">Das Turtle bewegen und dabei zeichnen</a></h2>
+<p>Nun können Sie der Schildkröte Befehle geben. Es gibt unter anderem: <code>forward</code>, <code>left</code> und <code>right</code>. Dabei sind alle Befehle in Fahrtrichtung. Die Schildkröte steht zu Beginn in der Mitte, so dass sie nach rechts läuft, wenn man ihr zum Beispiel den Befehl <code>t.forward(100)</code> gibt. Das heißt wenn am Anfang <code>t.left(90)</code> angegeben wird:  wird sie gegen den Uhrzeigersinn um 90° gedreht, sodass sie nach oben schaut.</p>
+<blockquote>
+<h3><a class="header" href="#merke" id="merke">Merke</a></h3>
+<ul>
+<li>Die Befehle werden Zeile für Zeile ausgeführt.</li>
+<li>Drückt man auf den grünen &quot;Play-Knopf&quot; wird alles neu gestartet, dann der Befehl in der ersten Zeile ausgeführt, dann der in der zweiten und so weiter.</li>
+</ul>
+</blockquote>
+<p>Um also mit dem <code>turtle</code> einen rechten Winkel zu zeichnen, der zunächst waagerecht verläuft und dann nach unten geht kann man nun folgenden Code eingeben:</p>
+<pre><code class="language-python">import turtle
+
+t = turtle.Pen()
+t.shape(&quot;turtle&quot;)
+
+t.forward(200)
+t.right(90)
+t.forward(200)
+</code></pre>
+<p>Das Ergebnis ist dann folgendes:</p>
+<p><img src="img/turtlerightangle.png" alt="Rechter Winkel Turtle" /></p>
+<p>Es ist natürlich auch möglich weniger weit zu gehen <code>t.forward(87)</code> oder sich um einen anderen Winkel zu drehen <code>t.left(63)</code>.</p>
+<blockquote>
+<h3><a class="header" href="#Übung" id="Übung">Übung</a></h3>
+<p>Speichern Sie dies in die Datei <code>geometrische-uebung.py</code></p>
+<ol>
+<li>Zeichnen Sie ein Quadrat</li>
+<li>Zeichnen Sie ein Rechteck, welches doppelt so breit ist, wie hoch und nur eine Ecke gemeinsam mit dem ersten Quadrat hat.</li>
+<li>Zeichnen Sie ein gleichseitiges Dreieck</li>
+</ol>
+<p>Ergebnis der Übung:</p>
+<p><img src="img/turtleshapes.png" alt="Übungsresultat" /></p>
+</blockquote>
+<h2><a class="header" href="#das-turtle-bewegen-ohne-zu-zeichnen" id="das-turtle-bewegen-ohne-zu-zeichnen">Das Turtle bewegen, ohne zu zeichnen</a></h2>
+<p>Soll das Turtle an eine Position, ohne dabei eine Spur zu hinterlassen, dann kann man folgende Befehle verwenden:</p>
+<ul>
+<li><code>t.penup()</code>: sagt dem <code>turtle</code> höre auf zu zeichnen.</li>
+<li><code>t.pendown()</code>: sagt dem <code>turtle</code> fange wieder an zu zeichnen.</li>
+</ul>
+<p>Man kann also dem <code>turtle</code> sagen zeichne jetzt nicht, dann kann man es ganz normal mit <code>forward</code>, <code>left</code> und <code>right</code> bewegen, und wenn das <code>turtle</code> wieder zeichnen soll, sagt man das einfach mit dem <code>pendown</code>-Befehl.</p>
+<p>Beispiel einer unterbrochenen Linie (Achtung Die Befehle zum erstellen des <code>turtles</code> sind hier weg gelassen):</p>
+<pre><code class="language-python">t.forward(30)
+t.penup()
+t.forward(30)
+t.pendown()
+t.forward(30)
+t.penup()
+t.forward(30)
+t.pendown()
+t.forward(30)
+</code></pre>
+<blockquote>
+<h3><a class="header" href="#Übung-1" id="Übung-1">Übung</a></h3>
+<p>Speichern Sie dies in die Datei <code>quadrate-uebung.py</code></p>
+<p>Zeichnen Sie 3 Quadrate mit dem selben Mittelpunkt wobei jeweils das folgende kleiner ist als das erste.</p>
+<p>Tipp: Wenn Sie die <a href="030-kommentare.html">Kommentarfunktion</a> benutzen, dann ist es einfacher die Übersicht zu behalten.</p>
+<p>Ergebnis:</p>
+<p><img src="img/turtlequadrate.png" alt="Quadrate" /></p>
+</blockquote>
+<blockquote>
+<h3><a class="header" href="#Übung-2" id="Übung-2">Übung</a></h3>
+<p>Speichern Sie dies in die Datei <code>nikolaushaus-uebung.py</code></p>
+<ol>
+<li>
+<p>Zeichnen Sie das Haus vom Nikolaus.</p>
+<ol start="2">
+<li>Gehen Sie keine Linie zwei mal</li>
+<li>Verwenden Sie ein gleichseitiges Dreieck als Dach</li>
+</ol>
+<p><img src="img/nikolaushaus.png" alt="Haus vom Nikolaus" /></p>
+</li>
+</ol>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../030-turtle/010-turtlekapitel.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../030-turtle/030-kommentare.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../030-turtle/010-turtlekapitel.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../030-turtle/030-kommentare.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

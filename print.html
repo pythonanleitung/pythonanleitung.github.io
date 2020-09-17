@@ -1,0 +1,1783 @@
+<!DOCTYPE HTML>
+<html lang="de" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Pythonanleitung</title>
+        
+        <meta name="robots" content="noindex" />
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="010-einleitung/2-dieseanleitung.html"><strong aria-hidden="true">1.</strong> Einleitung</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="010-einleitung/3-installation.html"><strong aria-hidden="true">1.1.</strong> Installation</a></li></ol></li><li class="chapter-item "><a href="020-programmieren/1-programmieren.html"><strong aria-hidden="true">2.</strong> Programmieren</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="020-programmieren/2-ersteschritte.html"><strong aria-hidden="true">2.1.</strong> Erste Schritte</a></li><li class="chapter-item "><a href="020-programmieren/3-speichern.html"><strong aria-hidden="true">2.2.</strong> Speichern in eine Datei</a></li></ol></li><li class="chapter-item "><a href="030-turtle/010-turtlekapitel.html"><strong aria-hidden="true">3.</strong> Grafiken mit Turtle</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="030-turtle/020-turtle.html"><strong aria-hidden="true">3.1.</strong> Schildkröten</a></li><li class="chapter-item "><a href="030-turtle/030-kommentare.html"><strong aria-hidden="true">3.2.</strong> Kommentare</a></li><li class="chapter-item "><a href="030-turtle/035-kreise.html"><strong aria-hidden="true">3.3.</strong> Kreise</a></li><li class="chapter-item "><a href="030-turtle/040-forschleifen.html"><strong aria-hidden="true">3.4.</strong> For Schleifen</a></li><li class="chapter-item "><a href="030-turtle/045-forschleifen2.html"><strong aria-hidden="true">3.5.</strong> Wiederholte Wiederholungen</a></li><li class="chapter-item "><a href="030-turtle/060-variablen.html"><strong aria-hidden="true">3.6.</strong> Variablen</a></li><li class="chapter-item "><a href="030-turtle/090-listen.html"><strong aria-hidden="true">3.7.</strong> Listen</a></li><li class="chapter-item "><a href="030-turtle/120-funktionen.html"><strong aria-hidden="true">3.8.</strong> Funktionen</a></li><li class="chapter-item "><a href="030-turtle/125-diagonalfunktionen.html"><strong aria-hidden="true">3.9.</strong> Beispiel Funktion: Diagonale</a></li><li class="chapter-item "><a href="030-turtle/140-turtlebeispielaufgaben.html"><strong aria-hidden="true">3.10.</strong> Turtle Beispielaufgaben</a></li><li class="chapter-item "><a href="030-turtle/150-turtlebefehle.html"><strong aria-hidden="true">3.11.</strong> Turtle Zusammenfassung</a></li></ol></li><li class="chapter-item "><a href="040-ratespiel/04.1-ratespiel.html"><strong aria-hidden="true">4.</strong> Ratespiel mit turtle</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="040-ratespiel/04.2-turtleinput.html"><strong aria-hidden="true">4.1.</strong> Eingaben in Turtle</a></li><li class="chapter-item "><a href="040-ratespiel/04.3-bedingtesausfuehren.html"><strong aria-hidden="true">4.2.</strong> Fallunterscheidung</a></li><li class="chapter-item "><a href="040-ratespiel/04.4-wiederholungenwhile.html"><strong aria-hidden="true">4.3.</strong> Wiederholungen mit While</a></li><li class="chapter-item "><a href="040-ratespiel/04.5-zufall.html"><strong aria-hidden="true">4.4.</strong> Zufall</a></li><li class="chapter-item "><a href="040-ratespiel/04.6-dasspiel.html"><strong aria-hidden="true">4.5.</strong> Das Spiel</a></li></ol></li><li class="chapter-item "><a href="050-galgen/010-hangman.html"><strong aria-hidden="true">5.</strong> Galgenmännchen mit turtle</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="050-galgen/020-hangschritte.html"><strong aria-hidden="true">5.1.</strong> Eine Funktion für jeden Galgenschritt</a></li><li class="chapter-item "><a href="050-galgen/025-hangmanmodul.html"><strong aria-hidden="true">5.2.</strong> Das hangman Modul</a></li><li class="chapter-item "><a href="050-galgen/030-hangabfrage.html"><strong aria-hidden="true">5.3.</strong> Immer wieder abfragen</a></li><li class="chapter-item "><a href="050-galgen/040-hanggeheimliste.html"><strong aria-hidden="true">5.4.</strong> Geheimwortliste</a></li><li class="chapter-item "><a href="050-galgen/050-hangeinbinden.html"><strong aria-hidden="true">5.5.</strong> Einbinden der Wortliste</a></li><li class="chapter-item "><a href="050-galgen/060-hangtipsspeich.html"><strong aria-hidden="true">5.6.</strong> Abspeichern der Tipps</a></li><li class="chapter-item "><a href="050-galgen/070-hanggeratenes.html"><strong aria-hidden="true">5.7.</strong> Anzeigen der Geratenen Buchstaben</a></li><li class="chapter-item "><a href="050-galgen/080-hangfeinschl.html"><strong aria-hidden="true">5.8.</strong> Feinschliff</a></li></ol></li><li class="chapter-item "><a href="060-snake/snakespiel.html"><strong aria-hidden="true">6.</strong> Ein Snakespiel</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="060-snake/Computerspiel.html"><strong aria-hidden="true">6.1.</strong> Computerspiele</a></li><li class="chapter-item "><a href="060-snake/Animation.html"><strong aria-hidden="true">6.2.</strong> Animation</a></li><li class="chapter-item "><a href="060-snake/Steuerung.html"><strong aria-hidden="true">6.3.</strong> Steuerung</a></li></ol></li><li class="chapter-item "><a href="x-anhang/0-anhang.html"><strong aria-hidden="true">7.</strong> Anhang</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="x-anhang/1-cheat-sheet.html"><strong aria-hidden="true">7.1.</strong> Cheat-Sheet</a></li><li class="chapter-item "><a href="x-anhang/2-bedingungen.html"><strong aria-hidden="true">7.2.</strong> Bedingungen</a></li><li class="chapter-item "><a href="x-anhang/3-fehler.html"><strong aria-hidden="true">7.3.</strong> Fehlermeldungen</a></li><li class="chapter-item "><a href="x-anhang/4-datentypen.html"><strong aria-hidden="true">7.4.</strong> Datentypen</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Pythonanleitung</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#einleitung" id="einleitung">Einleitung</a></h1>
+<p>Diese Anleitung wird zur Geschlechtsneutralen Formulierung SuS für Schülerinnen und Schüler sowie LuL für Lehrerinnen und Lehrer verwenden.</p>
+<p>Diese Texte sind geschrieben um im Unterricht als Lernbegleitliteratur für die SuS zur Verfügung gestellt zu werden. Während die SuS arbeiten, können sie die Anleitung als Hilfe konsultieren. Damit werden die LuL frei einzelnen SuS bei Problemen zu helfen ohne, dass die ganze Klasse warten muss.</p>
+<p>Die SuS können mit dieser Anleitung theoretisch alleine arbeiten, es hat sich jedoch als sinnvoller erwiesen, wenn immer wieder die behandelten Themen an der Tafel oder im Unterrichtsgespräch vorgestellt oder wiederholt werden, sodass die verschieden lernenden und verschieden begabten SuS unterschiedliche Lernmedien zur Verfügung haben, um den Inhalt zu verstehen. Da diese Live-Unterrichtsabschnitte immer wieder eingeschoben werden sollten, ist es trotz dieser Anleitung hilfreich, wenn die Klasse ungefähr auf einem Stand ist sodass gemeinsames Arbeiten möglich ist.</p>
+<p>Diese Anleitung ist nicht als &quot;richtige&quot; oder &quot;einzige&quot; Möglichkeit gedacht sondern möchte vielmehr kreativ im Unterricht eingesetzt werden. Viele der Kapitel können in von der hier gewählten Reihenfolge abweichend unterrichtet werden. Nicht jedes Kapitel ist unbedingt notwendig und manche der Kapitel können umgeschrieben werden, um der eigenen Unterrichtsweise und dem Unterrichtsbedürfnis der Klasse gerechter zu werden.</p>
+<p>Diese Anleitung kann natürlich auch von einzelnen SuS oder anderen Personen zur Vorbereitung auf ein Projekt oder zum lernen eingesetzt werden.</p>
+<p>Es ist nicht Ziel dieser Anleitung echte Programmierer oder Programmiererinnen aus den SuS zu machen. Vielmehr sollen die SuS kennen lernen, was Programmierung ist. Dementsprechend wird auch nur ein sehr begrenzter Umfang der Programmiersprache Python überhaupt erklärt. Wer wirklich den gesamten Umfang der Sprache lernen möchte muss auf jeden Fall auch Zusatzliteratur konsultieren.</p>
+<h1><a class="header" href="#installation" id="installation">Installation</a></h1>
+<p>Alle in dieser Anleitung enthaltenen Übungen und Beispiele können mit dem extra für SuS gestalteten Programm <code>thonny</code> gelöst und ausprobiert werden. Das Programm hat für den Unterricht den Vorteil, dass es einfach und verständlich ist, sowie gleichzeitig nicht zu viele Extras beitet, die die SuS ablenken könnten. Wer selbst arbeitet und etwas mehr Comfort wünscht, wie zum Beispiel Autovervollständigung, der kann gerne auch andere Editoren verwenden: <code>atom</code>, <code>vs-code</code>, <code>notepad++</code>, ... uvm.</p>
+<p>In dieser Anleitung wird nur sehr kurz erklärt, wie <code>thonny</code> installiert werden kann. Die Webseite des Editors ist: <a href="https://thonny.org/">https://thonny.org/</a></p>
+<p>Auf der Webseite können Anleitungen für verschiedene Betriebssysteme angesehen werden. Für MacOS und Windows ist es einfach der gewohnte Vorgang:</p>
+<ol>
+<li>herunterladen der Datei</li>
+<li>ausführen der Installationsdatei</li>
+<li>einige Male bestätigen</li>
+<li>das Programm starten</li>
+</ol>
+<p>Auch für Linux ist der Vorgang eigentlich der gewohnte. Die meisten Distributionen haben <code>thonny</code> mit an Bord. Das heißt es kann vermutlich mit einem der beiden Befehle installiert werden.</p>
+<pre><code class="language-bash"># sudo apt-get install thonny
+# sudo dnf install thonny
+</code></pre>
+<p>Auch die grafischen Installationsprogramme bieten die Möglichkeit <code>thonny</code> zu installieren.</p>
+<p>Ist das Programm installiert sind keine weiteren Einrichtungsschritte mehr nötig. Beim ersten Start benötigt thonny etwas länger um alles einzurichten. Das Programm ist unter den verschiedenen Betriebssystemen nahezu identisch.</p>
+<p>In diesem Buch wird davon ausgegangen, dass Linux verwendet wird. Linux eignet sich hervorragend für die Computerräume von Schulen, da es den SuS nicht so geläufig ist. Sie können also nicht so souverän damit umgehen und sind insbesondere wesentlich langsamer im Unfug anstellen. Die für den Unterricht notwendige Bedienung ist jedoch so intuitiv, dass die Arbeit für den Unterricht nicht behindert wird. Mit <a href="https://ltsp.org/">ltsp</a> sowie <a href="https://www.linuxmuster.net/">linuxmuster</a> hervorragende Umgebungen, die es ermöglichen die Computer zentral zu verwalten.</p>
+<h1><a class="header" href="#programmieren" id="programmieren">Programmieren</a></h1>
+<p>Nachdem nun die Voraussetzungen geschaffen sind kann das eigentliche Programmieren los gehen. In diesem Buch wird die Programmiersprache Python behandelt.</p>
+<h2><a class="header" href="#was-ist-python" id="was-ist-python">Was ist Python</a></h2>
+<p>Python ist eine Programmiersprache oder wenn man es genau nimmt eine Skriptsprache. Mit Python können sehr viele unterschiedliche Typen von Programmen geschrieben werden (Spiele, Musikspieler, Texteditor usw.).</p>
+<h2><a class="header" href="#geschichte" id="geschichte">Geschichte</a></h2>
+<p>Schon 1990 entstand der Erste Vorschlag der Programmiersprache Python.
+Seit diesem Zeitpunkt wird die Sprache weiter entwickelt.
+2008 kam die letzte große Version der Sprache heraus: Python 3</p>
+<p>Das Ziel der Python Programmiersprache ist es einfach und kompakt zu sein.
+Die Einfachheit ist gut für SuS die versuchen sie zu lernen,
+die Kompaktheit ist gut für LuL, die die Sprache mit dem Beamer
+präsentieren.</p>
+<p>Die Sprache Python rangiert in den Top 10 der häufigst verwendeten
+Programmiersprachen und ist 2017 zu der Sprache gewählt worden die Entwickler am
+liebsten verwenden würden.
+<a href="https://insights.stackoverflow.com/survey/2018">Quelle: Stackoverflow Survey</a>
+Die Letzten vier Jahre ist <code>rust</code> auf diesen Platz vorgerückt. Es könnte auch interessant sein <code>rust</code> mit den SuS zu erlernen. Ist es doch eine typischere Programmiersprache mit Compiler und Speicherverwaltung.</p>
+<h1><a class="header" href="#ein-erstes-beispiel" id="ein-erstes-beispiel">Ein erstes Beispiel</a></h1>
+<blockquote>
+<p>Ziel dieses Kapitels:</p>
+<ul>
+<li>Ausprobier-Fenster</li>
+<li>erste Rechenbefehle</li>
+</ul>
+</blockquote>
+<p>Es wird immer wieder Übungen geben. Für dieses Kapitel besteht die Übung darin mit Python einige Rechenaufgaben zu berechnen. Die Aufgaben beziehen sich fast immer auf die Erklärungen unmittelbar davor.</p>
+<p>Als Erstes wird das Programm <code>thonny</code> geöffnet.</p>
+<p>Es muss hierzu unter Windows und Linux:</p>
+<ol>
+<li>die <code>[Windows]</code>-Taste gedrückt</li>
+<li><code>thonny</code> eingegeben</li>
+<li>die Auswahl mit <code>[Enter]</code> bestätigt werden. (Das ist die &quot;Neue Zeile&quot;-Taste)</li>
+</ol>
+<p>Nach dem Start sieht Thonny so aus:</p>
+<p><img src="020-programmieren/./img/ThonnyLeer.png" alt="Screenshot Thonny" /></p>
+<p>Thonny ist speziell für Unterricht an Schulen und Universitäten geschrieben. Es bietet einen reduzierten Funktionsumfang für die Lehre und bietet noch einige Zusatzfunktionen, die nur für die Lehre verwendet werden.</p>
+<p>Die Grundstruktur des Programms ist oben die Menüleiste, darunter die Steuerungs-Knöpfe. Unter diesen Beiden Menüs kommen zwei Bereiche. Der Obere ist um Pythondateien zu verändern, der untere, um Python-Befehle &quot;auszuprobieren&quot;.</p>
+<p>Zunächst liegt der Fokus auf dem unteren Teil, welcher den Titel <code>Shell</code> hat und den Inhalt <code>&gt;&gt;&gt;</code>.</p>
+<p>Dieses &quot;Pfeil&quot;-Symbol ist das Zeichen dafür, dass Python gestartet ist und man es nun verwenden kann.
+Jede Eingabe, die man im unteren Teil macht, muss man mit <code>Enter</code> (also der Neue-Zeile-Taste) bestätigen.
+Sollte einmal die Zeile nicht mit <code>&gt;&gt;&gt;</code> beginnen, so ist etwas mit Python nicht in Ordnung und man startet am besten nochmal vom Anfang des Beispiels, indem man oben auf das kleine &quot;Stopp&quot;-Symbol klickt.</p>
+<p>Hat ein Befehl ein Ergebnis, so wird dieses direkt ausgegeben.
+Keine Panik; nach dem Beispiel werden die Zeilen einzeln erklärt.</p>
+<p>Werden einige Befehle in Python eingegeben könnte das so aussehen:</p>
+<pre><code class="language-python">&gt;&gt;&gt; 1
+1
+&gt;&gt;&gt; 1+1
+2
+</code></pre>
+<p>In Zeile 1 des Beispiels wurde einfach eine Zahl <code>1</code> eingegeben.
+Python antwortet darauf einfach, indem es dieselbe Zahl wiedergibt.</p>
+<p>In Zeile 3 wird eine einfache Rechenaufgabe in Python gestellt.
+Woraufhin Python diese berechnet und das Ergebnis zurück gibt.</p>
+<blockquote>
+<p>Der Computer wird auch als Rechner bezeichnet, das liegt daran, dass er nie irgendetwas anderes tut als Berechnungen auszuführen. Wird ein Computerspiel gestartet, so ist das Bild auf dem Bildschirm das Ergebnis einer (sehr komplexen) Berechnung. Das heißt natürlich auch, dass die einfachsten Befehle, die man in einen Computer eingeben kann die Rechenoperationen sind.</p>
+</blockquote>
+<p>Es können so alle Grundrechenarten verwendet wobei die folgenden Rechenzeichen verwendet werden:</p>
+<ul>
+<li>Plus: <code>1 + 2</code></li>
+<li>Minus: <code>2 - 1</code></li>
+<li>Mal: <code>3 * 4</code></li>
+<li>Geteilt und Brüche: <code>6 / 3</code></li>
+</ul>
+<p>Beispiel:</p>
+<pre><code class="language-python">&gt;&gt;&gt; 1 + 2
+3
+&gt;&gt;&gt; 2 - 1
+1
+&gt;&gt;&gt; 3 * 4
+12
+&gt;&gt;&gt; 6 / 3
+2.0
+</code></pre>
+<p>Auf jede Eingabe reagiert Python mit der berechneten Antwort.</p>
+<p>Die Leerzeichen zwischen den Rechenzeichen und den Zahlen sind nicht unbedingt notwendig, dienen aber der besseren Übersicht.</p>
+<p>Soweit kann Python wie ein Taschenrechner verwendet werden.</p>
+<p>Es können auch mehrere Rechenoperationen in einer einzigen Zeile berechnet werden.
+Wird eine andere als die Punkt-vor-Strich-Rechenregel benötigt, so müssen Klammern <code>(</code> und <code>)</code> gesetzt werden.</p>
+<p>Im folgenden Beispiel werden zwei Aufgaben berechnet die durch unterschiedliche Klammern unterschiedliche Ergebnisse liefern.</p>
+<pre><code class="language-python">&gt;&gt;&gt; 6 / 3 + 3
+5.0
+&gt;&gt;&gt; (6 / 3) + 3
+5.0
+&gt;&gt;&gt; 6 / (3 + 3)
+1.0
+</code></pre>
+<p>Die erste Eingabe ist ganz ohne Klammern.
+Python macht dann automatisch die Klammern so, wie sie in der zweiten Eingabe sind.
+Das Ergebnis ist beide Male <code>5.0</code>.
+In der dritten Eingabe sind die Klammern so, dass sie <code>3 + 3</code> umschließen.
+Nun rechnet Python zuerst die Klammer aus, um dann 6 durch (3 + 3) = 6 zu teilen.
+Das Ergebnis ist nun <code>1.0</code>.</p>
+<h1><a class="header" href="#speichern-in-eine-datei" id="speichern-in-eine-datei">Speichern in eine Datei</a></h1>
+<blockquote>
+<p>Ziel dieses Kapitels</p>
+<ul>
+<li>abspeichern</li>
+<li>wiederverwendbare Programme</li>
+</ul>
+</blockquote>
+<p>Da das ständige erneut Tippen auf Dauer nicht besonders effizient ist, kann man den Programmcode von Python in eine Datei abspeichern und dann diese Datei starten.</p>
+<p>Wir verwenden hierfür den oberen Teil von <code>thonny</code>.</p>
+<blockquote>
+<h3><a class="header" href="#Übung-folgen-sie-den-punkten-um-ein-erstes-programm-zu-erstellen" id="Übung-folgen-sie-den-punkten-um-ein-erstes-programm-zu-erstellen">Übung Folgen Sie den Punkten um ein erstes Programm zu erstellen:</a></h3>
+<ol>
+<li>Öffnen Sie eine neue Datei durch einen Klick auf den neuen Datei-Button.</li>
+<li>Geben Sie den Befehl <code>print(&quot;hallo&quot;)</code> in die neu geöffnete Datei, also den oberen Teil des Fensters, ein.</li>
+<li>Speichern Sie diese Datei mit dem Namen <code>Hallo.py</code> ab, indem Sie auf das Diskettensymbol klicken, oder indem Sie <code>Datei-&gt;Speichern</code> klicken.</li>
+<li>Führen Sie nun die Datei mit dem grünen &quot;Play-Button&quot; aus. Alternativ können Sie auch die mit F5 beschriftete Taste der Tastatur drücken.</li>
+<li>Finden Sie, wo der Text <code>&quot;hallo&quot;</code> ausgegeben wurde.</li>
+</ol>
+</blockquote>
+<p>Dieses kurze Programm tut nichts anderes, als <code>hallo</code> auszugeben.</p>
+<h2><a class="header" href="#die-buttons-von-thonny" id="die-buttons-von-thonny">Die Buttons von Thonny</a></h2>
+<p><img src="020-programmieren/./img/ThonnyButtons.png" alt="Screenshot Thonny" /></p>
+<p>Von links nach rechts haben die Buttons folgende Funtkionen, wobei die ersten vier und der letzte die wichtigsten sind:</p>
+<ol>
+<li>Eine neue Datei anlegen</li>
+<li>Eine Datei öffnen</li>
+<li>Die Datei speichern</li>
+<li>&quot;Play-Button&quot; das Programm ausführen</li>
+<li>unwichtig: Das Programm Schritt für Schritt ausführen</li>
+<li>unwichtig: Beim Schrittweisen ausführen einen großen Schritt machen</li>
+<li>unwichtig: Beim Schrittweisen ausführen einen kleinen Schritt machen</li>
+<li>unwichtig: So ähnlich wie 6.</li>
+<li>&quot;Stopp-Button&quot; das Programm beenden, wenn es Probleme gibt und das Ausführen
+nicht mehr funktioniert so hilft es oft das alte Programm zu beenden und dann neu starten</li>
+</ol>
+<h1><a class="header" href="#automatische-ausgabe" id="automatische-ausgabe">Automatische Ausgabe</a></h1>
+<p>Wird ein Programm aus einer Datei heraus gestartet, so ist die automatische Ausgabe deaktiviert, da sonst viel zu viele Ausgaben angezeigt würden. Das heißt eine Datei, mit folgendem Inhalt, wird keine Ausgabe haben, obwohl der Computer die beiden Zahlen zusammen addiert:</p>
+<pre><code class="language-python">5 + 7
+</code></pre>
+<p>Der Computer rechnet zwar fleißig was 5+7 ist, aber verwendet dann das Ergebnis nicht weiter. Um das Ergebnis angezeigt zu bekommen, muss man explizit sagen, dass man dies sehen möchte. Das Ergebnis erscheint dann im unteren Teil von Thonny:</p>
+<pre><code class="language-python">print(5 + 7)
+</code></pre>
+<blockquote>
+<h3><a class="header" href="#notiz" id="notiz">Notiz</a></h3>
+<p>Alle weiteren Programme und Beispiele werden in Thonny ausgeführt. Beginnen die Beispiele mit <code>&gt;&gt;&gt;</code> so sind sie für das untere interaktive  <strong>&quot;Ausprobier&quot;-Fenster</strong> unten gedacht. Beginnen sie direkt mit Python-Befehlen, so sind sie für das obere Fenster gedacht.</p>
+</blockquote>
+<p>Immer wenn etwas im oberen Fenster verändert wurde, so muss wieder der &quot;Play-Button&quot; gedrückt werden, dass das neu veränderte Programm gestartet wird.</p>
+<p>Vorsicht Eingaben, die in dem unteren Teil gemacht wurden, sind nach jedem neuen &quot;Play-Button&quot;-Druck gelöscht.</p>
+<blockquote>
+<h3><a class="header" href="#Übung-rechnung-mit-ausgabe" id="Übung-rechnung-mit-ausgabe">Übung Rechnung mit Ausgabe</a></h3>
+<ol>
+<li>Schreiben Sie in den oberen Teil von Thonny einen Python Befehl, der <code>555</code> mit <code>364</code> multipliziert, und das Ergebnis ausgibt.</li>
+<li>Speichern Sie diese Datei mit dem Namen <code>rechnung.py</code> ab.</li>
+<li>Führen Sie nun die Datei mit dem &quot;Play-Button&quot; aus.</li>
+</ol>
+</blockquote>
+<h1><a class="header" href="#das-ziel-dieses-ersten-kapitels" id="das-ziel-dieses-ersten-kapitels">Das Ziel dieses ersten Kapitels</a></h1>
+<p>In diesem Kapitel werden die Grundlagen des Programmierens erklärt.</p>
+<p>Um das &quot;etwas trockene&quot; Programmieren unterhaltsamer zu machen, wird für dieses Kapitel das <code>turtle</code>-Modul verwendet. Mit diesem kann man beim lernen auch schöne (zwischen)-Ergebnisse erzielen.</p>
+<p>Am Ende kann zum Beispiel dieses Bild erstellt werden:</p>
+<p><img src="030-turtle/./img/turtlesechseckspirale.png" alt="Beispiel" /></p>
+<h1><a class="header" href="#schildkröten" id="schildkröten">Schildkröten</a></h1>
+<p>Nachdem Nun die gröbsten Grundlagen der Programmiersprache gelernt sind, fängt es jetzt an (noch mehr) Spaß zu machen.</p>
+<h2><a class="header" href="#schultern-von-giganten" id="schultern-von-giganten">Schultern von Giganten</a></h2>
+<p>Bedenken Sie, dass beim Programmieren die eigene Arbeit immer auf der Arbeit von ganz vielen anderen beruht. Zum Beispiel um Python zu entwickeln müsste eine Person ca. 285 Jahre arbeiten. Um Python entwickeln zu lassen müsste man 13.5 Millionen Euro veranschlagen. Im Folgenden Wird ein relativ kleines Modul verwendet mit welchem man eine bestimmte Art von Grafiken erstellen kann. Auch für dieses Modul wurden über 4000 Zeilen programmiert.</p>
+<h2><a class="header" href="#erstellen-des-fensters" id="erstellen-des-fensters">Erstellen des Fensters</a></h2>
+<p>Die Folgenden Schritte sind notwendig für jedes Turtle-Programm, also für jede Übung die in den Kapiteln 3-5 gestellt sind. Wenn Sie eine Übung erstellen müssen Sie immer mit den folgenden vier Schritten beginnen:</p>
+<blockquote>
+<ol>
+<li>Erstellen Sie in <code>thonny</code> eine neue Datei durch Klick auf das weiße Symbol ganz links.</li>
+<li>Schreiben sie die 3 Zeilen aus dem folgenden Beispiel in diese Datei. Die Zeilen werden später einzeln  erklärt.</li>
+</ol>
+<pre><code class="language-python">import turtle
+
+t = turtle.Pen()
+t.shape(&quot;turtle&quot;)
+</code></pre>
+<ol start="3">
+<li>Klicken Sie auf &quot;Play&quot;.</li>
+<li>Speichern Sie die Datei unter einem Namen ab. Hier <code>meine-kröte.py</code>.</li>
+</ol>
+</blockquote>
+<p>Es sollte ein Fenster mit einer kleinen Schildkröte in der Mitte erscheinen.</p>
+<p><img src="030-turtle/img/leerturtle.png" alt="Leeres Turtle Fenster" /></p>
+<p>Erklärungen der Zeilen:</p>
+<ol>
+<li>
+<p>Zeile: Lade das <code>turtle</code>-Modul</p>
+</li>
+<li>
+<p>Zeile: erzeugen der Schildkröte mit <code>turtle.Pen()</code>. Hierbei wird das Fenster, in dem die Zeichnung entsteht, geöffnet.</p>
+</li>
+<li>
+<p>Zeile: Diese Zeile ist nicht unbedingt notwendig. Wenn man aber möchte, kann man das aussehen der &quot;Schildkröte&quot; verändern. Die Standardeinstellung ist ein Dreieck, dessen Spitze in Laufrichtung zeigt. Mit dem Befehl <code>t.shape(&quot;turtle&quot;)</code> wird diese Form zu einer Schildkrötensilhouette.</p>
+</li>
+</ol>
+<p>Diese drei Zeilen sind die Grundlage jedes turtle-Programms. Immer, wenn sie turtle verwenden wollen müssen diese Zeilen zu Beginn ihrer Datei stehen.</p>
+<blockquote>
+<h3><a class="header" href="#achtung" id="achtung">Achtung</a></h3>
+<p><strong>Beim Speichern der Datei darf nicht der Name <code>turtle.py</code> gewählt werden.</strong> Dieser Name wird quasi von dem <code>turtle</code>-Modul reserviert.</p>
+</blockquote>
+<h2><a class="header" href="#das-turtle-bewegen-und-dabei-zeichnen" id="das-turtle-bewegen-und-dabei-zeichnen">Das Turtle bewegen und dabei zeichnen</a></h2>
+<p>Nun können Sie der Schildkröte Befehle geben. Es gibt unter anderem: <code>forward</code>, <code>left</code> und <code>right</code>. Dabei sind alle Befehle in Fahrtrichtung. Die Schildkröte steht zu Beginn in der Mitte, so dass sie nach rechts läuft, wenn man ihr zum Beispiel den Befehl <code>t.forward(100)</code> gibt. Das heißt wenn am Anfang <code>t.left(90)</code> angegeben wird:  wird sie gegen den Uhrzeigersinn um 90° gedreht, sodass sie nach oben schaut.</p>
+<blockquote>
+<h3><a class="header" href="#merke" id="merke">Merke</a></h3>
+<ul>
+<li>Die Befehle werden Zeile für Zeile ausgeführt.</li>
+<li>Drückt man auf den grünen &quot;Play-Knopf&quot; wird alles neu gestartet, dann der Befehl in der ersten Zeile ausgeführt, dann der in der zweiten und so weiter.</li>
+</ul>
+</blockquote>
+<p>Um also mit dem <code>turtle</code> einen rechten Winkel zu zeichnen, der zunächst waagerecht verläuft und dann nach unten geht kann man nun folgenden Code eingeben:</p>
+<pre><code class="language-python">import turtle
+
+t = turtle.Pen()
+t.shape(&quot;turtle&quot;)
+
+t.forward(200)
+t.right(90)
+t.forward(200)
+</code></pre>
+<p>Das Ergebnis ist dann folgendes:</p>
+<p><img src="030-turtle/img/turtlerightangle.png" alt="Rechter Winkel Turtle" /></p>
+<p>Es ist natürlich auch möglich weniger weit zu gehen <code>t.forward(87)</code> oder sich um einen anderen Winkel zu drehen <code>t.left(63)</code>.</p>
+<blockquote>
+<h3><a class="header" href="#Übung" id="Übung">Übung</a></h3>
+<p>Speichern Sie dies in die Datei <code>geometrische-uebung.py</code></p>
+<ol>
+<li>Zeichnen Sie ein Quadrat</li>
+<li>Zeichnen Sie ein Rechteck, welches doppelt so breit ist, wie hoch und nur eine Ecke gemeinsam mit dem ersten Quadrat hat.</li>
+<li>Zeichnen Sie ein gleichseitiges Dreieck</li>
+</ol>
+<p>Ergebnis der Übung:</p>
+<p><img src="030-turtle/img/turtleshapes.png" alt="Übungsresultat" /></p>
+</blockquote>
+<h2><a class="header" href="#das-turtle-bewegen-ohne-zu-zeichnen" id="das-turtle-bewegen-ohne-zu-zeichnen">Das Turtle bewegen, ohne zu zeichnen</a></h2>
+<p>Soll das Turtle an eine Position, ohne dabei eine Spur zu hinterlassen, dann kann man folgende Befehle verwenden:</p>
+<ul>
+<li><code>t.penup()</code>: sagt dem <code>turtle</code> höre auf zu zeichnen.</li>
+<li><code>t.pendown()</code>: sagt dem <code>turtle</code> fange wieder an zu zeichnen.</li>
+</ul>
+<p>Man kann also dem <code>turtle</code> sagen zeichne jetzt nicht, dann kann man es ganz normal mit <code>forward</code>, <code>left</code> und <code>right</code> bewegen, und wenn das <code>turtle</code> wieder zeichnen soll, sagt man das einfach mit dem <code>pendown</code>-Befehl.</p>
+<p>Beispiel einer unterbrochenen Linie (Achtung Die Befehle zum erstellen des <code>turtles</code> sind hier weg gelassen):</p>
+<pre><code class="language-python">t.forward(30)
+t.penup()
+t.forward(30)
+t.pendown()
+t.forward(30)
+t.penup()
+t.forward(30)
+t.pendown()
+t.forward(30)
+</code></pre>
+<blockquote>
+<h3><a class="header" href="#Übung-1" id="Übung-1">Übung</a></h3>
+<p>Speichern Sie dies in die Datei <code>quadrate-uebung.py</code></p>
+<p>Zeichnen Sie 3 Quadrate mit dem selben Mittelpunkt wobei jeweils das folgende kleiner ist als das erste.</p>
+<p>Tipp: Wenn Sie die <a href="030-turtle/030-kommentare.html">Kommentarfunktion</a> benutzen, dann ist es einfacher die Übersicht zu behalten.</p>
+<p>Ergebnis:</p>
+<p><img src="030-turtle/img/turtlequadrate.png" alt="Quadrate" /></p>
+</blockquote>
+<blockquote>
+<h3><a class="header" href="#Übung-2" id="Übung-2">Übung</a></h3>
+<p>Speichern Sie dies in die Datei <code>nikolaushaus-uebung.py</code></p>
+<ol>
+<li>
+<p>Zeichnen Sie das Haus vom Nikolaus.</p>
+<ol start="2">
+<li>Gehen Sie keine Linie zwei mal</li>
+<li>Verwenden Sie ein gleichseitiges Dreieck als Dach</li>
+</ol>
+<p><img src="030-turtle/img/nikolaushaus.png" alt="Haus vom Nikolaus" /></p>
+</li>
+</ol>
+</blockquote>
+<h1><a class="header" href="#kommentare" id="kommentare">Kommentare</a></h1>
+<p>Die Aufgaben Programme, die hier geschrieben werden sind immer komplexer und größer.
+Je mehr man schreibt, desto schwieriger ist es den Überblick zu bewahren.
+Um diesen Überblick zu vereinfachen kann man Programme kommentieren.</p>
+<p>Man schreibt also zunächst ein &quot;Hashtag&quot; <code>#</code> und dann seinen Kommentar. Der Computer ignoriert alles, was nach dem Hashtag in der selben Zeile steht.</p>
+<p>So erstellt man also Hinweise für alle menschlichen Leser ohne dass sich für den Computer das Programm ändert.</p>
+<p>Ein Beispiel:</p>
+<pre><code class="language-python"># Das Turtlemodul aktivieren
+import turtle
+t = turtle.Pen()
+# Ein Dreieck zeichnen:
+t.forward(100) # 100 Schritte laufen
+t.left(120)    # Um 120 Grad drehen. (Innenwinkel 60 Grad)
+t.forward(100)
+t.left(120)
+t.forward(100)
+t.left(120)
+# Ein Viereck zeichnen
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+</code></pre>
+<p>Solche Kommentare sind sehr hilfreich dabei sich zu orientieren. Zum Beispiel beim Haus des Nikolaus können so die einzelnen <code>forward</code>-Befehle mit Wörtern wie &quot;Dach&quot;, &quot;Boden&quot; usw. markiert werden. Soll zum Beispiel noch ein Kamin an das Haus gebaut werden, dann ist jetzt der zu verändernde <code>forward</code>-Befehl viel einfacher zu finden.</p>
+<blockquote>
+<h3><a class="header" href="#Übung-3" id="Übung-3">Übung</a></h3>
+<ol>
+<li>
+<p>Statten Sie ihr Nikolaushaus mit Kommentaren aus.</p>
+</li>
+<li>
+<p>Speichern Sie diese Datei zusätzlich unter dem Namen <code>nikolaushaus-uebung-rechtwinklig.py</code>. Hierzu klicken sie auf &quot;File-&gt;Save as&quot; oder &quot;Datei-&gt;Speichern unter&quot;</p>
+</li>
+<li>
+<p>Verändern Sie in dieser neuen Datei die Zeichnung so, dass das Dach rechtwinklig ist. Hier können Sie bemerken, dass die <a href="030-turtle/030-kommentare.html">Kommentarfunktion</a> sehr hilfreich sein kann.</p>
+<p><img src="030-turtle/img/nikolaushaus2.png" alt="Haus vom Nikolaus" /></p>
+</li>
+</ol>
+</blockquote>
+<h1><a class="header" href="#zeichnen-von-kreisen" id="zeichnen-von-kreisen">Zeichnen von Kreisen</a></h1>
+<p>Möchte man zum Beispiel einen Kreis oder einen Teil eines Kreises zeichnen, so benötigt man
+gebogene Linien.</p>
+<pre><code class="language-python">t.circle(radius=150)
+</code></pre>
+<p>Wenn man möchte kann man zusätzlich noch <code>extent</code> also wie viel Grad des Kreises
+gezeichnet werden soll angeben. Außerdem kann man noch in <code>steps</code> angeben wie viele &quot;Ecken&quot; der Kreis hat.
+Computer zeichnen nie wirkliche Kreise, sondern immer nur Vielecke mit sehr vielen Ecken...
+Soll zum Beispiel ein Halbkreis mit Radius 50 gezeichnet werden, kann folgender Befehl verwendet werden:</p>
+<pre><code class="language-python">t.circle(radius=50, extent=180, steps=5)
+</code></pre>
+<blockquote>
+<h3><a class="header" href="#Übungen" id="Übungen">Übungen</a></h3>
+<ol>
+<li>Zeichnen Sie ein Herz in der Datei <code>herzi.py</code>. Gehen Sie von einem Quadrat als Grundfläche aus.</li>
+<li>Bonus: Schauen Sie in der <a href="030-turtle/150-turtlebefehle.html">Turtle Befehlssammlung</a> nach, wie Sie das Herz farbig gestalten können, bzw. die Linien anders gestalten können.</li>
+</ol>
+<p><img src="030-turtle/img/turtleherz.png" alt="Turtle Herz" /></p>
+</blockquote>
+<h1><a class="header" href="#for-schleifen" id="for-schleifen">For Schleifen</a></h1>
+<h2><a class="header" href="#wiederholung-für-eine-bestimmte-anzahl" id="wiederholung-für-eine-bestimmte-anzahl">Wiederholung für eine bestimmte Anzahl</a></h2>
+<p>Möchte man etwas eine bestimmte Anzahl oft wiederholen, so könnte man dies mit einer
+<code>for</code>-Schleife tun:</p>
+<pre><code class="language-python">for x in range(5):
+    print(&quot;Durchlauf Nummer: &quot;, x)
+</code></pre>
+<p>Das Ergebnis dieses Programms ist:</p>
+<pre><code>Durchlauf Nummer: 0
+Durchlauf Nummer: 1
+Durchlauf Nummer: 2
+Durchlauf Nummer: 3
+Durchlauf Nummer: 4
+</code></pre>
+<p>Dieses Programm wiederholt 5 mal den <code>print</code>-Befehl. Dabei ist das <code>x</code> im ersten Durchlauf <code>0</code>, dann <code>1</code> usw. bis <code>4</code>. Die Nummer <code>5</code> wird nie erreicht.</p>
+<p>Man kann natürlich auch das turtle &quot;automatisieren&quot;:</p>
+<pre><code class="language-python">for i in range(30):
+    t.forward(100)
+    t.left(170)
+t.circle(30)
+</code></pre>
+<p>Es ist hier Wichtig zu sehen, dass nur die Zeilen wiederholt werden, die eingerückt sind. Also die die zu Beginn der Zeile vier Leerzeichen enthalten.</p>
+<p>Der eingerückte Teil wird also genau 30 mal wiederholt. Diesmal ist die Variable <code>i</code> genannt, man kann statt <code>x</code> oder <code>i</code> beliebige andere (passende) Namen verwenden.</p>
+<p>Man kann mit dieser Art zu wiederholen zum Beispiel ein Sechseck zeichnen:</p>
+<pre><code class="language-python">for x in range(6):
+    t.forward(100)
+    t.left(60)
+</code></pre>
+<p><img src="030-turtle/img/sechseck.png" alt="Turtlesechseck" /></p>
+<blockquote>
+<h3><a class="header" href="#Übung-4" id="Übung-4">Übung</a></h3>
+<p>Speichern Sie Ihre Lösung in die Datei <code>TurtleFor.py</code></p>
+<ol>
+<li>Zeichnen Sie ein Quadrat mit <code>for</code></li>
+<li>Zeichnen Sie einen Kreis ohne dass Sie <code>t.circle</code> verwenden</li>
+<li>Zeichnen Sie einen Stern mit <code>for</code></li>
+</ol>
+<p>Die folgende Übung wird in Datei <code>sechseck.py</code> gespeichert.</p>
+<ol>
+<li>Programmieren Sie ein turtle Sechseck.</li>
+<li>Verzieren Sie dieses mit einem <strong>eigenen</strong> &quot;Muster&quot;. Achten Sie darauf, dass das Sechseck noch zu erkennen ist.</li>
+</ol>
+<p><img src="030-turtle/img/sechseckverziert.png" alt="Turtlesechseck fancy" /></p>
+<p>Die nächste Übung wird in <code>fünfstern.py</code> gespeichert.</p>
+<ol>
+<li>Programmieren Sie einen Fünfstern mit einem turtle. Der Innenwinkel einer Fünfstern-Spitze ist <code>36</code> Grad.</li>
+<li>Verzieren Sie diesen mit eigenen Ideen. Achten Sie auch hier darauf, dass es ein Fünfstern bleibt.</li>
+</ol>
+<p>Beispiel:</p>
+<p><img src="030-turtle/img/Turtlewiederholungenwhile3.png" alt="TurtleFünfstern fancy" /></p>
+</blockquote>
+<h1><a class="header" href="#wiederholte-wiederholungen" id="wiederholte-wiederholungen">Wiederholte Wiederholungen</a></h1>
+<p><img src="030-turtle/img/fuenfsternfancy.png" alt="Fünfstern fancy" /></p>
+<p>In diesem Beispiel sind für eine Linie des Sternes <code>t.circle</code> und <code>t.forward</code> wiederholt.
+Um nun den Stern zu Zeichnen muss diese Wiederholung wiederholt werden.</p>
+<p>Man kann ein <code>for</code> in einem anderen <code>for</code> schreiben. Man muss dann nur darauf achten, dass die Einrückungen richtig sind. Alle Zeilen die 5 mal wiederholt werden sollen müssen mit 4 Leerzeichen eingerückt sein, alle die 5 mal 20 mal wiederholt werden sollen müssen 8 Leerzeichen eingerückt werden.</p>
+<pre><code>for sternarm in range(5):
+    for kreis in range(20):
+        t.circle(10)
+        t.forward(20)
+    t.circle(10)
+    t.right(144)
+</code></pre>
+<h2><a class="header" href="#kurze-bemerkung-zur-einrückung" id="kurze-bemerkung-zur-einrückung">Kurze Bemerkung zur <strong>Einrückung</strong></a></h2>
+<blockquote>
+<h3><a class="header" href="#merke-1" id="merke-1">Merke</a></h3>
+<p>Immer einrücken nach einem Doppelpunkt und immer wenn Thonny nicht automatisch einrückt, wo es eigentlich einrücken sollte, fehlt davor ein Doppelpunkt.</p>
+</blockquote>
+<p>Python verwendet verschieden starke Einrückungen, um die Zusammengehörigkeit von Befehlen zu markieren. Ist also zum Beispiel eine Zeile nach dem <code>for</code> Befehl mehr eingerückt als das <code>for</code> selbst, so gehört diese Zeile zu diesem <code>for</code>. Einrückungen sind immer notwendig nach einem Doppelpunkt und andersherum sind Doppelpunkte immer notwendig vor Einrückungen. Auch innerhalb eines eingerückten Bereiches kann wieder ein <code>for</code> vorkommen. Der Eingerückte teil des inneren <code>for</code>s muss dann noch weiter eingerückt werden.</p>
+<blockquote>
+<h3><a class="header" href="#Übung-5" id="Übung-5">Übung</a></h3>
+<p>Speichern Sie folgendes in eine <code>fünfsten-variation.py</code> Datei.</p>
+<ol>
+<li>Zeichnen Sie einen Fünstern indem Sie <code>for</code> benutzen. Sie brauchen natürlich auch <code>t.forward</code> und <code>t.left</code> …</li>
+<li>Ersetzen Sie das <code>t.forward</code> durch ein weiteres for und zeichnen Sie ein Muster statt der Kante:</li>
+</ol>
+<p><img src="030-turtle/img/fuenfsternfancy2.png" alt="turtle stern fancy" /></p>
+</blockquote>
+<h1><a class="header" href="#variablen" id="variablen">Variablen</a></h1>
+<p>In diesem Kapitel geht es darum, wie sich das Computerprogramm etwas &quot;merkt&quot;, und wie man dieses gemerkte dann wieder verwenden kann.</p>
+<p>Wenn ein Wert an zwei oder mehr Stellen im Programm verwendet werden soll, also zum Beispiel um  die Mitternachtsformel einmal mit plus und einmal mit minus zu rechnen, so muss der Wert zwischengespeichert werden. Hierzu werden Variablen verwendet. Um eine Variable zu erstellen, schreibt man einen beliebigen Namen der Variablen (ohne Leerzeichen) und danach ein <code>=</code>  gefolgt von dem Wert den die Variable haben soll.</p>
+<p>Wir haben schon mehrere Variablen verwendet z.B. das <code>t</code> in <code>t=turtle.Pen()</code> und das <code>x</code> in der Forschleife waren Variablen.</p>
+<p>Einige Beispiele:</p>
+<pre><code class="language-python">x = 5
+y = 'hallo'
+z = 5 + 5
+</code></pre>
+<p>In der ersten Zeile wird die Zahl <code>5</code> in die Variable <code>x</code> eingespeichert. Die zweite Zeile speichert <code>'hallo'</code> in <code>y</code>. Die Dritte das Ergebnis der Berechnung <code>5 + 5</code> in <code>z</code>.</p>
+<p>Die Zuweisung einer Variable hat keinerlei Ausgabe - es wird also nirgends sichtbar, dass diese Variable jetzt gesetzt ist.</p>
+<blockquote>
+<h3><a class="header" href="#hinweis" id="hinweis">Hinweis</a></h3>
+<p>möchte man die vorhandenen Variablen sehen, kann man eine Anzeige an der rechten Seite aktivieren. Hierzu klickt man auf <code>View</code>→<code>Variables</code> bzw. <code>Ansicht</code>→<code>Variablen</code>. Die definierten Variablen sind dann nach einem klick auf den Play-Button sichtbar:
+<img src="030-turtle/img/thonnyvariables.png" alt="VariablesView" /></p>
+</blockquote>
+<p>Diese Variablen können nun verwendet werden hat man zum Beispiel mit <code>x = 5</code> der Variablen <code>x</code> den Wert <code>5</code> gegeben, so kann man nun statt der dritten Zeile auch <code>z = x + x</code> schreiben und wird wieder in <code>z</code> denselben Wert (<code>10</code>) gespeichert haben. Möchte man den Wert einer Variablen ausgeben, so kann man dies mit <code>print</code> tun. Um den Wert von <code>z</code> zu erfahren also <code>print(z)</code>.</p>
+<pre><code>x = 5
+z = x + x
+</code></pre>
+<p>Die Variablen sind so etwas wie das Kurzzeitgedächtnis des Computers... Er kann sich alles darin merken, aber nach Ende des Programms sind alle Variablen weg. Das speichern ist also nicht dauerhaft (Fachwort: persistent).</p>
+<blockquote>
+<h3><a class="header" href="#Übungen-1" id="Übungen-1">Übungen</a></h3>
+<ol>
+<li>Erstellen Sie eine Python-Datei <code>Variablen.py</code> welche den Variablen <code>x, y, z</code> die Werte <code>34, 24, 'hallo'</code> zuweist.</li>
+<li>Führen Sie das Programm aus. Es erscheint keine Ausgabe, da <code>python</code> beim Variablen erstellen keine Ausgabe anzeigt.</li>
+<li>Betrachten Sie die erstellten Variablen im &quot;<code>Variables View</code>&quot;, indem Sie auf <code>View</code>→<code>Variables</code> klicken.</li>
+<li>Lassen Sie das turtle alle Variablen sagen mit <code>t.write(variable, True)</code>. Achtung Geben Sie die Variablen aus und nicht nur die selbe Zahl.</li>
+<li>Berechnen Sie in die Variable <code>summe</code> die Summe von <code>x</code> und <code>y</code>. Verwenden Sie auch hier die Variablen statt ihren Zahlenwert.</li>
+<li>Geben Sie die Summe mit <code>t.write</code> aus.</li>
+</ol>
+</blockquote>
+<h1><a class="header" href="#listen" id="listen">Listen</a></h1>
+<p>Python kann neben einem einzelnen Wert auch eine Liste von Werten in einer Variablen abspeichern.</p>
+<p>Ein Beispiel:</p>
+<pre><code class="language-python">a = [3,4,2,1,-155,7]
+</code></pre>
+<p>Die so erstellte Liste kann nun verwendet werden. Soll zum Beispiel die erste Zahl der Liste verwendet werden, so schreibt man z.B. <code>print(a[0])</code>, für die <code>-155</code>, <code>print(a[4])</code> und für die <code>7</code> Zahl <code>print(a[5])</code></p>
+<h2><a class="header" href="#wiederholungen-für-jedes-element-einer-liste" id="wiederholungen-für-jedes-element-einer-liste">Wiederholungen für jedes Element einer Liste</a></h2>
+<p>Das <code>for</code> kann auch dazu verwendet werden, etwas für jedes Element einer Liste einmal aufzurufen. Zum Beispiel so:</p>
+<pre><code class="language-python">for color in [&quot;blue&quot;, &quot;green&quot;, &quot;yellow&quot;]:
+    print(&quot;A &quot;, color, &quot; bird&quot;)
+</code></pre>
+<p>Es wird also ausgegeben:</p>
+<pre><code>A blue bird
+A green bird
+A yellow bird
+</code></pre>
+<p>Natürlich kann das auch in ein turtleprogramm eingebaut werden, um zum Beispiel die Farbe zu ändern.</p>
+<p>Mit Farben und Text ist das noch relativ uninteressant. Wenn man jedoch die Farben zum Zeichnen verwendet, gibt es plötzlich ganz schöne Ergebnisse:</p>
+<pre><code class="language-python"># Definieren der Variable farben. Diese erhält eine List mit 6 Farben.
+farben = [&quot;red&quot;, &quot;blue&quot;, &quot;green&quot;, &quot;yellow&quot;, &quot;purple&quot;, &quot;pink&quot;]
+# Für jede der Farben zeichnet man eine Linie
+for farbe in farben:
+    t.color(farbe)
+    t.forward(30)
+    t.left(45)
+</code></pre>
+<p><img src="030-turtle/img/farbwechsel.png" alt="Farbwechsel" /></p>
+<blockquote>
+<h3><a class="header" href="#Übung-6" id="Übung-6">Übung</a></h3>
+<p>verschönern Sie eines ihrer erstellten Mandalas mit Farben.</p>
+<h3><a class="header" href="#hinweis-1" id="hinweis-1">Hinweis</a></h3>
+<p>Wollen Sie die Farben wiederholen können Sie z.B. schreiben: <code>[&quot;red&quot;, &quot;black&quot;]*10</code>. Damit erstellen Sie eine Liste, welche immer abwechselnd <code>&quot;red&quot;</code> und <code>&quot;black&quot;</code> enthält.</p>
+</blockquote>
+<h1><a class="header" href="#sterne-zeichnen-mit-turtle" id="sterne-zeichnen-mit-turtle">Sterne zeichnen mit Turtle</a></h1>
+<blockquote>
+<h3><a class="header" href="#Übung-7" id="Übung-7">Übung</a></h3>
+<p>Speichern Sie diese Übung als <code>sternchen-uebung.py</code></p>
+<p>Zeichnen Sie einen Fünfstern oder kopieren Sie sich das aus den Aufgaben vorher.</p>
+<p><img src="030-turtle/img/fuenfstern.png" alt="Fünfstern mit Turtle" /></p>
+</blockquote>
+<p>Im Folgenden wird es Ziel sein viele unterschiedlich große Fünfsterne zu zeichnen.
+Eine Möglichkeit das zu tun wäre nun, den bisher geschriebenen Code einfach zu kopieren und woanders wieder einzufügen.
+Man muss nun nur noch ein paar Zahlen ändern und fertig ist der zweite Stern.</p>
+<p>Schon ab zwanzig verschieden großen Sternen artet das aber in Arbeit aus.</p>
+<h2><a class="header" href="#funktionen-als-wiederverwendbare-schablonen" id="funktionen-als-wiederverwendbare-schablonen">Funktionen als wiederverwendbare Schablonen</a></h2>
+<p>Beim Programmieren möchte man aber solche wiederholende Aufgaben eigentlich lieber den Computer selbst machen lassen.
+Das heißt man schreibt zunächst eine Art Schablone und sagt dem Computer was er veränderbar in dieser Schablone machen soll.</p>
+<p>Statt dem Bild der Schablone könnte man sich auch ein Kochrezept vorstellen. Man schreibt in das Rezept wie ein Kuchen oder ähnliches gebacken wird.</p>
+<p>Bei beiden Bildern, Schablone und Rezept, wird klar, dass man noch kein Bild bzw. Kuchen hat, wenn man das Rezept fertig hat. So ist es auch hier beim Programmieren.</p>
+<p>Eine Schablone beim Programmieren nennt man Funktion, und erstellt sie so:</p>
+<pre><code>def stern(groesse):
+    for n in range(5);
+      t.forward(groesse)
+      t.left(144)
+</code></pre>
+<p>Indem man zunächst das Schlüsselwort <code>def</code> schreibt, sagt man Python, dass nun eine Schablone kommt, die nicht sofort ausgeführt
+werden soll, sondern die sich das Programm erst mal merken soll. Danach folgt ein beliebiger Name; in diesem Fall ist <code>stern</code> gewählt worden.
+Zuletzt kommt in Klammern eine Liste der veränderlichen Namen als Platzhalter. Für den Stern wird erst mal nur die <code>groesse</code> veränderlich sein.
+Statt nun eine feste Zahl vorwärts zu gehen, muss man jetzt die veränderliche Größe aus der Schablone vorwärts gehen.
+Für alle Fünfsterne sind die Winkel die selben. Das heißt man kann die Zeilen mit <code>left</code> unveränderbar lassen,
+indem man einfach konstante Zahlen schreibt.</p>
+<p>Diese Funktionsschablone wird jetzt aber noch nicht ausgeführt. Man sagt Python nur wie die Schablone bzw. das Rezept aussieht.
+Um jetzt einen Stern zu zeichnen, muss man diese Schablone verwenden, und Python sagen, welcher Platzhalter welchen Wert annehmen soll.</p>
+<pre><code>stern(groesse=100)
+</code></pre>
+<blockquote>
+<h3><a class="header" href="#achtung-1" id="achtung-1">Achtung:</a></h3>
+<p>die Verwendung der Schablone muss wieder ganz vorne, also ohne Leerzeichen davor sein.</p>
+</blockquote>
+<p>Jetzt wird tatsächlich etwas gezeichnet.
+Zunächst schreibt man also einfach den Namen der Funktion,
+dann in Klammern die Zuweisungen und schließlich welcher Platzhalter welchen Wert erhalten soll.</p>
+<p>Es kann Ihnen auffallen,dass Sie die ganze Zeit schon solche Funktionen verwendet haben zum Beispiel <code>print</code>, <code>t.forward</code>, <code>t.left</code>, <code>t.right</code> usw…</p>
+<blockquote>
+<h3><a class="header" href="#Übung-8" id="Übung-8">Übung</a></h3>
+<ol>
+<li>Erstellen Sie eine Funktion für einen Fünfstern.</li>
+<li>Zeichnen Sie einen Kreis mit Fünfsternen außen dran. Verwenden Sie ihre Fünfstern Funktion und achten Sie darauf, dass die Sterne senkrecht auf dem Kreis stehen.</li>
+<li>Fügen Sie weitere Symbole, z.B. Herzen hinzu, die abwechselnd oder nach innen gezeichnet werden.</li>
+</ol>
+<p><img src="030-turtle/img/f%C3%BCnfsternkreis.png" alt="Fünfsternkreis" /></p>
+</blockquote>
+<h1><a class="header" href="#erstellen-einer-funktion-die-eine-diagonale-zeichnet" id="erstellen-einer-funktion-die-eine-diagonale-zeichnet">Erstellen einer Funktion die eine Diagonale zeichnet</a></h1>
+<blockquote>
+<h3><a class="header" href="#ziel-des-kapitels" id="ziel-des-kapitels">Ziel des Kapitels:</a></h3>
+<ul>
+<li>Ein Beispiel für die Verwendung einer Funktion</li>
+<li>nicht von der Mathematik abschrecken lassen.</li>
+</ul>
+</blockquote>
+<p>Beim Nikolaushaus war deutlich, dass man zum Zeichnen einer Diagonalen etwas rechnen (oder ausprobieren) muss, sodass man die Länge der Diagonalen im Quadrat richtig hat. Es wäre doch schön, wenn man einfach schreiben könnte:</p>
+<pre><code class="language-python">diagonale(x=100, y=200)
+</code></pre>
+<p>Das Programm soll damit selbstständig die Diagonale in der richtigen Länge zeichnen. Dabei ist <code>x</code> die Ankathete und <code>y</code> die Gegenkathete.</p>
+<p>Mit dem Wissen aus dem vorherigen Kapitel können wir also diese Funktion erstellen:</p>
+<h2><a class="header" href="#grundgerüst" id="grundgerüst">Grundgerüst</a></h2>
+<pre><code class="language-python">def diagonale(x, y):
+    t.forward(z)      # Um die Länge der Diagonale nach vorne gehen.
+</code></pre>
+<p>Das einzige Problem ist: Die Entfernung <code>z</code> muss noch berechnet werden. Es ist ja sofort klar, dass hier ein rechtwinkliges Dreieck vorliegt und damit muss mit dem Pythagoras gearbeitet werden: <code>a² + b² = c²</code> oder genauer in unserem Fall <code>x² + y² = z²</code>. Das Quadreat kann man ja einfach als <code>x * x</code> schreiben. Fügen wir also die Quadrate unserer Funktion hinzu:</p>
+<h2><a class="header" href="#quadrieren" id="quadrieren">Quadrieren</a></h2>
+<pre><code class="language-python">def diagonale(x, y):
+    xquadrat = x * x  # Berechnen von x²
+    yquadrat = y * y  # Berechnen von y²
+    t.forward(z)      # Um die Länge der Diagonale nach vorne gehen.
+</code></pre>
+<p>Für <code>z²</code> müssen jetzt noch die beiden zusammen addiert werden:</p>
+<pre><code class="language-python">zquadrat = xquadrat + yquadrat # Zusammenaddieren zu z²
+</code></pre>
+<h2><a class="header" href="#wurzel-ziehen" id="wurzel-ziehen">Wurzel ziehen</a></h2>
+<p>Für den <code>forward</code>-Befehl wird aber nur <code>z</code> benötigt. Das heißt man muss noch die Wurzel aus dem <code>zquadrat</code> ziehen. Die Wurzelfunktion ist nicht standardmäßig bei Python dabei, sondern man muss sie extra laden, so wie auch das <code>turtle</code>-Modul. Wir schreiben also zu Anfang der <code>diagonale</code>-Funktion <code>import math</code> und können dann mit <code>mat.sqrt(zahl)</code> die Wurzel aus <code>zahl</code> rechnen. Die gesamte <code>diagonale</code>-Funktion sieht jetzt also so aus:</p>
+<pre><code class="language-python">def diagonale(x, y):
+    import math
+    xquadrat = x * x  # Berechnen von x²
+    yquadrat = y * y  # Berechnen von y²
+    zquadrat = xquadrat + yquadrat # Zusammenaddieren zu z²
+    z = math.sqrt(zquadrat)  # Die Wurzel ziehen
+    t.forward(z)      # Um die Länge der Diagonale nach vorne gehen.
+</code></pre>
+<h2><a class="header" href="#winkel-berechnen" id="winkel-berechnen">Winkel berechnen</a></h2>
+<p>Diese Funktion berechnet jetzt schon selbstständig die Länge der Diagonalen, allerdings fehlt noch die Richtung. Gerade wenn man nicht im Quadrat ist, sondern im Rechteck ist der Winkel kein vielfaches von 45°. Das heißt auch er muss berechnet werden. Wäre doch super, wenn unsere <code>diagonale</code>-Funktion das gleich mitmachen würde oder? Dann kann man getrost vergessen, wie die ganze Mathematik ging.</p>
+<p>Also dann mal los. Der Winkel im rechtwinkligen Dreieck berechnet sich, da wir Ankathete und Gegenkathete gegeben haben mit dem Tangens genauer mit der <code>tan¹</code> beziehungsweise <code>atan</code>. Auch diese Funktion gibt es im <code>math</code> modul, allerdings rechnet diese Funktion in Radianten statt Grad, das heißt man muss das Ergebnis noch mit der Funktion <code>math.degrees</code> umwandeln. Wir ergänzen also unsere <code>diagonale</code>-Funktion um:</p>
+<pre><code class="language-python">import math
+tanbeta = y / x   # Berechnen des Verhältnisses
+beta_rad = math.atan(tanbeta)  # Berechnen des Winkels in Radianten
+beta = math.degrees(beta_rad)  # Konvertieren des Winkels zu Grad
+t.left(beta)      # Drehen um den Winkel
+</code></pre>
+<p>Wenn man sich in einer Funktion dreht ist es oft sehr hilfreich sich am Ende der Funktion wieder in die Ursprungsrichtung zurück zu drehen. Sonst muss man doch wieder rechnen. Die gesamte <code>diagonale</code>-Funktion sieht jetzt also so aus:</p>
+<pre><code class="language-python">def diagonale(x, y):
+    import math
+    tanbeta = y / x   # Berechnen des Verhältnisses
+    beta_rad = math.atan(tanbeta)  # Berechnen des Winkels in Radianten
+    beta = math.degrees(beta_rad)  # Konvertieren des Winkels zu Grad
+    t.left(beta)      # Drehen um den Winkel
+    xquadrat = x * x  # Berechnen von x²
+    yquadrat = y * y  # Berechnen von y²
+    zquadrat = xquadrat + yquadrat # Zusammenaddieren zu z²
+    z = math.sqrt(zquadrat)  # Die Wurzel ziehen
+    t.forward(z)      # Um die Länge der Diagonale nach vorne gehen.
+    t.right(beta)
+</code></pre>
+<h2><a class="header" href="#beispiel-verwendung-beim-zeichnen-eines-dreiecks" id="beispiel-verwendung-beim-zeichnen-eines-dreiecks">Beispiel Verwendung beim Zeichnen eines Dreiecks</a></h2>
+<p>Mit dieser diagonale Funktion kann jetzt ein beliebiges rechtwinkliges Dreieck gezeichnet werden:</p>
+<pre><code class="language-python">breite = 170
+hoehe = 67
+
+diagonale(hoehe, breite)
+t.right(90)
+t.forward(hoehe)
+t.right(90)
+t.forward(breite)
+</code></pre>
+<blockquote>
+<h3><a class="header" href="#Übung-9" id="Übung-9">Übung</a></h3>
+<ol>
+<li>Zeichnen Sie das Haus vom Nikolaus mit einer Funktion.</li>
+<li>Verwenden Sie die <code>diagonale</code>-Funktion aus diesem Kapitel. (Sie müssen die Funktion in ihr Programm kopieren) Die <code>diagonale</code>-Funktion geht nicht immer in die richtige Richtung diagonal. Experimentieren Sie mit <code>t.left(180)</code> sowie mit negativen Werten bei <code>breite</code> und <code>hoehe</code>.</li>
+<li>Machen Sie die Breite und Höhe des Hauses variabel.  Das Ergebnis für die folgenden Beiden Aufrufe:
+<pre><code class="language-python">nikolaus(breite=50, hoehe=300)
+nikolaus(breite=350, hoehe=134)
+</code></pre>
+</li>
+</ol>
+<p><img src="030-turtle/img/nikolaus-breithoch.png" alt="Nikolaus Breit und Hoch" />
+Bonus für schnelle: Malen Sie viele Nikolaushäuser zufälliger Größe nebeneinander</p>
+</blockquote>
+<h1><a class="header" href="#eine-liste-von-möglichen-turtlegrafiken" id="eine-liste-von-möglichen-turtlegrafiken">Eine Liste von möglichen Turtlegrafiken</a></h1>
+<h2><a class="header" href="#yinyang" id="yinyang">YinYang</a></h2>
+<p>Benötigt werden:</p>
+<ul>
+<li><a href="030-turtle/035-kreise.html">Kreise</a></li>
+<li><a href="030-turtle/020-turtle.html#das-turtle-bewegen-ohne-zu-zeichnen">Bewegen ohne Zeichnen</a></li>
+<li><a href="030-turtle/150-turtlebefehle.html">begin_fill, end_fill</a></li>
+</ul>
+<p><img src="030-turtle/img/turtleyinyang.png" alt="YinYang" /></p>
+<h2><a class="header" href="#sechseckspirale" id="sechseckspirale">Sechseckspirale</a></h2>
+<p>Zeichnen Sie eine Sechseckspirale. Der Trick ist, dass man nicht genau den Winkel 60° dreht, sondern knapp daneben z.B. 59°. Die Farben müssen aus einer Liste von Farben ausgewählt werden.</p>
+<p>Benötigt werden:</p>
+<ul>
+<li><a href="030-turtle/040-forschleifen.html">Forschleifen</a></li>
+<li><a href="030-turtle/090-listen.html">Listen für die Farben</a></li>
+</ul>
+<p><img src="030-turtle/img/turtlesechseckspirale.png" alt="Sechseckspirale" /></p>
+<h2><a class="header" href="#viereckspirale" id="viereckspirale">Viereckspirale</a></h2>
+<p>Zeichnen Sie eine Viereckspirale in Schwarzweiß. Der Trick ist, dass man nicht genau den Winkel 90° dreht, sondern knapp daneben z.B. 89°.</p>
+<p>Benötigt werden:</p>
+<ul>
+<li><a href="030-turtle/040-forschleifen.html">Forschleifen</a></li>
+</ul>
+<p><img src="030-turtle/img/turtleviereckspiralesw.png" alt="Viereckspirale" /></p>
+<h2><a class="header" href="#viereckspirale-bunt" id="viereckspirale-bunt">Viereckspirale bunt</a></h2>
+<p>Zeichnen Sie eine Viereckspirale. Die Farben müssen aus einer Liste von Farben ausgewählt werden.</p>
+<p>Benötigt werden:</p>
+<ul>
+<li><a href="030-turtle/040-forschleifen.html">Forschleifen</a></li>
+<li><a href="030-turtle/090-listen.html">Listen für die Farben</a></li>
+</ul>
+<p><img src="030-turtle/img/turtleviereckspirale.png" alt="Viereckspirale" /></p>
+<h2><a class="header" href="#mathematische-graphen" id="mathematische-graphen">Mathematische Graphen</a></h2>
+<p>Mit turtle und der <code>goto(x,y)</code> Funktion kann man sehr gut mathematische Graphen, wie zum Beispiel Parabeln zeichnen.</p>
+<p>Benötigt werden:</p>
+<ul>
+<li><a href="030-turtle/040-forschleifen.html">Forschleifen</a></li>
+<li><a href="030-turtle/150-turtlebefehle.html">Goto</a></li>
+<li><a href="030-turtle/020-turtle.html#das-turtle-bewegen-ohne-zu-zeichnen">Bewegen ohne Zeichnen</a></li>
+</ul>
+<p><img src="030-turtle/img/turtleparabel.png" alt="Mathematische Parabel" /></p>
+<h2><a class="header" href="#mandala-mit-herzen" id="mandala-mit-herzen">Mandala mit Herzen</a></h2>
+<p>Zeichnen Sie ein Mandala mit Sternchen, Herzen und Kreisen.</p>
+<p>Benötigt werden:</p>
+<ul>
+<li><a href="030-turtle/040-forschleifen.html">Forschleifen</a></li>
+<li><a href="030-turtle/120-funktionen.html">Funktionen</a></li>
+<li><a href="030-turtle/035-kreise.html">Das Herz</a></li>
+<li><a href="030-turtle/150-turtlebefehle.html">begin_fill, end_fill</a></li>
+</ul>
+<p><img src="030-turtle/img/turtleherzmandala.png" alt="Herzmandala" /></p>
+<h1><a class="header" href="#zusammenfassung-der-turtle-befehle" id="zusammenfassung-der-turtle-befehle">Zusammenfassung der Turtle Befehle</a></h1>
+<p>Erstellen eines Turtle-Fensters mit:</p>
+<pre><code class="language-python">import turtle
+t = turtle.Turtle()
+t.shape(&quot;turtle&quot;)
+</code></pre>
+<p>Eine Auswahl zu möglichen Funktionen des Turtle-Moduls. Eine vollständige Liste aller Funktionen gibt es unter:
+<a href="https://docs.python.org/3.6/library/turtle.html">Turtle Dokumentation</a></p>
+<h1><a class="header" href="#bewegungen" id="bewegungen">Bewegungen:</a></h1>
+<pre><code class="language-python">t.forward(distance=90)  # gehe vorwärts
+t.backward(distance=90) # gehe zurück
+t.right(angle=60)       # drehe rechts
+t.left(angle=60)        # drehe links
+t.goto(x=0,y=0)         # gehe zu Koordinaten
+t.home()                # gehe zur Mitte
+t.circle(radius, extent, steps) # Male einen (Teil-)Kreis
+t.speed(0)              # schnellste Geschwindigkeit
+t.speed(1)              # langsamste Geschwindigkeit
+</code></pre>
+<h1><a class="header" href="#malen" id="malen">Malen:</a></h1>
+<pre><code class="language-python">t.penup()               # Aufhören zu zeichnen
+t.pendown()             # Anfangen zu zeichnen
+t.width(width=5)        # Strich dicke
+t.pencolor(&quot;red&quot;)       # Stiftfarbe setzen
+t.begin_fill()          # Ausgemalten Umriss starten
+t.end_fill()            # Ausgemalten Umriss beenden
+t.fillcolor(&quot;blue&quot;)     # Ausmal-Farbe setzen
+t.screen.bgcolor(&quot;pink&quot;)# Die Hintergrundfarbe setzen
+</code></pre>
+<h1><a class="header" href="#turtle" id="turtle">Turtle:</a></h1>
+<pre><code class="language-python">t.shape(&quot;turtle&quot;)       # Auswählen einer Form statt Dreieck
+t.hideturtle()          # Verstecken der Schildkröte
+t.showturtle()          # zeigen der Schildkröte
+t.exitonclick()         # schließen wenn ins Fenster geklickt wird
+turtle.numinput(&quot;&quot;, &quot;&quot;) # Turtle Fragt nach einer Zahl mit `title` und `promt`
+turtle.textinput(&quot;&quot;, &quot;&quot;)# Turtle Fragt nach einem Text mit `title` und `promt`
+</code></pre>
+<h1><a class="header" href="#ratespiel-in-turtle" id="ratespiel-in-turtle">Ratespiel in turtle</a></h1>
+<p>In diesem Kapitel wird ein kleines Spiel erstellt.</p>
+<p>Es werden einige Themen neu eingeführt und erst im letzten Teil kennen Sie alle Voraussetzungen um dieses Spiel zu programmieren. Diese Voraussetzungen sind jedoch auch für alle folgenden Kapitel wichtig und sollten daher nicht übersprungen werden.</p>
+<h2><a class="header" href="#die-spielregeln" id="die-spielregeln">Die Spielregeln</a></h2>
+<p>Ziel dieses Kapitels ist es ein kleines Spiel zu erstellen. Ziel des Spiels ist es eine Zahl zwischen 0 und 100 zu erraten.
+Der Computer antwortet immer mit &quot;zu groß&quot; oder &quot;zu klein&quot;.</p>
+<h1><a class="header" href="#der-input-befehl-des-turtle-moduls" id="der-input-befehl-des-turtle-moduls">Der input-Befehl des turtle-Moduls</a></h1>
+<p>Da im folgenden ein Spiel programmiert werden soll muss unser Programm interaktiv werden. Bis ist für jedes Programm immer genau das Selbe passiert, wenn man auf &quot;Play&quot; drückt. Bei einem Spiel soll man aber während das Programm läuft Einfluss auf das Geschehen nehmen können. Bei dem Ratespiel sollen zum Beispiel Zahlen eingegeben werden können. Das Spiel soll diese dann prüfen und entsprechend reagieren.</p>
+<p>Das <code>turtle</code>-modul hat die Möglichkeit ein &quot;Dialogfenster&quot; zu öffnen.</p>
+<pre><code class="language-python">turtle.textinput(title=&quot;&quot;, prompt=&quot;&quot;)
+</code></pre>
+<p>Konkreter sieht eine Abfrage so aus:</p>
+<pre><code class="language-python">text = turtle.textinput(title=&quot;was dann im titel des Fensters steht&quot;, prompt=&quot;Welche Frage vor dem Eingabefeld steht&quot;)
+</code></pre>
+<p>Das was in diesem Dialogfenster eingegeben wird, wird unter dem Namen vor dem <code>=</code> abgespeichert. Später kann man diesen Wert dann verwenden. Zum Beispiel kann dann mit <code>t.write(text)</code> der eingegebene Text von <code>turtle</code> geschrieben werden.</p>
+<p>Die Texte für <code>title</code> und <code>prompt</code> sind als Orientierung für den Benutzer, was er jetzt eingeben soll. Ersetzen Sie die Beispiele durch eigene Texte.</p>
+<p>Zu beachten ist, dass tatsächlich <code>turtle.</code> vor <code>textinput</code> stehen muss (nicht <code>t.</code> wie bei den anderen Befehlen).</p>
+<p>Möchte man den eingegebenen Text in eine Zahl verwandeln muss man folgendes schreiben:</p>
+<pre><code class="language-python">zahl = int(text)
+</code></pre>
+<blockquote>
+<h3><a class="header" href="#einschub" id="einschub">Einschub</a></h3>
+<p>Der Computer kennt verschiedene Datentypen, Texte sind für den Computer folgen aus Buchstaben. Eine Zahl in einem Text <code>&quot;25&quot;</code> ist also der &quot;Buchstabe&quot; <code>&quot;2&quot;</code> und dann der &quot;Buchstabe&quot; <code>&quot;5&quot;</code>. Die Zahl <code>25</code> hat dagegen keine Anführungszeichen. Zwei Beispiele in Python:</p>
+<pre><code class="language-python">5 * 5 # Ergebnis: 25
+&quot;5&quot; * 5 # Ergebnis: 55555
+</code></pre>
+<p>Wird ein Buchstabe mit einer Zahl multipliziert wird er einfach so oft wiederholt statt den Zahlenwert auszurechnen.</p>
+</blockquote>
+<blockquote>
+<h3><a class="header" href="#Übung-10" id="Übung-10">Übung</a></h3>
+<p>Gespeichert in der neuen Datei <code>kleingross.py</code></p>
+<ol>
+<li>Schreiben Sie ein Turtle-Programm, welches zuerst nach einer Zahl fragt, und dann ein Quadrat in entsprechender Größe, also Seitenlänge zeichnet.</li>
+<li>Erweitern Sie das Programm, so dass es nach dem Zeichnen des Quadrats noch eine Größe für ein gleichseitiges Dreieck fragt, und dieses dann zeichnet.</li>
+</ol>
+</blockquote>
+<h1><a class="header" href="#bedingtes-ausführen" id="bedingtes-ausführen">Bedingtes ausführen</a></h1>
+<p>Nachdem die Eingabe jetzt gemacht werden kann muss das Programm auch darauf reagieren. Das Ratespiel soll ja, wenn man eine zu große Zahl geschätzt hat, &quot;zu groß&quot; sagen. Hat man aber zu klein geschätzt, soll es &quot;zu klein&quot; sagen. Das heißt man benötigt ein &quot;wenn … dann …&quot;</p>
+<p>Alle Programmiersprachen bieten die Möglichkeit, einen Befehl nur dann auszuführen, wenn eine bestimmte Bedingung eintritt.</p>
+<p>Einfaches Beispiel: Nur wenn der Benutzer in ein <code>turtle.textinput()</code> Fenster <code>5</code> eingibt soll &quot;Einen lieben Gruß&quot; geschrieben werden:</p>
+<pre><code class="language-python">import turtle
+t = turtle.Pen()
+t.shape(&quot;turtle&quot;)
+
+antwort = int(turtle.textinput(&quot;Frage&quot;, &quot;Sagen Sie hallo:&quot;))
+if antwort == 5:
+  #(Das True bewirkt dass die Turtle beim Schreiben läuft.)
+  t.write(&quot;Einen lieben Gruß&quot;, True)
+</code></pre>
+<p>Ergebnis nach der Eingabe von <code>5</code>, wurde was anderes eingegeben, so kommt der Text nicht.</p>
+<p>Das <code>if</code> in diesem Beispiel ist das Kommando, welches den bedingten Aufruf einleitet. Das <code>antwort == 5</code> ist die Bedingung, es gibt noch viele weitere Möglichkeiten Bedingungen zu schreiben im <a href="040-ratespiel/../x-anhang/2-bedingungen.html">Anhang</a>. Es vergleicht das, was in der Variablen <code>antwort</code> steht mit der Zahl <code>5</code> ist beides das gleiche wird die folgende Zeile ausgeführt, ansonsten wird die folgende Zeile übersprungen.</p>
+<p>Nach der Bedingung folgt immer ein <strong>Doppelpunkt</strong>. Die nächste Zeile wird ein Stück weiter eingerückt als das <code>if</code>.</p>
+<p>Ein etwas komplizierteres Beispiel, das nach einem Tag, sowie einer Benotung für diesen fragt:</p>
+<pre><code class="language-python">import turtle
+t = turtle.Pen()
+tag = turtle.textinput(&quot;Frage&quot;, &quot;Sagen Sie einen Tag:&quot;)
+note = turtle.textinput(&quot;Frage&quot;, &quot;Geben Sie eine Note für diesen Tag:&quot;)
+if tag == &quot;Montag&quot;:
+  if note == &quot;6&quot;:
+     t.write(&quot;Falsch Montage sind die Besten! &quot;, True)
+     note = &quot;1&quot;
+
+t.write(tag + &quot; mit Note &quot; + note + &quot; stimme ich zu! Viel Spass!&quot;)
+</code></pre>
+<blockquote>
+<h3><a class="header" href="#anmerkung" id="anmerkung">Anmerkung</a></h3>
+<p>In einer ganz anderen, grafischen Programmiersprache <code>scratch</code> wird ein if als &quot;Klammer&quot; dargestellt.
+Dieses Bild ist nur, falls Sie sich das dann besser vorstellen können. Falls nicht ignorieren Sie es.</p>
+<p><img src="040-ratespiel/img/ifinscratch.png" alt="Geschachteltes If in Scratch" /></p>
+<p>Das <code>if</code>, welches zu falls übersetzt wird, ist eine Klammer. Alles was innerhalb dieses <code>if</code>s ist, wird nur ausgeführt, wenn die Bedingung des <code>if</code>s zutrifft. Dieses &quot;innerhalb&quot; wird in Python durch &quot;stärker eingerückt&quot;, also mehr Leerzeichen am Anfang der Zeile deutlich gemacht. Natürlich kann auch innerhalb eines <code>if</code>s ein zweites <code>if</code> stehen.</p>
+</blockquote>
+<h2><a class="header" href="#wenn--dann--ansonsten" id="wenn--dann--ansonsten">Wenn → Dann → &quot;Ansonsten&quot;</a></h2>
+<p>Oft wird es benötigt, dass &quot;ansonsten&quot; ein anderer Befehl ausgeführt wird. Der Befehl hierzu ist <code>else</code>. Auch auf <code>else</code> folgt ein Doppelpunkt und weitere eingerückte Befehle.</p>
+<blockquote>
+<p>Notiz: Sowohl nach <code>if</code> als auch nach <code>else</code> muss mindestens ein eingerückter Befehl kommen. Also man kann  im folgenden Beispiel <strong>keines</strong> der beiden <code>write</code>s weglassen (man kann sie aber durch beliebige andere Befehle ersetzen).</p>
+</blockquote>
+<pre><code class="language-python">import turtle
+t=turtle.Pen()
+gru = turtle.textinput(&quot;Frage&quot;, &quot;Geben Sie ein Grußwort ein:&quot;)
+if gru == &quot;Guten Tag&quot;:
+   t.write(&quot;Ich antworte mit Hallo&quot;)
+else:
+   t.write(&quot;Bah! - zu unfreundlich!&quot;)
+</code></pre>
+<p>Logischerweise ist <code>else</code> nur nach einem fertigen <code>if</code> sinnvoll.</p>
+<p>Man sieht hier, dass dem Computer die Bedeutung der Worte völlig gleichgültig ist, er folgt nur der Logik der Befehle. Sie können das freundlichste Grußwort eingeben, wenn es aber nicht &quot;Guten Tag&quot; ist, wird der Computer das unfreundlich finden.</p>
+<h1><a class="header" href="#ein-grußprogramm-mit-drei-möglichkeiten" id="ein-grußprogramm-mit-drei-möglichkeiten">Ein Grußprogramm mit drei Möglichkeiten</a></h1>
+<p>Ein Programm, das auf <code>hallo</code> und <code>tschüss</code> unterschiedlich reagiert:</p>
+<pre><code class="language-python">import turtle
+t=turtle.Pen()
+
+gru = turtle.textinput(&quot;Frage&quot;, &quot;Geben Sie ein Grußwort ein:&quot;)
+if gru == &quot;hallo&quot;:
+     t.write(&quot;Guten Tag&quot;)
+elif gru == &quot;tschüss&quot;:
+     t.write(&quot;Auf Wiedersehen&quot;)
+else:
+     t.write(&quot;Ich habe Sie leider nicht verstanden&quot;)
+</code></pre>
+<p>In diesem Beispiel wird eine weitere Option der <code>if</code>-Ausdrücke verwendet: <code>elif</code>. Dieses steht für <code>else if</code> und bedeutet: Falls nicht die erste Bedingung dann vielleicht diese Bedingung also am ehesten zu übersetzen mit &quot;oder wenn&quot;. Zwischen einem <code>if</code> und einem <code>else</code> können beliebig viele <code>elif</code> stehen, aber vorher muss immer ein <code>if</code> stehen.</p>
+<blockquote>
+<h3><a class="header" href="#Übung-grußprogramm" id="Übung-grußprogramm">Übung Grußprogramm</a></h3>
+<p>Schreiben und testen Sie ein Programm, welches nach einem Gruß fragt und je nach Gruß unterschiedlich reagiert. Denken Sie sich eigene Antwortmöglichkeiten aus.</p>
+<p>Speichern Sie dieses Programm unter dem Namen <code>gru.py</code>.</p>
+</blockquote>
+<h2><a class="header" href="#beispiel-ein-passwortprogramm" id="beispiel-ein-passwortprogramm">Beispiel: ein &quot;Passwortprogramm&quot;</a></h2>
+<p>Die nun  gestellte Aufgabe ist es ein Passwort zu erraten, welches im Programm festgelegt wird. Zunächst speichern wir das zu erratende Passwort in einer Variablen.</p>
+<pre><code class="language-python">geheim = &quot;Döner&quot;
+</code></pre>
+<p>Es werden drei Versuche gegeben das Passwort zu erraten:</p>
+<pre><code class="language-python">geheim = &quot;Döner&quot;
+
+import turtle
+t=turtle.Pen()
+
+if geheim == turtle.textinput(&quot;Frage&quot;, &quot;Versuch Nummer 1:&quot;):
+    t.write(&quot;geschafft&quot;)
+else:
+    if geheim == turtle.textinput(&quot;Frage&quot;, &quot;Versuch Nummer 2:&quot;):
+        t.write(&quot;geschafft&quot;)
+    else:
+        if geheim == turtle.textinput(&quot;Frage&quot;, &quot;Versuch Nummer 3:&quot;):
+            t.write(&quot;geschafft&quot;)
+        else:
+            t.write(&quot;nicht geschafft&quot;)
+</code></pre>
+<p>Dieses Programm ist natürlich nicht so, wie der Computer ein Passwort abfragen würde, da das Passwort für jeden lesbar im Programm steht. Normalerweise wird das Passwort nur verschlüsselt also nicht lesbar abgespeichert.</p>
+<blockquote>
+<h3><a class="header" href="#Übung-zahlenratespiel" id="Übung-zahlenratespiel">Übung Zahlenratespiel</a></h3>
+<p>Schreiben Sie ein Programm, welches 3 Versuche gewährt eine Zahl zu erraten. Dieses Programm kann sehr ähnlich zu dem Passwortprogramm geschrieben werden.
+Speichern Sie dieses Programm unter <code>ratemal.py</code>.</p>
+<p>Gehen Sie schrittweise vor:</p>
+<ol>
+<li>Schreiben Sie ein Programm, welches nach einer Zahl mit <code>int(turtle.textinput(title=&quot;&quot;, prompt=&quot;&quot;))</code> fragt und diese ausgibt.</li>
+<li>Testen Sie das Programm ob es tut was es soll.</li>
+<li>Entfernen Sie die Ausgabe, und fügen Sie stattdessen ein <code>if</code> und <code>else</code> ein, welches auf die Eingabe reagiert.</li>
+</ol>
+</blockquote>
+<blockquote>
+<h3><a class="header" href="#achtung-2" id="achtung-2">Achtung</a></h3>
+<p>Vorsicht beim Vergleichen: Das Zeichen einer Zahl ist nicht gleich der Zahl. Zum Beispiel ist <code>&quot;2&quot; == 2</code> unwahr also <code>False</code>. Um diese beiden Werte sinnvoll zu vergleichen, muss das Zeichen <code>&quot;2&quot;</code> zur Zahl <code>2</code> konvertiert werden: <code>int(&quot;2&quot;) == 2</code> (<a href="040-ratespiel/../x-anhang/4-datentypen.html#umwandlung-von-datentypen">mehr dazu</a>).</p>
+</blockquote>
+<h1><a class="header" href="#wiederholungen-mit-while" id="wiederholungen-mit-while">Wiederholungen mit while</a></h1>
+<p>Oftmals in einem Computerprogramm soll der Computer Dinge wiederholen bis eine Bedingung nicht mehr zutrifft. Also zum Beispiel wäre es doch gut, wenn das Ratespiel nicht drei Versuche, sondern endlos viele Versuche erlauben würde.</p>
+<h2><a class="header" href="#der-befehl-while" id="der-befehl-while">Der Befehl While</a></h2>
+<p><code>while</code> wiederholt einen Programmteil so oft, bis die Bedingung nicht mehr zutrifft.</p>
+<p>Der Aufbau des Befehls ist sehr ähnlich zu dem <code>if</code>-Befehl.</p>
+<p>Zuerst kommt das Schlüsselwort <code>while</code>, danach die Bedingung gefolgt von einem Doppelpunkt. In den nächsten Zeilen eingerückt die Befehle, die wiederholt werden sollen.</p>
+<p>Ein konkretes Beispiel <code>ohneende.py</code>, welches immer wieder nach einer Eingabe fragt, bis <code>ende</code> eingegeben wurde (es wird hier <code>!=</code> also ungleich verwendet. Alle möglichen  <a href="040-ratespiel/../x-anhang/2-bedingungen.html">Bedingungen</a>):</p>
+<pre><code class="language-python">import turtle
+t = turtle.Pen()
+eingabe = turtle.textinput(title=&quot;Sag ende&quot;, prompt=&quot;Was sagst du?&quot;)
+while eingabe != &quot;ende&quot;:
+    # Schreibe den Text in das Turtle-Fenster
+    t.write(&quot;Bei der Eingabe -&quot; + eingabe + &quot;- konnte ich kein ende finden&quot;)
+    # Erneute Abfrage eines Wortes
+    eingabe = turtle.textinput(title=&quot;Sag ende&quot;, prompt=&quot;Was sagst du?&quot;)
+    # Lösche das vorher geschriebene
+    t.clear()
+t.write(&quot;So, jetzt ist aber fertig.&quot;)
+</code></pre>
+<p>Es wird an diesem Beispiel deutlich, dass die Wiederholung unter Umständen auch Null mal stattfindet. Es wird  vor jedem Schleifenaufruf die Bedingung überprüft. Wird also schon beim ersten Mal eingeben <code>ende</code> eingegeben (der <code>textinput</code>-Befehl in der ersten Zeile im Beispiel), dann ist Eingabe schon beim allerersten überprüfen gleich <code>ende</code> das heißt durch den Vergleich entsteht der Wahrheitswert <code>False</code>.</p>
+<p>Solange aus der Bedingung <code>True</code> entsteht werden die enthaltenen Befehle wiederholt. Das letzte <code>t.write</code> hat weniger Leerzeilen am Anfang der Zeile und gehört damit nicht mehr zu dem <code>while</code>, wird also nicht mehr wiederholt bzw. nicht übersprungen.</p>
+<blockquote>
+<h3><a class="header" href="#Übung-11" id="Übung-11">Übung</a></h3>
+<ol>
+<li>Schreiben Sie in die Datei <code>darum.py</code> eine <code>while</code>-Schleife, die immer fragt <code>&quot;warum soll ich? &quot;</code> erst bei der Eingabe <code>&quot;schluss jetzt!&quot;</code> beendet sich die Schleife.</li>
+<li>Schreiben Sie in die Datei <code>weiter.py</code> eine Schleife, die die Frage <code>&quot;immer noch weiter? &quot;</code> wiederholt <strong>solange</strong> man <code>&quot;weiter&quot;</code> eingibt.</li>
+</ol>
+</blockquote>
+<h1><a class="header" href="#zufall" id="zufall">Zufall</a></h1>
+<p>Für das Spiel wäre es natürlich schön, wenn sich der Computer die Zahl, die im Ratespiel zu erraten ist, selbst ausdenkt, da es sonst recht schnell langweilig wird.</p>
+<p>Um eine zufällige Zahl zu generieren, benötigt Python ein Modul.
+Dieses kann mit <code>import random</code> geladen werden.</p>
+<p>Möchte man nun eine Funktion des <code>random</code>-Moduls nutzen, so muss man immer <code>random.&lt;funktion&gt;</code> schreiben. Wobei <code>&lt;funktion&gt;</code> natürlich durch den Namen einer Funktion zu ersetzen ist. Dieser <code>.</code> bedeutet so etwas wie &quot;aus&quot; oder besser gesagt &quot;dieser Teil&quot;. Der Punkt wird auch an anderen Stellen für ähnliche Bedeutungen verwendet.</p>
+<p>Die Funktion, die eine zufällige Zahl produziert und zurück gibt, heißt <code>randint</code>. Sie nimmt zwei Parameter, also zwei Eingaben entgegen. Die erste Zahl ist die untere Grenze, die zweite Zahl ist die obere mögliche Grenze der Zufallszahlen.</p>
+<p>Mit <code>random.randint(0, 100)</code> erzeugt man also eine zufällige
+ganze Zahl zwischen <code>0</code> und <code>100</code>.</p>
+<p>Beispiel im Ausprobierfenster (unterer Teil von Thonny):</p>
+<pre><code class="language-python">&gt;&gt;&gt; import random
+&gt;&gt;&gt; random.randint(0, 100)
+48
+&gt;&gt;&gt; random.randint(0, 100)
+78
+</code></pre>
+<p>Diese Zufallszahl kann natürlich auch in eine Variable gespeichert werden mit <code>zahl = random.randint(0,100)</code>.</p>
+<p>Es folgt ein einfaches Beispiel, welches einen Münzwurf simuliert. Jedes mal, wenn man es startet gibt es entweder Kopf oder Zahl aus.</p>
+<pre><code class="language-python">import random
+münze = random.randint(0,1)
+if münze == 1:
+  print(&quot;Kopf&quot;)
+else:
+  print(&quot;Zahl&quot;)
+</code></pre>
+<h1><a class="header" href="#das-spiel" id="das-spiel">Das Spiel</a></h1>
+<p>Wenn Sie bis jetzt gut aufgepasst haben können Sie jetzt das Spiel jetzt selbst erstellen. Die folgenden Schritte können Ihnen als Hilfe zur Erstellung des Spiels dienen.</p>
+<blockquote>
+<h3><a class="header" href="#Übungen-2" id="Übungen-2">Übungen</a></h3>
+<p>Schreiben Sie folgende Aufgaben in die Datei <code>ratespiel.py</code>.</p>
+<ol>
+<li>Schreiben Sie ein Programm, welches eine Zufallszahl zwischen <code>1</code> und <code>10</code> generiert, diese in eine Variable speichert und dann ausgibt.</li>
+<li>Erweitern Sie dieses Programm so, dass es drei mal nach einem Tipp fragt, die Ausgabe der zahl sollte natürlich entfernt werden. Sie haben diese Aufgabe schon einmal im Kapitel <a href="040-ratespiel/04.3-bedingtesausfuehren.html#%C3%9Cbung-zahlenratespiel">Fallunterscheidung</a> gelöst.</li>
+<li>Ersetzen Sie jetzt die verschachtelten <code>if</code>s durch ein <code>while</code>, welches die Frage immer wieder wiederholt bis die richtige Zahl erraten ist. Sie haben etwas ähnliches im Kapitel <a href="040-ratespiel/04.4-wiederholungenwhile.html">Wiederholungen mit While</a> gemacht.</li>
+<li>Nun geben Sie jedes Mal aus, ob der Tipp zu groß oder zu klein war. Es sollte nun möglich sein die Zahl in 3 Versuchen zu erraten.</li>
+<li>Erweitern Sie auch die Zufallszahl auf eine Zahl zwischen 1 und 100. Oder sogar 1 und 1000.</li>
+<li>Bonus: Überlegen Sie nach wie vielen Tipps sie jeweils die Antwort sicher wissen können.</li>
+<li>Bonus: Statt einfach Text zu schreiben, könnte das Programm auch mit turtle etwas malen. z.B. einen Pfeil nach oben für zu klein, nach unten für zu groß.</li>
+</ol>
+<p>Wenn das Programm fertig ist sollte es so aussehen:</p>
+<pre><code>Tipp: 5
+zu klein
+Tipp: 8
+zu groß
+Tipp: 7
+richtig
+</code></pre>
+</blockquote>
+<h1><a class="header" href="#erstellen-eines-galgenmännchen-spiels-mit-turtle" id="erstellen-eines-galgenmännchen-spiels-mit-turtle">Erstellen eines Galgenmännchen-Spiels mit Turtle</a></h1>
+<p>In diesem Kapitel geht es darum ein kleines Spiel mit dem Turtle-Modul zu schreiben.</p>
+<h2><a class="header" href="#die-spielregeln-1" id="die-spielregeln-1">Die Spielregeln</a></h2>
+<p>Das Ziel des Spiels ist es ein Wort zu erraten, von dem zu Beginn nur die Anzahl der Buchstaben durch eine entsprechende Anzahl von Strichen gekennzeichnet ist. Jetzt müssen über einen Dialog Buchstaben geraten werden. Ist ein Buchstabe im gesuchten Wort enthalten, wird dieser an allen Positionen des Wortes angezeigt. Ist er nicht enthalten, wird die Strichmännchengrafik um einen Schritt fortgesetzt. Gewonnen hat man, wenn das Wort erraten ist, bevor die Strichmännchengrafik fertig ist. Verloren hat man, wenn das Strichmännchen zuerst fertig gezeichnet ist.</p>
+<h1><a class="header" href="#schrittweises-zeichnen-des-galgenmännchens" id="schrittweises-zeichnen-des-galgenmännchens">Schrittweises Zeichnen des Galgenmännchens</a></h1>
+<p>Zunächst müssen die einzelnen Schritte des Galgenmännchens einzeln von jeweils einer Funktion gezeichnet werden. Erstellen Sie hierfür ein eigenes Modul <code>hangmanschritte</code>. Wenn sie sich jetzt fragen, woher sie denn wissen sollen wie das geht? Das heißt so viel wie erstellen Sie eine neue Datei mit dem Namen <code>hangmanschritte.py</code> und lösen Sie darin die hier gestellten Aufgaben.</p>
+<p>Wenn alles gezeichnet ist sollte das Ganze so aussehen:</p>
+<p><img src="050-galgen/img/hangmansteps.png" alt="Hangman Schritte" /></p>
+<p>Natürlich darf diese Grafik nach belieben angepasst werden, sodass jeder etwas anderes aufhängt... oder es kann die gewaltfreie Version gemacht werden, indem man eine Blume schrittweise zeichnet.</p>
+<h3><a class="header" href="#anfangs-vorlage" id="anfangs-vorlage">Anfangs-Vorlage</a></h3>
+<pre><code class="language-python">import turtle
+t = turtle.Pen()
+t.shape(&quot;turtle&quot;)
+
+# Funktionen zwischen diesen beiden Zeilen definieren
+
+# Funktionen Ende
+
+zeichenliste = []
+
+# Testen
+if __name__ == &quot;__main__&quot;:
+    for schritt in zeichenliste:
+      schritt()
+</code></pre>
+<h3><a class="header" href="#eine-funktion-für-den-hügel" id="eine-funktion-für-den-hügel">Eine Funktion für den Hügel</a></h3>
+<p>Jede zu erstellende Funktion muss:</p>
+<ol>
+<li>erstellt werden</li>
+<li>zu der zeichenliste hinzugefügt werden</li>
+</ol>
+<p>Als Beispiel wird zunächst der Hügel gezeichnet.</p>
+<pre><code class="language-python">
+def huegel():
+  t.left(90)
+  t.penup()
+  t.backward(200)
+  t.pendown()
+  t.circle(100,180)
+  t.right(90)
+  t.penup()
+  t.backward(100)
+  t.right(90)
+  t.forward(100)
+  t.pendown()
+</code></pre>
+<p>Dann der <code>zeichenliste</code> hinzu gefügt:</p>
+<pre><code class="language-python">zeichenliste = [huegel]
+</code></pre>
+<p>Erst wenn die Funktion der <code>zeichenliste</code> hinzugefügt ist, wird sie auch gezeichnet.</p>
+<h3><a class="header" href="#jeder-schritt-des-galgenmännchens-braucht-eine-funktion" id="jeder-schritt-des-galgenmännchens-braucht-eine-funktion">Jeder Schritt des Galgenmännchens braucht eine Funktion</a></h3>
+<p>Nachdem nun der Hügel gezeichnet werden kann muss für jeden der Schritte eine Funktion geschrieben werden. Es ist sinnvoll, am Ende jeder Funktion zu dem Punkt zu fahren, wo die nächste Funktion weiter machen muss.</p>
+<p>Die zu schreibenden Funktionen sind:</p>
+<ul>
+<li><code>huegel</code></li>
+<li><code>senkrechte</code></li>
+<li><code>waagerechte</code></li>
+<li><code>stütze</code> (kleiner diagonaler Stützbalken zwischen senkrechter und waagerechter)</li>
+<li><code>seil</code></li>
+<li><code>kopf</code> (mit Gesicht)</li>
+<li><code>körper</code></li>
+<li><code>arme</code></li>
+<li><code>beine</code></li>
+</ul>
+<blockquote>
+<h3><a class="header" href="#notiz-1" id="notiz-1">Notiz</a></h3>
+<p>Die findigen werden ein seltsames <code>if</code> bemerkt haben. Diese bedeutet, dass der Programmcode nur dann ausgeführt wird, wenn das Modul direkt gestartet wird, nicht aber, wenn es in ein anderes Modul eingebunden wird.</p>
+</blockquote>
+<h3><a class="header" href="#noch-noch-eine-lösung-für-den-senkrechte-schritt" id="noch-noch-eine-lösung-für-den-senkrechte-schritt">Noch noch eine Lösung für den <code>senkrechte</code>-Schritt</a></h3>
+<p>Diese Funktion ist viel einfacher:</p>
+<pre><code class="language-python">def senkrechte():
+    t.forward(300)
+    t.right(90)
+</code></pre>
+<p>Die Funktionen müssen alle zwischen den beiden Kommentarzeilen sein. Wurde auch die Senkrechte Funktion definiert kann sie zu <code>zeichenliste</code> hinzu gefügt werden:</p>
+<pre><code class="language-python">zeichenliste = [huegel, senkrechte]
+</code></pre>
+<p>Es sollte jetzt kein Problem mehr sein alle nötigen Funktionen zu Definieren.</p>
+<h1><a class="header" href="#das-eigentliche-spiel" id="das-eigentliche-spiel">Das eigentliche Spiel</a></h1>
+<p>Nachdem Sie nun die Schritte im <code>hangmanschritte</code>-Modul geschrieben haben, erstellen Sie jetzt das <code>hangman</code>-modul indem sie eine Datei mit Namen <code>hangman</code> erstellen.</p>
+<p>In dieser neuen Datei werden zunächst die Funktionen aus dem <code>hangmanschritte</code>-modul importiert.</p>
+<pre><code class="language-python">import turtle
+import hangmanschritte
+</code></pre>
+<h1><a class="header" href="#die-abfrage-des-hangman" id="die-abfrage-des-hangman">Die Abfrage des Hangman</a></h1>
+<p>Nachdem wir jetzt das Bild zeichnen können kommt nun die Abfrage. Der Computer soll den Menschen nach einem Buchstaben fragen, welcher dann in einem späteren Schritt weiter verarbeitet wird.</p>
+<p>Die dafür verwendete Funktion <code>turtle.textinput()</code> kennen Sie schon aus vorherigen Kapiteln.</p>
+<p>Es soll jetzt aber nicht nur einmal gefragt werden, sondern immer wieder. Der <code>turtle.textinput()</code> muss also mit <code>for</code> wiederholt werden. Die Anzahl der Wiederholungen der Frage ist genau die Anzahl der Zeichenschritte.</p>
+<p>Das heißt zuerst schreiben wir alle Zeichenschritte in eine Liste:</p>
+<pre><code class="language-python">schritte = [hügel, senkrechte, waagerechte, stütze, seil, kopf, körper, beine, arme]
+</code></pre>
+<p>Zunächst können die Funktionsaufrufe (die am Anfang mit <code>#</code> begonnen haben) gelöscht werden. Diese waren nur zum Testen der Zeichnungen.</p>
+<p>Für jeden Zeichenschritt fragen wir einmal. Gleichzeitig können wir für jede Frage auch gleich das entsprechende zeichnen:</p>
+<pre><code class="language-python">for schritt in schritte:
+  turtle.textinput(&quot;Hangman&quot;, &quot;Welchen Buchstaben tippen Sie?&quot;)
+  schritt()
+</code></pre>
+<p>Erstmal wird, egal was man eingibt, immer der nächste Schritt gezeichnet.</p>
+<h1><a class="header" href="#eine-liste-mit-wörtern-die-im-spiel-vorkommen-können" id="eine-liste-mit-wörtern-die-im-spiel-vorkommen-können">Eine Liste mit Wörtern, die im Spiel vorkommen können.</a></h1>
+<p>Da das Programm nicht selbstständig Wörter kennt, muss man ihm eine Liste von Wörtern zur Verfügung stellen, aus welchen sich das Programm ein zufälliges Wort auswählt.</p>
+<p>Da in der Worliste sehr viele Wörter sind und damit unsere Datei sehr groß würde, speichern wir die Worte in eine separate Datei und binden diese dann ein.</p>
+<p>Kopieren Sie folgendes in eine neue Datei: <code>wortliste.py</code></p>
+<pre><code>wörter = [&quot;lyrisches&quot;,
+&quot;Formelement&quot;,
+&quot;Bedeutung&quot;,
+&quot;textimmanenten&quot;,
+&quot;semantische&quot;,
+&quot;entwickelten&quot;,
+&quot;Metapher&quot;,
+&quot;eigenständigen&quot;,
+&quot;teilweise&quot;,
+&quot;graphische&quot;,
+&quot;Enjambements&quot;,
+&quot;Äußerung&quot;,
+&quot;Orientierung&quot;,
+&quot;erzeugt&quot;,
+&quot;absichtsvollen&quot;,
+&quot;Goethes&quot;,
+&quot;bereits&quot;,
+&quot;Zeilenumbrüche&quot;,
+&quot;kultiviert&quot;,
+&quot;literarischen&quot;,
+&quot;Ausdruckskraft&quot;,
+&quot;Zeilenumbruch&quot;,
+&quot;lautlichen&quot;,
+&quot;technisch&quot;,
+&quot;Überstrukturierung&quot;,
+&quot;Subjektivität&quot;,
+&quot;sprachlichen&quot;,
+&quot;sprachlichformal&quot;,
+&quot;einfachen&quot;,
+&quot;dramatischen&quot;,
+&quot;verwendet&quot;,
+&quot;erhoben&quot;,
+&quot;Onomatopoesie&quot;,
+&quot;Subjekt&quot;,
+&quot;Mittelpunkt&quot;,
+&quot;Lyrische&quot;,
+&quot;Visuelle&quot;,
+&quot;allerdings&quot;,
+&quot;beispielsweise&quot;,
+&quot;lebendigen&quot;,
+&quot;solchen&quot;,
+&quot;Strophenbau&quot;,
+&quot;phonologische&quot;,
+&quot;unterscheiden&quot;,
+&quot;Verzicht&quot;,
+&quot;angesetzten&quot;,
+&quot;Prosatexten&quot;,
+&quot;sprachliche&quot;,
+&quot;Jahrhunderts&quot;,
+&quot;lyrische&quot;,
+&quot;besondere&quot;,
+&quot;Kriterium&quot;,
+&quot;Assonanzen&quot;,
+&quot;konkreten&quot;,
+&quot;Gestalt&quot;,
+&quot;Zentrales&quot;,
+&quot;Lyriktheorien&quot;,
+&quot;stellen&quot;,
+&quot;irrelevant&quot;,
+&quot;Dichtung&quot;,
+&quot;spielen&quot;,
+&quot;weitgehenden&quot;,
+&quot;Sprachwissenschaft&quot;,
+&quot;Ausdrucksmittel&quot;,
+&quot;Wörtern&quot;,
+&quot;Sprachmaterials&quot;,
+&quot;linguistisch&quot;,
+&quot;dominanten&quot;,
+&quot;Textbedeutung&quot;,
+&quot;verschiedenen&quot;,
+&quot;Metaphern&quot;,
+&quot;lyrischer&quot;,
+&quot;Prägnanz&quot;,
+&quot;Avantgarden&quot;,
+&quot;Wortgruppen&quot;,
+&quot;einzelnen&quot;,
+&quot;Unterschied&quot;,
+&quot;Lautpoesie&quot;,
+&quot;bezieht&quot;,
+&quot;Rhythmen&quot;,
+&quot;orientierter&quot;,
+&quot;zahlreiche&quot;,
+&quot;Gattungsgeschichte&quot;,
+&quot;Distinktionsmerkmal&quot;,
+&quot;sinnstiftenden&quot;,
+&quot;rhetorische&quot;,
+&quot;Jahrhundert&quot;,
+&quot;formale&quot;,
+&quot;Gewohnten&quot;,
+&quot;antiken&quot;,
+&quot;Frankreich&quot;,
+&quot;Ökonomie&quot;,
+&quot;Semantik&quot;,
+&quot;Qualitäten&quot;,
+&quot;entsteht&quot;,
+&quot;Konstitution&quot;,
+&quot;strengere&quot;,
+&quot;epischen&quot;,
+&quot;Autoren&quot;,
+&quot;verwendeten&quot;,
+&quot;letztlich&quot;,
+&quot;Phonologie&quot;,
+&quot;abweichenden&quot;,
+&quot;mittelalterlichen&quot;,
+&quot;Anordnung&quot;,
+&quot;aufgefasst&quot;,
+&quot;Versmaß&quot;,
+&quot;Gedichte&quot;,
+&quot;erhöhtem&quot;]
+</code></pre>
+<h1><a class="header" href="#einbinden-der-wortlistendatei" id="einbinden-der-wortlistendatei">Einbinden der Wortlistendatei</a></h1>
+<p>Da nun die Wortlistendatei erstellt ist, kann diese nun in der ursprünglichen <code>hangman.py</code>-Datei eingebunden werden. Der Einbindebefehl wurde schon öfter verwendet, ohne dass Sie es wussten. Außer der Wortliste wird nun auch noch das Zufallsmodul eingebunden.</p>
+<pre><code class="language-python">import wortliste
+import random
+</code></pre>
+<p>da wir beides noch nicht verwenden erscheint noch keine Veränderung. Es sollte aber auch kein Fehler produziert werden, wenn das Programm ausgeführt wird.</p>
+<p>Nun kann ein zufälliges Wort ausgewählt werden:</p>
+<pre><code class="language-python">wort = random.choice(wortliste.wörter)
+</code></pre>
+<p>Um jetzt für jeden der Buchstaben eine Linie zu erstellen machen wir uns ein zweites turtle, welches nur für das Zeichnen der Linien und das schreiben der Buchstaben zuständig ist. Dieses muss dann für jeden Buchstaben eine kurze Linie zeichnen. Zur späteren einfacheren Wiederverwendung wird hierzu eine Funktion definiert.</p>
+<pre><code class="language-python">s = turtle.Pen()
+s.hideturtle()
+def drawlines():
+  s.penup()
+  s.goto(-200, 350)
+  s.pendown()
+  for buchstabe in wort:
+    s.forward(20)
+    s.penup()
+    s.forward(20)
+    s.pendown()
+
+drawlines()
+</code></pre>
+<p>Um erstmal zu sehen, was passiert, schreiben wir die Buchstaben einfach noch mit rein.</p>
+<pre><code class="language-python">def drawlines():
+  ...
+  for buchstabe in wort:
+    s.forward(15)
+    s.write(buchstabe)
+    s.forward(15)
+    s.penup()
+    ...
+</code></pre>
+<p>Im Folgenden sollen natürlich die Buchstaben nur dann erscheinen, wenn sie schon einmal getippt wurden.</p>
+<h1><a class="header" href="#speichern-und-verwenden-der-tipps" id="speichern-und-verwenden-der-tipps">Speichern und verwenden der Tipps</a></h1>
+<p>Zunächst müssen die Tipps immer abgespeichert werden, dass das Programm immer später auch noch weiß, was schon getippt wurde. Hierzu verwenden wir die in der <code>for</code>-Schleife verwendete <code>turtle.textinput</code> Funktion.</p>
+<p>Der eingegebene Buchstabe muss zunächst in eine Variable gespeichert werden. Dann muss diese Variable zu der Liste der gefundenen Buchstaben hinzu gefügt werden.</p>
+<pre><code class="language-python">gefunden = &quot;&quot;
+for schritt in schritte:
+  buchstabe = turtle.textinput(&quot;Hangman&quot;, &quot;Welchen Buchstaben tippen Sie?&quot;)
+  if buchstabe in wort:
+    gefunden = gefunden + buchstabe
+  else:
+    schritt()
+</code></pre>
+<h1><a class="header" href="#eintragen-der-richtig-geratenen-buchstaben" id="eintragen-der-richtig-geratenen-buchstaben">Eintragen der richtig geratenen Buchstaben</a></h1>
+<p>Da jetzt die schon geratenen Buchstaben abgespeichert sind kann man nun die Buchstaben auch nur anzeigen, wenn die Buchstaben schon erraten sind. Hierzu muss nochmals die Funktion <code>drawlines</code> verändert werden. Zuerst müssen die gefundenen Buchstaben an die Funktion weiter gegeben werden. Dann muss die Funktion jedes Mal zuerst die kompletten Sachen von dieser Schildkröte löschen. Das ist mit <code>s.clear()</code> möglich. Dann müssen die Striche und Buchstaben neu und entsprechend dem aktuellen Stand gezeichnet werden.</p>
+<pre><code class="language-python">def drawlines(geratenes):
+  s.clear()
+  s.penup()
+  s.goto(-200, 350)
+  s.pendown()
+  for buchstabe in wort:
+    s.forward(10)
+    if buchstabe in geratenes:
+      s.write(buchstabe, align=&quot;center&quot;, font=&quot;arial 12 bold&quot;)
+    s.forward(10)
+    s.penup()
+    s.forward(20)
+    s.pendown()
+</code></pre>
+<p>In der <code>s.write</code> Zeile sind noch ein paar Parameter hinzu gefügt, sodass jetzt die Buchstaben größer und schöner sind.</p>
+<p>Jedesmal nachdem ein Tipp abgegeben wurde muss wieder <code>drawlines</code> aufgerufen werden. Da nach einem Tipp erneut gefragt werden muss, ohne dass der nächste Schritt gemacht wird muss die Frage solange wiederholt werden, bis ein Fehler passiert.</p>
+<pre><code class="language-python">
+for schritt in schritte:
+  buchstabe = turtle.textinput(&quot;Hangman&quot;, &quot;Welchen Buchstaben tippen Sie?&quot;) or &quot;&quot;
+  while buchstabe in wort:
+    gefunden = gefunden + buchstabe
+    drawlines(gefunden)
+    buchstabe = turtle.textinput(&quot;Hangman&quot;, &quot;Welchen Buchstaben tippen Sie?&quot;) or &quot;&quot;
+  else:
+    schritt()
+</code></pre>
+<h1><a class="header" href="#feinschliff-am-spiel" id="feinschliff-am-spiel">Feinschliff am Spiel</a></h1>
+<p>Vielleicht ist schon aufgefallen, dass das Spiel zwischen großen und kleinen Buchstaben unterscheidet. Das ist unüblich beim Galgenmännchenspiel. Darum sollte das noch angepasst werden. Ein Buchstabe hat die Möglichkeit zu einem Großbuchstaben gemacht zu werden indem <code>upper</code> verwendet wird.</p>
+<p>Beispiel aus <code>'a'.upper()</code> wird <code>'A'</code>.</p>
+<p>Die <code>while</code>-Schleife wird also folgendermaßen angepasst:</p>
+<pre><code class="language-python">while buchstabe.lower() in wort or buchstabe.upper() in wort:
+    gefunden = gefunden + buchstabe.lower() + buchstabe.upper()
+    …
+</code></pre>
+<p>Es sind natürlich noch viele Verbesserungen und kleine Anpassungen möglich, die dieses Spiel besser machen können. Fühlen Sie sich frei zu experimentieren!</p>
+<h1><a class="header" href="#programmieren-eines-snake-spiels" id="programmieren-eines-snake-spiels">Programmieren eines Snake-Spiels</a></h1>
+<p>In diesem Kapitel wird ein Snakespiel programmiert. Dieses Spiel ist als Handy-Spiel (nicht Smartphone) bekannt geworden.</p>
+<p><img src="060-snake/img/snake.png" alt="Snake Spiel" /></p>
+<p>Die Regeln:</p>
+<ul>
+<li>Die Schlange bewegt sich immer forwärts und hält nie an.</li>
+<li>Sie kann waagerecht, oder senkrecht kriechen.</li>
+<li>Sie darf nicht über sich selbst kriechen.</li>
+<li>Wenn sie einen Punkt frisst wird sie länger.</li>
+<li>Das Ziel ist es möglichst Viele Punkte zu fressen.</li>
+</ul>
+<h1><a class="header" href="#computerspiele" id="computerspiele">Computerspiele</a></h1>
+<h1><a class="header" href="#der-bildschirm-und-pixel" id="der-bildschirm-und-pixel">Der Bildschirm und Pixel</a></h1>
+<p>Um ein Spiel zu spielen wird auf dem Bildschirm das Bild des Computerspiels angezeigt.
+Es besteht aus vielen kleinen Punkten, die Pixel genannt werden. Der Computer muss dem Bildschirm 60 mal in der Sekunde sagen wie jetzt aktuell welcher Pixel eingefärbt werden soll. Jeder Pixel ist dabei als eine Kombination von drei Farben angegeben: Rot, Grün, Blau.</p>
+<p>Für das Snake wird diese Darstellung von dem Pythonmodul game.py so vereinfacht, dass nur ein Fenster sich öffnet, welches 20x20 Pixel enthält. Die Farben werden so vereinfacht, dass alle positiven Zahlen blau sind, alle negativen eine andere Farbe haben. 0 ist weiß.</p>
+<p>Das was der Bildschirm anzeigt ist eine Liste von Zahlen. Zum Beispiel so:</p>
+<pre><code class="language-python">[0,0,0,0,1,2,3,4,0,-1]
+</code></pre>
+<p>Wären also vier weiße , vier blaue, noch ein weißer, und ein roter Pixel.</p>
+<p>Diese Liste wird <code>level</code> genannt. Die Liste hat nur eine Dimmension, das heißt alle Pixel liegen in einer Zeile nacheinander. Dass man damit das quadratische Spielfeld füllen kann, besteht die erste Zeile aus den ersten 20 Zahlen, danach kommt mit den nächsten 20 Zahlen die zweite Zeile und so weiter.</p>
+<h1><a class="header" href="#starten-des-spiels" id="starten-des-spiels">Starten des Spiels</a></h1>
+<p>Wie auch das <code>turtle</code>-Modul muss das passende <code>game</code>-modul erst geladen werden. Im Gegensatz zum Turtle-Modul ist das <code>game</code>-modul allerdings nicht standardmäßig mit dabei. Es muss zunächst heruntergeladen werden: <a href="https://raw.githubusercontent.com/enaut/snake/master/game.py">game.py</a></p>
+<p>Im selben Ordner, wie die Datei <code>snake.py</code> erstellt und das <code>game</code>-modul geladen. Dies geschieht mit <code>import game</code>.</p>
+<p>Im nächsten Schritt wird ein neues Spielfenster erzeugt: <code>s = game.Spiel()</code></p>
+<p>Jetzt wird das leere <code>level</code> generiert, also ein <code>level</code>, das überall <code>0</code> stehen hat: <code>s.create()</code></p>
+<p>Und zuletzt wird das Spiel gestartet mit: <code>s.start()</code></p>
+<p>Die <code>snake.py</code>-Datei sieht also bis jetzt so aus:</p>
+<pre><code class="language-python">import game
+
+s = game.Spiel()
+s.create()
+
+s.start()
+</code></pre>
+<p>Alles was wir jetzt weiter mit dieser Datei verändern muss <strong>zwischen</strong> die <code>s.create()</code> und <code>s.start()</code> Zeile.</p>
+<blockquote>
+<h3><a class="header" href="#aufgabe-starten-des-fensters" id="aufgabe-starten-des-fensters">Aufgabe: Starten des Fensters</a></h3>
+<p>Öffnen und starten Sie ein Spiel. Probieren Sie dabei zwischendurch immer wieder ob alles funktioniert wie erwartet.</p>
+<p>Es ist völlig normal, dass der Inhalt des Fensters komplett weiß ist.</p>
+</blockquote>
+<h1><a class="header" href="#zugriff-auf-das-level" id="zugriff-auf-das-level">Zugriff auf das Level</a></h1>
+<p>Nachdem nun das Spielfenster geöffnet ist, können einzelne Pixel verändert werden.
+in <code>s.level</code> ist die gesamte Liste der Pixel gespeichert. Es kann nun zum Beispiel der zehnte Pixel der ersten Zeile blau gefärbt werden, indem man folgende Zeile einfügt zwischen <code>create</code> und <code>start</code> einfügt.</p>
+<pre><code class="language-python">s.level[9] = 1
+</code></pre>
+<blockquote>
+<h3><a class="header" href="#aufgabe-das-erste-level" id="aufgabe-das-erste-level">Aufgabe: Das erste Level</a></h3>
+<ul>
+<li>Verändern Sie das Level so, dass es dieses Muster hat:</li>
+</ul>
+<p><img src="060-snake/img/snakelevel.png" alt="Level 1" /></p>
+<ul>
+<li>Zeichnen Sie dieses Level mit einer Funktion namens <code>level1</code>. Erstellen Sie die Funktionen mit <code>def</code> wie im Kapitel <a href="060-snake/../3-turtle/120-funktionen.html">Funktionen</a></li>
+<li>Erstellen Sie noch eine Funktion <code>level2</code>, die ein eigenes Muster macht.</li>
+</ul>
+</blockquote>
+<h1><a class="header" href="#animation" id="animation">Animation</a></h1>
+<p>Ein Spiel wäre nun relativ langweilig, wenn sich nichts &quot;bewegen&quot; würde. Bei diesem Spiel Soll sich eine Schlange bewegen. Bewegung heißt, dass der Pixel <strong>vor</strong> dem Kopf der Schlange blau wird, und der letzte wieder weiß.</p>
+<blockquote>
+<h3><a class="header" href="#info" id="info">Info</a></h3>
+<p>Computerspiele laufen in frames ab. Also der Computer zeichnet jede Sekunde das komplette Bild was auf dem Bildschirm angezeigt wird mehrere male komplett neu. Das heißt eine Bewegung eines Dings ist eigentlich ein verschobenes neu zeichnen. Oder anders gesagt ein über den Bildschirm &quot;ruckeln&quot;. Das Spiel muss nun so gestaltet werden, dass dieses ruckeln als Bewegung wahrgenommen wird. In diesem Snake wird jeder &quot;Ruck&quot; eine halbe Sekunde dauern und die Schlange wird genau einen &quot;Riesenpixel&quot; weiter laufen.</p>
+</blockquote>
+<p>Betrachtet man nun den Ersten Pixel, also den Schlangenkopf und bleiben wir bei diesem Pixel so ist dieser Pixel nach einem Ruck nun der zweite Pixel der Schlange. Man kann feststellen, dass ein Pixel des Kopfes, der gerade Blau wird noch so lange blau ist bis er einmal die gesamte Schlange durchlaufen hat. Der Pixel ist also genau für so viele Rucke blau, wie die Schlange lang ist. Um das umzusetzen schreiben wir in das <code>s.level</code> also immer die Zahl, wie viele Rucke ein Pixel noch blau sein soll. Für den Kopfpixel ist dies immer die aktuelle Länge der Schlange. Für den nächsten Pixel ist dies genau eines weniger und für den nächsten noch eines weniger. Wir können also feststellen, dass wir mit jedem Ruck eine eins von jedem levelfeld abziehen müssen.</p>
+<p>Um dies zu tun schreiben wir zunächst eine Funktion die jedes Feld minus eins rechnet.</p>
+<blockquote>
+<h3><a class="header" href="#aufgabe-alle-minus-eins" id="aufgabe-alle-minus-eins">Aufgabe: Alle minus eins</a></h3>
+<ul>
+<li>
+<p>Schreiben Sie eine Funktion namens <code>ame()</code>, welche von jedem Pixel im Spielfeld eines abzieht.</p>
+<p>Ein paar Tipps:</p>
+<ul>
+<li>Funktionen waren das mit <code>def</code></li>
+<li>Verwenden Sie <code>for i in range(400):</code> um die Befehle für alle Pixel zu wiederholen.</li>
+<li>Sie können von dem i'ten Pixel eins abziehen mit folgender Zeile: <code>s.level[i] = s.level[i] - 1</code></li>
+</ul>
+<p>Schreiben Sie nun diese <code>ame</code>-Funktion.</p>
+</li>
+<li>
+<p>Generieren Sie ein Testlevel mit folgender Struktur:</p>
+<p><img src="060-snake/img/snaketestlevel.png" alt="Test Level" /></p>
+</li>
+<li>
+<p>Überprüfen Sie, ob <code>ame()</code> funktioniert, indem Sie es bei geöffnetem Spielfenster in den unteren Teil von Thonny eingeben. Nachdem Sie es eingegeben haben, sollte Ihre Schlange jetzt eines kürzer sein.</p>
+</li>
+<li>
+<p>Außerdem stellen Sie fest, dass jetzt der gesamte Hintergrund auch farbig geworden ist und überall <code>-1</code> steht. Das ist natürlich der Fall, weil wir auch von allen Nullen (<code>0</code> - also weiß) eins abgezogen haben.</p>
+</li>
+<li>
+<p>Es muss nun also mit <code>if</code> noch das abziehen beschränkt werden, sodass nur dann abgezogen wird, wenn der dort stehende Wert größer ist als <code>0</code>.</p>
+</li>
+</ul>
+</blockquote>
+<h1><a class="header" href="#frames" id="frames">Frames</a></h1>
+<p>Wie Oben dargestellt muss diese <code>ame()</code>-Funktion jetzt regelmäßig ausgeführt werden. Die meisten Spieleengines bieten hierfür eine Möglichkeit die Funktion als solche zu registrieren. Das heißt wir müssen dem <code>game</code>-Modul nur sagen, was es regelmäßig ausfüren soll. Der dafür zuständige Befehl ist: <code>s.addStep(ame)</code></p>
+<blockquote>
+<h3><a class="header" href="#Übung-12" id="Übung-12">Übung</a></h3>
+<p>Fügen Sie den Befehl <code>s.addStep(ame)</code> vor s.start zu Ihrem Snake hinzu.</p>
+<p>Wenn alles richtig erstellt ist, sollte jetzt die Schlange immer kürzer werden und verschwinden.</p>
+<p>Natürlich verschwindet jetzt die Schlange, statt zu laufen. Das ist so, weil noch kein neuer Kopf gesetzt wird.</p>
+</blockquote>
+<h1><a class="header" href="#setzen-des-neuen-kopfes" id="setzen-des-neuen-kopfes">Setzen des neuen Kopfes</a></h1>
+<p>Soll der Kopf der Schlange gesetzt werden muss zunächst bekannt sein wohin dieser gesetzt werden muss. Dies ist abhängig von der Richtung und der vorherigen Position. Zum Beispiel muss das Feld oberhalb des alten Kopfes angemalt werden, wenn die Schlange nach oben läuft.</p>
+<p>Um dies zu ermöglichen muss das Programm sich die Position des Kopfes sowie die Richtung merken:</p>
+<pre><code class="language-python">s.pos = 210
+s.dir = 1
+</code></pre>
+<p>Nun kann man mithilfe dieser Variablen eine Funktion schreiben, die die neue Kopfposition berechnet, und diesen auch zeichnet:</p>
+<pre><code class="language-python">def neuerKopf():
+    s.pos = s.pos + s.dir
+    s.level[s.pos] = 5
+</code></pre>
+<blockquote>
+<h3><a class="header" href="#Übung-13" id="Übung-13">Übung</a></h3>
+<ol>
+<li>Schreiben Sie die Funktion neuerKopf</li>
+<li>Fügen Sie die Funktion auch zu den regelmäßig ausgeführten Funktionen hinzu</li>
+<li>Testen Sie, ob Ihre Schlange läuft</li>
+<li>Probieren Sie alle möglichen Richtungen zu gehen (nach oben, nach unten, nach rechts, nach links), indem Sie bei <code>s.dir</code> andere Zahlen einspeichern.</li>
+</ol>
+</blockquote>
+<h1><a class="header" href="#steuerung-der-schlange-per-tastatur" id="steuerung-der-schlange-per-tastatur">Steuerung der Schlange per Tastatur</a></h1>
+<p>Nachdem nun die Schlange läuft, ist es jedoch immernoch nicht möglich diese per Tastatur zu steuern.</p>
+<p>Das Programm muss noch auf verschiedene Tasten &quot;hören&quot;. Die entsprechende Funktion heißt darum oft <code>keylistener</code> oder auf deutsch <code>reagiereauftasten</code>. Die Funktion reagiere auf Tasten bekommt einen parameter. Eine erste (Test-)Version dieser Funktion ist hier:</p>
+<pre><code class="language-python">def reagiereauftasten(taste):
+    print(&quot;Es wurde folgende Taste gedrückt: &quot;, taste)
+</code></pre>
+<p>Diese Funktion wird nun noch dem Spiel übergeben, sodass sie bei jedem Tastendruck ausgeführt wird. Schreiben Sie <code>s.addKeylistener(reagiereauftasten)</code> unten bei den <code>s.addStep</code> Zeilen.</p>
+<p>Wenn Sie jetzt das Spiel gestartet haben und ein paar Tasten drücken werden die gedrückten Tasten auf der Konsole ausgegeben. Tasten auf die reagiert wird sind: die Pfeiltasten, WASD, Escape. Bedenken Sie, dass die Tasten nur beim Spiel ankommen, wenn dieses im Vordergrund ist.</p>
+<p>In der <code>reagiereauftasten</code>-Funktion kann nun mit <code>if</code> usw. auf die Variable <code>taste</code> reagiert werden. Um zum Beispiel das Spiel mit der Escape(esc) Taste zu beenden kann die Funktion folgender maßen geändert werden.</p>
+<pre><code class="language-python">def reagiereauftasten(taste):
+    print(&quot;Es wurde folgende Taste gedrückt: &quot;, taste)
+    
+    if taste == &quot;Esc&quot;:
+        s.exit()
+</code></pre>
+<blockquote>
+<h3><a class="header" href="#Übung-14" id="Übung-14">Übung</a></h3>
+<ol>
+<li>Erweitern Sie die <code>reagiereauftasten</code>-Funktion, sodass Sie, wenn <code>&quot;Left&quot;</code> gedrückt wurde die <code>s.dir</code> Variable anpasst. (Wenn Sie wollen können Sie mehr L33t H4x0r sein, indem Sie die WASD Tasten zur Steuerung verwenden).</li>
+<li>Fügen Sie jetzt alle anderen Richtungen hinzu.</li>
+<li>Testen Sie ihr Spiel ausgiebig. Welche Probleme haben Sie noch?</li>
+</ol>
+</blockquote>
+<h1><a class="header" href="#cheat-sheet" id="cheat-sheet">Cheat-Sheet</a></h1>
+<h3><a class="header" href="#a-hrefx-anhang4-datentypenhtmlzahlen-und-wörtera" id="a-hrefx-anhang4-datentypenhtmlzahlen-und-wörtera"><a href="x-anhang/4-datentypen.html">Zahlen und Wörter</a></a></h3>
+<pre><code class="language-python">1, 2, 25, 10000000, 0.1, &quot;hallo&quot;, &quot;hallo welt!&quot;, &quot;&quot;&quot;merhzeiliger text
+geht so&quot;&quot;&quot;
+</code></pre>
+<h3><a class="header" href="#a-hrefx-anhang3-turtle090-listenhtmllistena" id="a-hrefx-anhang3-turtle090-listenhtmllistena"><a href="x-anhang/../3-turtle/090-listen.html">Listen</a></a></h3>
+<pre><code class="language-python">[], [1,2,3,4], range(5), range(5,15,2)
+</code></pre>
+<h3><a class="header" href="#a-hrefx-anhang2-programmieren2-ersteschrittehtmlrechnena" id="a-hrefx-anhang2-programmieren2-ersteschrittehtmlrechnena"><a href="x-anhang/../2-programmieren/2-ersteschritte.html">Rechnen</a></a></h3>
+<pre><code class="language-python">/ # Division
+* # Multiplikation
++ # Addition
+- # Subtraktion
+
+5 + 7
+4 * 4
+</code></pre>
+<h3><a class="header" href="#a-hrefx-anhang3-turtle060-variablenhtmlvariablena" id="a-hrefx-anhang3-turtle060-variablenhtmlvariablena"><a href="x-anhang/../3-turtle/060-variablen.html">Variablen</a></a></h3>
+<p>Variablen können verwendet werden um Zwischenergebnisse zu Speichern, oder einen Wert mehrmals zu verwenden.</p>
+<pre><code class="language-python">a = 50
+b = 70
+herbert = a + b
+</code></pre>
+<h3><a class="header" href="#a-hrefx-anhang040-ratespiel043-bedingtesausfuehrenhtmlfallunterscheidunga" id="a-hrefx-anhang040-ratespiel043-bedingtesausfuehrenhtmlfallunterscheidunga"><a href="x-anhang/../040-ratespiel/04.3-bedingtesausfuehren.html">Fallunterscheidung</a></a></h3>
+<p>Mit if können Teile des Programms nur unter bestimmten Bedingungen ausgeführt werden.</p>
+<pre><code class="language-python">if herbert &lt; 121:
+    herbert = herbert + 1
+</code></pre>
+<h3><a class="header" href="#a-hrefx-anhang2-programmieren2-ersteschrittehtmlein-und-ausgabea" id="a-hrefx-anhang2-programmieren2-ersteschrittehtmlein-und-ausgabea"><a href="x-anhang/../2-programmieren/2-ersteschritte.html">Ein und Ausgabe</a></a></h3>
+<pre><code class="language-python">print(&quot;hallo&quot;)
+input()
+</code></pre>
+<h3><a class="header" href="#wiederholung-a-hrefx-anhang040-ratespiel044-wiederholungenwhilehtmlwhilea-a-hrefx-anhang3-turtle040-forschleifenhtmlfora-a-hrefx-anhang3-turtle045-forschleifen2htmlfora" id="wiederholung-a-hrefx-anhang040-ratespiel044-wiederholungenwhilehtmlwhilea-a-hrefx-anhang3-turtle040-forschleifenhtmlfora-a-hrefx-anhang3-turtle045-forschleifen2htmlfora">Wiederholung <a href="x-anhang/../040-ratespiel/04.4-wiederholungenwhile.html">while</a>, <a href="x-anhang/../3-turtle/040-forschleifen.html">for</a>, <a href="x-anhang/../3-turtle/045-forschleifen2.html">for</a></a></h3>
+<pre><code class="language-python">while 1 &lt; 2:
+    print(&quot;go&quot;)
+
+for i in range(50):
+    print(&quot;stop&quot;)
+
+for i in &quot;hello&quot;:
+    print(i)
+
+for i in [25, 25, 1.9, 'hi', 'du']:
+    print(i)
+</code></pre>
+<h3><a class="header" href="#a-hrefx-anhang3-turtle120-funktionenhtmlfunktionena" id="a-hrefx-anhang3-turtle120-funktionenhtmlfunktionena"><a href="x-anhang/../3-turtle/120-funktionen.html">Funktionen</a></a></h3>
+<pre><code class="language-python">def doFun(name):
+   print(&quot;hello there&quot;, name)
+
+doFun(name=&quot;Gollom&quot;)
+doFun(name=&quot;Dobby&quot;)
+</code></pre>
+<h1><a class="header" href="#bedingungungen-schreiben" id="bedingungungen-schreiben">Bedingungungen schreiben</a></h1>
+<p>Neben den normalen Rechenoperationen kann Python auch Vergleichsoperationen. Diese geben immer entweder wahr (<code>True</code>) oder falsch (<code>False</code>) zurück:</p>
+<table><thead><tr><th>Operator (Zeichen)</th><th>ist <code>True</code>(wahr) wenn...</th></tr></thead><tbody>
+<tr><td><code>A == B</code></td><td>A ist gleich wie B</td></tr>
+<tr><td><code>A &lt; B</code></td><td>A ist kleiner als B</td></tr>
+<tr><td><code>A &gt; B</code></td><td>A ist größer als B</td></tr>
+<tr><td><code>A != B</code></td><td>A ist ungleich B</td></tr>
+<tr><td><code>A &lt;= B</code></td><td>A ist kleiner oder gleich B</td></tr>
+<tr><td><code>A &gt;= B</code></td><td>A ist größer oder gleich B</td></tr>
+</tbody></table>
+<p>Außerdem kann man noch zwei Wahrheitswerte mit den folgenden Befehlen kombinieren:</p>
+<table><thead><tr><th>Operator (Zeichen)</th><th>ist <code>True</code>(wahr) wenn...</th></tr></thead><tbody>
+<tr><td><code>A and B</code></td><td>ist wahr, wenn A und B wahr sind</td></tr>
+<tr><td><code>A or B</code></td><td>ist wahr, wenn A oder B oder beide wahr sind</td></tr>
+<tr><td><code>not A</code></td><td>ist wahr, wenn A unwahr (<code>False</code>) ist</td></tr>
+</tbody></table>
+<blockquote>
+<h3><a class="header" href="#Übung-welche-bedingungen-versteht-der-computer" id="Übung-welche-bedingungen-versteht-der-computer">Übung Welche Bedingungen versteht der Computer?</a></h3>
+<p>sind die folgenden Ausdrücke wahr oder falsch? - Schreiben Sie die Ergebnisse in die Datei <code>ifelse.py</code> mit. Nach einem <code>#</code> wird der Rest der Zeile vom Computer ignoriert.</p>
+<p>Für die erste Zeile ist die Lösung also: <code>5 &lt; 6 # Wahr (True)</code></p>
+<ol>
+<li><code>5 &lt; 6</code></li>
+<li><code>5 != 6</code></li>
+<li><code>5 &lt;= 6</code></li>
+<li><code>True and True</code></li>
+<li><code>False or True</code></li>
+<li><code>3 &lt; 4 and 4 &lt; 5</code></li>
+<li><code>not (3 != 4)</code></li>
+</ol>
+<p>Prüfen Sie die Ergebnisse, die Sie im Kopf herausgefunden haben mit Python im Ausprobierfenster nach.</p>
+</blockquote>
+<h1><a class="header" href="#fehler" id="fehler">Fehler</a></h1>
+<p>Vermutlich ist schon aufgefallen, wie kleinlich <code>python</code> auf die Korrektheit achtet. Sobald auch nur ein einzelner Buchstabe falsch ist, bekommt man einen Fehler zu sehen. Die Fehler geben meistens einen Hinweis darüber was falsch sein könnte.</p>
+<p>Der Fehler ist so aufgebaut, dass er zuerst die Position des Fehlers angibt. Hierzu werden einige Dateien gelistet. <strong>Erst in der letzten Zeile erscheint der eigentliche Fehler.</strong> Meistens reicht es die letzten beiden Zeilen des Fehlers zu betrachten.</p>
+<p>Im Folgenden sind ein paar Beispiele von Fehlern:</p>
+<h3><a class="header" href="#nameerror" id="nameerror">NameError</a></h3>
+<p>Mögliche Gründe:</p>
+<ul>
+<li>Eine Variable wurde nicht definiert</li>
+<li>Es wurden Anführungszeichen um Text vergessen</li>
+<li>Ein Befehl wurde falsch geschrieben (Achtung: auch Groß- und Kleinschreibung
+ist wichtig)</li>
+</ul>
+<p>Beispiel:</p>
+<pre><code class="language-python">&gt;&gt;&gt; print(z)
+Traceback (most recent call last):
+  File &quot;&lt;pyshell&gt;&quot;, line 1, in &lt;module&gt;
+NameError: name 'z' is not defined
+</code></pre>
+<h3><a class="header" href="#syntaxerror" id="syntaxerror">SyntaxError</a></h3>
+<p>Dieser Fehler ist relativ allgemein. Netterweise zeigt Python manchmal mit einem <code>^</code> auf die Stelle an der es den Fehler vermutet.</p>
+<p>Ursachen:</p>
+<ul>
+<li>Doppelpunkt vergessen</li>
+<li>Klammerfehler</li>
+<li>Anführungszeichenfehler</li>
+<li>Erwartete, aber nicht vorhandene Einrückung (intendation), also zu wenig Leerzeichen am Anfang der Zeile.</li>
+<li>Vorhandene, aber nicht erwartete Einrückung (intendation), also zu viele Leerzeichen am Anfang der Zeile</li>
+<li>...</li>
+</ul>
+<p>Im folgenden Beispiel wurden Doppelpunkte vergessen:</p>
+<pre><code class="language-python">&gt;&gt;&gt; if True
+  print(&quot;True&quot;)
+
+  File &quot;&lt;pyshell&gt;&quot;, line 1
+    if True
+          ^
+SyntaxError: invalid syntax
+</code></pre>
+<h3><a class="header" href="#typeerror" id="typeerror">TypeError</a></h3>
+<p>Dieser Fehler sagt, dass der Computer zum Beispiel eine Zahl und einen Buchstaben nicht zusammen addieren kann. (Zahl mit Zahl, sowie Buchstabe mit Buchstabe funktioniert).</p>
+<p>Ursachen:</p>
+<ul>
+<li>Vergessen ein Wort zu einer Zahl umzuwandeln.</li>
+<li>Vergessen eine Variable zu aktualisieren</li>
+<li>...</li>
+</ul>
+<p>Im folgenden Beispiel wird versucht eine Zahl <code>1</code> und einen Buchstaben <code>'i'</code> zu addieren:</p>
+<pre><code class="language-python">&gt;&gt;&gt; 1 + 'i'
+Traceback (most recent call last):
+  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+</code></pre>
+<h1><a class="header" href="#datentypen" id="datentypen">Datentypen</a></h1>
+<blockquote>
+<p>Ziel dieses Kapitels ist es zu verstehen, wie der Computer die Welt sieht. So wie wir Menschen verschiedene Sprachen sprechen, so gibt es für den Computer auch verschieden interpretierte Inhalte.</p>
+</blockquote>
+<p>Bis jetzt wurden zwei Datentypen verwendet. Zahlen (<code>1, 2, 3, 445, 1.2</code>) und Text (<code>&quot;hallo&quot;, &quot;tschüss&quot;, &quot;a&quot;, 'a', &quot;2&quot;</code>). Zahlen werden einfach als zahlen geschrieben. Um Gleitkommazahlen zu schreiben, muss man einen Punkt statt ein Komma schreiben: <code>1.2</code>. Text ist zwischen einfachen <code>'</code> (Auf der Tastatus ein großes <code>#</code>) oder doppelten <code>&quot;</code> (eine große <code>2</code>) Anführungszeichen. Es ist python egal, wie lange ein Text ist. Er muss jedoch in einer Zeile geschrieben sein. Soll ein Text über mehrere Zeilen gehen, so muss man dreifache Anführungszeichen verwenden: <code>&quot;&quot;&quot;</code>. Der darauf folgende Text ist alles Teil des Textes bis erneut drei Anführungszeichen folgen.</p>
+<p>Ein Beispiel hierfür:</p>
+<pre><code class="language-python">a = &quot;&quot;&quot;Das ist ein Meer,
+ein Textmeer,
+ein Meer aus Text,
+durch mehr Text.
+&quot;&quot;&quot;
+print(a)
+</code></pre>
+<p>ergibt ausgeführt:</p>
+<pre><code class="language-python">&gt;&gt;&gt; %Run gru.py
+Das ist ein Meer,
+ein Textmeer,
+ein Meer aus Text,
+durch mehr Text.
+</code></pre>
+<h2><a class="header" href="#umwandlung-von-datentypen" id="umwandlung-von-datentypen">Umwandlung von Datentypen</a></h2>
+<p>Wichtig ist auch noch zu bemerken, dass die zahl <code>2</code> verschieden ist von dem Buchstaben <code>&quot;2&quot;</code>. Soll etwas zu einem Text verwandelt werden, so kann der Befehl <code>str</code> verwendet werden (<code>str</code> ist die Kurzform von String, was die englische Bezeichnung für einen solchen Text ist). Etwas in eine ganze Zahl verwandeln funktioniert mit <code>int</code> (für Integer). Soll etwas in eine Gleitkommazahl verwandelt werden verwendet man den Befehl <code>float</code> (für floating point number).</p>
+<p>Beispiele für diese Verwandlungen:</p>
+<pre><code class="language-python">&gt;&gt;&gt; float(&quot;13.5&quot;)
+13.5
+&gt;&gt;&gt; int(&quot;15&quot;)
+15
+&gt;&gt;&gt; str(23)
+'23'
+&gt;&gt;&gt; int(str(23))
+23
+&gt;&gt;&gt; int(5.6)
+5
+</code></pre>
+<p>In der letzten Umformung ist zu beachten, dass nicht gerundet wird, sondern einfach die Kommastellen abgeschnitten werden.</p>
+<blockquote>
+<h3><a class="header" href="#beachte" id="beachte">Beachte</a></h3>
+<ul>
+<li>Text hat Anführungszeichen und kann beliebiges enthalten.</li>
+<li>Zahlen haben keine Anführungszeichen.</li>
+<li>Dezimalzahlen müssen mit Punkten statt Kommas aufgeschrieben werden.</li>
+</ul>
+</blockquote>
+<blockquote>
+<h3><a class="header" href="#Übungen-3" id="Übungen-3">Übungen</a></h3>
+<p>Speichern Sie diese Übung unter dem Namen <code>typen.py</code>.</p>
+<ol>
+<li>Speichern Sie in den Variablen mit den Namen <code>eis</code>, <code>zwerg</code>, <code>drache</code> die Werte <code>45</code>, <code>93</code>, <code>&quot;lo&quot;</code></li>
+<li>Multiplizieren Sie <code>eis</code> und <code>zwerg</code>, geben Sie das Ergebnis mit <code>print</code> aus.</li>
+<li>Multiplizieren Sie <code>eis</code> und <code>drache</code>, geben Sie das Ergebnis mit <code>print</code> aus.</li>
+<li>Addieren Sie <code>eis</code> und <code>Drache</code>, und geben Sie das Ergebnis aus. Wenn ein Fehler auftritt schauen Sie nocheinmal oben nach woran es liegen könnte: das Ergebniss sollte <code>45lo</code> sein.</li>
+</ol>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+
+    </body>
+</html>

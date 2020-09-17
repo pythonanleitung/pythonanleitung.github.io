@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<html lang="de" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Beispiel Funktion: Diagonale - Pythonanleitung</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        
+        <link rel="shortcut icon" href="../favicon.png">
+        
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="../010-einleitung/2-dieseanleitung.html"><strong aria-hidden="true">1.</strong> Einleitung</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../010-einleitung/3-installation.html"><strong aria-hidden="true">1.1.</strong> Installation</a></li></ol></li><li class="chapter-item "><a href="../020-programmieren/1-programmieren.html"><strong aria-hidden="true">2.</strong> Programmieren</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../020-programmieren/2-ersteschritte.html"><strong aria-hidden="true">2.1.</strong> Erste Schritte</a></li><li class="chapter-item "><a href="../020-programmieren/3-speichern.html"><strong aria-hidden="true">2.2.</strong> Speichern in eine Datei</a></li></ol></li><li class="chapter-item expanded "><a href="../030-turtle/010-turtlekapitel.html"><strong aria-hidden="true">3.</strong> Grafiken mit Turtle</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../030-turtle/020-turtle.html"><strong aria-hidden="true">3.1.</strong> Schildkröten</a></li><li class="chapter-item "><a href="../030-turtle/030-kommentare.html"><strong aria-hidden="true">3.2.</strong> Kommentare</a></li><li class="chapter-item "><a href="../030-turtle/035-kreise.html"><strong aria-hidden="true">3.3.</strong> Kreise</a></li><li class="chapter-item "><a href="../030-turtle/040-forschleifen.html"><strong aria-hidden="true">3.4.</strong> For Schleifen</a></li><li class="chapter-item "><a href="../030-turtle/045-forschleifen2.html"><strong aria-hidden="true">3.5.</strong> Wiederholte Wiederholungen</a></li><li class="chapter-item "><a href="../030-turtle/060-variablen.html"><strong aria-hidden="true">3.6.</strong> Variablen</a></li><li class="chapter-item "><a href="../030-turtle/090-listen.html"><strong aria-hidden="true">3.7.</strong> Listen</a></li><li class="chapter-item "><a href="../030-turtle/120-funktionen.html"><strong aria-hidden="true">3.8.</strong> Funktionen</a></li><li class="chapter-item expanded "><a href="../030-turtle/125-diagonalfunktionen.html" class="active"><strong aria-hidden="true">3.9.</strong> Beispiel Funktion: Diagonale</a></li><li class="chapter-item "><a href="../030-turtle/140-turtlebeispielaufgaben.html"><strong aria-hidden="true">3.10.</strong> Turtle Beispielaufgaben</a></li><li class="chapter-item "><a href="../030-turtle/150-turtlebefehle.html"><strong aria-hidden="true">3.11.</strong> Turtle Zusammenfassung</a></li></ol></li><li class="chapter-item "><a href="../040-ratespiel/04.1-ratespiel.html"><strong aria-hidden="true">4.</strong> Ratespiel mit turtle</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../040-ratespiel/04.2-turtleinput.html"><strong aria-hidden="true">4.1.</strong> Eingaben in Turtle</a></li><li class="chapter-item "><a href="../040-ratespiel/04.3-bedingtesausfuehren.html"><strong aria-hidden="true">4.2.</strong> Fallunterscheidung</a></li><li class="chapter-item "><a href="../040-ratespiel/04.4-wiederholungenwhile.html"><strong aria-hidden="true">4.3.</strong> Wiederholungen mit While</a></li><li class="chapter-item "><a href="../040-ratespiel/04.5-zufall.html"><strong aria-hidden="true">4.4.</strong> Zufall</a></li><li class="chapter-item "><a href="../040-ratespiel/04.6-dasspiel.html"><strong aria-hidden="true">4.5.</strong> Das Spiel</a></li></ol></li><li class="chapter-item "><a href="../050-galgen/010-hangman.html"><strong aria-hidden="true">5.</strong> Galgenmännchen mit turtle</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../050-galgen/020-hangschritte.html"><strong aria-hidden="true">5.1.</strong> Eine Funktion für jeden Galgenschritt</a></li><li class="chapter-item "><a href="../050-galgen/025-hangmanmodul.html"><strong aria-hidden="true">5.2.</strong> Das hangman Modul</a></li><li class="chapter-item "><a href="../050-galgen/030-hangabfrage.html"><strong aria-hidden="true">5.3.</strong> Immer wieder abfragen</a></li><li class="chapter-item "><a href="../050-galgen/040-hanggeheimliste.html"><strong aria-hidden="true">5.4.</strong> Geheimwortliste</a></li><li class="chapter-item "><a href="../050-galgen/050-hangeinbinden.html"><strong aria-hidden="true">5.5.</strong> Einbinden der Wortliste</a></li><li class="chapter-item "><a href="../050-galgen/060-hangtipsspeich.html"><strong aria-hidden="true">5.6.</strong> Abspeichern der Tipps</a></li><li class="chapter-item "><a href="../050-galgen/070-hanggeratenes.html"><strong aria-hidden="true">5.7.</strong> Anzeigen der Geratenen Buchstaben</a></li><li class="chapter-item "><a href="../050-galgen/080-hangfeinschl.html"><strong aria-hidden="true">5.8.</strong> Feinschliff</a></li></ol></li><li class="chapter-item "><a href="../060-snake/snakespiel.html"><strong aria-hidden="true">6.</strong> Ein Snakespiel</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../060-snake/Computerspiel.html"><strong aria-hidden="true">6.1.</strong> Computerspiele</a></li><li class="chapter-item "><a href="../060-snake/Animation.html"><strong aria-hidden="true">6.2.</strong> Animation</a></li><li class="chapter-item "><a href="../060-snake/Steuerung.html"><strong aria-hidden="true">6.3.</strong> Steuerung</a></li></ol></li><li class="chapter-item "><a href="../x-anhang/0-anhang.html"><strong aria-hidden="true">7.</strong> Anhang</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../x-anhang/1-cheat-sheet.html"><strong aria-hidden="true">7.1.</strong> Cheat-Sheet</a></li><li class="chapter-item "><a href="../x-anhang/2-bedingungen.html"><strong aria-hidden="true">7.2.</strong> Bedingungen</a></li><li class="chapter-item "><a href="../x-anhang/3-fehler.html"><strong aria-hidden="true">7.3.</strong> Fehlermeldungen</a></li><li class="chapter-item "><a href="../x-anhang/4-datentypen.html"><strong aria-hidden="true">7.4.</strong> Datentypen</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Pythonanleitung</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#erstellen-einer-funktion-die-eine-diagonale-zeichnet" id="erstellen-einer-funktion-die-eine-diagonale-zeichnet">Erstellen einer Funktion die eine Diagonale zeichnet</a></h1>
+<blockquote>
+<h3><a class="header" href="#ziel-des-kapitels" id="ziel-des-kapitels">Ziel des Kapitels:</a></h3>
+<ul>
+<li>Ein Beispiel für die Verwendung einer Funktion</li>
+<li>nicht von der Mathematik abschrecken lassen.</li>
+</ul>
+</blockquote>
+<p>Beim Nikolaushaus war deutlich, dass man zum Zeichnen einer Diagonalen etwas rechnen (oder ausprobieren) muss, sodass man die Länge der Diagonalen im Quadrat richtig hat. Es wäre doch schön, wenn man einfach schreiben könnte:</p>
+<pre><code class="language-python">diagonale(x=100, y=200)
+</code></pre>
+<p>Das Programm soll damit selbstständig die Diagonale in der richtigen Länge zeichnen. Dabei ist <code>x</code> die Ankathete und <code>y</code> die Gegenkathete.</p>
+<p>Mit dem Wissen aus dem vorherigen Kapitel können wir also diese Funktion erstellen:</p>
+<h2><a class="header" href="#grundgerüst" id="grundgerüst">Grundgerüst</a></h2>
+<pre><code class="language-python">def diagonale(x, y):
+    t.forward(z)      # Um die Länge der Diagonale nach vorne gehen.
+</code></pre>
+<p>Das einzige Problem ist: Die Entfernung <code>z</code> muss noch berechnet werden. Es ist ja sofort klar, dass hier ein rechtwinkliges Dreieck vorliegt und damit muss mit dem Pythagoras gearbeitet werden: <code>a² + b² = c²</code> oder genauer in unserem Fall <code>x² + y² = z²</code>. Das Quadreat kann man ja einfach als <code>x * x</code> schreiben. Fügen wir also die Quadrate unserer Funktion hinzu:</p>
+<h2><a class="header" href="#quadrieren" id="quadrieren">Quadrieren</a></h2>
+<pre><code class="language-python">def diagonale(x, y):
+    xquadrat = x * x  # Berechnen von x²
+    yquadrat = y * y  # Berechnen von y²
+    t.forward(z)      # Um die Länge der Diagonale nach vorne gehen.
+</code></pre>
+<p>Für <code>z²</code> müssen jetzt noch die beiden zusammen addiert werden:</p>
+<pre><code class="language-python">zquadrat = xquadrat + yquadrat # Zusammenaddieren zu z²
+</code></pre>
+<h2><a class="header" href="#wurzel-ziehen" id="wurzel-ziehen">Wurzel ziehen</a></h2>
+<p>Für den <code>forward</code>-Befehl wird aber nur <code>z</code> benötigt. Das heißt man muss noch die Wurzel aus dem <code>zquadrat</code> ziehen. Die Wurzelfunktion ist nicht standardmäßig bei Python dabei, sondern man muss sie extra laden, so wie auch das <code>turtle</code>-Modul. Wir schreiben also zu Anfang der <code>diagonale</code>-Funktion <code>import math</code> und können dann mit <code>mat.sqrt(zahl)</code> die Wurzel aus <code>zahl</code> rechnen. Die gesamte <code>diagonale</code>-Funktion sieht jetzt also so aus:</p>
+<pre><code class="language-python">def diagonale(x, y):
+    import math
+    xquadrat = x * x  # Berechnen von x²
+    yquadrat = y * y  # Berechnen von y²
+    zquadrat = xquadrat + yquadrat # Zusammenaddieren zu z²
+    z = math.sqrt(zquadrat)  # Die Wurzel ziehen
+    t.forward(z)      # Um die Länge der Diagonale nach vorne gehen.
+</code></pre>
+<h2><a class="header" href="#winkel-berechnen" id="winkel-berechnen">Winkel berechnen</a></h2>
+<p>Diese Funktion berechnet jetzt schon selbstständig die Länge der Diagonalen, allerdings fehlt noch die Richtung. Gerade wenn man nicht im Quadrat ist, sondern im Rechteck ist der Winkel kein vielfaches von 45°. Das heißt auch er muss berechnet werden. Wäre doch super, wenn unsere <code>diagonale</code>-Funktion das gleich mitmachen würde oder? Dann kann man getrost vergessen, wie die ganze Mathematik ging.</p>
+<p>Also dann mal los. Der Winkel im rechtwinkligen Dreieck berechnet sich, da wir Ankathete und Gegenkathete gegeben haben mit dem Tangens genauer mit der <code>tan¹</code> beziehungsweise <code>atan</code>. Auch diese Funktion gibt es im <code>math</code> modul, allerdings rechnet diese Funktion in Radianten statt Grad, das heißt man muss das Ergebnis noch mit der Funktion <code>math.degrees</code> umwandeln. Wir ergänzen also unsere <code>diagonale</code>-Funktion um:</p>
+<pre><code class="language-python">import math
+tanbeta = y / x   # Berechnen des Verhältnisses
+beta_rad = math.atan(tanbeta)  # Berechnen des Winkels in Radianten
+beta = math.degrees(beta_rad)  # Konvertieren des Winkels zu Grad
+t.left(beta)      # Drehen um den Winkel
+</code></pre>
+<p>Wenn man sich in einer Funktion dreht ist es oft sehr hilfreich sich am Ende der Funktion wieder in die Ursprungsrichtung zurück zu drehen. Sonst muss man doch wieder rechnen. Die gesamte <code>diagonale</code>-Funktion sieht jetzt also so aus:</p>
+<pre><code class="language-python">def diagonale(x, y):
+    import math
+    tanbeta = y / x   # Berechnen des Verhältnisses
+    beta_rad = math.atan(tanbeta)  # Berechnen des Winkels in Radianten
+    beta = math.degrees(beta_rad)  # Konvertieren des Winkels zu Grad
+    t.left(beta)      # Drehen um den Winkel
+    xquadrat = x * x  # Berechnen von x²
+    yquadrat = y * y  # Berechnen von y²
+    zquadrat = xquadrat + yquadrat # Zusammenaddieren zu z²
+    z = math.sqrt(zquadrat)  # Die Wurzel ziehen
+    t.forward(z)      # Um die Länge der Diagonale nach vorne gehen.
+    t.right(beta)
+</code></pre>
+<h2><a class="header" href="#beispiel-verwendung-beim-zeichnen-eines-dreiecks" id="beispiel-verwendung-beim-zeichnen-eines-dreiecks">Beispiel Verwendung beim Zeichnen eines Dreiecks</a></h2>
+<p>Mit dieser diagonale Funktion kann jetzt ein beliebiges rechtwinkliges Dreieck gezeichnet werden:</p>
+<pre><code class="language-python">breite = 170
+hoehe = 67
+
+diagonale(hoehe, breite)
+t.right(90)
+t.forward(hoehe)
+t.right(90)
+t.forward(breite)
+</code></pre>
+<blockquote>
+<h3><a class="header" href="#Übung" id="Übung">Übung</a></h3>
+<ol>
+<li>Zeichnen Sie das Haus vom Nikolaus mit einer Funktion.</li>
+<li>Verwenden Sie die <code>diagonale</code>-Funktion aus diesem Kapitel. (Sie müssen die Funktion in ihr Programm kopieren) Die <code>diagonale</code>-Funktion geht nicht immer in die richtige Richtung diagonal. Experimentieren Sie mit <code>t.left(180)</code> sowie mit negativen Werten bei <code>breite</code> und <code>hoehe</code>.</li>
+<li>Machen Sie die Breite und Höhe des Hauses variabel.  Das Ergebnis für die folgenden Beiden Aufrufe:
+<pre><code class="language-python">nikolaus(breite=50, hoehe=300)
+nikolaus(breite=350, hoehe=134)
+</code></pre>
+</li>
+</ol>
+<p><img src="img/nikolaus-breithoch.png" alt="Nikolaus Breit und Hoch" />
+Bonus für schnelle: Malen Sie viele Nikolaushäuser zufälliger Größe nebeneinander</p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../030-turtle/120-funktionen.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../030-turtle/140-turtlebeispielaufgaben.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../030-turtle/120-funktionen.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../030-turtle/140-turtlebeispielaufgaben.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

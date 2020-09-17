@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<html lang="de" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Fallunterscheidung - Pythonanleitung</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        
+        <link rel="shortcut icon" href="../favicon.png">
+        
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="../010-einleitung/2-dieseanleitung.html"><strong aria-hidden="true">1.</strong> Einleitung</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../010-einleitung/3-installation.html"><strong aria-hidden="true">1.1.</strong> Installation</a></li></ol></li><li class="chapter-item "><a href="../020-programmieren/1-programmieren.html"><strong aria-hidden="true">2.</strong> Programmieren</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../020-programmieren/2-ersteschritte.html"><strong aria-hidden="true">2.1.</strong> Erste Schritte</a></li><li class="chapter-item "><a href="../020-programmieren/3-speichern.html"><strong aria-hidden="true">2.2.</strong> Speichern in eine Datei</a></li></ol></li><li class="chapter-item "><a href="../030-turtle/010-turtlekapitel.html"><strong aria-hidden="true">3.</strong> Grafiken mit Turtle</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../030-turtle/020-turtle.html"><strong aria-hidden="true">3.1.</strong> Schildkröten</a></li><li class="chapter-item "><a href="../030-turtle/030-kommentare.html"><strong aria-hidden="true">3.2.</strong> Kommentare</a></li><li class="chapter-item "><a href="../030-turtle/035-kreise.html"><strong aria-hidden="true">3.3.</strong> Kreise</a></li><li class="chapter-item "><a href="../030-turtle/040-forschleifen.html"><strong aria-hidden="true">3.4.</strong> For Schleifen</a></li><li class="chapter-item "><a href="../030-turtle/045-forschleifen2.html"><strong aria-hidden="true">3.5.</strong> Wiederholte Wiederholungen</a></li><li class="chapter-item "><a href="../030-turtle/060-variablen.html"><strong aria-hidden="true">3.6.</strong> Variablen</a></li><li class="chapter-item "><a href="../030-turtle/090-listen.html"><strong aria-hidden="true">3.7.</strong> Listen</a></li><li class="chapter-item "><a href="../030-turtle/120-funktionen.html"><strong aria-hidden="true">3.8.</strong> Funktionen</a></li><li class="chapter-item "><a href="../030-turtle/125-diagonalfunktionen.html"><strong aria-hidden="true">3.9.</strong> Beispiel Funktion: Diagonale</a></li><li class="chapter-item "><a href="../030-turtle/140-turtlebeispielaufgaben.html"><strong aria-hidden="true">3.10.</strong> Turtle Beispielaufgaben</a></li><li class="chapter-item "><a href="../030-turtle/150-turtlebefehle.html"><strong aria-hidden="true">3.11.</strong> Turtle Zusammenfassung</a></li></ol></li><li class="chapter-item expanded "><a href="../040-ratespiel/04.1-ratespiel.html"><strong aria-hidden="true">4.</strong> Ratespiel mit turtle</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../040-ratespiel/04.2-turtleinput.html"><strong aria-hidden="true">4.1.</strong> Eingaben in Turtle</a></li><li class="chapter-item expanded "><a href="../040-ratespiel/04.3-bedingtesausfuehren.html" class="active"><strong aria-hidden="true">4.2.</strong> Fallunterscheidung</a></li><li class="chapter-item "><a href="../040-ratespiel/04.4-wiederholungenwhile.html"><strong aria-hidden="true">4.3.</strong> Wiederholungen mit While</a></li><li class="chapter-item "><a href="../040-ratespiel/04.5-zufall.html"><strong aria-hidden="true">4.4.</strong> Zufall</a></li><li class="chapter-item "><a href="../040-ratespiel/04.6-dasspiel.html"><strong aria-hidden="true">4.5.</strong> Das Spiel</a></li></ol></li><li class="chapter-item "><a href="../050-galgen/010-hangman.html"><strong aria-hidden="true">5.</strong> Galgenmännchen mit turtle</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../050-galgen/020-hangschritte.html"><strong aria-hidden="true">5.1.</strong> Eine Funktion für jeden Galgenschritt</a></li><li class="chapter-item "><a href="../050-galgen/025-hangmanmodul.html"><strong aria-hidden="true">5.2.</strong> Das hangman Modul</a></li><li class="chapter-item "><a href="../050-galgen/030-hangabfrage.html"><strong aria-hidden="true">5.3.</strong> Immer wieder abfragen</a></li><li class="chapter-item "><a href="../050-galgen/040-hanggeheimliste.html"><strong aria-hidden="true">5.4.</strong> Geheimwortliste</a></li><li class="chapter-item "><a href="../050-galgen/050-hangeinbinden.html"><strong aria-hidden="true">5.5.</strong> Einbinden der Wortliste</a></li><li class="chapter-item "><a href="../050-galgen/060-hangtipsspeich.html"><strong aria-hidden="true">5.6.</strong> Abspeichern der Tipps</a></li><li class="chapter-item "><a href="../050-galgen/070-hanggeratenes.html"><strong aria-hidden="true">5.7.</strong> Anzeigen der Geratenen Buchstaben</a></li><li class="chapter-item "><a href="../050-galgen/080-hangfeinschl.html"><strong aria-hidden="true">5.8.</strong> Feinschliff</a></li></ol></li><li class="chapter-item "><a href="../060-snake/snakespiel.html"><strong aria-hidden="true">6.</strong> Ein Snakespiel</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../060-snake/Computerspiel.html"><strong aria-hidden="true">6.1.</strong> Computerspiele</a></li><li class="chapter-item "><a href="../060-snake/Animation.html"><strong aria-hidden="true">6.2.</strong> Animation</a></li><li class="chapter-item "><a href="../060-snake/Steuerung.html"><strong aria-hidden="true">6.3.</strong> Steuerung</a></li></ol></li><li class="chapter-item "><a href="../x-anhang/0-anhang.html"><strong aria-hidden="true">7.</strong> Anhang</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../x-anhang/1-cheat-sheet.html"><strong aria-hidden="true">7.1.</strong> Cheat-Sheet</a></li><li class="chapter-item "><a href="../x-anhang/2-bedingungen.html"><strong aria-hidden="true">7.2.</strong> Bedingungen</a></li><li class="chapter-item "><a href="../x-anhang/3-fehler.html"><strong aria-hidden="true">7.3.</strong> Fehlermeldungen</a></li><li class="chapter-item "><a href="../x-anhang/4-datentypen.html"><strong aria-hidden="true">7.4.</strong> Datentypen</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Pythonanleitung</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#bedingtes-ausführen" id="bedingtes-ausführen">Bedingtes ausführen</a></h1>
+<p>Nachdem die Eingabe jetzt gemacht werden kann muss das Programm auch darauf reagieren. Das Ratespiel soll ja, wenn man eine zu große Zahl geschätzt hat, &quot;zu groß&quot; sagen. Hat man aber zu klein geschätzt, soll es &quot;zu klein&quot; sagen. Das heißt man benötigt ein &quot;wenn … dann …&quot;</p>
+<p>Alle Programmiersprachen bieten die Möglichkeit, einen Befehl nur dann auszuführen, wenn eine bestimmte Bedingung eintritt.</p>
+<p>Einfaches Beispiel: Nur wenn der Benutzer in ein <code>turtle.textinput()</code> Fenster <code>5</code> eingibt soll &quot;Einen lieben Gruß&quot; geschrieben werden:</p>
+<pre><code class="language-python">import turtle
+t = turtle.Pen()
+t.shape(&quot;turtle&quot;)
+
+antwort = int(turtle.textinput(&quot;Frage&quot;, &quot;Sagen Sie hallo:&quot;))
+if antwort == 5:
+  #(Das True bewirkt dass die Turtle beim Schreiben läuft.)
+  t.write(&quot;Einen lieben Gruß&quot;, True)
+</code></pre>
+<p>Ergebnis nach der Eingabe von <code>5</code>, wurde was anderes eingegeben, so kommt der Text nicht.</p>
+<p>Das <code>if</code> in diesem Beispiel ist das Kommando, welches den bedingten Aufruf einleitet. Das <code>antwort == 5</code> ist die Bedingung, es gibt noch viele weitere Möglichkeiten Bedingungen zu schreiben im <a href="../x-anhang/2-bedingungen.html">Anhang</a>. Es vergleicht das, was in der Variablen <code>antwort</code> steht mit der Zahl <code>5</code> ist beides das gleiche wird die folgende Zeile ausgeführt, ansonsten wird die folgende Zeile übersprungen.</p>
+<p>Nach der Bedingung folgt immer ein <strong>Doppelpunkt</strong>. Die nächste Zeile wird ein Stück weiter eingerückt als das <code>if</code>.</p>
+<p>Ein etwas komplizierteres Beispiel, das nach einem Tag, sowie einer Benotung für diesen fragt:</p>
+<pre><code class="language-python">import turtle
+t = turtle.Pen()
+tag = turtle.textinput(&quot;Frage&quot;, &quot;Sagen Sie einen Tag:&quot;)
+note = turtle.textinput(&quot;Frage&quot;, &quot;Geben Sie eine Note für diesen Tag:&quot;)
+if tag == &quot;Montag&quot;:
+  if note == &quot;6&quot;:
+     t.write(&quot;Falsch Montage sind die Besten! &quot;, True)
+     note = &quot;1&quot;
+
+t.write(tag + &quot; mit Note &quot; + note + &quot; stimme ich zu! Viel Spass!&quot;)
+</code></pre>
+<blockquote>
+<h3><a class="header" href="#anmerkung" id="anmerkung">Anmerkung</a></h3>
+<p>In einer ganz anderen, grafischen Programmiersprache <code>scratch</code> wird ein if als &quot;Klammer&quot; dargestellt.
+Dieses Bild ist nur, falls Sie sich das dann besser vorstellen können. Falls nicht ignorieren Sie es.</p>
+<p><img src="img/ifinscratch.png" alt="Geschachteltes If in Scratch" /></p>
+<p>Das <code>if</code>, welches zu falls übersetzt wird, ist eine Klammer. Alles was innerhalb dieses <code>if</code>s ist, wird nur ausgeführt, wenn die Bedingung des <code>if</code>s zutrifft. Dieses &quot;innerhalb&quot; wird in Python durch &quot;stärker eingerückt&quot;, also mehr Leerzeichen am Anfang der Zeile deutlich gemacht. Natürlich kann auch innerhalb eines <code>if</code>s ein zweites <code>if</code> stehen.</p>
+</blockquote>
+<h2><a class="header" href="#wenn--dann--ansonsten" id="wenn--dann--ansonsten">Wenn → Dann → &quot;Ansonsten&quot;</a></h2>
+<p>Oft wird es benötigt, dass &quot;ansonsten&quot; ein anderer Befehl ausgeführt wird. Der Befehl hierzu ist <code>else</code>. Auch auf <code>else</code> folgt ein Doppelpunkt und weitere eingerückte Befehle.</p>
+<blockquote>
+<p>Notiz: Sowohl nach <code>if</code> als auch nach <code>else</code> muss mindestens ein eingerückter Befehl kommen. Also man kann  im folgenden Beispiel <strong>keines</strong> der beiden <code>write</code>s weglassen (man kann sie aber durch beliebige andere Befehle ersetzen).</p>
+</blockquote>
+<pre><code class="language-python">import turtle
+t=turtle.Pen()
+gru = turtle.textinput(&quot;Frage&quot;, &quot;Geben Sie ein Grußwort ein:&quot;)
+if gru == &quot;Guten Tag&quot;:
+   t.write(&quot;Ich antworte mit Hallo&quot;)
+else:
+   t.write(&quot;Bah! - zu unfreundlich!&quot;)
+</code></pre>
+<p>Logischerweise ist <code>else</code> nur nach einem fertigen <code>if</code> sinnvoll.</p>
+<p>Man sieht hier, dass dem Computer die Bedeutung der Worte völlig gleichgültig ist, er folgt nur der Logik der Befehle. Sie können das freundlichste Grußwort eingeben, wenn es aber nicht &quot;Guten Tag&quot; ist, wird der Computer das unfreundlich finden.</p>
+<h1><a class="header" href="#ein-grußprogramm-mit-drei-möglichkeiten" id="ein-grußprogramm-mit-drei-möglichkeiten">Ein Grußprogramm mit drei Möglichkeiten</a></h1>
+<p>Ein Programm, das auf <code>hallo</code> und <code>tschüss</code> unterschiedlich reagiert:</p>
+<pre><code class="language-python">import turtle
+t=turtle.Pen()
+
+gru = turtle.textinput(&quot;Frage&quot;, &quot;Geben Sie ein Grußwort ein:&quot;)
+if gru == &quot;hallo&quot;:
+     t.write(&quot;Guten Tag&quot;)
+elif gru == &quot;tschüss&quot;:
+     t.write(&quot;Auf Wiedersehen&quot;)
+else:
+     t.write(&quot;Ich habe Sie leider nicht verstanden&quot;)
+</code></pre>
+<p>In diesem Beispiel wird eine weitere Option der <code>if</code>-Ausdrücke verwendet: <code>elif</code>. Dieses steht für <code>else if</code> und bedeutet: Falls nicht die erste Bedingung dann vielleicht diese Bedingung also am ehesten zu übersetzen mit &quot;oder wenn&quot;. Zwischen einem <code>if</code> und einem <code>else</code> können beliebig viele <code>elif</code> stehen, aber vorher muss immer ein <code>if</code> stehen.</p>
+<blockquote>
+<h3><a class="header" href="#Übung-grußprogramm" id="Übung-grußprogramm">Übung Grußprogramm</a></h3>
+<p>Schreiben und testen Sie ein Programm, welches nach einem Gruß fragt und je nach Gruß unterschiedlich reagiert. Denken Sie sich eigene Antwortmöglichkeiten aus.</p>
+<p>Speichern Sie dieses Programm unter dem Namen <code>gru.py</code>.</p>
+</blockquote>
+<h2><a class="header" href="#beispiel-ein-passwortprogramm" id="beispiel-ein-passwortprogramm">Beispiel: ein &quot;Passwortprogramm&quot;</a></h2>
+<p>Die nun  gestellte Aufgabe ist es ein Passwort zu erraten, welches im Programm festgelegt wird. Zunächst speichern wir das zu erratende Passwort in einer Variablen.</p>
+<pre><code class="language-python">geheim = &quot;Döner&quot;
+</code></pre>
+<p>Es werden drei Versuche gegeben das Passwort zu erraten:</p>
+<pre><code class="language-python">geheim = &quot;Döner&quot;
+
+import turtle
+t=turtle.Pen()
+
+if geheim == turtle.textinput(&quot;Frage&quot;, &quot;Versuch Nummer 1:&quot;):
+    t.write(&quot;geschafft&quot;)
+else:
+    if geheim == turtle.textinput(&quot;Frage&quot;, &quot;Versuch Nummer 2:&quot;):
+        t.write(&quot;geschafft&quot;)
+    else:
+        if geheim == turtle.textinput(&quot;Frage&quot;, &quot;Versuch Nummer 3:&quot;):
+            t.write(&quot;geschafft&quot;)
+        else:
+            t.write(&quot;nicht geschafft&quot;)
+</code></pre>
+<p>Dieses Programm ist natürlich nicht so, wie der Computer ein Passwort abfragen würde, da das Passwort für jeden lesbar im Programm steht. Normalerweise wird das Passwort nur verschlüsselt also nicht lesbar abgespeichert.</p>
+<blockquote>
+<h3><a class="header" href="#Übung-zahlenratespiel" id="Übung-zahlenratespiel">Übung Zahlenratespiel</a></h3>
+<p>Schreiben Sie ein Programm, welches 3 Versuche gewährt eine Zahl zu erraten. Dieses Programm kann sehr ähnlich zu dem Passwortprogramm geschrieben werden.
+Speichern Sie dieses Programm unter <code>ratemal.py</code>.</p>
+<p>Gehen Sie schrittweise vor:</p>
+<ol>
+<li>Schreiben Sie ein Programm, welches nach einer Zahl mit <code>int(turtle.textinput(title=&quot;&quot;, prompt=&quot;&quot;))</code> fragt und diese ausgibt.</li>
+<li>Testen Sie das Programm ob es tut was es soll.</li>
+<li>Entfernen Sie die Ausgabe, und fügen Sie stattdessen ein <code>if</code> und <code>else</code> ein, welches auf die Eingabe reagiert.</li>
+</ol>
+</blockquote>
+<blockquote>
+<h3><a class="header" href="#achtung" id="achtung">Achtung</a></h3>
+<p>Vorsicht beim Vergleichen: Das Zeichen einer Zahl ist nicht gleich der Zahl. Zum Beispiel ist <code>&quot;2&quot; == 2</code> unwahr also <code>False</code>. Um diese beiden Werte sinnvoll zu vergleichen, muss das Zeichen <code>&quot;2&quot;</code> zur Zahl <code>2</code> konvertiert werden: <code>int(&quot;2&quot;) == 2</code> (<a href="../x-anhang/4-datentypen.html#umwandlung-von-datentypen">mehr dazu</a>).</p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../040-ratespiel/04.2-turtleinput.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../040-ratespiel/04.4-wiederholungenwhile.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../040-ratespiel/04.2-turtleinput.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../040-ratespiel/04.4-wiederholungenwhile.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
