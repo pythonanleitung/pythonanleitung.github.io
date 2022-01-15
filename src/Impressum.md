@@ -3,7 +3,7 @@
 Verantwortlich für diese Seite ist:
 
  * Franz Dietrich
- * Alexanderstraße 59
- * 70182 Stuttgart
+ * Spittlerstraße 17
+ * 70190 Stuttgart
  * email: pythonanleitung@teilgedanken.de
  * https://github.com/enaut
